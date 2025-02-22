@@ -19,7 +19,7 @@ def get_replay_links(base_url, pages=10):
 
     replay_links = []
     
-    for page in range(pages + 10, pages + 40):
+    for page in range(pages + 40, pages + 70):
         url = f"{base_url}&page={page}"
         driver.get(url)
         time.sleep(3)  # Wait for JavaScript to load
