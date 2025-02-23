@@ -1,0 +1,179 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Jumpluff",
+      "p1b": "Groudon",
+      "p2a": "Indeedee-F",
+      "p2b": "Baxcalibur"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1a: Jumpluff",
+        "Sleep Powder",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1b: Raichu",
+        "Volt Switch",
+        "p2a: Indeedee"
+      ],
+      [
+        "p2b: Baxcalibur",
+        "Dragon Dance",
+        "p2b: Baxcalibur"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "78/100 slp",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Baxcalibur": {
+        "atk": 2,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Chlorophyll",
+      "p1b": "Drought",
+      "p2a": "none",
+      "p2b": "Thermal Exchange"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Groudon",
+      "p2a": "Kyogre",
+      "p2b": "Baxcalibur"
+    },
+    "moves": [
+      [
+        "p2b: Baxcalibur",
+        "Icicle Spear",
+        "p1a: Jumpluff"
+      ],
+      [
+        "p1b: Groudon",
+        "Eruption",
+        "p2b: Baxcalibur"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "91/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Baxcalibur": {
+        "atk": 2,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Baxcalibur",
+        "Thermal Exchange"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Drizzle",
+      "p2b": "Thermal Exchange"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Groudon",
+      "p2a": "Kyogre",
+      "p2b": "Baxcalibur"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "91/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Baxcalibur": {
+        "atk": 2,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Drizzle",
+      "p2b": "Thermal Exchange"
+    }
+  }
+]

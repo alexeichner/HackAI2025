@@ -1,0 +1,275 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Chien-Pao",
+      "p2a": "Tornadus",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1a: Talonflame",
+        "Tailwind",
+        "p1a: Talonflame"
+      ],
+      [
+        "p1b: Regieleki",
+        "Electroweb",
+        "p2b: Volcarona"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Regieleki"
+      ],
+      [
+        "p2b: Volcarona",
+        "Overheat",
+        "p1b: Regieleki"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "31/100",
+      "p2b": "69/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p1b: Regieleki": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Volcarona"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Regieleki",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Chien-Pao",
+      "p2a": "Landorus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Icicle Crash",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Talonflame",
+        "Acrobatics",
+        "p2b: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "91/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p1b: Regieleki": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Sword of Ruin",
+      "p2a": "Sand Force",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Landorus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1a: Talonflame",
+        "Acrobatics",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "54/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p1b: Regieleki": {
+        "spe": -1
+      },
+      "p1b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kyogre"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Intrepid Sword",
+      "p2a": "Sand Force",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Landorus",
+      "p2b": "Kyogre"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "54/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p1b: Regieleki": {
+        "spe": -1
+      },
+      "p1b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Intrepid Sword",
+      "p2a": "Sand Force",
+      "p2b": "Drizzle"
+    }
+  }
+]

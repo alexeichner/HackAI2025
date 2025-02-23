@@ -1,0 +1,484 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Incineroar",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Smeargle",
+        "Fake Out",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "96/100",
+      "p2a": "94/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Bronzong",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1a: Urshifu",
+        "Wicked Blow",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "96/100",
+      "p2a": "94/100",
+      "p2b": "4/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Levitate",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Bronzong",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Bronzong",
+        "Stealth Rock",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Smeargle",
+        "Decorate",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "57/100",
+      "p2a": "94/100",
+      "p2b": "4/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Calyrex",
+      "p2b: Smeargle"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Bronzong",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Bronzong",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Bronzong",
+        "Trick Room",
+        "p1b: Bronzong"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "57/100",
+      "p2a": "94/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Levitate",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Bronzong",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Bronzong",
+        "Trick Room",
+        "p1b: Bronzong"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "57/100",
+      "p2a": "94/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Levitate",
+      "p2a": "Chilling Neigh",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Protect",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Regidrago",
+        "Dragon Energy",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Bronzong"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "94/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Bronzong",
+        "resisted"
+      ],
+      [
+        "p1b: Bronzong",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Unseen Fist",
+      "p2a": "Chilling Neigh",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        "p2b: Regidrago"
+      ],
+      [
+        "p2b: Regidrago",
+        "Dragon Energy",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "94/100",
+      "p2b": "56/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Unseen Fist",
+      "p2a": "Chilling Neigh",
+      "p2b": "Dragon's Maw"
+    }
+  }
+]

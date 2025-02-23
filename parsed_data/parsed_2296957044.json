@@ -1,0 +1,607 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Tornadus",
+      "p2a": "Weezing",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2b: Dr. Eggman"
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Badnik",
+        "Will-O-Wisp",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Prankster",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Weezing",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p2a: Badnik",
+        "Protect",
+        "p2a: Badnik"
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Dr. Eggman"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Badnik"
+      ],
+      [
+        "p2b: Dr. Eggman",
+        "Crush Grip",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "47/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p2b: Dr. Eggman",
+        "Wide Guard",
+        "p2b: Dr. Eggman"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Sonic"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Sonic"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "52/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Sonic",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sonic",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Ditto",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p2b: Dr. Eggman",
+        "Wide Guard",
+        "p2b: Dr. Eggman"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Sonic"
+      ],
+      [
+        "p2a: Sonic",
+        "Play Rough",
+        "p1b: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "70/100",
+      "p2a": "43/100",
+      "p2b": "58/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ditto",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sonic",
+        "super effective"
+      ],
+      [
+        "p1b: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intrepid Sword",
+      "p2a": "Intrepid Sword",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Ditto",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p2a: Sonic",
+        "Protect",
+        "p2a: Sonic"
+      ],
+      [
+        "p1b: Ditto",
+        "Behemoth Blade",
+        "p2b: Amy Rose"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Sonic"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "75/100",
+      "p2a": "49/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amy Rose",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intrepid Sword",
+      "p2a": "Intrepid Sword",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Ditto",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Weezing"
+    },
+    "moves": [
+      [
+        "p1b: Ditto",
+        "Protect",
+        "p1b: Ditto"
+      ],
+      [
+        "p2b: Amy Rose",
+        "Follow Me",
+        "p2b: Amy Rose"
+      ],
+      [
+        "p2a: Sonic",
+        "Behemoth Blade",
+        "p1b: Ditto"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2b: Amy Rose"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100 brn",
+      "p1b": "81/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Badnik",
+        "Neutralizing Gas"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intrepid Sword",
+      "p2a": "Intrepid Sword",
+      "p2b": "Neutralizing Gas"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Weezing"
+    },
+    "moves": [
+      [
+        "p2a: Sonic",
+        "Behemoth Blade",
+        "p1b: Ditto"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Sonic"
+      ],
+      [
+        "p2b: Badnik",
+        "Sludge Bomb",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "27/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sonic",
+        "super effective"
+      ],
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Neutralizing Gas"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Weezing"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Protect",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Badnik",
+        "Protect",
+        "p2b: Badnik"
+      ],
+      [
+        "p2a: Sonic",
+        "Play Rough",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2a: Sonic"
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "10/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Neutralizing Gas"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Weezing"
+    },
+    "moves": [
+      [
+        "p2a: Sonic",
+        "Play Rough",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Sonic"
+      ],
+      [
+        "p1a: Rillaboom",
+        "High Horsepower",
+        "p2b: Badnik"
+      ],
+      [
+        "p2b: Badnik",
+        "Sludge Bomb",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "69/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sonic": {
+        "atk": 1
+      },
+      "p1b: Ditto": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p1b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sonic",
+        "super effective"
+      ],
+      [
+        "p2b: Badnik",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Neutralizing Gas"
+    }
+  }
+]

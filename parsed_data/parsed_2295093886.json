@@ -1,0 +1,698 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Smeargle",
+      "p2a": "Whimsicott",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Spiky Shield",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Taunt",
+        "p1b: Smeargle"
+      ],
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Moody",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Raging Bolt",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "63/100",
+      "p2a": "90/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Raging Bolt",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Urshifu",
+        "Ice Spinner",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Horn Leech",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "28/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Ice Spinner",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ],
+      [
+        "p2a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "none",
+      "p2a": "Intrepid Sword",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        "p1a: Smeargle"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Horn Leech",
+        "p1a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "49/100",
+      "p1b": "39/100",
+      "p2a": "16/100 slp",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        "p1a: Smeargle"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Zacian"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "16/100 slp",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "Embody Aspect (Wellspring)"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Follow Me",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Ogerpon": {
+        "spd": 1
+      },
+      "p1a: Smeargle": {
+        "def": 6,
+        "atk": -1,
+        "spd": -1,
+        "spe": -1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intrepid Sword",
+      "p2b": "none"
+    }
+  }
+]

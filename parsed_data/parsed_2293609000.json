@@ -1,0 +1,525 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Regidrago",
+        "Protect",
+        "p2b: Regidrago"
+      ],
+      [
+        "p1a: Talonflame",
+        "Tailwind",
+        "p1a: Talonflame"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: Talonflame",
+        "Will-O-Wisp",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "52/100",
+      "p2b": "72/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Talonflame",
+      "p1b": "Miraidon",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Talonflame",
+        "Brave Bird",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "26/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Hadron Engine",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1a: Talonflame"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "0 fnt",
+      "p2b": "23/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Talonflame",
+        "resisted"
+      ],
+      [
+        "p1b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Mold Breaker",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2b: Rillaboom",
+        "High Horsepower",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "11/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Mold Breaker",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "28/100",
+      "p2b": "11/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zacian"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Mold Breaker",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Mold Breaker",
+      "p2a": "Intrepid Sword",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Regidrago"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Regidrago",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Mold Breaker",
+      "p2a": "Intrepid Sword",
+      "p2b": "Dragon's Maw"
+    }
+  }
+]

@@ -1,0 +1,283 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus",
+      "p2a": "Smeargle",
+      "p2b": "Muk-Alola"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Snarl",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Muk",
+        "Minimize",
+        "p2b: Muk"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "94/100",
+      "p2a": "4/100",
+      "p2b": "77/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spa": -1,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Muk": {
+        "spa": -1,
+        "evasion": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Sand Force",
+      "p2a": "Moody",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2b: Muk"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Snarl",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "94/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spa": -1,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Muk": {
+        "spa": -1,
+        "evasion": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Sand Force",
+      "p2a": "Unnerve",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Landorus",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1b: Landorus"
+      ],
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        "p1a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "94/100",
+      "p2a": "91/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spa": -1,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Muk": {
+        "spa": -1,
+        "evasion": 2
+      },
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Chi-Yu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Unnerve",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Landorus",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Flamigo"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spa": -1,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Muk": {
+        "spa": -1,
+        "evasion": 2
+      },
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flamigo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Unnerve",
+      "p2b": "Scrappy"
+    }
+  }
+]

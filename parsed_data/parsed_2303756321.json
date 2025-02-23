@@ -1,0 +1,596 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Umbreon",
+      "p2a": "Indeedee-F",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Taunt",
+        "p1b: Umbreon"
+      ],
+      [
+        "p1a: Entei",
+        "Sacred Fire",
+        "p2b: Annihilape"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "10/100 brn"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Synchronize",
+      "p2a": "none",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Umbreon",
+      "p2a": "Indeedee-F",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Close Combat",
+        "p1b: Umbreon"
+      ],
+      [
+        "p1b: Umbreon",
+        "Foul Play",
+        "p2b: Annihilape"
+      ],
+      [
+        "p2a: Indeedee",
+        "Trick Room",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "43/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Umbreon",
+      "p2b: Annihilape"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Umbreon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Synchronize",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Umbreon",
+      "p2a": "Indeedee-F",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Umbreon",
+        "Foul Play",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "5/100",
+      "p2a": "33/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Synchronize",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Entei",
+      "p2a": "Indeedee-F",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Entei"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "72/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Raging Bolt",
+      "p2a": "Sinistcha",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        "p1b: Entei"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Volt Switch",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Hospitality",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Umbreon",
+      "p2a": "Sinistcha",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Sinistcha",
+        "Rage Powder",
+        "p2a: Sinistcha"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Synchronize",
+      "p2a": "Hospitality",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Umbreon",
+      "p2a": "Sinistcha",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Umbreon",
+        "Foul Play",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Sinistcha",
+        "Trick Room",
+        "p2a: Sinistcha"
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Synchronize",
+      "p2a": "Hospitality",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Umbreon",
+      "p2a": "Sinistcha",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Umbreon",
+        "Moonlight",
+        "p1b: Umbreon"
+      ],
+      [
+        "p2a: Sinistcha",
+        "Matcha Gotcha",
+        "p1a: Koraidon"
+      ],
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        "p2a: Sinistcha"
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "57/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Koraidon",
+        "resisted"
+      ],
+      [
+        "p2a: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Synchronize",
+      "p2a": "Hospitality",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

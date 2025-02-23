@@ -1,0 +1,137 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2b: Smeargle",
+        "Decorate",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2b: Smeargle": {
+        "spe": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Power Whip",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2b: Smeargle": {
+        "spe": 2,
+        "spa": -1
+      },
+      "p2b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  }
+]

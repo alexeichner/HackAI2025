@@ -1,0 +1,463 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Clefairy",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2b: Incineroar"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "3/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Cute Charm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Clefairy",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Protect",
+        "p2b: Miraidon"
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2b: Miraidon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Cute Charm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Clefairy",
+        "Follow Me",
+        "p2a: Clefairy"
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2a: Clefairy"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Calm Mind",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "12/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Farigiraf",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Miraidon",
+        "Parabolic Charge",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Farigiraf",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Parabolic Charge",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p1b: Landorus": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

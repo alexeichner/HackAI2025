@@ -1,0 +1,79 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Armarouge",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Reflect",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p1a: Koraidon",
+        "Bulldoze",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Armarouge",
+        "Heat Wave",
+        "p2a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Armarouge": {
+        "spe": 1,
+        "def": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p2a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Weak Armor",
+      "p2a": "Prankster",
+      "p2b": "Tera Shift"
+    }
+  }
+]

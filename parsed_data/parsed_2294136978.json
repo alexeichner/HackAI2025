@@ -1,0 +1,396 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Entei",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Protect",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Protect",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Entei",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Ice Spinner",
+        "p1a: Groudon"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "100/100",
+      "p2b": "71/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Groudon",
+        "super effective"
+      ],
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Entei",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Ice Spinner",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "81/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chien-Pao",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Entei"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chien-Pao",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "55/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chien-Pao",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sacred Sword",
+        "p2a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "7/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  }
+]

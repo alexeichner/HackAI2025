@@ -1,0 +1,469 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Smeargle",
+        "Decorate",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Unseen Fist",
+      "p2a": "Tera Shift",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Terapagos",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p1b: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Unseen Fist",
+      "p2a": "Tera Shift",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Sinistcha",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "96/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p1b: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Unseen Fist",
+      "p2a": "Hospitality",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Urshifu",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Sinistcha",
+        "Rage Powder",
+        "p2a: Sinistcha"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2a: Sinistcha"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p1b: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Unseen Fist",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Urshifu",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Ursaluna"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Earthquake",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p1b: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Unseen Fist",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Urshifu",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p1b: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Unseen Fist",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  }
+]

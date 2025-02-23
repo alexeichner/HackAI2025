@@ -1,0 +1,276 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1a: Okidogi"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Okidogi"
+      ],
+      [
+        "p1a: Okidogi",
+        "Knock Off",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "63/100",
+      "p2a": "85/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1a: Okidogi",
+        "resisted"
+      ],
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Okidogi"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intrepid Sword",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1b: Zacian",
+        "Play Rough",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intrepid Sword",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1b: Zacian",
+        "Behemoth Blade",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intrepid Sword",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

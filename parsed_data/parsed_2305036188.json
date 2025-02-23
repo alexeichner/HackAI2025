@@ -1,0 +1,681 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Great Tusk",
+      "p1b": "Whimsicott",
+      "p2a": "Sableye",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1a: Great Tusk",
+        "Protect",
+        "p1a: Great Tusk"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Sableye",
+        "Will-O-Wisp",
+        "p1a: Great Tusk"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Keen Eye",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Whimsicott",
+      "p2a": "Sableye",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p2a: Sableye",
+        "Encore",
+        ""
+      ],
+      [
+        "p1b: Whimsicott",
+        "Moonblast",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "Freeze-Dry",
+        "p1a: Walking Wake"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "55/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Reshiram",
+        "Turboblaze"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Sableye"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Walking Wake",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "Prankster",
+      "p2a": "Keen Eye",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Whimsicott",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Sunny Day",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Sableye",
+        "Gravity",
+        "p2a: Sableye"
+      ],
+      [
+        "p1a: Reshiram",
+        "Heat Wave",
+        "p2a: Sableye"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "Prankster",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Whimsicott",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Reshiram"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Moonblast",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1a: Reshiram"
+      ]
+    ],
+    "hp": {
+      "p1a": "44/100",
+      "p1b": "56/100",
+      "p2a": "0 fnt",
+      "p2b": "82/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "Prankster",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Reshiram",
+        "Heat Wave",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "31/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Great Tusk",
+        "Protect",
+        "p1b: Great Tusk"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Great Tusk"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1b: Great Tusk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "31/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Great Tusk",
+        "Body Press",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Great Tusk"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1b: Great Tusk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "63/100",
+      "p2a": "2/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Great Tusk",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Great Tusk",
+        "Body Press",
+        "p2a: Groudon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1b: Great Tusk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "58/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Great Tusk",
+        "Bulk Up",
+        "p1b: Great Tusk"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1b: Great Tusk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "21/100",
+      "p2a": "0 fnt",
+      "p2b": "53/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      },
+      "p1b: Great Tusk": {
+        "atk": 1,
+        "def": 0,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Reshiram",
+      "p1b": "Great Tusk",
+      "p2a": "Groudon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Great Tusk",
+        "Headlong Rush",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "21/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Great Tusk": {
+        "atk": -1
+      },
+      "p1b: Whimsicott": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Reshiram": {
+        "atk": -1
+      },
+      "p1b: Great Tusk": {
+        "atk": 1,
+        "def": 0,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Turboblaze",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Intimidate"
+    }
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Light Screen",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Miraidon",
+        "Draco Meteor",
+        "p2b: Landorus"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Trick Room",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Landorus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ditto",
+        "As One"
+      ],
+      [
+        "p1a: Ditto",
+        "Unnerve"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Mold Breaker",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Ditto",
+        "Glacial Lance",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Ditto"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1a: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "79/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Ice"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Mold Breaker",
+      "p2a": "Prankster",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

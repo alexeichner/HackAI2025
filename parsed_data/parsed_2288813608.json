@@ -1,0 +1,338 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Terapagos",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tinkaton",
+        "Fake Out",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "56/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Tera Shift",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Terapagos",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tinkaton",
+        "Gigaton Hammer",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Terapagos",
+        "Substitute",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Tera Shift",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tinkaton",
+        "Play Rough",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Tinkaton"
+      ]
+    ],
+    "hp": {
+      "p1a": "77/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tinkaton",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Pelipper",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tinkaton",
+        "Feint",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        "p1b: Pelipper"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Tinkaton"
+      ],
+      [
+        "p1b: Pelipper",
+        "Hurricane",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu",
+      "p1a: Tinkaton",
+      "p1a: Tinkaton"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Pelipper",
+        "super effective"
+      ],
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Pelipper",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

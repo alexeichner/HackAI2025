@@ -1,0 +1,878 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Maushold-Four",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Nasty Plot",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "26/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Maushold-Four",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Maushold"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "92/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "9/100",
+      "p2a": "92/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "15/100",
+      "p2a": "92/100",
+      "p2b": "69/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "92/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "92/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Dondozo",
+        "Body Press",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "38/100",
+      "p2a": "92/100",
+      "p2b": "33/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "38/100",
+      "p2a": "92/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Maushold-Four"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "38/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Maushold-Four"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Follow Me",
+        "p2b: Maushold"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1a: Calyrex",
+        "Psychic",
+        "p2b: Maushold"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Draco Meteor",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Maushold-Four"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 2,
+        "def": 4,
+        "spd": 2
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

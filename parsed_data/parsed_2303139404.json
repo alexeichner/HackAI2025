@@ -1,0 +1,462 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Iron Bundle",
+      "p2a": "Raging Bolt",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Iron Bundle",
+        "Protect",
+        "p1b: Iron Bundle"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        "p1b: Iron Bundle"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "100/100",
+      "p2a": "60/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1b: Iron Bundle"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Groudon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Bundle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Rain Dance",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "33/100",
+      "p2a": "60/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Groudon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: Groudon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Nasty Plot",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "92/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      },
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2b: Groudon",
+        "Helping Hand",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "61/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      },
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "61/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -3
+      },
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  }
+]

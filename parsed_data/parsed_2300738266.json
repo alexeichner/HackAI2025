@@ -1,0 +1,407 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Entei",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Light Screen",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Entei",
+        "Crunch",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "60/100",
+      "p2a": "100/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Pressure",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Treads",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Fake Tears",
+        "p1b: Entei"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Entei": {
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Whimsicott"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Treads",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Iron Treads",
+        "High Horsepower",
+        "p2b: Ditto"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "17/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Entei": {
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ditto",
+        "super effective"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Ditto",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Treads",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1b: Iron Treads",
+        "High Horsepower",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "91/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Entei": {
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Treads",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Fake Tears",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1b: Iron Treads",
+        "High Horsepower",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "81/100",
+      "p2a": "14/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Entei": {
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Miraidon": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Treads",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Iron Treads",
+        "Iron Head",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "71/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Entei": {
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Miraidon": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  }
+]

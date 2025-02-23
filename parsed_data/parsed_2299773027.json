@@ -1,0 +1,204 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Jumpluff",
+      "p2a": "Grimmsnarl",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Krampus",
+        "Fake Out",
+        "p1b: Jumpluff"
+      ],
+      [
+        "p1b: Jumpluff",
+        "Tailwind",
+        "p1b: Jumpluff"
+      ],
+      [
+        "p1a: Groudon",
+        "Swords Dance",
+        "p1a: Groudon"
+      ],
+      [
+        "p2b: Ghost Rider",
+        "Astral Barrage",
+        "p1b: Jumpluff"
+      ]
+    ],
+    "hp": {
+      "p1a": "21/100",
+      "p1b": "37/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Jumpluff",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Chlorophyll",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Jumpluff",
+      "p2a": "Grimmsnarl",
+      "p2b": "Hatterene"
+    },
+    "moves": [
+      [
+        "p2a: Krampus",
+        "Sucker Punch",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Jumpluff",
+        "Sleep Powder",
+        "p2b: Glinda"
+      ],
+      [
+        "p2b: Glinda",
+        "Sleep Powder",
+        "p1b: Jumpluff"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "37/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chlorophyll",
+      "p2a": "Prankster",
+      "p2b": "Healer"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Jumpluff",
+      "p2a": "Grimmsnarl",
+      "p2b": "Hatterene"
+    },
+    "moves": [
+      [
+        "p2a: Krampus",
+        "Sucker Punch",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2a: Krampus"
+      ],
+      [
+        "p2b: Glinda",
+        "Dazzling Gleam",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "88/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Glinda": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Krampus",
+        "resisted"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Jumpluff",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chlorophyll",
+      "p2a": "Prankster",
+      "p2b": "Healer"
+    }
+  }
+]

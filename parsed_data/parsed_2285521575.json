@@ -1,0 +1,889 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Farigiraf",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Draco Meteor",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Miraidon",
+        "p2a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Cud Chew",
+      "p2a": "Unnerve",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Farigiraf",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Trick Room",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "65/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Gastrodon-East",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        ""
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "20/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Farigiraf",
+      "p2a": "Gastrodon-East",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Light Screen",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Gastrodon",
+        "Earth Power",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "46/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Farigiraf",
+      "p2a": "Gastrodon-East",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Protect",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2a: Gastrodon",
+        "Icy Wind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "46/100",
+      "p2a": "100/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Farigiraf",
+      "p2a": "Gastrodon-East",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Gastrodon",
+        "Icy Wind",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2a: Gastrodon"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "40/100",
+      "p2a": "81/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Farigiraf",
+      "p2a": "Gastrodon-East",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Protect",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2a: Gastrodon",
+        "Earth Power",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "40/100",
+      "p2a": "81/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Farigiraf",
+      "p2a": "Gastrodon-East",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Gastrodon",
+        "Protect",
+        "p2a: Gastrodon"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Gastrodon"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2a: Gastrodon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "40/100",
+      "p2a": "87/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Draining Kiss",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Mold Breaker",
+      "p2a": "Intimidate",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Incineroar",
+      "p2b": "Gastrodon-East"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "17/100",
+      "p2a": "87/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Embody Aspect (Hearthflame)",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Incineroar",
+      "p2b": "Gastrodon-East"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Protect",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        "p2b: Gastrodon"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "37/100",
+      "p2a": "87/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room",
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2,
+        "spe": -2
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "def": 1,
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gastrodon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Embody Aspect (Hearthflame)",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

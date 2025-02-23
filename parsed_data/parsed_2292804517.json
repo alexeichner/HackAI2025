@@ -1,0 +1,380 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Raging Bolt",
+      "p2a": "Miraidon",
+      "p2b": "Talonflame"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Protect",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2b: Talonflame",
+        "Tailwind",
+        "p2b: Talonflame"
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "86/100",
+      "p2b": "46/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Flutter Mane",
+      "p2a": "Miraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        "p2b: Talonflame"
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Miraidon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Talonflame",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Flutter Mane",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Shadow Ball",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "20/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2,
+        "spe": -1
+      },
+      "p2a: Ogerpon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "88/100",
+      "p2a": "20/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2,
+        "spe": -1
+      },
+      "p2a: Ogerpon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "88/100",
+      "p2a": "20/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2,
+        "spe": -1
+      },
+      "p2a: Ogerpon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

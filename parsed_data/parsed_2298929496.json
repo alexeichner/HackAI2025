@@ -1,0 +1,575 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regigigas",
+      "p1b": "Weezing",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Protect",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1a: Regigigas",
+        "Crush Grip",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Weezing",
+        "Taunt",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Slow Start",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Blaze",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Regigigas",
+      "p1b": "Weezing",
+      "p2a": "Incineroar",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Regigigas",
+        "Protect",
+        "p1a: Regigigas"
+      ],
+      [
+        "p1b: Weezing",
+        "Taunt",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Regigigas"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Slow Start",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Blaze",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Iron Hands",
+      "p2a": "Incineroar",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Scream Tail"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Iron Hands",
+      "p2a": "Incineroar",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p1a: Scream Tail",
+        "Dazzling Gleam",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2a: Incineroar",
+        "Will-O-Wisp",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p1b: Iron Hands",
+        "Drain Punch",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "48/100 brn",
+      "p2a": "90/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Weezing",
+      "p2a": "Incineroar",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p1a: Scream Tail",
+        "Encore",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2a: Incineroar",
+        "Will-O-Wisp",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p1b: Iron Hands",
+        "Wild Charge",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "0 fnt",
+      "p2a": "90/100",
+      "p2b": "48/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Weezing",
+        "Neutralizing Gas"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Incineroar",
+        "p1b: Iron Hands"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Weezing",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Thunder Wave",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p1b: Weezing",
+        "Taunt",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "0 fnt",
+      "p2a": "90/100",
+      "p2b": "48/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Weezing",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Thunder Wave",
+        "p1b: Weezing"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p1a: Scream Tail",
+        "Dazzling Gleam",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Weezing",
+        "Sludge Bomb",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "13/100 par",
+      "p1b": "0 fnt",
+      "p2a": "85/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Terapagos"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Weezing",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Scream Tail",
+        "Protect",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Weezing"
+      ],
+      [
+        "p1b: Weezing",
+        "Will-O-Wisp",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "13/100 par",
+      "p1b": "67/100 par",
+      "p2a": "85/100 brn",
+      "p2b": "10/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Weezing",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Scream Tail"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "11/100 par",
+      "p2a": "85/100 brn",
+      "p2b": "10/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Scream Tail": {
+        "atk": -1
+      },
+      "p1b: Weezing": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

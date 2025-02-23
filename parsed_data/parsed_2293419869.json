@@ -1,0 +1,433 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Urshifu",
+        "U-turn",
+        "p2b: Iron Leaves"
+      ],
+      [
+        "p2b: Iron Leaves",
+        "Leaf Blade",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Iron Leaves",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p2b: Iron Leaves",
+        "Protect",
+        "p2b: Iron Leaves"
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Iron Leaves"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Electroweb",
+        "p2b: Iron Leaves"
+      ],
+      [
+        "p2a: Terapagos",
+        "Toxic",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100 tox",
+      "p1b": "100/100",
+      "p2a": "81/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Iron Leaves"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Electroweb",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "44/100 tox",
+      "p1b": "35/100",
+      "p2a": "63/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Iron Leaves",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Tornadus",
+        "Taunt",
+        "p2b: Volcarona"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Electroweb",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Volcarona",
+        "Struggle Bug",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100 tox",
+      "p1b": "26/100",
+      "p2a": "69/100",
+      "p2b": "83/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Tornadus": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Electroweb",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "26/100",
+      "p2a": "60/100",
+      "p2b": "51/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Tornadus": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Rain Dance",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "26/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Volcarona": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Tornadus": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Teraform Zero",
+      "p2b": "none"
+    }
+  }
+]

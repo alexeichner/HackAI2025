@@ -1,0 +1,353 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Entei",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Sableye",
+        "Fake Out",
+        "p2b: Koraidon"
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        "p1a: Sableye"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Hyper Voice",
+        "p2b: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "75/100",
+      "p2b": "52/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Entei",
+        "p1a: Sableye"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Entei",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Sableye",
+        "Quash",
+        "p2b: Koraidon"
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        "p1a: Sableye"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Hyper Voice",
+        "p2a: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "32/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "spa": 1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Entei"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Miraidon",
+      "p2a": "Entei",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "0 fnt",
+      "p2a": "32/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "spa": 1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ditto",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Ursaluna"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "Pressure",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Miraidon",
+      "p2a": "Entei",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p2b: Ditto",
+        "Fake Out",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2a: Entei",
+        "Stomping Tantrum",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "29/100",
+      "p2a": "2/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "spa": 1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "Pressure",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Miraidon",
+      "p2a": "Entei",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p2a: Entei",
+        "Extreme Speed",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Electro Drift",
+        "p2b: Ditto"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "spa": 1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "Pressure",
+      "p2b": "Intimidate"
+    }
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Calm Mind",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "75/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  }
+]

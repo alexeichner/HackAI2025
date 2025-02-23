@@ -1,0 +1,483 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Terapagos",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Moonwater",
+        "Follow Me",
+        "p1a: Moonwater"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Moonwater"
+      ],
+      [
+        "p1b: Perrine",
+        "Calm Mind",
+        "p1b: Perrine"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Moonwater",
+      "p1a: Moonwater",
+      "p1a: Moonwater"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Tera Shift",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Terapagos",
+      "p2a": "Tsareena",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Moonwater",
+        "Helping Hand",
+        "p1b: Perrine"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Perrine"
+      ],
+      [
+        "p1b: Perrine",
+        "Tera Starstorm",
+        "p2a: Tsareena"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "77/100",
+      "p2a": "15/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Perrine",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Perrine",
+      "p1b: Perrine",
+      "p1b: Perrine"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Teraform Zero",
+      "p2a": "Leaf Guard",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Terapagos",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Moonwater",
+        "Follow Me",
+        "p1a: Moonwater"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1a: Moonwater"
+      ],
+      [
+        "p2a: Tsareena",
+        "Power Whip",
+        "p1b: Perrine"
+      ],
+      [
+        "p1b: Perrine",
+        "Tera Starstorm",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Moonwater",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Teraform Zero",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Terapagos",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Lion's Roar",
+        "Fake Out",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Tornadus",
+        "Hurricane",
+        "p1a: Lion's Roar"
+      ],
+      [
+        "p1b: Perrine",
+        "Tera Starstorm",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "34/100",
+      "p1b": "62/100",
+      "p2a": "23/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Lion's Roar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Teraform Zero",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Chien-Pao",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Lion's Roar",
+        "Grassy Glide",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Perrine"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Perrine"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "23/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Presto",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1a: Lion's Roar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Chien-Pao",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Presto",
+        "Ice Spinner",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Presto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Chien-Pao",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Presto",
+        "Ice Spinner",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Perrine": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  }
+]

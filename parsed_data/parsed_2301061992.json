@@ -1,0 +1,588 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "Icy Wind",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "86/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Tornadus",
+      "p2a: Tornadus",
+      "p2a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Indeedee-F",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Ting-Lu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Icy Wind",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "0 fnt",
+      "p2a": "97/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      },
+      "p2b: Iron Bundle": {
+        "spe": -1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ting-Lu",
+        "Vessel of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "resisted"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Vessel of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Ting-Lu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Icy Wind",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p1b: Indeedee",
+        "Dazzling Gleam",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "Throat Chop",
+        "p1b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "69/100",
+      "p2b": "65/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      },
+      "p2b: Iron Bundle": {
+        "spe": -1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Ting-Lu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "super effective"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ],
+      [
+        "p1b: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "Vessel of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Ting-Lu"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "Throat Chop",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "64/100",
+      "p2a": "14/100",
+      "p2b": "65/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      },
+      "p2b: Iron Bundle": {
+        "spe": -1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Ting-Lu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "Vessel of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Ting-Lu"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "Throat Chop",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "65/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      },
+      "p2b: Iron Bundle": {
+        "spe": -1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Ting-Lu": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "Vessel of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Ting-Lu"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2b: Ting-Lu"
+      ],
+      [
+        "p2b: Ting-Lu",
+        "Throat Chop",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "38/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -2
+      },
+      "p2b: Iron Bundle": {
+        "spe": -1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      },
+      "p2b: Ting-Lu": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ting-Lu",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "Vessel of Ruin"
+    }
+  }
+]

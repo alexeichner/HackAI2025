@@ -1,0 +1,513 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Amoonguss",
+      "p2a": "Chien-Pao",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Protect",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Icicle Crash",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        "p1b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Effect Spore",
+      "p2a": "Sword of Ruin",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Kyogre",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Icicle Crash",
+        "p1b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Ally Switch",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "81/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Dazzling Gleam",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "66/100",
+      "p2a": "72/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Kyogre",
+        "Hydro Pump",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Hydro Pump",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

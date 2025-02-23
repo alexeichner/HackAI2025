@@ -1,0 +1,483 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Valiant",
+      "p2a": "Smeargle",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Parabolic Charge",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Oranguru"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "82/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Moody",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Valiant",
+      "p2a": "Smeargle",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Iron Valiant",
+        "Disable",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1a: Miraidon",
+        "Calm Mind",
+        "p1a: Miraidon"
+      ],
+      [
+        "p2a: Smeargle",
+        "Spore",
+        "p1b: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Moody",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Valiant",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Parabolic Charge",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "42/100 slp",
+      "p2a": "0 fnt",
+      "p2b": "79/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Dragon Pulse",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Iron Valiant"
+      ],
+      [
+        "p2a: Terapagos",
+        "Earth Power",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Iron Valiant"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Protect",
+        "p1a: Miraidon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Follow Me",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Ogerpon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "4/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Terapagos",
+      "p2b: Terapagos",
+      "p2b: Terapagos"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "4/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 4,
+        "spe": -1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

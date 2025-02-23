@@ -1,0 +1,523 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Tornadus",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Fairy Inspector",
+        "Protect",
+        "p1a: Fairy Inspector"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1a: Fairy Inspector"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "54/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Prankster",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        "p1a: Fairy Inspector"
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1a: Fairy Inspector",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "6/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Fairy Eater",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Fairy Inspector"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Intrepid Sword",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Fairy Inspector",
+        "Protect",
+        "p1a: Fairy Inspector"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Fake Tears",
+        "p1b: Fairy Eater"
+      ],
+      [
+        "p1b: Fairy Eater",
+        "Behemoth Blade",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "6/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      },
+      "p1a: Fairy Inspector": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Intrepid Sword",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Fairy Inspector",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Fairy Eater"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1a: Fairy Inspector"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "96/100",
+      "p2a": "6/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      },
+      "p1a: Fairy Inspector": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Fairy Inspector"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Fairy Eater",
+        "resisted"
+      ],
+      [
+        "p1a: Fairy Inspector",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Intrepid Sword",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Fairy Eater",
+        "Behemoth Blade",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Fairy Eater"
+      ],
+      [
+        "p1a: Fairy Inspector",
+        "Draco Meteor",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "96/100",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      },
+      "p1a: Fairy Inspector": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Intrepid Sword",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Ditto",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1b: Fairy Eater"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Fairy Eater"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      },
+      "p1a: Fairy Inspector": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Ditto",
+        "As One"
+      ],
+      [
+        "p1b: Ditto",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Unnerve",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Ditto",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        "p1b: Ditto"
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1b: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p1b: Fairy Eater": {
+        "atk": -1,
+        "spd": -2,
+        "spa": -1
+      },
+      "p1a: Fairy Inspector": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ditto",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Unnerve",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  }
+]

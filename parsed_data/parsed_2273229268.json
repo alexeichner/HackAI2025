@@ -1,0 +1,676 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Incineroar",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: KNIGHT"
+      ],
+      [
+        "p2b: PAWN",
+        "Reflect",
+        "p2b: PAWN"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: PAWN"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "92/100",
+      "p2b": "38/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: PAWN",
+      "p2b: PAWN",
+      "p2b: PAWN"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Intimidate",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2b: PAWN",
+        "Light Screen",
+        "p2b: PAWN"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: PAWN"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2a: KNIGHT"
+      ],
+      [
+        "p2a: KNIGHT",
+        "Will-O-Wisp",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100 brn",
+      "p1b": "100/100",
+      "p2a": "92/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: PAWN",
+      "p2b: PAWN"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: KNIGHT"
+      ],
+      [
+        "p2b: KING",
+        "Calm Mind",
+        "p2b: KING"
+      ],
+      [
+        "p2a: KNIGHT",
+        "Parting Shot",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100 brn",
+      "p1b": "100/100",
+      "p2a": "30/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: KNIGHT",
+      "p2a: KNIGHT",
+      "p2a: KNIGHT"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: KNIGHT",
+        "super effective"
+      ],
+      [
+        "p2a: KNIGHT",
+        "super effective"
+      ],
+      [
+        "p2a: KNIGHT",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: KNIGHT"
+      ],
+      [
+        "p1b: Calyrex",
+        "Calm Mind",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: KING",
+        "Calm Mind",
+        "p2b: KING"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100 brn",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: KNIGHT",
+      "p2a: KNIGHT"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: KNIGHT",
+        "super effective"
+      ],
+      [
+        "p2a: KNIGHT",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: BISHOP",
+        "Encore",
+        ""
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: BISHOP"
+      ],
+      [
+        "p2b: KING",
+        "Tera Starstorm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "75/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: BISHOP": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2a: BISHOP"
+    ],
+    "critical_hits": [
+      "p2a: BISHOP",
+      "p2a: BISHOP",
+      "p2a: BISHOP"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: BISHOP",
+        "Protect",
+        "p2a: BISHOP"
+      ],
+      [
+        "p2b: KING",
+        "Protect",
+        "p2b: KING"
+      ],
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: KING"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: BISHOP"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "75/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: BISHOP": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: BISHOP",
+        "Disable",
+        ""
+      ],
+      [
+        "p2b: KING",
+        "Tera Starstorm",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Will-O-Wisp",
+        "p2b: KING"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "4/100",
+      "p2a": "75/100",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: BISHOP": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: BISHOP"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: BISHOP",
+        "Dazzling Gleam",
+        "p1b: Incineroar"
+      ],
+      [
+        "p2b: KING",
+        "Tera Starstorm",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "75/100",
+      "p2b": "94/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: KNIGHT": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: PAWN": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p2b: KING": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: BISHOP": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  }
+]

@@ -1,0 +1,957 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Lunala",
+        "Moongeist Beam",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2a: Lunala"
+      ],
+      [
+        "p2a: Lunala",
+        "Calm Mind",
+        "p2a: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "100/100",
+      "p2a": "96/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2a: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Lunala",
+        "Protect",
+        "p2a: Lunala"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2a: Lunala"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2a: Lunala"
+      ],
+      [
+        "p2a: Lunala",
+        "Moongeist Beam",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2b: Porygon2",
+        "Download"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2a: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2b: Porygon2"
+      ],
+      [
+        "p1a: Incineroar",
+        "Taunt",
+        "p2b: Porygon2"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "70/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2b: Porygon2"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2b: Porygon2",
+        "Tera Blast",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p2a: Lunala",
+        "Protect",
+        "p2a: Lunala"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2b: Porygon2"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Porygon2"
+      ],
+      [
+        "p2b: Porygon2",
+        "Tera Blast",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "58/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Lunala",
+        "Moonblast",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "62/100",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Lunala",
+        "Calm Mind",
+        "p2a: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "100/100",
+      "p2a": "75/100",
+      "p2b": "21/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p2a: Lunala",
+        "Protect",
+        "p2a: Lunala"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2b: Porygon2"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "100/100",
+      "p2a": "87/100",
+      "p2b": "33/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Porygon2",
+        "Download"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Lunala",
+        "Moonblast",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2b: Porygon2"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Porygon2"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Lunala",
+      "p2b": "Rillaboom"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Lunala": {
+        "atk": -3,
+        "spa": -1,
+        "spd": 2
+      },
+      "p2b: Rillaboom": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Shadow Shield",
+      "p2b": "Overgrow"
+    }
+  }
+]

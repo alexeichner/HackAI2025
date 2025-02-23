@@ -1,0 +1,391 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Terapagos",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Ally Switch",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p1b: Terapagos",
+        "Calm Mind",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p2b: Calyrex",
+        "Trick Room",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "95/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Tera Shift",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Terapagos",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Farigiraf",
+        "Ally Switch",
+        ""
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Terapagos",
+        "Calm Mind",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "84/100",
+      "p2a": "89/100 brn",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Farigiraf"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Tera Shift",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Terapagos",
+      "p2a": "Smeargle",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Torkoal"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "77/100",
+      "p2a": "0 fnt",
+      "p2b": "42/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2a: Torkoal": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Teraform Zero",
+      "p2a": "Own Tempo",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Terapagos",
+      "p2a": "Smeargle",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Wide Guard",
+        "p2a: Smeargle"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "66/100",
+      "p2a": "0 fnt",
+      "p2b": "36/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2a: Torkoal": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Teraform Zero",
+      "p2a": "Moody",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Terapagos",
+      "p2a": "Smeargle",
+      "p2b": "Farigiraf"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "66/100",
+      "p2a": "0 fnt",
+      "p2b": "36/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2a: Torkoal": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Teraform Zero",
+      "p2a": "Moody",
+      "p2b": "Cud Chew"
+    }
+  }
+]

@@ -1,0 +1,654 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Whimsicott",
+      "p2a": "Whimsicott",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Light Screen",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Miraidon",
+        "Draco Meteor",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Landorus",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "p2b: Landorus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Prankster",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Whimsicott",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Light Screen",
+        ""
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Draco Meteor",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "39/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Prankster",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "39/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Hands",
+        "super effective"
+      ],
+      [
+        "p1a: Iron Hands",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Drain Punch",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "39/100",
+      "p2a": "85/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Whimsicott",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Iron Hands",
+        "Detect",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "39/100",
+      "p2a": "85/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Encore",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "85/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "19/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "19/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Iron Hands": {
+        "def": 1,
+        "spa": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

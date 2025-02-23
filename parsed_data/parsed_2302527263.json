@@ -1,0 +1,357 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Clefairy",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Hitmonchan"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Follow Me",
+        "p1b: Clefairy"
+      ],
+      [
+        "p1a: Calyrex",
+        "Shadow Ball",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Hitmonchan",
+        "Encore",
+        "p1b: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "10/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cute Charm",
+      "p2a": "Unnerve",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Clefairy",
+      "p2a": "Incineroar",
+      "p2b": "Hitmonchan"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Follow Me",
+        "p1b: Clefairy"
+      ],
+      [
+        "p1a: Calyrex",
+        "Shadow Ball",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2b: Hitmonchan",
+        "Taunt",
+        "p1b: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "61/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Clefairy": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cute Charm",
+      "p2a": "Intimidate",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Tornadus",
+      "p2a": "Incineroar",
+      "p2b": "Hitmonchan"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Shadow Ball",
+        "p2b: Hitmonchan"
+      ],
+      [
+        "p2b: Hitmonchan",
+        "Close Combat",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "68/100",
+      "p2a": "61/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Clefairy": {
+        "atk": -1
+      },
+      "p2b: Hitmonchan": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Prankster",
+      "p2a": "Intimidate",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Tornadus",
+      "p2a": "Gastrodon-East",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Hitmonchan"
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Clefairy": {
+        "atk": -1
+      },
+      "p2b: Hitmonchan": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Hitmonchan",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Tornadus",
+      "p2a": "Gastrodon-East",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Clefairy": {
+        "atk": -1
+      },
+      "p2b: Hitmonchan": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

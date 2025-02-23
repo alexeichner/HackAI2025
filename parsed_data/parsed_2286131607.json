@@ -1,0 +1,520 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Farigiraf",
+      "p2a": "Grimmsnarl",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "8/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Grimmsnarl",
+      "p2a: Grimmsnarl",
+      "p2a: Grimmsnarl"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "Prankster",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Farigiraf",
+      "p2a": "Archaludon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2a: Archaludon"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "92/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Archaludon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "83/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      },
+      "p1b: Farigiraf": {
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Archaludon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Weather Report",
+        "Tailwind",
+        "p1a: Weather Report"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "29/100",
+      "p2a": "76/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      },
+      "p1b: Farigiraf": {
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Encore",
+        ""
+      ],
+      [
+        "p1a: Weather Report",
+        "Bleakwind Storm",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "9/100",
+      "p2a": "64/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      },
+      "p1b: Farigiraf": {
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Weather Report",
+        "Bleakwind Storm",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Weather Report"
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "48/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      },
+      "p1b: Farigiraf": {
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Made In Heaven",
+        "As One"
+      ],
+      [
+        "p1b: Made In Heaven",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Archaludon"
+    ],
+    "critical_hits": [
+      "p2a: Archaludon",
+      "p1b: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Made In Heaven",
+        "Astral Barrage",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Made In Heaven"
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "48/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spe": -1,
+        "spa": 2
+      },
+      "p1b: Farigiraf": {
+        "spa": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Made In Heaven",
+        "resisted"
+      ],
+      [
+        "p1b: Made In Heaven",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  }
+]

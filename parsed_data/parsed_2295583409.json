@@ -1,0 +1,419 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Thunder Wave",
+        "p1b: Koraidon"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Dazzling Gleam",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Koraidon",
+        "Flare Blitz",
+        "p2a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "83/100 par",
+      "p2a": "100/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "super effective"
+      ],
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Tera Shift",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Follow Me",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100 par",
+      "p2a": "100/100",
+      "p2b": "13/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Flutter Mane",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Teraform Zero",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Koraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100 par",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Koraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Protect",
+        "p1b: Koraidon"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100 par",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Embody Aspect (Cornerstone)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Koraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Sacred Fire",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "35/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Koraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Sacred Fire",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

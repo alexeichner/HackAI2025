@@ -1,0 +1,809 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Terapagos",
+      "p2a": "Grimmsnarl",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Okidogi",
+        "Upper Hand",
+        "p2b: Kendrick"
+      ],
+      [
+        "p2b: Kendrick",
+        "Fake Out",
+        "p1a: Okidogi"
+      ],
+      [
+        "p2a: Mister J",
+        "Thunder Wave",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Mister J"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "100/100",
+      "p2a": "21/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kendrick",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Mister J",
+        "p1b: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Tera Shift",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Smeargle",
+      "p2a": "Scizor",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Mister J",
+        "Thunder Wave",
+        "p1a: Okidogi"
+      ],
+      [
+        "p2b: Kendrick",
+        "Knock Off",
+        "p1b: Smeargle"
+      ],
+      [
+        "p1a: Okidogi",
+        "Drain Punch",
+        "p2a: Mister J"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "9/100",
+      "p2a": "0 fnt",
+      "p2b": "59/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Moody",
+      "p2a": "Swarm",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Smeargle",
+      "p2a": "Scizor",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Jasper"
+      ],
+      [
+        "p2b: Kendrick",
+        "Parting Shot",
+        "p1a: Okidogi"
+      ],
+      [
+        "p1a: Okidogi",
+        "Drain Punch",
+        "p2b: Metal Overlord"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "9/100",
+      "p2a": "98/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Jasper",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Moody",
+      "p2a": "Swarm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Scizor",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Jasper",
+        "Bullet Punch",
+        "p1b: Smeargle"
+      ],
+      [
+        "p2b: Metal Overlord",
+        "Calm Mind",
+        "p2b: Metal Overlord"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "0 fnt",
+      "p2a": "98/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "none",
+      "p2a": "Swarm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Scizor",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Metal Overlord",
+        "Protect",
+        "p2b: Metal Overlord"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Jasper"
+      ],
+      [
+        "p2a: Jasper",
+        "Swords Dance",
+        "p2a: Jasper"
+      ],
+      [
+        "p1a: Okidogi",
+        "High Horsepower",
+        "p2b: Metal Overlord"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "100/100",
+      "p2a": "24/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Teraform Zero",
+      "p2a": "Swarm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Scizor",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Jasper",
+        "Protect",
+        "p2a: Jasper"
+      ],
+      [
+        "p2b: Metal Overlord",
+        "Parabolic Charge",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Jasper"
+      ],
+      [
+        "p1a: Okidogi",
+        "High Horsepower",
+        "p2b: Metal Overlord"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100 par",
+      "p1b": "75/100",
+      "p2a": "24/100",
+      "p2b": "45/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Okidogi"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Metal Overlord",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Teraform Zero",
+      "p2a": "Swarm",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Incineroar",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Jasper",
+        "Bullet Punch",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2b: Metal Overlord",
+        "Parabolic Charge",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2b: Metal Overlord"
+      ],
+      [
+        "p1a: Okidogi",
+        "High Horsepower",
+        "p2b: Metal Overlord"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100 par",
+      "p1b": "3/100",
+      "p2a": "0 fnt",
+      "p2b": "16/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Kendrick",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Metal Overlord",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Teraform Zero",
+      "p2a": "Intimidate",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Kendrick",
+        "Fake Out",
+        "p1a: Okidogi"
+      ],
+      [
+        "p2b: Metal Overlord",
+        "Parabolic Charge",
+        "p1a: Okidogi"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "44/100",
+      "p2b": "37/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kendrick",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Metal Overlord",
+        "Parabolic Charge",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Kendrick",
+        "Knock Off",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "45/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kendrick",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Okidogi",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Metal Overlord",
+        "Parabolic Charge",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "14/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Okidogi": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "def": -1,
+        "spd": 2,
+        "spa": -1
+      },
+      "p2b: Metal Overlord": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Jasper": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kendrick",
+        "resisted"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

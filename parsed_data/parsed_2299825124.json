@@ -1,0 +1,398 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Flutter Mane",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Fake Tears",
+        "p2a: Zacian"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "Intrepid Sword",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Flutter Mane",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p2b: Tornadus",
+        "Icy Wind",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Thunder Wave",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "83/100",
+      "p2a": "100/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Flutter Mane",
+        "p2a: Zacian"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Intrepid Sword",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Flutter Mane",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Protect",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2b: Tornadus",
+        "Taunt",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "83/100",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2b: Ditto",
+        "As One"
+      ],
+      [
+        "p2b: Ditto",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zacian"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Intrepid Sword",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Ditto",
+        "Astral Barrage",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Ditto": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ditto",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Flutter Mane"
+    ],
+    "critical_hits": [
+      "p1b: Flutter Mane"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intrepid Sword",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        "p2b: Ditto"
+      ],
+      [
+        "p2b: Ditto",
+        "Astral Barrage",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        "p2b: Ditto"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Ditto": {
+        "spa": 2
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ditto",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Intrepid Sword",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

@@ -1,0 +1,789 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Dondozo",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Kyogre",
+        "p2a: Tornadus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Unaware",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Dondozo",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Dondozo",
+        "Protect",
+        "p1b: Dondozo"
+      ],
+      [
+        "p2a: Tornadus",
+        "Scary Face",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "6/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Unaware",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Dondozo",
+        "Order Up",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "6/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Dondozo",
+        "Fissure",
+        "p2b: Dondozo"
+      ],
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        "p1b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "96/100",
+      "p2a": "6/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Dondozo",
+        "p2b: Dondozo"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Dondozo",
+        "Order Up",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "6/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Dondozo",
+        "Fissure",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "6/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Dondozo",
+        "Fissure",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "6/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tatsugiri",
+        "Icy Wind",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Dondozo"
+      ],
+      [
+        "p1b: Dondozo",
+        "Order Up",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Tatsugiri",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p2b: Kyogre",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Hurricane",
+        "p1b: Dondozo"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Muddy Water",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "25/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tatsugiri",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Dragon Pulse",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Kyogre": {
+        "spe": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      },
+      "p1b: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  }
+]

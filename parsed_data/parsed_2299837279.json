@@ -1,0 +1,410 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Smeargle",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1a: Rayquaza",
+        "Protect",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p1b: Dragapult",
+        "Dragon Cheer",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p2b: Entei",
+        "Sacred Fire",
+        "p1a: Rayquaza"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Moody",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Smeargle",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1b: Dragapult",
+        "Thunder Wave",
+        "p2b: Entei"
+      ],
+      [
+        "p2a: Smeargle",
+        "Spore",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p2b: Entei",
+        "Sacred Fire",
+        "p1b: Dragapult"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "63/100 brn",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "slp",
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dragapult",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Moody",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Hitmontop",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1a: Rayquaza",
+        "Protect",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p1b: Dragapult",
+        "Thunder Wave",
+        "p2a: Hitmontop"
+      ],
+      [
+        "p2b: Entei",
+        "Stomping Tantrum",
+        "p1b: Dragapult"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "28/100 brn",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      },
+      "p1a: Rayquaza": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dragapult": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "slp",
+      "p1b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Hitmontop",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Intimidate",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Smeargle",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1b: Dragapult",
+        "Hex",
+        "p2b: Entei"
+      ],
+      [
+        "p1a: Rayquaza",
+        "Dragon Ascent",
+        "p2a: Hitmontop"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "22/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "68/100 par"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      },
+      "p1a: Rayquaza": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dragapult": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "slp",
+      "p1b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Hitmontop"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Hitmontop",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Own Tempo",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Smeargle",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1a: Rayquaza",
+        "Protect",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1a: Rayquaza"
+      ],
+      [
+        "p1b: Dragapult",
+        "Thunder Wave",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "16/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "68/100 par"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      },
+      "p1a: Rayquaza": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dragapult": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "slp",
+      "p1b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Moody",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rayquaza",
+      "p1b": "Dragapult",
+      "p2a": "Smeargle",
+      "p2b": "Entei"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "16/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "68/100 par"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 1,
+        "atk": 3,
+        "spa": -1
+      },
+      "p1a: Rayquaza": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dragapult": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "slp",
+      "p1b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Air Lock",
+      "p1b": "Clear Body",
+      "p2a": "Moody",
+      "p2b": "Pressure"
+    }
+  }
+]

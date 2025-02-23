@@ -1,0 +1,415 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Roaring Moon",
+      "p2a": "Electrode-Hisui",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Protect",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2a: Electrode",
+        "Thunder Wave",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Roaring Moon",
+      "p2a": "Electrode-Hisui",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Electrode",
+        "Taunt",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Acrobatics",
+        "p2a: Electrode"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "65/100",
+      "p2a": "25/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Roaring Moon",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Iron Hands",
+        "Fake Out",
+        "p2a: Electrode"
+      ],
+      [
+        "p2a: Electrode",
+        "Electroweb",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Knock Off",
+        "p2a: Electrode"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "9/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Iron Hands": {
+        "spe": -2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Hands",
+        "resisted"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Iron Hands": {
+        "spe": -2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1b: Weezing",
+        "Neutralizing Gas"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1b: Weezing",
+        "Strange Steam",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Iron Hands": {
+        "spe": -2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Weezing"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Iron Hands": {
+        "spe": -2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Iron Hands": {
+        "spe": -2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  }
+]

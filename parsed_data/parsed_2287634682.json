@@ -1,0 +1,512 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Incineroar",
+      "p2a": "Murkrow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Murkrow",
+        "Thunder Wave",
+        "p1a: Volcarona"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Murkrow"
+      ],
+      [
+        "p1a: Volcarona",
+        "Struggle Bug",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "16/100",
+      "p2a": "53/100",
+      "p2b": "75/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Murkrow",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Intimidate",
+      "p2a": "Insomnia",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Rillaboom",
+      "p2a": "Murkrow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Volcarona"
+      ],
+      [
+        "p2a: Murkrow",
+        "Foul Play",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1a: Volcarona",
+        "Struggle Bug",
+        "p2a: Murkrow"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100 par",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "49/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Overgrow",
+      "p2a": "Insomnia",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Rillaboom",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Murkrow"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p1a: Volcarona",
+        "Struggle Bug",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100 par",
+      "p1b": "70/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Overgrow",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Volcarona"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Volcarona"
+      ],
+      [
+        "p1a: Volcarona",
+        "Will-O-Wisp",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "21/100 par",
+      "p1b": "79/100",
+      "p2a": "94/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Volcarona",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Drizzle",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Power Whip",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1a: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "78/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Chilling Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Power Whip",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2a: Calyrex",
+        "Crunch",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "0 fnt",
+      "p2a": "3/100 brn",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ogerpon",
+        "Sturdy"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Ogerpon",
+        "p1a: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Chilling Neigh",
+      "p2b": "Sturdy"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Power Whip",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "3/100 brn",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Murkrow": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Chilling Neigh",
+      "p2b": "Sturdy"
+    }
+  }
+]

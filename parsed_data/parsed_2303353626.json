@@ -1,0 +1,532 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Raging Bolt",
+      "p2a": "Tsareena",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Tsareena"
+      ],
+      [
+        "p2a: Tsareena",
+        "Triple Axel",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "64/100",
+      "p2a": "72/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2a: Tsareena",
+        "resisted"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Leaf Guard",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Tsareena",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        "p1a: Ditto"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Tsareena",
+        "Triple Axel",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100 par",
+      "p2b": "65/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ditto",
+        "resisted"
+      ],
+      [
+        "p2a: Tsareena",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Unnerve",
+      "p2a": "Leaf Guard",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Tsareena",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Tsareena",
+        "Protect",
+        "p2a: Tsareena"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Ludicolo"
+      ],
+      [
+        "p1a: Ditto",
+        "Water Spout",
+        "p2a: Tsareena"
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100 par",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ludicolo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Unnerve",
+      "p2a": "Leaf Guard",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1a: Ditto",
+        "Water Spout",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Ditto",
+        "Thunder",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "32/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        "p1a: Ditto"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "32/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Tsareena": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

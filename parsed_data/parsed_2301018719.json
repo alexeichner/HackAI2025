@@ -1,0 +1,299 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Flutter Mane",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Icy Wind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Whimsicott": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "16/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Whimsicott": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Flutter Mane",
+      "p1b: Flutter Mane"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Protect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Koraidon",
+        "Breaking Swipe",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Snarl",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "36/100",
+      "p2a": "16/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Whimsicott": {
+        "spe": -1
+      },
+      "p2b: Terapagos": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Koraidon",
+        "Breaking Swipe",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Snarl",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "6/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Whimsicott": {
+        "spe": -1
+      },
+      "p2b: Terapagos": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  }
+]

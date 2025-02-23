@@ -1,0 +1,788 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "25/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Tornadus",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zacian",
+        "Intrepid Sword"
+      ],
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Prankster",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Tornadus",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Zacian",
+        "Sacred Sword",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Zacian"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Prankster",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p2b: Zacian",
+        "Protect",
+        "p2b: Zacian"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Zacian"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Zacian",
+        "Sacred Sword",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Archaludon",
+        "Body Press",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Follow Me",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Zacian",
+        "Sacred Sword",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2a: Archaludon",
+        "Dragon Pulse",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Zacian"
+    ],
+    "critical_hits": [
+      "p1a: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p2b: Zacian",
+        "Protect",
+        "p2b: Zacian"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Zacian"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2b: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p2b: Zacian",
+        "Play Rough",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2b: Zacian"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "23/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Zacian"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zacian",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [
+      [
+        "p2b: Zacian",
+        "Protect",
+        "p2b: Zacian"
+      ],
+      [
+        "p1b: Calyrex",
+        "Protect",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "23/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Zacian"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "23/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Whimsicott": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": -1,
+        "spa": 5,
+        "spe": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Archaludon": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fighting",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Intrepid Sword"
+    }
+  }
+]

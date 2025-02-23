@@ -1,0 +1,921 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Indeedee-F",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Indeedee"
+      ],
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "70/100",
+      "p2b": "77/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Indeedee",
+        "super effective"
+      ],
+      [
+        "p2b: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Lunala",
+        "p1b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Indeedee-F",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p2a: Indeedee",
+        "Heal Pulse",
+        "p2b: Lunala"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "39/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2b: Lunala"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2a: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "73/100",
+      "p2b": "96/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ditto",
+        "As One"
+      ],
+      [
+        "p2a: Ditto",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Lunala"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "super effective"
+      ],
+      [
+        "p2b: Lunala",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Unnerve",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Ditto",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Expanding Force",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2a: Ditto"
+      ],
+      [
+        "p2a: Ditto",
+        "Glacial Lance",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "88/100",
+      "p2a": "73/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lunala",
+        "resisted"
+      ],
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2a: Ditto"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Ditto",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Lunala"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Ditto"
+      ],
+      [
+        "p2a: Ditto",
+        "Glacial Lance",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "73/100",
+      "p2a": "8/100",
+      "p2b": "53/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "super effective"
+      ],
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Roaring Moon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Lunala"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "73/100",
+      "p2a": "85/100",
+      "p2b": "18/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Roaring Moon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Indeedee-F",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        "p2b: Lunala"
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "73/100",
+      "p2a": "85/100",
+      "p2b": "18/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Indeedee-F",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2a: Indeedee",
+        "Heal Pulse",
+        "p2b: Lunala"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "73/100",
+      "p2a": "85/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Lunala"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Lunala"
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "53/100",
+      "p2a": "0 fnt",
+      "p2b": "25/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Ditto",
+        "As One"
+      ],
+      [
+        "p2a: Ditto",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p2a: Ditto",
+        "High Horsepower",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "26/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "26/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Lunala": {
+        "atk": -5,
+        "spa": -1
+      },
+      "p2a: Indeedee": {
+        "spa": -3,
+        "atk": -2
+      },
+      "p2a: Ditto": {
+        "spa": -1,
+        "atk": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  }
+]

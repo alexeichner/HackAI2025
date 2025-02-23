@@ -1,0 +1,484 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Chi-Yu",
+      "p2a": "Torkoal",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Wide Guard",
+        "p2a: Smeargle"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        "p2a: Smeargle"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Beads of Ruin",
+      "p2a": "White Smoke",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Torkoal",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Torkoal",
+        "Earth Power",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "51/100",
+      "p2b": "70/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Chi-Yu": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "White Smoke",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "75/100",
+      "p2a": "75/100",
+      "p2b": "40/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Chi-Yu": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "58/100",
+      "p2a": "24/100",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Chi-Yu": {
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2b: Farigiraf",
+        "resisted"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Unnerve",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "24/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Chi-Yu": {
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Sucker Punch",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "57/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "spd": 2,
+        "atk": -1
+      },
+      "p1b: Chi-Yu": {
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  }
+]

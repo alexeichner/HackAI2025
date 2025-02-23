@@ -1,0 +1,162 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Murkrow",
+        "Tailwind",
+        "p1b: Murkrow"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Landorus"
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Murkrow"
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "69/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Murkrow",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p1a: Calyrex",
+        "Crunch",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "69/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Cud Chew"
+    }
+  }
+]

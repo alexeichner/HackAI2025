@@ -1,0 +1,334 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Magmar"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2b: Magmar"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Magmar",
+        "Will-O-Wisp",
+        "p1b: Koraidon"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "95/100 brn",
+      "p2a": "82/100",
+      "p2b": "12/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2b: Magmar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Tera Shift",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Flutter Mane",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Magmar",
+        "Follow Me",
+        "p2b: Magmar"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Magmar"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "48/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2b: Comfey"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "Teraform Zero",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2a: Terapagos",
+        "Earth Power",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Koraidon",
+        "Collision Course",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "Teraform Zero",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Beads of Ruin",
+      "p2a": "Teraform Zero",
+      "p2b": "Prankster"
+    }
+  }
+]

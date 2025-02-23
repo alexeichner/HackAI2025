@@ -1,0 +1,311 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Moltres-Galar",
+      "p2a": "Miraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2a: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Chi-Yu",
+        "p1a: Chien-Pao"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Moltres-Galar",
+      "p2a": "Miraidon",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Ice Spinner",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Moltres",
+        "Fiery Wrath",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2a: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "34/100",
+      "p2a": "5/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Moltres": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Moltres",
+        "Berserk"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p1b: Moltres",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Berserk",
+      "p2a": "Hadron Engine",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Moltres-Galar",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Comfey",
+        "Floral Healing",
+        "p1b: Moltres"
+      ],
+      [
+        "p1b: Moltres",
+        "Fiery Wrath",
+        "p2b: Dondozo"
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        "p1a: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "38/100",
+      "p2a": "5/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Moltres": {
+        "spa": 2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Moltres",
+        "Berserk"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Moltres",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Berserk",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Moltres-Galar",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Moltres",
+        "Fiery Wrath",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1a: Comfey",
+        "Psych Up",
+        "p2b: Dondozo"
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        "p1b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "5/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Moltres": {
+        "spa": 2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Moltres",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Berserk",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  }
+]

@@ -1,0 +1,430 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Entei",
+      "p2a": "Entei",
+      "p2b": "Regieleki"
+    },
+    "moves": [
+      [
+        "p2b: Regieleki",
+        "Protect",
+        "p2b: Regieleki"
+      ],
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        "p2b: Regieleki"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        "p2a: Entei"
+      ],
+      [
+        "p2a: Entei",
+        "Eruption",
+        "p1a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "50/100",
+      "p2a": "60/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Pressure",
+      "p2a": "Pressure",
+      "p2b": "Transistor"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Entei",
+      "p2a": "Rayquaza",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        "p2a: Entei"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "40/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Rayquaza",
+        "Air Lock"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Pressure",
+      "p2a": "Air Lock",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rayquaza",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Extreme Speed",
+        "p1b: Entei"
+      ],
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        "p1a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Chien-Pao"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rayquaza",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Iron Defense",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Draco Meteor",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Rayquaza": {
+        "spa": -2,
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rayquaza",
+      "p2b": "Regieleki"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Dragon Ascent",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Rayquaza": {
+        "spa": -2,
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Transistor"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rayquaza",
+      "p2b": "Regieleki"
+    },
+    "moves": [
+      [
+        "p2b: Regieleki",
+        "Protect",
+        "p2b: Regieleki"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Regieleki"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Dragon Ascent",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Rayquaza": {
+        "spa": -2,
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Transistor"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rayquaza",
+      "p2b": "Regieleki"
+    },
+    "moves": [
+      [
+        "p2b: Regieleki",
+        "Thunderbolt",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Regieleki"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Dragon Ascent",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Rayquaza": {
+        "spa": -2,
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Transistor"
+    }
+  }
+]

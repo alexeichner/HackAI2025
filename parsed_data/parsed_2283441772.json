@@ -1,0 +1,202 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2b: Archaludon"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "7/100",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2a: Whimsicott": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Archaludon",
+        "super effective"
+      ],
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "14/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2a: Whimsicott": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Overgrow"
+    }
+  }
+]

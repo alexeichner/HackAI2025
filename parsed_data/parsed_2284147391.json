@@ -1,0 +1,342 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Kyogre",
+      "p2a": "Whimsicott",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Regidrago"
+      ],
+      [
+        "p2b: Regidrago",
+        "Draco Meteor",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "17/100",
+      "p2a": "37/100",
+      "p2b": "37/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Regidrago": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2b: Regidrago",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Archaludon",
+      "p2a": "Whimsicott",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "17/100",
+      "p2a": "37/100",
+      "p2b": "37/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Regidrago": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Tornadus"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Archaludon",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Sunny Day",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "37/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Regidrago": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Intrepid Sword",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Landorus",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Zacian",
+        "Sacred Sword",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "37/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Regidrago": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Archaludon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Intrepid Sword",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Landorus",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2a: Zacian"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "11/100",
+      "p2a": "2/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Regidrago": {
+        "spa": -2
+      },
+      "p1b: Archaludon": {
+        "def": 1
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zacian",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Intrepid Sword",
+      "p2b": "Dragon's Maw"
+    }
+  }
+]

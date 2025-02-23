@@ -1,0 +1,668 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus",
+      "p2a": "Urshifu",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Ice Spinner",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "50/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Unseen Fist",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus",
+      "p2a": "Urshifu",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Urshifu",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Encore",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "50/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Urshifu",
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Unseen Fist",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Moonblast",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "50/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Protect",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "3/100",
+      "p2a": "61/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta",
+      "p2a: Zamazenta",
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        "p1a: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Moonblast",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "10/100",
+      "p2a": "27/100",
+      "p2b": "2/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "10/100",
+      "p2a": "27/100",
+      "p2b": "2/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "10/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Landorus",
+      "p2b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Sand Force",
+      "p2a": "Dauntless Shield",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "10/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Chien-Pao": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "spe": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Sand Force",
+      "p2a": "Dauntless Shield",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

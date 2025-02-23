@@ -1,0 +1,480 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Groudon",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p2a: Groudon",
+        "Protect",
+        "p2a: Groudon"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Spore",
+        "p2b: Ditto"
+      ],
+      [
+        "p2b: Ditto",
+        "Bleakwind Storm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Limber"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Groudon",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p2b: Ditto",
+        "Tailwind",
+        "p2b: Ditto"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Ditto"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Spore",
+        "p2a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "68/100",
+      "p2a": "70/100",
+      "p2b": "25/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Ditto"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Limber"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Groudon"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Seed Bomb",
+        "p2a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "58/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Groudon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Brute Bonnet",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1b: Brute Bonnet"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Dazzling Gleam",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Spore",
+        "p2b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "58/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      },
+      "p1a: Khairo": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Khairo",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Brute Bonnet",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Chi-Yu",
+        "p1b: Brute Bonnet"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Brute Bonnet",
+      "p2a": "Ditto",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Khairo",
+        "Play Rough",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Spore",
+        "p2a: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "58/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      },
+      "p1a: Khairo": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Khairo",
+        "p2b: Chi-Yu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Limber",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Araquanid",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Khairo",
+        "Behemoth Blade",
+        "p2a: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "58/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      },
+      "p1a: Khairo": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Water Bubble",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Araquanid",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1b: Araquanid"
+      ],
+      [
+        "p1a: Khairo",
+        "Play Rough",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Araquanid"
+      ],
+      [
+        "p1b: Araquanid",
+        "Liquidation",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "48/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p2b: Ditto": {
+        "spe": -1
+      },
+      "p1a: Khairo": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Khairo",
+        "super effective"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1a: Khairo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Water Bubble",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

@@ -1,0 +1,449 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "95/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex",
+      "p1b: Smeargle"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Own Tempo",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Farigiraf",
+      "p2a": "Iron Hands",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "100/100",
+      "p2a": "72/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Farigiraf",
+      "p2a": "Iron Hands",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Thunder Punch",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "52/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Smeargle",
+      "p2a": "Iron Hands",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Light Screen",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Thunder Punch",
+        "p1b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "13/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Smeargle",
+      "p2a": "Iron Hands",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Detect",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        "p1a: Regidrago"
+      ]
+    ],
+    "hp": {
+      "p1a": "37/100",
+      "p1b": "1/100",
+      "p2a": "13/100",
+      "p2b": "95/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Regidrago",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Farigiraf",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        "p1b: Smeargle"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        "p1b: Smeargle"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Drain Punch",
+        "p1a: Regidrago"
+      ],
+      [
+        "p1a: Regidrago",
+        "Draco Meteor",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Regidrago": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Cud Chew",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Farigiraf",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Iron Hands": {
+        "def": 1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Regidrago": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Cud Chew",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  }
+]

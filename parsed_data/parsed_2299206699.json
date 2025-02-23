@@ -1,0 +1,528 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Miraidon",
+      "p2b": "Sneasler"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Spiky Shield",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Sneasler",
+        "Gunk Shot",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Unnerve",
+      "p2a": "Hadron Engine",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Landorus",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Sneasler",
+        "Acid Spray",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Sneasler"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "97/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ],
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Sand Force",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Landorus",
+      "p2a": "Farigiraf",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Spiky Shield",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "87/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Sand Force",
+      "p2a": "Cud Chew",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Landorus",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2b: Incineroar"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Hyper Voice",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "25/100",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2a: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Sand Force",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Landorus",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Horn Leech",
+        "p2a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "78/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2a: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Sand Force",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "75/100",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Unnerve",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Miraidon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "34/100",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 1
+      },
+      "p1a: Ogerpon": {
+        "atk": 0
+      },
+      "p1b: Landorus": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Unnerve",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Mienshao",
+      "p2a": "Landorus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Mienshao",
+        "Close Combat",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Snarl",
+        "p1b: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "4/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Mienshao": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Mienshao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Inner Focus",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Mienshao",
+      "p2a": "Landorus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Mienshao",
+        "Feint",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Mienshao": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Inner Focus",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  }
+]

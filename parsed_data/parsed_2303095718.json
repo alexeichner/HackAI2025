@@ -1,0 +1,435 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Indeedee",
+        "Imprison",
+        "p2b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Indeedee",
+        "Follow Me",
+        "p2b: Indeedee"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Indeedee"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "70/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ],
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Expanding Force",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "70/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Expanding Force",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

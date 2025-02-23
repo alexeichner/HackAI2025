@@ -1,0 +1,136 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Hitmonchan",
+      "p2a": "Amoonguss",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Protect",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p1a: Calyrex",
+        "Calm Mind",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Hitmonchan",
+        "Taunt",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2a: Amoonguss",
+        "Spore",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Keen Eye",
+      "p2a": "Effect Spore",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Hitmonchan",
+      "p2a": "Amoonguss",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2a: Amoonguss",
+        "Rage Powder",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p1b: Hitmonchan",
+        "Close Combat",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Headlong Rush",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "79/100",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Hitmonchan": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Keen Eye",
+      "p2a": "Effect Spore",
+      "p2b": "Guts"
+    }
+  }
+]

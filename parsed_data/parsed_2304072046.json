@@ -1,0 +1,598 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        "p1a: Landorus"
+      ],
+      [
+        "p2b: Indeedee",
+        "Follow Me",
+        "p2b: Indeedee"
+      ],
+      [
+        "p1b: Basculegion",
+        "Flip Turn",
+        "p2b: Indeedee"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "61/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Indeedee",
+        "Follow Me",
+        "p2b: Indeedee"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        "p2b: Indeedee"
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "56/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Landorus",
+        "p2a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Decorate",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "3/100",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Basculegion",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Spore",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Swift Swim",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Basculegion",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Basculegion",
+        "Aqua Jet",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Smeargle",
+        "Decorate",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Basculegion"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Basculegion",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Swift Swim",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Basculegion",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Smeargle",
+        "Spore",
+        "p1a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Swift Swim",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Basculegion",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Swift Swim",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Basculegion",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Spore",
+        "p1a: Landorus"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Indeedee": {
+        "spd": 0
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "atk": 6,
+        "spa": 4
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Landorus"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Swift Swim",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  }
+]

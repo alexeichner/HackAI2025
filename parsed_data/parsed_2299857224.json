@@ -1,0 +1,335 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Palkia",
+      "p1b": "Ursaluna",
+      "p2a": "Weezing",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p2a: Weezing",
+        "Protect",
+        "p2a: Weezing"
+      ],
+      [
+        "p2b: Regigigas",
+        "Crush Grip",
+        "p1a: Palkia"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Weezing"
+      ],
+      [
+        "p1a: Palkia",
+        "Trick Room",
+        "p1a: Palkia"
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Guts",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Toxicroak",
+      "p2a": "Weezing",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Weezing"
+      ],
+      [
+        "p2a: Weezing",
+        "Sludge Bomb",
+        "p1a: Palkia"
+      ],
+      [
+        "p2b: Regigigas",
+        "Crush Grip",
+        "p1b: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "67/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Anticipation",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Toxicroak",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p2b: Regigigas",
+        "Protect",
+        "p2b: Regigigas"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Regigigas"
+      ],
+      [
+        "p2a: Weezing",
+        "Will-O-Wisp",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Toxicroak",
+        "Close Combat",
+        "p2a: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Toxicroak": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Anticipation",
+      "p2a": "Intrepid Sword",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Toxicroak",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Zacian"
+      ],
+      [
+        "p1b: Toxicroak",
+        "Close Combat",
+        "p2a: Zacian"
+      ],
+      [
+        "p2a: Zacian",
+        "Behemoth Blade",
+        "p1b: Toxicroak"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "4/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Toxicroak": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zacian",
+      "p2a: Zacian",
+      "p2a: Zacian"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Anticipation",
+      "p2a": "Intrepid Sword",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Toxicroak",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "89/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "4/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Toxicroak": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Anticipation",
+      "p2a": "Intrepid Sword",
+      "p2b": "none"
+    }
+  }
+]

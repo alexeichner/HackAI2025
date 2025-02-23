@@ -1,0 +1,922 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Okidogi",
+      "p2a": "Terapagos",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Cresselia",
+        "Helping Hand",
+        "p1b: Okidogi"
+      ],
+      [
+        "p1b: Okidogi",
+        "Gunk Shot",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        "p1a: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Toxic Chain",
+      "p2a": "Tera Shift",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Okidogi",
+      "p2a": "Terapagos",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Amoonguss",
+        "Protect",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1a: Cresselia",
+        "Moonblast",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Okidogi",
+        "Drain Punch",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "47/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Toxic Chain",
+      "p2a": "Tera Shift",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus-Therian",
+      "p1b": "Okidogi",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Okidogi",
+        "Gunk Shot",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "54/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Okidogi",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Toxic Chain",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Okidogi",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        "p1b: Okidogi"
+      ],
+      [
+        "p1a: Landorus",
+        "Stomping Tantrum",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Okidogi",
+        "Drain Punch",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "7/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Toxic Chain",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Okidogi",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Taunt",
+        "p1a: Cresselia"
+      ],
+      [
+        "p1b: Okidogi",
+        "Gunk Shot",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "13/100",
+      "p2b": "17/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Toxic Chain",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1b: Okidogi"
+      ],
+      [
+        "p1a: Cresselia",
+        "Moonblast",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Terapagos",
+        "Earth Power",
+        "p1b: Okidogi"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "20/100",
+      "p2b": "3/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Okidogi",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Thunder Wave",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Cresselia",
+        "Moonblast",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "20/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ],
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Terapagos",
+        "Protect",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Cresselia",
+        "Lunar Blessing",
+        "p1a: Cresselia"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p1a: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "45/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Cresselia",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Cresselia",
+        "Lunar Blessing",
+        "p1a: Cresselia"
+      ],
+      [
+        "p1b: Terapagos",
+        "Calm Mind",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Cresselia"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p1a: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "69/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Cresselia",
+        "super effective"
+      ],
+      [
+        "p1a: Cresselia",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Cresselia",
+        "Helping Hand",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1b: Terapagos",
+        "Flamethrower",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "69/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ],
+      [
+        "p1a: Cresselia",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Cresselia",
+      "p1b": "Terapagos",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Okidogi": {
+        "spe": -1
+      },
+      "p1a: Cresselia": {
+        "atk": -1
+      },
+      "p1b: Terapagos": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  }
+]

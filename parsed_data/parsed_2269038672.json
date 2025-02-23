@@ -1,0 +1,395 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Ninetales-Alola"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Taunt",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Ninetales"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "35/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ninetales",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Cud Chew",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Ninetales-Alola"
+    },
+    "moves": [
+      [
+        "p2b: Ninetales",
+        "Blizzard",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Hyper Voice",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "37/100",
+      "p1b": "62/100",
+      "p2a": "35/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Ninetales",
+        "p1b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Unnerve",
+      "p2a": "Cud Chew",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyurem-White",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1a: Torkoal",
+        "Heat Wave",
+        "p2b: Ninetales"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "37/100",
+      "p1b": "62/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Kyurem",
+        "Turboblaze"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ninetales",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Unnerve",
+      "p2a": "Turboblaze",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyurem-White",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1a: Torkoal",
+        "Heat Wave",
+        "p2a: Kyurem"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Primarina"
+      ],
+      [
+        "p2b: Primarina",
+        "Hyper Voice",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Kyurem",
+        "Earth Power",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "56/100",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyurem",
+        "resisted"
+      ],
+      [
+        "p2b: Primarina",
+        "resisted"
+      ],
+      [
+        "p2a: Kyurem",
+        "resisted"
+      ],
+      [
+        "p2b: Primarina",
+        "resisted"
+      ],
+      [
+        "p1a: Torkoal",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Turboblaze",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyurem-White",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2b: Primarina"
+      ],
+      [
+        "p2a: Kyurem",
+        "Freeze-Dry",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Turboblaze",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyurem-White",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2a: Kyurem"
+      ],
+      [
+        "p2a: Kyurem",
+        "Fusion Flare",
+        "p1a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Turboblaze",
+      "p2b": "Torrent"
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos",
+      "p2a": "Sableye",
+      "p2b": "Yanmega"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Sableye",
+        "Gravity",
+        "p2a: Sableye"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2b: Yanmega"
+      ],
+      [
+        "p2b: Yanmega",
+        "Hypnosis",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2b: Yanmega": {
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Tera Shift",
+      "p2a": "Keen Eye",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos",
+      "p2a": "Sableye",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Sableye",
+        "Encore",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2b: Yanmega": {
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Tornadus"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Tera Shift",
+      "p2a": "Keen Eye",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Terapagos",
+      "p2a": "Sableye",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Sableye",
+        "Disable",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "47/100 slp",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2b: Yanmega": {
+        "spe": 1
+      },
+      "p1a: Smeargle": {
+        "spd": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Teraform Zero",
+      "p2a": "Keen Eye",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Tornadus",
+      "p2a": "Sableye",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Sableye",
+        "Encore",
+        ""
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2a: Sableye"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "31/100",
+      "p2a": "100/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2b: Yanmega": {
+        "spe": 1
+      },
+      "p1a: Smeargle": {
+        "spd": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Sableye"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Keen Eye",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Tornadus",
+      "p2a": "Roaring Moon",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2b: Yanmega": {
+        "spe": 1
+      },
+      "p1a: Smeargle": {
+        "spd": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  }
+]

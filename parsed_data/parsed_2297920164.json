@@ -1,0 +1,431 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Moltres",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Moltres",
+        "Heat Wave",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "62/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Groudon",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Moltres",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Hyper Voice",
+        "p1a: Groudon"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Moltres",
+        "Heat Wave",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "70/100",
+      "p2a": "53/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Groudon",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Moltres",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Moltres",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Hyper Voice",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Moltres",
+        "Heat Wave",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "30/100",
+      "p2a": "81/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Groudon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Iron Valiant",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Moltres",
+        "Heat Wave",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Moltres",
+      "p1b: Moltres"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Moltres",
+        "super effective"
+      ],
+      [
+        "p1b: Moltres",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Iron Valiant",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Psyshock",
+        "p1b: Iron Valiant"
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Moonblast",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "8/100",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Iron Valiant",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "8/100",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  }
+]

@@ -1,0 +1,605 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Farigiraf",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Taunt",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Trick Room",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Cud Chew",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Ursaluna",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Guts",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Ursaluna",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Protect",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "0 fnt",
+      "p2a": "56/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Guts",
+      "p2a": "Overgrow",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ursaluna",
+      "p2a": "Rillaboom",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Facade",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "95/100 brn",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Torkoal": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p1b: Ursaluna": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [
+      [
+        "p1a: Torkoal",
+        "Air Balloon"
+      ]
+    ],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Guts",
+      "p2a": "Overgrow",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Rillaboom",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1b: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "0 fnt",
+      "p2a": "38/100",
+      "p2b": "41/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Torkoal": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p1b: Ursaluna": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Mold Breaker",
+      "p2a": "Overgrow",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1a: Torkoal",
+        "Overheat",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "0 fnt",
+      "p2a": "19/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Torkoal": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p1b: Ursaluna": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Mold Breaker",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1a: Torkoal"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Moonblast",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "46/100",
+      "p2a": "0 fnt",
+      "p2b": "44/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Torkoal": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p1b: Ursaluna": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Mold Breaker",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "46/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Torkoal": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p1b: Ursaluna": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Mold Breaker",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  }
+]

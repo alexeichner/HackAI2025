@@ -1,0 +1,497 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Indeedee-F",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee",
+        "Follow Me",
+        "p1b: Indeedee"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Indeedee"
+      ],
+      [
+        "p2a: Urshifu",
+        "Taunt",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "49/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Indeedee-F",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee",
+        "Helping Hand",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "63/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Embody Aspect (Hearthflame)"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Ursaluna",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "63/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Ursaluna",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Facade",
+        "p2b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "95/100 brn",
+      "p2a": "100/100",
+      "p2b": "5/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Ursaluna",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Facade",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "89/100 brn",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Amoonguss"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Ursaluna",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Protect",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "19/100",
+      "p1b": "83/100 brn",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Ursaluna",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Earthquake",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "17/100 slp",
+      "p2b": "45/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

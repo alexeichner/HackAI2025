@@ -1,0 +1,420 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Indeedee-F",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Baxcalibur"
+      ],
+      [
+        "p2b: Baxcalibur",
+        "Icicle Spear",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "29/100",
+      "p2a": "2/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Baxcalibur",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Dondozo",
+      "p2a": "Murkrow",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Helping Hand",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Protect",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "67/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unaware",
+      "p2a": "Insomnia",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Murkrow",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Murkrow",
+        "Haze",
+        "p2a: Murkrow"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p1b: Dondozo",
+        "Wave Crash",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "23/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "Insomnia",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Chi-Yu",
+      "p2a": "Murkrow",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Murkrow",
+        "Hurricane",
+        "p1b: Dondozo"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tatsugiri",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Beads of Ruin",
+      "p2a": "Insomnia",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Chi-Yu",
+      "p2a": "Murkrow",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Murkrow",
+        "Tailwind",
+        "p2a: Murkrow"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Draco Meteor",
+        "p2a: Murkrow"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Dark Pulse",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "1/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Tatsugiri": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tatsugiri",
+        "resisted"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Beads of Ruin",
+      "p2a": "Insomnia",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Chi-Yu",
+      "p2a": "Murkrow",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Murkrow",
+        "Hurricane",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Draco Meteor",
+        "p2a: Murkrow"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Tatsugiri": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Chi-Yu"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Beads of Ruin",
+      "p2a": "Insomnia",
+      "p2b": "Drizzle"
+    }
+  }
+]

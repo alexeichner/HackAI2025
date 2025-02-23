@@ -1,0 +1,134 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Amoonguss",
+      "p2a": "Groudon",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Protect",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Groudon",
+        "Heat Crash",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "27/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Groudon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Effect Spore",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Amoonguss",
+      "p2a": "Groudon",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p2a: Groudon",
+        "Heat Crash",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Iron Hands",
+        "Iron Defense",
+        "p2b: Iron Hands"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2a: Groudon"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        "p2b: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "78/100 slp"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Iron Hands": {
+        "def": 2
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Effect Spore",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  }
+]

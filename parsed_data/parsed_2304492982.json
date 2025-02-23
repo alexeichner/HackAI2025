@@ -1,0 +1,420 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Heatran",
+      "p2b": "Wo-Chien"
+    },
+    "moves": [
+      [
+        "p2a: Heatran",
+        "Protect",
+        "p2a: Heatran"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Wo-Chien"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Heatran"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Flash Fire",
+      "p2b": "Tablets of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Toxapex",
+      "p2b": "Wo-Chien"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        "p2b: Wo-Chien"
+      ],
+      [
+        "p2b: Wo-Chien",
+        "Knock Off",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "38/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Wo-Chien",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Merciless",
+      "p2b": "Tablets of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Toxapex",
+      "p2b": "Lugia"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Lugia"
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        "p2b: Lugia"
+      ],
+      [
+        "p2a: Toxapex",
+        "Toxic",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100 tox",
+      "p1b": "100/100",
+      "p2a": "52/100",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lugia",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Merciless",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Toxapex",
+      "p2b": "Lugia"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Toxapex",
+        "Wide Guard",
+        "p2a: Toxapex"
+      ],
+      [
+        "p2b: Lugia",
+        "Calm Mind",
+        "p2b: Lugia"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Lugia"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100 tox",
+      "p1b": "100/100",
+      "p2a": "52/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      },
+      "p2b: Lugia": {
+        "spa": 0,
+        "spd": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Unnerve",
+      "p2a": "Merciless",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Toxapex",
+      "p2b": "Lugia"
+    },
+    "moves": [
+      [
+        "p2a: Toxapex",
+        "Wide Guard",
+        "p2a: Toxapex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Lugia",
+        "Recover",
+        "p2b: Lugia"
+      ],
+      [
+        "p1a: Ditto",
+        "Earth Power",
+        "p2a: Toxapex"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100 tox",
+      "p1b": "100/100",
+      "p2a": "19/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      },
+      "p2b: Lugia": {
+        "spa": 0,
+        "spd": 1,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Toxapex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Unnerve",
+      "p2a": "Merciless",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Toxapex",
+      "p2b": "Lugia"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2a: Toxapex"
+      ],
+      [
+        "p2b: Lugia",
+        "Aeroblast",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Ditto",
+        "Aeroblast",
+        "p2b: Lugia"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100 tox",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "99/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Heatran": {
+        "atk": -1
+      },
+      "p2b: Wo-Chien": {
+        "atk": -1
+      },
+      "p2b: Lugia": {
+        "spa": 0,
+        "spd": 1,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Toxapex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Grim Neigh",
+      "p2a": "Merciless",
+      "p2b": "Pressure"
+    }
+  }
+]

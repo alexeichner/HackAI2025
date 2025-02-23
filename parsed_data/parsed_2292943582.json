@@ -1,0 +1,329 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Landorus"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "Taunt",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Unnerve",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "Freeze-Dry",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "34/100",
+      "p1b": "64/100",
+      "p2a": "56/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Iron Bundle",
+        "super effective"
+      ],
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2a: Landorus",
+        "resisted"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Chilling Neigh",
+      "p2a": "Sand Force",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Volt Switch",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "3/100",
+      "p2a": "9/100",
+      "p2b": "49/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2a: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Landorus",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p2b: Iron Hands",
+        "Fake Out",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "9/100",
+      "p2b": "49/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Landorus",
+      "p2b": "Iron Hands"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "9/100",
+      "p2b": "49/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Sand Force",
+      "p2b": "none"
+    }
+  }
+]

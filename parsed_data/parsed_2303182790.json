@@ -1,0 +1,809 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Heatran",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2a: Heatran"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Heatran",
+        "Magma Storm",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "45/100",
+      "p2a": "55/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Mold Breaker",
+      "p2a": "Flash Fire",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Heatran",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p2a: Heatran",
+        "Magma Storm",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100",
+      "p2b": "83/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Flash Fire",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Rillaboom",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Scream Tail",
+        "Encore",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Rillaboom",
+      "p2a: Rillaboom",
+      "p2a: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Heatran",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Taunt",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p2b: Scream Tail",
+        "Dazzling Gleam",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "74/100",
+      "p2a": "74/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Flash Fire",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Rillaboom",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Volt Switch",
+        "p2a: Heatran"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p2b: Scream Tail",
+        "Dazzling Gleam",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "46/100",
+      "p2a": "0 fnt",
+      "p2b": "33/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Scream Tail",
+      "p2b: Scream Tail",
+      "p2b: Scream Tail"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Rillaboom",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Scream Tail",
+        "Dazzling Gleam",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "52/100",
+      "p2a": "80/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Rillaboom",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Scream Tail",
+        "Dazzling Gleam",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "32/100",
+      "p2a": "80/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Terapagos",
+      "p2b": "Scream Tail"
+    },
+    "moves": [
+      [
+        "p2b: Scream Tail",
+        "Protect",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "9/100",
+      "p2a": "100/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Scream Tail"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "10/100",
+      "p2a": "82/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100",
+      "p1b": "17/100",
+      "p2a": "94/100",
+      "p2b": "62/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Teraform Zero",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Miraidon",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "19/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Scream Tail": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Teraform Zero",
+      "p2b": "Overgrow"
+    }
+  }
+]

@@ -1,0 +1,428 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Latios",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Latios"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "4/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Latios",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Levitate",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Kyogre",
+      "p2b": "Overqwil"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "45/100",
+      "p2a": "77/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "atk": -1
+      },
+      "p2b: Overqwil": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Drizzle",
+      "p2b": "Poison Point"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "66/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "atk": -1
+      },
+      "p2b: Overqwil": {
+        "atk": -1
+      },
+      "p1b: Archaludon": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Latios",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Protect",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "56/100",
+      "p2a": "71/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "atk": -1
+      },
+      "p2b: Overqwil": {
+        "atk": -1
+      },
+      "p1b: Archaludon": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Latios",
+      "p2a": "Rillaboom",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "0 fnt",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "atk": -1
+      },
+      "p2b: Overqwil": {
+        "atk": -1
+      },
+      "p1b: Archaludon": {
+        "spa": 2
+      },
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Overgrow",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Latios",
+      "p2a": "Rillaboom",
+      "p2b": "Landorus"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "0 fnt",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "atk": -1
+      },
+      "p2b: Overqwil": {
+        "atk": -1
+      },
+      "p1b: Archaludon": {
+        "spa": 2
+      },
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Overgrow",
+      "p2b": "Sand Force"
+    }
+  }
+]

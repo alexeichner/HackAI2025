@@ -1,0 +1,141 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Dewgong",
+      "p1b": "Lunala",
+      "p2a": "Zapdos-Galar",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Dewgong",
+        "Fake Out",
+        "p2a: Zapdos"
+      ],
+      [
+        "p2a: Zapdos",
+        "Brave Bird",
+        "p1b: Lunala"
+      ],
+      [
+        "p1b: Lunala",
+        "Moonblast",
+        "p2a: Zapdos"
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "73/100",
+      "p2a": "48/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zapdos": {
+        "spa": -1,
+        "atk": 2,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zapdos",
+        "Defiant"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Shadow Shield",
+      "p2a": "Defiant",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dewgong",
+      "p1b": "Lunala",
+      "p2a": "Zapdos-Galar",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Dewgong",
+        "Aqua Jet",
+        "p2a: Zapdos"
+      ],
+      [
+        "p2a: Zapdos",
+        "Close Combat",
+        "p1b: Lunala"
+      ],
+      [
+        "p2b: Lunala",
+        "Calm Mind",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "38/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zapdos": {
+        "spa": -1,
+        "atk": 2,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Shadow Shield",
+      "p2a": "Defiant",
+      "p2b": "Shadow Shield"
+    }
+  }
+]

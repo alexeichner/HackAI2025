@@ -1,0 +1,147 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Dondozo",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Clefairy",
+        "Protect",
+        "p2b: Clefairy"
+      ],
+      [
+        "p1a: Miraidon",
+        "Volt Switch",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Dondozo",
+        "Earthquake",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unaware",
+      "p2a": "Unnerve",
+      "p2b": "Cute Charm"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Dondozo",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p2b: Clefairy",
+        "Follow Me",
+        "p2b: Clefairy"
+      ],
+      [
+        "p1a: Miraidon",
+        "Volt Switch",
+        "p2b: Clefairy"
+      ],
+      [
+        "p1b: Dondozo",
+        "Earthquake",
+        "p2b: Clefairy"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "85/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unaware",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cute Charm"
+    }
+  }
+]

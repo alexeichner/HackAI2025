@@ -1,0 +1,297 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Indeedee-F",
+      "p2a": "Terapagos",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "35/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Baxcalibur",
+      "p1b": "Weezing-Galar",
+      "p2a": "Terapagos",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "72/100",
+      "p2a": "29/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Weezing",
+        "Neutralizing Gas"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Thermal Exchange",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Weezing-Galar",
+      "p2a": "Terapagos",
+      "p2b": "Dusclops"
+    },
+    "moves": [
+      [
+        "p1a: Baxcalibur",
+        "Scale Shot",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Terapagos",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1b: Weezing",
+        "Gunk Shot",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "72/100",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Baxcalibur": {
+        "def": -1,
+        "spe": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Baxcalibur",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Tera Shift",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Weezing-Galar",
+      "p2a": "Terapagos",
+      "p2b": "Dusclops"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Weezing",
+        "Clear Smog",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Dusclops",
+        "Night Shade",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Baxcalibur": {
+        "def": -1,
+        "spe": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Tera Shift",
+      "p2b": "Pressure"
+    }
+  }
+]

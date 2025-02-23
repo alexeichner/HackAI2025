@@ -1,0 +1,380 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Dazzling Gleam",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Koraidon",
+        "U-turn",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        "p2b: Indeedee"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "48/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Indeedee"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Beat Up",
+        "p2b: Armarouge"
+      ],
+      [
+        "p2b: Armarouge",
+        "Heat Wave",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        "p2b: Armarouge"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "1/100",
+      "p2a": "48/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Armarouge",
+        "Weak Armor"
+      ],
+      [
+        "p2b: Armarouge",
+        "Weak Armor"
+      ],
+      [
+        "p2b: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Armarouge"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Armarouge",
+        "p1b: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Whimsicott",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Dazzling Gleam",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Koraidon",
+        "Flare Blitz",
+        "p1: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "48/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Koraidon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Whimsicott",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Dazzling Gleam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Koraidon",
+        "Flare Blitz",
+        "p1a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "48/100",
+      "p2b": "82/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Whimsicott",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Dazzling Gleam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Koraidon",
+        "Flare Blitz",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "48/100",
+      "p2b": "60/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Orichalcum Pulse"
+    }
+  }
+]

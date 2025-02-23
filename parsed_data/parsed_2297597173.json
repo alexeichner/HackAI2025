@@ -1,0 +1,465 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Landorus",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Fake Out",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Knock Off",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Dazzling Gleam",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Fake Tears",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "18/100",
+      "p2a": "38/100",
+      "p2b": "47/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Volcarona",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "18/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Flame Body",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Volcarona",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Volcarona",
+        "Will-O-Wisp",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "73/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1b: Landorus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Flame Body",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Volcarona",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Volcarona",
+        "Fiery Dance",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100 brn",
+      "p1b": "43/100",
+      "p2a": "89/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p2a: Volcarona": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Volcarona",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Flame Body",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Volcarona",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Volcarona",
+        "Protect",
+        "p2a: Volcarona"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "89/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p2a: Volcarona": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Flame Body",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Volcarona",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Volcarona"
+      ],
+      [
+        "p2a: Volcarona",
+        "Fiery Dance",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p2a: Volcarona": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Volcarona",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Flame Body",
+      "p2b": "none"
+    }
+  }
+]

@@ -1,0 +1,683 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Arcanine"
+    },
+    "moves": [
+      [
+        "p1b: Chi-Yu",
+        "Overheat",
+        "p2a: Samurott"
+      ],
+      [
+        "p2a: Samurott",
+        "Ceaseless Edge",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Arcanine"
+      ],
+      [
+        "p2b: Arcanine",
+        "Will-O-Wisp",
+        "p1a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "11/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Samurott",
+        "resisted"
+      ],
+      [
+        "p2b: Arcanine",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Samurott",
+        "p1b: Chi-Yu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Beads of Ruin",
+      "p2a": "Tera Shift",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p1b: Chi-Yu",
+        "Overheat",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Arcanine"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Arcanine",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Groudon",
+        "p2a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Beads of Ruin",
+      "p2a": "Tera Shift",
+      "p2b": "Opportunist"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Talonflame",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p2b: Espathra",
+        "Calm Mind",
+        "p2b: Espathra"
+      ],
+      [
+        "p2a: Terapagos",
+        "Rest",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Espathra",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Flame Body",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Talonflame",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p2b: Espathra",
+        "Protect",
+        "p2b: Espathra"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Talonflame",
+        "Taunt",
+        "p2b: Espathra"
+      ],
+      [
+        "p2a: Terapagos",
+        "Sleep Talk",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Espathra",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Flame Body",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Talonflame",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p1b: Talonflame",
+        "Tailwind",
+        "p1b: Talonflame"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2b: Espathra"
+      ],
+      [
+        "p2b: Espathra",
+        "Lumina Crash",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2a: Terapagos",
+        "Sleep Talk",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      },
+      "p1a: Flutter Mane": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Espathra",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Flame Body",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p2b: Espathra",
+        "Protect",
+        "p2b: Espathra"
+      ],
+      [
+        "p1b: Talonflame",
+        "Taunt",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2b: Espathra"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Talonflame"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      },
+      "p1a: Flutter Mane": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Espathra",
+        "Speed Boost"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Groudon",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p1b: Chi-Yu",
+        "Overheat",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Espathra",
+        "Dazzling Gleam",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      },
+      "p1a: Flutter Mane": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Espathra",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Chi-Yu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Groudon",
+      "p2a": "Terapagos",
+      "p2b": "Espathra"
+    },
+    "moves": [
+      [
+        "p2b: Espathra",
+        "Lumina Crash",
+        "p1b: Groudon"
+      ],
+      [
+        "p1b: Groudon",
+        "Precipice Blades",
+        "p2b: Espathra"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "5/100",
+      "p2b": "69/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Chi-Yu": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p2a: Terapagos": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Espathra": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 4
+      },
+      "p1a: Flutter Mane": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Tera Shift",
+      "p2b": "Speed Boost"
+    }
+  }
+]

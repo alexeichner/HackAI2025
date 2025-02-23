@@ -1,0 +1,361 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Roaring Moon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Protect",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Lunala",
+        "Calm Mind",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "92/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Lunala",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Tailwind",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Comfey"
+      ],
+      [
+        "p1b: Lunala",
+        "Dazzling Gleam",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Comfey",
+      "p1a: Comfey",
+      "p1a: Comfey"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Shadow Shield",
+      "p2a": "Sand Force",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Sludge Bomb",
+        "p1b: Lunala"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Lunala",
+        "Dazzling Gleam",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "54/100",
+      "p2a": "42/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Lunala",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Sand Force",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Landorus"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Lunala",
+        "Dazzling Gleam",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "52/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Sand Force",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "52/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Lunala": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Sand Force",
+      "p2b": "Unnerve"
+    }
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Flutter Mane",
+      "p2a": "Thundurus",
+      "p2b": "Cresselia"
+    },
+    "moves": [
+      [
+        "p2a: Thundurus",
+        "Thunder Wave",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Taunt",
+        "p2a: Thundurus"
+      ],
+      [
+        "p2b: Cresselia",
+        "Moonblast",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Levitate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Flutter Mane",
+      "p2a": "Thundurus",
+      "p2b": "Cresselia"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2b: Cresselia"
+      ],
+      [
+        "p2a: Thundurus",
+        "Wildbolt Storm",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2b: Cresselia",
+        "Moonblast",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2b: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "49/100",
+      "p1b": "26/100 par",
+      "p2a": "100/100",
+      "p2b": "51/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Cresselia",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Levitate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Thundurus",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Thundurus",
+        "Wildbolt Storm",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Thundurus"
+      ]
+    ],
+    "hp": {
+      "p1a": "21/100 par",
+      "p1b": "0 fnt",
+      "p2a": "58/100",
+      "p2b": "51/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Landorus-Therian",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        "p2a: Thundurus"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "21/100 par",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "51/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Incineroar",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Intimidate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Cresselia",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Rock Slide",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        "p2a: Landorus"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Behemoth Bash",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "51/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Levitate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Cresselia",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Thundurus": {
+        "atk": -1
+      },
+      "p2b: Cresselia": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Cresselia",
+      "p2a: Cresselia",
+      "p2a: Cresselia"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Levitate",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

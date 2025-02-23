@@ -1,0 +1,833 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Dragonite",
+        "Scale Shot",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Protect",
+        "p2a: Dragonite"
+      ],
+      [
+        "p1a: Koraidon",
+        "Collision Course",
+        "p2b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Dragonite"
+      ],
+      [
+        "p2b: Incineroar",
+        "Will-O-Wisp",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Incineroar",
+      "p2a": "Miraidon",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Flame Charge",
+        "p2b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "94/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Intimidate",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Rillaboom",
+      "p2a": "Miraidon",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Collision Course",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p2b: Iron Bundle",
+        "Icy Wind",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "71/100",
+      "p2a": "94/100 brn",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Iron Bundle"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Iron Bundle",
+        "super effective"
+      ],
+      [
+        "p1a: Koraidon",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Overgrow",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Iron Bundle"
+    },
+    "moves": [
+      [
+        "p2b: Iron Bundle",
+        "Protect",
+        "p2b: Iron Bundle"
+      ],
+      [
+        "p1a: Koraidon",
+        "Flame Charge",
+        "p2b: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "71/100",
+      "p2a": "94/100 brn",
+      "p2b": "13/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Dragonite",
+        "Protect",
+        "p2a: Dragonite"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "71/100",
+      "p2a": "94/100 brn",
+      "p2b": "88/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Collision Course",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Volt Switch",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Dragonite",
+        "Scale Shot",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "94/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Koraidon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Dragonite",
+        "Fire Punch",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "72/100",
+      "p2a": "94/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Fire Punch",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2a: Dragonite"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "78/100",
+      "p2a": "27/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2a: Dragonite",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "78/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2a: Dragonite": {
+        "atk": -2,
+        "def": -1,
+        "spe": 1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Koraidon": {
+        "spe": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p2b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Bug"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

@@ -1,0 +1,696 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Annihilape",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Taunt",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Annihilape",
+        "Coaching",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Vital Spirit",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Annihilape",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Taunt",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Annihilape",
+        "Close Combat",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "100/100",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Sturdy"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Vital Spirit",
+      "p2a": "Sturdy",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Wellspring",
+      "p1b": "Annihilape",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Annihilape",
+        "Coaching",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "100/100",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Vital Spirit",
+      "p2a": "Sturdy",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Wellspring",
+      "p1b": "Annihilape",
+      "p2a": "Landorus",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1b: Annihilape",
+        "Rage Fist",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "30/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Vital Spirit",
+      "p2a": "Sand Force",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Wellspring",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Annihilape",
+        "Rage Fist",
+        "p2a: Landorus"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Landorus"
+      ],
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic",
+        "p1b: Annihilape"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "0 fnt",
+      "p2a": "37/100",
+      "p2b": "30/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "resisted"
+      ],
+      [
+        "p1b: Annihilape",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Landorus",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sand Force",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Wellspring",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Protect",
+        "p2a: Landorus"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "0 fnt",
+      "p2a": "37/100",
+      "p2b": "55/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sand Force",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Landorus",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Encore",
+        "p2a: Landorus"
+      ],
+      [
+        "p2a: Landorus",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "56/100",
+      "p2a": "5/100",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Landorus"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Landorus",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Unnerve",
+      "p2a": "Sand Force",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1a: Urshifu",
+        "Wicked Blow",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Cud Chew",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Farigiraf",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Ogerpon": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Landorus",
+        "p1b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Cud Chew",
+      "p2b": "Sand Force"
+    }
+  }
+]

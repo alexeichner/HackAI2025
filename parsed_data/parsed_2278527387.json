@@ -1,0 +1,143 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Amoonguss",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Shadow Ball",
+        "p1b: Entei"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Entei"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Amoonguss",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "94/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spd": -1
+      },
+      "p1b: Amoonguss": {
+        "spe": -1
+      },
+      "p2b: Chi-Yu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

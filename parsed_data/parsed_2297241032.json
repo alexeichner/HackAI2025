@@ -1,0 +1,406 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Incineroar",
+      "p2a": "Miraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Miraidon"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1a: Terapagos"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "100/100",
+      "p2a": "11/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Intimidate",
+      "p2a": "Hadron Engine",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Farigiraf",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1a: Landorus"
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Chi-Yu",
+        "p1a: Landorus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "none",
+      "p2a": "Cud Chew",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Whimsicott",
+      "p2a": "Farigiraf",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1b: Terapagos"
+      ],
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Trick Room",
+        "p2a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Prankster",
+      "p2a": "Cud Chew",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Whimsicott",
+      "p2a": "Farigiraf",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Moonblast",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        "p2b: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "16/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Ursaluna": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Prankster",
+      "p2a": "Cud Chew",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Whimsicott",
+      "p2a": "Farigiraf",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        "p1a: Landorus"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "10/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Ursaluna": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Prankster",
+      "p2a": "Cud Chew",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Whimsicott",
+      "p2a": "Farigiraf",
+      "p2b": "Ursaluna"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "10/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Ursaluna": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Prankster",
+      "p2a": "Cud Chew",
+      "p2b": "Guts"
+    }
+  }
+]

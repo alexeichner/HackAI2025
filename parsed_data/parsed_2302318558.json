@@ -1,0 +1,418 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regieleki",
+      "p1b": "Kyogre",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Protect",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p1a: Regieleki",
+        "Electroweb",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "2/100",
+      "p2a": "100/100",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Transistor",
+      "p1b": "Drizzle",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Regieleki",
+      "p1b": "Kyogre",
+      "p2a": "Rillaboom",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Regieleki",
+        "Protect",
+        "p1a: Regieleki"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        "p1a: Regieleki"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "8/100",
+      "p2a": "100/100",
+      "p2b": "41/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Transistor",
+      "p1b": "Drizzle",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Farigiraf",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Regieleki",
+        "Tera Blast",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Regieleki"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "8/100",
+      "p2a": "82/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Cud Chew",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1a: Landorus"
+      ],
+      [
+        "p1a: Landorus",
+        "Sludge Bomb",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Trick Room",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "8/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Protect",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "8/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Dazzling Gleam",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        "p2a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "8/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

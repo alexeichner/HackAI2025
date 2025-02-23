@@ -1,0 +1,414 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        "p1a: Indeedee"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Indeedee"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "74/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Smeargle",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Spiky Shield",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        "p1a: Indeedee"
+      ],
+      [
+        "p2a: Tornadus",
+        "Sunny Day",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "74/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Own Tempo",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Smeargle",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2a: Dark Void",
+        "Wide Guard",
+        "p2a: Dark Void"
+      ],
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Horn Leech",
+        "p1a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "74/100",
+      "p2a": "0 fnt",
+      "p2b": "30/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Dark Void": {
+        "spe": 2,
+        "def": -2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Dark Void",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Chilling Neigh",
+      "p2a": "Moody",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Dark Void",
+        "Wide Guard",
+        "p2a: Dark Void"
+      ],
+      [
+        "p1a: Torkoal",
+        "Weather Ball",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Dark Void"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "74/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Dark Void": {
+        "spe": 2,
+        "def": -2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Dark Void",
+        "Moody"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Chilling Neigh",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Torkoal",
+        "Weather Ball",
+        "p2a: Dark Void"
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        "p2a: Dark Void"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "74/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Dark Void": {
+        "spe": 2,
+        "def": -2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Chilling Neigh",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Torkoal",
+        "Weather Ball",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "31/100",
+      "p1b": "35/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Dark Void": {
+        "spe": 2,
+        "def": -2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Chilling Neigh",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  }
+]

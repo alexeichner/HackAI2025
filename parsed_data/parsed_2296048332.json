@@ -1,0 +1,333 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Kyogre",
+      "p2a": "Terapagos",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        "p1a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Kyogre",
+      "p2a": "Terapagos",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Fake Tears",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Knock Off",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "0 fnt",
+      "p2a": "64/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Teraform Zero",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Kyogre",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Fake Tears",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Acrobatics",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p1b: Kyogre": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p1a: Roaring Moon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Landorus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Kyogre",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Acrobatics",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "15/100",
+      "p2a": "0 fnt",
+      "p2b": "37/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p1b: Kyogre": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p1a: Roaring Moon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Flying"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Kyogre",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "40/100",
+      "p2b": "21/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Landorus": {
+        "spd": -2
+      },
+      "p1b: Kyogre": {
+        "spd": -2,
+        "atk": -1
+      },
+      "p1a: Roaring Moon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Flying"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

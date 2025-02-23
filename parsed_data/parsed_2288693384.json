@@ -1,0 +1,125 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Landorus",
+      "p2a": "Flutter Mane",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Melman",
+        "Draco Meteor",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Merenoleona",
+        "Trick Room",
+        "p2a: Merenoleona"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Landorus",
+      "p2a": "Flutter Mane",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Melman",
+        "Draco Meteor",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Merenoleona",
+        "Dazzling Gleam",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Melman"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "76/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Melman": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Melman",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Merenoleona"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

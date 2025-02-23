@@ -1,0 +1,453 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Iron Bundle"
+      ],
+      [
+        "p1a: Iron Bundle",
+        "Freeze-Dry",
+        "p2b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Draco Meteor",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "17/100",
+      "p2a": "91/100",
+      "p2b": "26/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Bundle",
+        "super effective"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "17/100",
+      "p2a": "81/100",
+      "p2b": "26/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Bundle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Miraidon",
+      "p2a": "Ursaluna",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Scale Shot",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1b: Incineroar",
+        "U-turn",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "17/100",
+      "p2a": "53/100",
+      "p2b": "45/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Dragonite": {
+        "def": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ursaluna",
+      "p2b: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Hadron Engine",
+      "p2a": "Guts",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Incineroar",
+      "p2a": "Ursaluna",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Protect",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Dazzling Gleam",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Dragonite",
+        "Iron Head",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "97/100",
+      "p1b": "75/100",
+      "p2a": "47/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p2a: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Dragonite",
+        "resisted"
+      ],
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Intimidate",
+      "p2a": "Guts",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Ursaluna",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Rising Voltage",
+        "p1a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100",
+      "p2a": "32/100 brn",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p2a: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Steel",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Guts",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Ursaluna",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100",
+      "p2a": "32/100 brn",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p2a: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Steel",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Guts",
+      "p2b": "none"
+    }
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Taunt",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "69/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Unnerve",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "49/100",
+      "p2a": "43/100",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Chi-Yu",
+        "p2a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Unnerve",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Bastiodon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        "p1b: Chi-Yu"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "43/100",
+      "p2b": "33/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Sturdy",
+      "p2a": "Chilling Neigh",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Bastiodon",
+      "p2a": "Smeargle",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p1b: Bastiodon",
+        "Foul Play",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "27/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Sturdy",
+      "p2a": "Own Tempo",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Bastiodon",
+      "p2a": "Indeedee-F",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1b: Bastiodon"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        "p1a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "0 fnt",
+      "p2b": "21/100 brn"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Sturdy",
+      "p2a": "none",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Bastiodon",
+      "p2a": "Indeedee-F",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        "p2a: Indeedee"
+      ],
+      [
+        "p1a: Koraidon",
+        "Breaking Swipe",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p1b: Bastiodon",
+        "Foul Play",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "51/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Sturdy",
+      "p2a": "none",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Bastiodon",
+      "p2a": "Indeedee-F",
+      "p2b": "Ursaluna"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "51/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "def": 2,
+        "spa": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "Sturdy",
+      "p2a": "none",
+      "p2b": "Guts"
+    }
+  }
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Torterra",
+      "p1b": "Entei",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Fake Out",
+        "p1a: Torterra"
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1b: Entei"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "2/100",
+      "p2a": "84/100",
+      "p2b": "60/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Latios",
+      "p1b": "Terapagos",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Torterra"
+      ],
+      [
+        "p1a: Torterra",
+        "Shell Smash",
+        "p1a: Torterra"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Low Kick",
+        "p1a: Torterra"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "44/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Torterra": {
+        "def": -1,
+        "spd": -1,
+        "atk": 2,
+        "spa": 2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Latios",
+      "p1b": "Terapagos",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Latios"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Drain Punch",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "70/100",
+      "p2b": "35/100 brn"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Torterra": {
+        "def": -1,
+        "spd": -1,
+        "atk": 2,
+        "spa": 2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Latios",
+        "super effective"
+      ],
+      [
+        "p1b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Levitate",
+      "p1b": "Tera Shift",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

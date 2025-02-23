@@ -1,0 +1,260 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Landorus-Therian",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Weezing",
+        "Protect",
+        "p1b: Weezing"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Weezing"
+      ],
+      [
+        "p2a: Landorus",
+        "Stomping Tantrum",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "100/100",
+      "p2a": "61/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Landorus-Therian",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Weezing"
+      ],
+      [
+        "p2a: Landorus",
+        "Stomping Tantrum",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "0 fnt",
+      "p2a": "19/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Weezing"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Weezing",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Commander",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Raging Bolt",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Tatsugiri"
+      ],
+      [
+        "p1b: Tatsugiri",
+        "Mirror Coat",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Commander",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Raging Bolt",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1b: Tatsugiri",
+        "Protect",
+        "p1b: Tatsugiri"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Horn Leech",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "3/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Commander",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  }
+]

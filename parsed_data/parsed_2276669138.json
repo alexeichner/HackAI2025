@@ -1,0 +1,413 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Amoonguss",
+      "p2a": "Miraidon",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Protect",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Effect Spore",
+      "p2a": "Hadron Engine",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Calm Mind",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic Noise",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Sludge Bomb",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "45/100",
+      "p2a": "67/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Roaring Moon",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1a: Kyogre",
+        "Calm Mind",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic Noise",
+        "p1b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "72/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Roaring Moon",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Acrobatics",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Kyogre",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Roaring Moon",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Low Kick",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Knock Off",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "88/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Hands",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Roaring Moon",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "88/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  }
+]

@@ -1,0 +1,934 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Ursaluna",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "100/100",
+      "p2a": "87/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lunala",
+        "resisted"
+      ],
+      [
+        "p2b: Lunala",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Guts",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Raging Bolt",
+      "p2a": "Incineroar",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Moonblast",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "45/100",
+      "p2a": "60/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        "p1a: Landorus"
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1a: Landorus"
+      ],
+      [
+        "p2b: Lunala",
+        "Moonblast",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Protect",
+        "p2b: Lunala"
+      ],
+      [
+        "p1a: Landorus",
+        "Sludge Bomb",
+        "p2b: Lunala"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [
+      "p1a: Landorus",
+      "p1a: Landorus",
+      "p1a: Landorus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "super effective"
+      ],
+      [
+        "p1a: Landorus",
+        "super effective"
+      ],
+      [
+        "p1a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "34/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Lunala",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Lunala"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "51/100",
+      "p2a": "43/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Shadow Shield",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "7/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex",
+      "p1b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Protect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "7/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -2,
+        "spa": 0
+      },
+      "p2a: Ursaluna": {
+        "spa": -1
+      },
+      "p1a: Landorus": {
+        "atk": -2
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -3
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

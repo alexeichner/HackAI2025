@@ -1,0 +1,507 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Comfey",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1b: Comfey"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "61/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Comfey",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Flower Veil",
+      "p2a": "Prankster",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Comfey",
+      "p2a": "Tornadus",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        ""
+      ],
+      [
+        "p1b: Comfey",
+        "Trick Room",
+        "p1b: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "61/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Tornadus"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Flower Veil",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Dragonite",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "65/100",
+      "p2a": "100/100",
+      "p2b": "67/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Inner Focus",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Dragonite",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1a: Comfey"
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "36/100",
+      "p2a": "95/100",
+      "p2b": "21/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Dragonite": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Inner Focus",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Dragonite",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "36/100",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Dragonite": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Inner Focus",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "36/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Dragonite": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p2a: Dragonite": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Archaludon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

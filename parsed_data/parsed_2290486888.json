@@ -1,0 +1,430 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Farigiraf",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Weezing",
+        "Dazzling Gleam",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "37/100",
+      "p2a": "84/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Cud Chew",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Farigiraf",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1b: Weezing",
+        "Toxic Spikes",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "84/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Cud Chew",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        "p1a: Dondozo"
+      ],
+      [
+        "p1a: Dondozo",
+        "Earthquake",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "80/100",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Dondozo",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Farigiraf",
+        "Helping Hand",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Draco Meteor",
+        "p1a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "88/100 psn"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Commander",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p1b: Tatsugiri",
+        "Draco Meteor",
+        "p2a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "11/100 psn"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Tatsugiri": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Tatsugiri",
+        "Mirror Coat",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Tatsugiri": {
+        "spa": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tatsugiri",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  }
+]

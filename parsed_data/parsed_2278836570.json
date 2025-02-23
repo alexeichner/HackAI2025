@@ -1,0 +1,302 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regieleki",
+      "p1b": "Farigiraf",
+      "p2a": "Maushold",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Regieleki",
+        "Protect",
+        "p1a: Regieleki"
+      ],
+      [
+        "p2b: Calyrex",
+        "Tera Blast",
+        "p1a: Regieleki"
+      ],
+      [
+        "p2a: Maushold",
+        "Population Bomb",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Trick Room",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "25/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Transistor",
+      "p1b": "Cud Chew",
+      "p2a": "Friend Guard",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Maushold",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        "p1a: Regieleki"
+      ],
+      [
+        "p2a: Maushold",
+        "Population Bomb",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1a: Regieleki",
+        "Volt Switch",
+        "p2a: Maushold"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Regieleki": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Friend Guard",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Maushold"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Regieleki": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Will-O-Wisp",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Regieleki": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Incineroar",
+      "p2b: Incineroar",
+      "p2b: Incineroar",
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Incineroar",
+        "p1b: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  }
+]

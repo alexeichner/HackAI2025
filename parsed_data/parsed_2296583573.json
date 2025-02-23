@@ -1,0 +1,449 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Sinistcha",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p2b: Heatran",
+        "Protect",
+        "p2b: Heatran"
+      ],
+      [
+        "p2a: Sinistcha",
+        "Protect",
+        "p2a: Sinistcha"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Heatran"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Sinistcha"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Hospitality",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Iron Hands",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p2b: Heatran",
+        "Magma Storm",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Dragon Pulse",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "100/100",
+      "p2a": "35/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2a: Iron Hands",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Miraidon",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p2b: Heatran",
+        "Magma Storm",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Dragon Pulse",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Hadron Engine",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Miraidon",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Heatran",
+        "Magma Storm",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "30/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Unnerve",
+      "p2a": "Hadron Engine",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Miraidon",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Heatran"
+      ],
+      [
+        "p2b: Heatran",
+        "Magma Storm",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "62/100",
+      "p2b": "63/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      },
+      "p2a: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Hadron Engine",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Sinistcha",
+      "p2b": "Heatran"
+    },
+    "moves": [
+      [
+        "p2b: Heatran",
+        "Protect",
+        "p2b: Heatran"
+      ],
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: Heatran"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2a: Sinistcha"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "0 fnt",
+      "p2a": "79/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      },
+      "p2a: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Hospitality",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Sinistcha",
+      "p2b": "Heatran"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "0 fnt",
+      "p2a": "79/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Sinistcha": {
+        "atk": -1
+      },
+      "p2b: Heatran": {
+        "atk": -2
+      },
+      "p2a: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Hospitality",
+      "p2b": "Flash Fire"
+    }
+  }
+]

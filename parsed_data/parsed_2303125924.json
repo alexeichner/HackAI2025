@@ -1,0 +1,555 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Terapagos",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "37/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Terapagos",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "37/100",
+      "p2a": "61/100 slp",
+      "p2b": "93/100 slp"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Amoonguss",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Decorate",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "Body Press",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100 slp",
+      "p2b": "93/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Clear Smog",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100 slp",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Clear Smog",
+        "p2b: Dondozo"
+      ],
+      [
+        "p2b: Dondozo",
+        "Substitute",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100 slp",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Regidrago",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Tatsugiri-Droopy",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Regidrago",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Sleep Talk",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Draco Meteor",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Smeargle",
+        "Spore",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "44/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2a: Tatsugiri": {
+        "spa": -2
+      },
+      "p2b: Smeargle": {
+        "spe": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tatsugiri",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Smeargle"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "44/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2a: Tatsugiri": {
+        "spa": -2
+      },
+      "p2b: Smeargle": {
+        "spe": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  }
+]

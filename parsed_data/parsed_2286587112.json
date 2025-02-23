@@ -1,0 +1,383 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Garganacl"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Protect",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Kyogre",
+        "Hydro Pump",
+        "p1a: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Purifying Salt"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Garganacl"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Disable",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Garganacl",
+        "Salt Cure",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "78/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Purifying Salt"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Wyrdeer",
+      "p2b": "Garganacl"
+    },
+    "moves": [
+      [
+        "p2b: Garganacl",
+        "Salt Cure",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Garganacl"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Coaching",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "65/100",
+      "p2a": "54/100",
+      "p2b": "76/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Iron Valiant": {
+        "atk": -1
+      },
+      "p2a: Wyrdeer": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Wyrdeer",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Valiant",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Purifying Salt"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Wyrdeer",
+      "p2b": "Garganacl"
+    },
+    "moves": [
+      [
+        "p2b: Garganacl",
+        "Wide Guard",
+        "p2b: Garganacl"
+      ],
+      [
+        "p2a: Wyrdeer",
+        "Gravity",
+        "p2a: Wyrdeer"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Wyrdeer"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Coaching",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "53/100",
+      "p2a": "54/100",
+      "p2b": "82/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Iron Valiant": {
+        "atk": -1
+      },
+      "p2a: Wyrdeer": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Purifying Salt"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Wyrdeer",
+      "p2b": "Garganacl"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Protect",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p2b: Garganacl",
+        "Wide Guard",
+        "p2b: Garganacl"
+      ],
+      [
+        "p2a: Wyrdeer",
+        "Hypnosis",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "40/100 slp",
+      "p2a": "54/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Iron Valiant": {
+        "atk": -1
+      },
+      "p2a: Wyrdeer": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Purifying Salt"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Wyrdeer",
+      "p2b": "Garganacl"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "40/100 slp",
+      "p2a": "54/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Iron Valiant": {
+        "atk": -1
+      },
+      "p2a: Wyrdeer": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Purifying Salt"
+    }
+  }
+]

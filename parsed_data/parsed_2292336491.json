@@ -1,0 +1,139 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ursaluna",
+      "p2a": "Weezing-Galar",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2a: Weezing",
+        "Protect",
+        "p2a: Weezing"
+      ],
+      [
+        "p1a: Miraidon",
+        "Discharge",
+        "p2a: Weezing"
+      ],
+      [
+        "p2b: Roaring Moon",
+        "Knock Off",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2b: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "56/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Roaring Moon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Guts",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ursaluna",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Discharge",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "56/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Miraidon",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Guts",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  }
+]

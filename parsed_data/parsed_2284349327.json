@@ -1,0 +1,575 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Iron Treads",
+        "Earthquake",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Torkoal",
+        "Heat Wave",
+        "p2b: Iron Treads"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "26/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Iron Treads",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1a: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Wide Guard",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "66/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Wide Guard",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "86/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      },
+      "p2a: Ogerpon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Wide Guard",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Wood Hammer",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "46/100",
+      "p2b": "59/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      },
+      "p2a: Ogerpon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Shadow Ball",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Behemoth Bash",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "46/100",
+      "p2b": "21/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      },
+      "p2a: Ogerpon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Mold Breaker",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Behemoth Bash",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      },
+      "p2a: Ogerpon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2a: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Behemoth Bash",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -3
+      },
+      "p2a: Ogerpon": {
+        "spe": -3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Mold Breaker",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

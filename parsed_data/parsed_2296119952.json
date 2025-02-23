@@ -1,0 +1,620 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Incineroar",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Koraidon",
+        "Protect",
+        "p1b: Koraidon"
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1b: Koraidon"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Intimidate",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1b: Koraidon",
+        "Flare Blitz",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "66/100",
+      "p2a": "100/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Sunny Day",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Koraidon",
+        "Flame Charge",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "31/100",
+      "p2a": "100/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Koraidon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Protect",
+        "p1b: Koraidon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Koraidon"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Calm Mind",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "31/100",
+      "p2a": "60/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Kyogre"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Koraidon",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "31/100",
+      "p2a": "66/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Kyogre",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Rage Powder",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1b: Koraidon",
+        "Flame Charge",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1b: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "0 fnt",
+      "p2a": "72/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ],
+      [
+        "p1b: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Kyogre",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2b: Roaring Moon"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "40/100",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Flutter Mane"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Roaring Moon",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyogre",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Snarl",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyogre",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Koraidon": {
+        "spe": 2
+      },
+      "p2a: Kyogre": {
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  }
+]

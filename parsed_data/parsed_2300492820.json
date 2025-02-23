@@ -1,0 +1,524 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Ogerpon",
+      "p2b": "Torkoal"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Torkoal",
+        "Stealth Rock",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "21/100",
+      "p2b": "20/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Defiant",
+      "p2b": "White Smoke"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "94/100",
+      "p2a": "27/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Defiant",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        ""
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Tera Blast",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "100/100",
+      "p2a": "33/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Ogerpon"
+    ],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Overgrow",
+      "p2a": "Defiant",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Protect",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Bullet Seed",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "43/100",
+      "p2a": "40/100",
+      "p2b": "16/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Overgrow",
+      "p2a": "Defiant",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Walking Wake",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Bullet Seed",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "31/100",
+      "p1b": "82/100",
+      "p2a": "0 fnt",
+      "p2b": "22/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Clefairy"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Walking Wake",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        ""
+      ],
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Walking Wake"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "37/100",
+      "p1b": "88/100",
+      "p2a": "92/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Walking Wake",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Walking Wake",
+        "Hydro Steam",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2a: Walking Wake"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Walking Wake"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "13/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p2b: Torkoal": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2b: Calyrex": {
+        "atk": -2,
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Walking Wake"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

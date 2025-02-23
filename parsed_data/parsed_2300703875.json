@@ -1,0 +1,395 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Whimsicott",
+      "p2a": "Illumise",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Illumise",
+        "Light Screen",
+        "p2a: Illumise"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Illumise"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "71/100",
+      "p2a": "66/100",
+      "p2b": "74/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Prankster",
+      "p2a": "Oblivious",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Whimsicott",
+      "p2a": "Indeedee",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Fake Tears",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Illumise",
+        "Tailwind",
+        "p2a: Illumise"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1a: Terapagos"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "40/100",
+      "p2a": "0 fnt",
+      "p2b": "20/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Illumise"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2a: Illumise",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Prankster",
+      "p2a": "Inner Focus",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Indeedee",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Moonblast",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Indeedee",
+        "Expanding Force",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "0 fnt",
+      "p2a": "50/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Mold Breaker",
+      "p2a": "Inner Focus",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Indeedee",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Indeedee",
+        "Expanding Force",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "21/100",
+      "p2a": "50/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Mold Breaker",
+      "p2a": "Inner Focus",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Indeedee",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Urshifu",
+        "Protect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2a: Indeedee",
+        "Expanding Force",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "21/100",
+      "p2a": "50/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Mold Breaker",
+      "p2a": "Inner Focus",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Indeedee",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "40/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Mold Breaker",
+      "p2a": "Inner Focus",
+      "p2b": "Drizzle"
+    }
+  }
+]

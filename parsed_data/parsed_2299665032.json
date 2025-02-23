@@ -1,0 +1,459 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2b: Kyogre",
+        "Protect",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Embody Aspect (Wellspring)",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Embody Aspect (Wellspring)",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Protect",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "91/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Sword of Ruin",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Kyogre"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "91/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dragon",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Sword of Ruin",
+      "p2b": "Drizzle"
+    }
+  }
+]

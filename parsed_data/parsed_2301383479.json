@@ -1,0 +1,397 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Terapagos",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Taunt",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Smeargle",
+        "Spore",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Maushold"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "81/100 slp",
+      "p2b": "19/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "spd": 1,
+        "spa": 1,
+        "atk": -1,
+        "spe": 3,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Moody",
+      "p2a": "Tera Shift",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Incineroar",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Protect",
+        "p2b: Maushold"
+      ],
+      [
+        "p1b: Smeargle",
+        "Decorate",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "59/100",
+      "p2b": "19/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "spd": 1,
+        "spa": 1,
+        "atk": -1,
+        "spe": 3,
+        "def": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Moody",
+      "p2a": "Intimidate",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Indeedee-F",
+      "p2a": "Rillaboom",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Maushold",
+        "Taunt",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "19/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "spd": 1,
+        "spa": 1,
+        "atk": -1,
+        "spe": 3,
+        "def": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Rillaboom",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Maushold",
+        "Taunt",
+        "p1b: Smeargle"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "25/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "spd": 1,
+        "spa": 1,
+        "atk": -1,
+        "spe": 3,
+        "def": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Moody",
+      "p2a": "Overgrow",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Rillaboom",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Maushold",
+        "Beat Up",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "spd": 1,
+        "spa": 1,
+        "atk": -1,
+        "spe": 3,
+        "def": -1
+      },
+      "p1a: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Moody",
+      "p2a": "Overgrow",
+      "p2b": "Friend Guard"
+    }
+  }
+]

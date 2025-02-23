@@ -1,0 +1,409 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kingambit",
+      "p2b": "Gothitelle"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Taunt",
+        "p2b: Gothitelle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "63/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Defiant",
+      "p2b": "Frisk"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Kingambit",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Kingambit",
+        "Iron Head",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "79/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kingambit",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Own Tempo",
+      "p2a": "Defiant",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Kingambit",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Kingambit"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1b: Smeargle"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100 brn",
+      "p1b": "1/100",
+      "p2a": "77/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kingambit",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Own Tempo",
+      "p2a": "Defiant",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Regidrago",
+      "p2a": "Kingambit",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        "p1b: Smeargle"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Kingambit",
+        "Kowtow Cleave",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "6/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "77/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Dragon's Maw",
+      "p2a": "Defiant",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Regidrago",
+      "p2a": "Kingambit",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Kingambit",
+        "Sucker Punch",
+        "p1b: Regidrago"
+      ],
+      [
+        "p1b: Regidrago",
+        "Dragon Energy",
+        "p2a: Kingambit"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2a: Kingambit"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "27/100",
+      "p2a": "4/100",
+      "p2b": "11/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kingambit",
+        "resisted"
+      ],
+      [
+        "p2a: Kingambit",
+        "super effective"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Regidrago",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Dragon's Maw",
+      "p2a": "Defiant",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Regidrago",
+      "p2a": "Kingambit",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "27/100",
+      "p2a": "4/100",
+      "p2b": "11/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Dragon's Maw",
+      "p2a": "Defiant",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

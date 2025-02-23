@@ -1,0 +1,605 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Dragonite",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Dragonite",
+        "Extreme Speed",
+        "p2b: Incineroar"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "84/100",
+      "p2a": "100/100",
+      "p2b": "63/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Inner Focus",
+      "p2a": "Mold Breaker",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Dragonite",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Dragonite",
+        "Extreme Speed",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Nasty Plot",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Play Rough",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "84/100",
+      "p2a": "16/100",
+      "p2b": "65/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Inner Focus",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Psychic",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "16/100",
+      "p2b": "55/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ],
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Dragonite"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sword of Ruin",
+      "p2a": "Intimidate",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Protect",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "16/100",
+      "p2b": "55/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sword of Ruin",
+      "p2a": "Intimidate",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Ogerpon-Hearthflame-Tera",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "84/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sword of Ruin",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Chien-Pao",
+      "p2a": "Ogerpon-Hearthflame-Tera",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Ice Shard",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "3/100",
+      "p2b": "7/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zamazenta",
+      "p1b: Chien-Pao",
+      "p1b: Chien-Pao",
+      "p1b: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Sword of Ruin",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Chien-Pao",
+      "p2a": "Ogerpon-Hearthflame-Tera",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Ice Shard",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "3/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Sword of Ruin",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Chien-Pao",
+      "p2a": "Ogerpon-Hearthflame-Tera",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Ogerpon": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Sword of Ruin",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "none"
+    }
+  }
+]

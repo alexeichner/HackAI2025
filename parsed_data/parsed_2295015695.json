@@ -1,0 +1,363 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Necrozma-Dawn-Wings",
+      "p1b": "Ursaluna",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee-\u2640",
+        "Follow Me",
+        "p1b: Indeedee-\u2640"
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1b: Indeedee-\u2640"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Indeedee-\u2640"
+      ],
+      [
+        "p1a: Quazar Pulito \u2605\u2605\u2605",
+        "Trick Room",
+        "p1a: Quazar Pulito \u2605\u2605\u2605"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Indeedee-\u2640"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Necrozma-Dawn-Wings",
+      "p1b": "Ursaluna",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Quazar Pulito \u2605\u2605\u2605",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1a: Quazar Pulito \u2605\u2605\u2605"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p1b: Ursaluna": {
+        "def": -3,
+        "spd": -3
+      },
+      "p1a: Quazar Pulito \u2605\u2605\u2605": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Quazar Pulito \u2605\u2605\u2605",
+        "p2b: Miraidon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Necrozma-Dawn-Wings",
+      "p1b": "Ursaluna",
+      "p2a": "Miraidon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p1a: Quazar Pulito \u2605\u2605\u2605",
+        "Expanding Force",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "95/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p1b: Ursaluna": {
+        "def": -3,
+        "spd": -3
+      },
+      "p1a: Quazar Pulito \u2605\u2605\u2605": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Iron Hands"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Hands",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Necrozma-Dawn-Wings",
+      "p1b": "Ursaluna",
+      "p2a": "Miraidon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Protect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Ursaluna",
+        "Headlong Rush",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1a: Quazar Pulito \u2605\u2605\u2605",
+        "Moongeist Beam",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "89/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p1b: Ursaluna": {
+        "def": -3,
+        "spd": -3
+      },
+      "p1a: Quazar Pulito \u2605\u2605\u2605": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Necrozma-Dawn-Wings",
+      "p1b": "Ursaluna",
+      "p2a": "Miraidon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "89/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain",
+      "Trick Room",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 1
+      },
+      "p1b: Ursaluna": {
+        "def": -3,
+        "spd": -3
+      },
+      "p1a: Quazar Pulito \u2605\u2605\u2605": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  }
+]

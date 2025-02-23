@@ -1,0 +1,345 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Whimsicott",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Spiky Shield",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "27/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Light Screen",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tropius",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "44/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chlorophyll",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tropius",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Tropius",
+        "Wide Guard",
+        "p1a: Tropius"
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "57/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chlorophyll",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tropius",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Kyogre",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Tropius",
+        "Wide Guard",
+        "p1a: Tropius"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Tropius"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "16/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chlorophyll",
+      "p1b": "Grim Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Sand Force"
+    }
+  }
+]

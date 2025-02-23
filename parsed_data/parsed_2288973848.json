@@ -1,0 +1,438 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "12/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Rillaboom",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zamazenta",
+      "p1a: Zamazenta",
+      "p1a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Overgrow",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        ""
+      ],
+      [
+        "p2b: Tsareena",
+        "Triple Axel",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Protect",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Protect",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Tsareena",
+        "Power Whip",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2b: Tsareena"
+      ],
+      [
+        "p2b: Tsareena",
+        "Triple Axel",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Tsareena",
+        "Power Whip",
+        "p1b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "66/100",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  }
+]

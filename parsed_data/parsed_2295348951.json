@@ -1,0 +1,295 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Protect",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Taunt",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Annihilape",
+        "Coaching",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 3,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Drizzle",
+      "p2a": "Chilling Neigh",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Close Combat",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Annihilape"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2b: Annihilape"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "0 fnt",
+      "p2a": "76/100",
+      "p2b": "18/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 3,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Stamina",
+      "p2a": "Chilling Neigh",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Protect",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p2b: Annihilape",
+        "Close Combat",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "18/100",
+      "p2a": "25/100",
+      "p2b": "18/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 3,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Stamina",
+      "p2a": "Chilling Neigh",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Annihilape"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "18/100",
+      "p2a": "25/100",
+      "p2b": "18/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 3,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      },
+      "p1b: Archaludon": {
+        "def": 2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Stamina",
+      "p2a": "Chilling Neigh",
+      "p2b": "Vital Spirit"
+    }
+  }
+]

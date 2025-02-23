@@ -1,0 +1,601 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Throat Chop",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "100/100",
+      "p2a": "82/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "82/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Archaludon"
+      ],
+      [
+        "p2b: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "100/100",
+      "p2a": "82/100",
+      "p2b": "41/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Archaludon",
+        "Body Press",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "40/100",
+      "p2a": "76/100",
+      "p2b": "22/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "65/100",
+      "p2a": "76/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "65/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ],
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Clefairy",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        ""
+      ],
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Kyogre"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Cute Charm",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Clefairy",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Follow Me",
+        "p1b: Clefairy"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1b: Clefairy"
+      ],
+      [
+        "p1a: Calyrex",
+        "Bullet Seed",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 3,
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Cute Charm",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  }
+]

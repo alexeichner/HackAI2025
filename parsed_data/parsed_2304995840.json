@@ -1,0 +1,394 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Toxapex",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Toxapex",
+        "Wide Guard",
+        "p1b: Toxapex"
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Toxapex"
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Foul Play",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        "p1b: Toxapex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "12/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Toxapex",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Merciless",
+      "p2a": "Unnerve",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Toxapex",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Toxapex",
+        "Wide Guard",
+        "p1b: Toxapex"
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Knock Off",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p1a: Wo-Chien"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "90/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Merciless",
+      "p2a": "Mold Breaker",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Landorus-Therian",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Wo-Chien"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Landorus",
+        "Intimidate"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Intimidate",
+      "p2a": "Embody Aspect (Hearthflame)",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Landorus-Therian",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Lugia"
+      ],
+      [
+        "p1a: Lugia",
+        "Aeroblast",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1b: Landorus",
+        "Earthquake",
+        "p2b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ],
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Toxapex",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Lugia",
+        "Aeroblast",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Toxapex"
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "74/100",
+      "p2a": "51/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p1b: Toxapex",
+      "p1b: Toxapex",
+      "p1b: Toxapex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Toxapex",
+        "resisted"
+      ],
+      [
+        "p1b: Toxapex",
+        "resisted"
+      ],
+      [
+        "p1b: Toxapex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Merciless",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Toxapex",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "74/100",
+      "p2a": "51/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": 0
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Merciless",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

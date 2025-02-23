@@ -1,0 +1,745 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Bronzong",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Volt Switch",
+        "p2a: Bronzong"
+      ],
+      [
+        "p2a: Bronzong",
+        "Trick Room",
+        "p2a: Bronzong"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "65/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "Levitate",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Incineroar",
+      "p2a": "Bronzong",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2a: Bronzong",
+        "Gravity",
+        "p2a: Bronzong"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2b: Ogerpon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "96/100",
+      "p2a": "70/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Levitate",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Bronzong",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Bronzong"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Volt Switch",
+        "p2a: Bronzong"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "20/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Levitate",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        "p2a: Bronzong"
+      ],
+      [
+        "p1b: Incineroar",
+        "Will-O-Wisp",
+        "p2b: Groudon"
+      ],
+      [
+        "p2b: Groudon",
+        "Heat Crash",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "42/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "94/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Groudon"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Incineroar"
+      ],
+      [
+        "p2b: Groudon",
+        "Heat Crash",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "29/100",
+      "p2a": "0 fnt",
+      "p2b": "69/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Groudon"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "67/100",
+      "p2b": "16/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "81/100",
+      "p2a": "67/100",
+      "p2b": "10/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Raging Bolt",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "81/100",
+      "p2a": "67/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "39/100",
+      "p2a": "67/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room",
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Bronzong": {
+        "atk": -2
+      },
+      "p2b: Ogerpon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ogerpon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  }
+]

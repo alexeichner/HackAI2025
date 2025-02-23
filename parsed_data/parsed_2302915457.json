@@ -1,0 +1,398 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "7/100",
+      "p2b": "98/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Rillaboom",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "100/100",
+      "p2a": "13/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Rillaboom"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Endeavor",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spe": -1,
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Blaze",
+      "p1b": "Drizzle",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "94/100",
+      "p2a": "0 fnt",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spe": -1,
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Koraidon"
+      ],
+      [
+        "p2a: Koraidon",
+        "Flare Blitz",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "57/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spe": -1,
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "57/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spe": -1,
+        "spa": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  }
+]

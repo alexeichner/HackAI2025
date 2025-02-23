@@ -1,0 +1,407 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Torkoal",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Protect",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [
+      [
+        "p1b: Torkoal",
+        "Air Balloon"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "White Smoke",
+      "p2a": "Unnerve",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Miraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Rising Voltage",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "78/100",
+      "p2a": "50/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "78/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Mold Breaker",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [
+      [
+        "p1a: Torkoal",
+        "Air Balloon"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Mold Breaker",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Rising Voltage",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "71/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

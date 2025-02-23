@@ -1,0 +1,366 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Gouging Fire",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: Volcarona"
+      ],
+      [
+        "p1a: Calyrex",
+        "Nasty Plot",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Gouging Fire",
+        "Flare Blitz",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100 brn",
+      "p1b": "84/100",
+      "p2a": "81/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Weezing",
+      "p2a": "Gouging Fire",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Volcarona"
+      ],
+      [
+        "p2a: Gouging Fire",
+        "Flare Blitz",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "72/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Weezing",
+        "Neutralizing Gas"
+      ],
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Weezing",
+      "p2a": "Urshifu",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        "p2a: Gouging Fire"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Weezing"
+      ],
+      [
+        "p1b: Weezing",
+        "Will-O-Wisp",
+        "p2b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "0 fnt",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 3
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Gouging Fire",
+        "super effective"
+      ],
+      [
+        "p1b: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Blaze",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Unseen Fist",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Weezing",
+      "p2a": "Urshifu",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "89/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 3
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Unseen Fist",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Weezing",
+      "p2a": "Urshifu",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "89/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 3
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Incineroar"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Unseen Fist",
+      "p2b": "Drought"
+    }
+  }
+]

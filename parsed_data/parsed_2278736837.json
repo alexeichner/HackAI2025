@@ -1,0 +1,766 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Shadow Ball",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Snarl",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2b: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "85/100",
+      "p2a": "100/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Chi-Yu",
+        "p1a: Clefairy"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Protect",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Calyrex",
+        "Calm Mind",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "70/100",
+      "p2a": "100/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Flutter Mane",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Protect",
+        "p2a: Flutter Mane"
+      ],
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        "p1a: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "70/100",
+      "p2a": "100/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Flutter Mane"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "70/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Unseen Fist",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "28/100",
+      "p1b": "70/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Unseen Fist",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Draining Kiss",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "34/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Unseen Fist",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2a: Urshifu",
+        "Sucker Punch",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "34/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Unseen Fist",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "34/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p1b: Incineroar": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p1a: Clefairy": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Unseen Fist",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

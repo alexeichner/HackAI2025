@@ -1,0 +1,136 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Raging Bolt",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Raging Bolt",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "62/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Groudon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Groudon",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Chilling Neigh",
+      "p2b": "none"
+    }
+  }
+]

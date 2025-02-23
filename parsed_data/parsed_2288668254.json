@@ -1,0 +1,111 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tinkaton",
+      "p1b": "Iron Valiant",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1a: Tinkaton",
+        "Fake Out",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Close Combat",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "22/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Iron Valiant",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1b: Iron Valiant",
+        "Close Combat",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Tsareena",
+        "Power Whip",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  }
+]

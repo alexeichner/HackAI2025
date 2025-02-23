@@ -1,0 +1,431 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        "p1a: Smeargle"
+      ],
+      [
+        "p2a: Urshifu",
+        "U-turn",
+        "p1a: Smeargle"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic",
+        "p1a: Smeargle"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Unnerve",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Torkoal",
+        "Eruption",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Pelipper"
+      ],
+      [
+        "p2a: Calyrex",
+        "Imprison",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "33/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Pelipper",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Hands",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Torkoal",
+        "Eruption",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "33/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Torkoal",
+      "p1a: Torkoal"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Torkoal",
+        "super effective"
+      ],
+      [
+        "p1a: Torkoal",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Hands",
+      "p2a": "Farigiraf",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Iron Hands",
+        "Drain Punch",
+        "p2a: Farigiraf"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "100/100",
+      "p2a": "62/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Cud Chew",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Hands",
+      "p2a": "Farigiraf",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p1b: Iron Hands",
+        "Wild Charge",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "46/100",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Cud Chew",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Hands",
+      "p2a": "Farigiraf",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        "p1b: Iron Hands"
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        "p1b: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "62/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Iron Hands": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ],
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Cud Chew",
+      "p2b": "Unnerve"
+    }
+  }
+]

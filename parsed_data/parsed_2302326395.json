@@ -1,0 +1,337 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Murkrow",
+      "p1b": "Regieleki",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Regieleki",
+        "Protect",
+        "p1b: Regieleki"
+      ],
+      [
+        "p1a: Murkrow",
+        "Tailwind",
+        "p1a: Murkrow"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1a: Murkrow"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Murkrow",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Insomnia",
+      "p1b": "Transistor",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Rayquaza",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Murkrow",
+        "Haze",
+        "p1a: Murkrow"
+      ],
+      [
+        "p1b: Regieleki",
+        "Electroweb",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Regieleki"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Regieleki"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "95/100",
+      "p2b": "77/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Rayquaza",
+        "Air Lock"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1a: Murkrow",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Air Lock",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Rayquaza",
+      "p2a": "Tornadus",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Rayquaza",
+        "Dragon Ascent",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Entei",
+        "Eruption",
+        "p2b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1b: Rayquaza": {
+        "def": -2,
+        "spd": -2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Air Lock",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Rayquaza",
+      "p2a": "Tornadus",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Rayquaza",
+        "Dragon Ascent",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p1a: Entei",
+        "Eruption",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Rayquaza"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "13/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1b: Rayquaza": {
+        "def": -2,
+        "spd": -2,
+        "spe": -1
+      },
+      "p1a: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Air Lock",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Rayquaza",
+      "p2a": "Tornadus",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "13/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1,
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p1b: Rayquaza": {
+        "def": -2,
+        "spd": -2,
+        "spe": -1
+      },
+      "p1a: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Air Lock",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

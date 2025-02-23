@@ -1,0 +1,288 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2b: Calyrex",
+        "Trick Room",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "100/100",
+      "p2a": "30/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Amoonguss",
+        "Spore",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "100/100",
+      "p2a": "36/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Rillaboom",
+      "p2a": "Amoonguss",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Amoonguss",
+        "Spore",
+        "p1a: Volcarona"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Volcarona"
+      ],
+      [
+        "p1a: Volcarona",
+        "Will-O-Wisp",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "28/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Volcarona",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Overgrow",
+      "p2a": "Effect Spore",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Volcarona",
+      "p1b": "Rillaboom",
+      "p2a": "Amoonguss",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "32/100",
+      "p2b": "28/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Volcarona",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flame Body",
+      "p1b": "Overgrow",
+      "p2a": "Effect Spore",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

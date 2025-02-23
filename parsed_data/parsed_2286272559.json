@@ -1,0 +1,518 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Scream Tail",
+      "p1b": "Sableye",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p2b: Clefairy",
+        "Follow Me",
+        "p2b: Clefairy"
+      ],
+      [
+        "p1b: Sableye",
+        "Gravity",
+        "p1b: Sableye"
+      ],
+      [
+        "p1a: Scream Tail",
+        "Sing",
+        "p2b: Clefairy"
+      ],
+      [
+        "p2a: Calyrex",
+        "Nasty Plot",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Keen Eye",
+      "p2a": "Unnerve",
+      "p2b": "Cute Charm"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Sableye",
+        "Encore",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Clefairy",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Sableye",
+        "Encore",
+        ""
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2a: Clefairy"
+      ],
+      [
+        "p2b: Incineroar",
+        "Will-O-Wisp",
+        "p1a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100 brn",
+      "p1b": "100/100",
+      "p2a": "56/100 slp",
+      "p2b": "41/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Sableye"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "Cute Charm",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Scream Tail",
+      "p2a": "Clefairy",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2a: Clefairy"
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100 brn",
+      "p1b": "100/100",
+      "p2a": "34/100 slp",
+      "p2b": "12/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Cute Charm",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Scream Tail",
+      "p2a": "Clefairy",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Scream Tail",
+        "Howl",
+        "p1b: Scream Tail"
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100 brn",
+      "p1b": "100/100",
+      "p2a": "3/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      },
+      "p1b: Scream Tail": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Cute Charm",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Scream Tail",
+      "p2a": "Clefairy",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Clefairy",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Scream Tail",
+        "Crunch",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Scream Tail"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "64/100",
+      "p2a": "3/100 slp",
+      "p2b": "2/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      },
+      "p1b: Scream Tail": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1b: Scream Tail",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "Cute Charm",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Scream Tail",
+      "p2a": "Clefairy",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Clefairy",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Sableye",
+        "Sunny Day",
+        "p1a: Sableye"
+      ],
+      [
+        "p1b: Scream Tail",
+        "Crunch",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "64/100",
+      "p2a": "3/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Groudon": {
+        "atk": 0
+      },
+      "p1b: Sableye": {
+        "atk": -1
+      },
+      "p1b: Scream Tail": {
+        "atk": 1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "Cute Charm",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

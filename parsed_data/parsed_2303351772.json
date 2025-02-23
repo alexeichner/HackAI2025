@@ -1,0 +1,423 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Kyogre",
+      "p2a": "Gholdengo",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Iron Hands",
+        "Fake Out",
+        "p2b: Dondozo"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Dondozo"
+      ],
+      [
+        "p2a: Gholdengo",
+        "Trick",
+        "p1a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "11/100",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [
+      [
+        "p1a: Iron Hands",
+        "Choice Specs"
+      ],
+      [
+        "p2a: Gholdengo",
+        "Assault Vest"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Good as Gold",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Kyogre",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Wild Charge",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "48/100",
+      "p2a": "11/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1a: Iron Hands",
+        "super effective"
+      ],
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Muddy Water",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "86/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Kyogre": {
+        "accuracy": -1
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tatsugiri",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1a: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Tatsugiri",
+        "p1a: Iron Hands"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Miraidon"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Muddy Water",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Kyogre": {
+        "accuracy": -1
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "accuracy": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tatsugiri",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unseen Fist",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Muddy Water",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "52/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Kyogre": {
+        "accuracy": -1
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "accuracy": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unseen Fist",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

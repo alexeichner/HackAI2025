@@ -1,0 +1,360 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Cresselia",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Tornadus",
+        "Taunt",
+        "p1b: Cresselia"
+      ],
+      [
+        "p1b: Cresselia",
+        "Trick Room",
+        "p1b: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Cresselia",
+      "p2a": "Tornadus",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Cresselia",
+        "Psychic",
+        "p2b: Zacian"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "80/100",
+      "p2a": "50/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p1b: Cresselia": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zacian",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Prankster",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2b: Zacian"
+      ],
+      [
+        "p2b: Zacian",
+        "Play Rough",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "80/100",
+      "p2a": "50/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p1b: Cresselia": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Incineroar",
+        "p2b: Zacian"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Mold Breaker",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "80/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p1b: Cresselia": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "80/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      },
+      "p1b: Cresselia": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Archaludon": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

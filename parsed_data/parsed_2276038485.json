@@ -1,0 +1,805 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Miraidon",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        "p2a: Miraidon"
+      ],
+      [
+        "p2b: Dragonite",
+        "Aerial Ace",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Miraidon",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2a: Miraidon"
+      ],
+      [
+        "p2b: Dragonite",
+        "Aerial Ace",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "19/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Dondozo",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Dragonite"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2b: Dragonite"
+      ],
+      [
+        "p2b: Dragonite",
+        "Aerial Ace",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dragonite",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Unaware",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Dondozo",
+        "Earthquake",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Dondozo",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Protect",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "100/100",
+      "p2a": "99/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Tatsugiri"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "50/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Protect",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "63/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Order Up",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "58/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Protect",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "64/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "64/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  }
+]

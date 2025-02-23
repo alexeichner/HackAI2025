@@ -1,0 +1,639 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Spectrier",
+      "p2a": "Roaring Moon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Tailwind",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p1b: Spectrier",
+        "Will-O-Wisp",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Spectrier"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "79/100",
+      "p2a": "100/100",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Spectrier",
+      "p2a": "Roaring Moon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p1b: Spectrier",
+        "Draining Kiss",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "76/100",
+      "p2a": "74/100 par",
+      "p2b": "89/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Spectrier",
+      "p2a": "Roaring Moon",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Spectrier"
+      ],
+      [
+        "p1b: Spectrier",
+        "Hex",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "59/100",
+      "p2a": "74/100 par",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Spectrier",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Spectrier",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Gouging Fire",
+      "p2a": "Roaring Moon",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Sludge Bomb",
+        "p1b: Spectrier"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Spirit Break",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "0 fnt",
+      "p2a": "74/100 par",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Spectrier",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Gouging Fire",
+      "p2a": "Roaring Moon",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1b: Gouging Fire",
+        "Howl",
+        "p1b: Gouging Fire"
+      ],
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        "p1b: Gouging Fire"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Tailwind",
+        "p2a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "44/100",
+      "p2a": "74/100 par",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Gouging Fire",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Gouging Fire",
+      "p2a": "Roaring Moon",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Morning Sun",
+        "p1b: Gouging Fire"
+      ],
+      [
+        "p1a: Groudon",
+        "Rock Slide",
+        "p2a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "100/100",
+      "p2a": "11/100 par",
+      "p2b": "55/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Roaring Moon",
+        "super effective"
+      ],
+      [
+        "p2b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Gouging Fire",
+      "p2a": "Landorus",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Protect",
+        "p1a: Groudon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Breaking Swipe",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "33/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": 1
+      },
+      "p2b: Ogerpon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Gouging Fire",
+      "p2a": "Landorus",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        "p1a: Groudon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Groudon"
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Breaking Swipe",
+        "p2a: Landorus"
+      ],
+      [
+        "p1a: Groudon",
+        "Fire Punch",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "31/100",
+      "p1b": "37/100",
+      "p2a": "0 fnt",
+      "p2b": "15/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": 1
+      },
+      "p2b: Ogerpon": {
+        "atk": -2
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Gouging Fire",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Gouging Fire",
+      "p2a": "Landorus",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1b: Gouging Fire",
+        "Flame Charge",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "31/100",
+      "p1b": "37/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Spectrier": {
+        "spa": 1
+      },
+      "p2b: Landorus": {
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": 1
+      },
+      "p2b: Ogerpon": {
+        "atk": -2
+      },
+      "p2a: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Mold Breaker"
+    }
+  }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Archaludon",
+      "p2a": "Raging Bolt",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Protect",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Archaludon",
+        "Protect",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2b: Incineroar",
+        "Taunt",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -2
+      },
+      "p1b: Archaludon": {
+        "atk": -4,
+        "spa": -5
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Archaludon",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Archaludon",
+        "Draco Meteor",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -2
+      },
+      "p1b: Archaludon": {
+        "atk": -4,
+        "spa": -5
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p2b: Calyrex",
+        "Calm Mind",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "53/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -2
+      },
+      "p1b: Archaludon": {
+        "atk": -4,
+        "spa": -5
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Archaludon",
+        "Draco Meteor",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Calyrex",
+        "Draining Kiss",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "87/100",
+      "p2b": "97/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -2
+      },
+      "p1b: Archaludon": {
+        "atk": -4,
+        "spa": -5
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "44/100",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -2
+      },
+      "p1b: Archaludon": {
+        "atk": -4,
+        "spa": -5
+      },
+      "p2b: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

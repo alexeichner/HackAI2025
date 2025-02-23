@@ -1,0 +1,326 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2a: Terapagos",
+        "Dark Pulse",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Belly Drum",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Smeargle",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Protect",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Drain Punch",
+        "p2a: Smeargle"
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": 2,
+        "def": -1,
+        "spe": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Smeargle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Moody",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Indeedee-F",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1a: Iron Hands"
+      ],
+      [
+        "p2b: Tornadus",
+        "Scary Face",
+        "p2a: Smeargle"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Rock Slide",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": 2,
+        "def": -1,
+        "spe": -2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Indeedee-F",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Indeedee",
+        "Follow Me",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Drain Punch",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": 2,
+        "def": -1,
+        "spe": -2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Indeedee-F",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "atk": 2,
+        "def": -1,
+        "spe": -2
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Teraform Zero"
+    }
+  }
+]

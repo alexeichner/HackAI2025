@@ -1,0 +1,217 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sucker Punch",
+        "p2a: Flutter Mane"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Snarl",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Pelipper"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Pelipper": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zacian": {
+        "atk": 1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Beads of Ruin",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Snarl",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Pelipper": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Zacian": {
+        "atk": 1,
+        "spa": -1
+      },
+      "p1b: Chien-Pao": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1a: Zacian",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Beads of Ruin",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

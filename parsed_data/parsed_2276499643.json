@@ -1,0 +1,359 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Dondozo",
+      "p2a": "Maushold",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Dondozo",
+        "Protect",
+        "p1b: Dondozo"
+      ],
+      [
+        "p2a: Maushold",
+        "Feint",
+        "p1b: Dondozo"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Icicle Crash",
+        "p2a: Maushold"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "17/100",
+      "p2a": "18/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Unaware",
+      "p2a": "Friend Guard",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Chien-Pao",
+      "p2a": "Maushold",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Follow Me",
+        "p2a: Maushold"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "82/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Calyrex",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Sword of Ruin",
+      "p2a": "Friend Guard",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Miraidon",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Muddy Water",
+        "p2a: Maushold"
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "82/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Hadron Engine",
+      "p2a": "Beads of Ruin",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Miraidon",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Snarl",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "9/100",
+      "p2a": "63/100",
+      "p2b": "33/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Tatsugiri": {
+        "spa": -1
+      },
+      "p1b: Miraidon": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "Beads of Ruin",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Miraidon",
+      "p2a": "Indeedee-F",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "63/100",
+      "p2b": "24/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Tatsugiri": {
+        "spa": -1
+      },
+      "p1b: Miraidon": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Miraidon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ground",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

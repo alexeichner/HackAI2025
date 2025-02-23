@@ -1,0 +1,144 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Pelipper",
+      "p2a": "Maushold-Four",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Follow Me",
+        "p2a: Maushold"
+      ],
+      [
+        "p2b: Calyrex",
+        "Shadow Ball",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Maushold"
+      ],
+      [
+        "p1b: Pelipper",
+        "Tailwind",
+        "p1b: Pelipper"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "62/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Urshifu",
+      "p2a: Maushold"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Pelipper",
+      "p2a": "Maushold-Four",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Helping Hand",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Shadow Ball",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Pelipper",
+        "Weather Ball",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "62/100",
+      "p2b": "54/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

@@ -1,0 +1,491 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Primarina",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Protect",
+        "p1a: Terapagos"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        "p1a: Terapagos"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Terapagos"
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Torrent",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Primarina",
+        "Flip Turn",
+        "p2a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "50/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Terapagos-Terastal",
+      "p2a": "Koraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Protect",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "58/100",
+      "p2b": "5/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Teraform Zero",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Primarina",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        "p1b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "58/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Torrent",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Primarina",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Primarina",
+        "Protect",
+        "p1b: Primarina"
+      ],
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        "p1b: Primarina"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Primarina"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "58/100",
+      "p2b": "12/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Torrent",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Primarina",
+      "p2a": "Koraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Primarina",
+        "Protect",
+        ""
+      ],
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        "p1b: Primarina"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Primarina"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "58/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Primarina"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Primarina",
+        "resisted"
+      ],
+      [
+        "p1b: Primarina",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Torrent",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Primarina",
+      "p2a": "Koraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "58/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "atk": -2,
+        "spa": -2
+      },
+      "p2b: Flutter Mane": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Torrent",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

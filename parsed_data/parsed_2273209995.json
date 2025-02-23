@@ -1,0 +1,570 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        "p2b: Tatsugiri"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2b: Tatsugiri"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "56/100",
+      "p2a": "81/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ],
+      [
+        "p1b: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Iron Valiant",
+        "p2b: Tatsugiri"
+      ],
+      [
+        "p1b: Miraidon",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus-Therian",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Close Combat",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        "p2a: Dondozo"
+      ],
+      [
+        "p2a: Dondozo",
+        "Earthquake",
+        "p1a: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "56/100",
+      "p2a": "44/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Dondozo",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Dragonite",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Close Combat",
+        "p2a: Dondozo"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Landorus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Inner Focus",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Wide Guard",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2b: Tatsugiri",
+        "Muddy Water",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "19/100",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "super effective"
+      ],
+      [
+        "p2b: Tatsugiri",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        "p2a: Dragonite"
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1a: Iron Valiant"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "58/100",
+      "p2a": "5/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Dragonite": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "super effective"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Draco Meteor",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "14/100",
+      "p2a": "5/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Dragonite": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -1
+      },
+      "p1a: Miraidon": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Dragonite",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Dragonite",
+        "Extreme Speed",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Draco Meteor",
+        "p2a: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 1,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Iron Valiant": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Dragonite": {
+        "spe": -1
+      },
+      "p2b: Miraidon": {
+        "spe": -1
+      },
+      "p1a: Miraidon": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Inner Focus",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

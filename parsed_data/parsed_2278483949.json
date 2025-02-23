@@ -1,0 +1,137 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Flutter Mane",
+      "p2a": "Maushold",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Icy Wind",
+        "p2a: Maushold"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Maushold"
+      ],
+      [
+        "p2a: Maushold",
+        "Population Bomb",
+        "p1a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "100/100",
+      "p2a": "5/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Friend Guard",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Flutter Mane",
+      "p2a": "Maushold",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Follow Me",
+        "p2a: Maushold"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Dazzling Gleam",
+        "p2a: Maushold"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Maushold": {
+        "spe": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Friend Guard",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

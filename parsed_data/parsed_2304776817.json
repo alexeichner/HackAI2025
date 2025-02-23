@@ -1,0 +1,389 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Raging Bolt",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Miraidon",
+        "Calm Mind",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "100/100",
+      "p2a": "93/100",
+      "p2b": "93/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 2
+      },
+      "p1a: Landorus": {
+        "atk": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Landorus",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Protect",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Volt Switch",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "93/100",
+      "p2b": "46/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 2
+      },
+      "p1a: Landorus": {
+        "atk": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Landorus",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2a: Miraidon"
+      ],
+      [
+        "p2a: Miraidon",
+        "Calm Mind",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Volt Switch",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "32/100",
+      "p2b": "4/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 2
+      },
+      "p1a: Landorus": {
+        "atk": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sand Force",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Protect",
+        "p1a: Zacian"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Miraidon",
+        "Parabolic Charge",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "96/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 2
+      },
+      "p1a: Landorus": {
+        "atk": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "96/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "def": 1,
+        "spa": 1,
+        "spd": 2
+      },
+      "p1a: Landorus": {
+        "atk": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  }
+]

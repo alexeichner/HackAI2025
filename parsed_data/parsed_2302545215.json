@@ -1,0 +1,393 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Rillaboom",
+      "p2a": "Latios",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2b: Tyranitar",
+        "Protect",
+        "p2b: Tyranitar"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2b: Tyranitar"
+      ],
+      [
+        "p2a: Latios",
+        "Tailwind",
+        "p2a: Latios"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "95/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Overgrow",
+      "p2a": "Levitate",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ninetales-Alola",
+      "p1b": "Eternatus",
+      "p2a": "Latios",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Latios",
+        "Luster Purge",
+        "p1b: Rillaboom"
+      ],
+      [
+        "p2b: Tyranitar",
+        "Rock Slide",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        "p2b: Tyranitar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "89/100",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Eternatus",
+        "Pressure"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p2b: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Levitate",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ninetales-Alola",
+      "p1b": "Eternatus",
+      "p2a": "Latios",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Latios",
+        "Protect",
+        "p2a: Latios"
+      ],
+      [
+        "p1a: Ninetales",
+        "Aurora Veil",
+        "p1a: Ninetales"
+      ],
+      [
+        "p1b: Eternatus",
+        "Meteor Beam",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "89/100",
+      "p2b": "93/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "spd": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Eternatus": {
+        "spa": 1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Levitate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ninetales-Alola",
+      "p1b": "Eternatus",
+      "p2a": "Tyranitar",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Latios",
+        "Luster Purge",
+        "p1b: Eternatus"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1a: Ninetales"
+      ],
+      [
+        "p1b: Eternatus",
+        "Dynamax Cannon",
+        "p2a: Latios"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "74/100",
+      "p2a": "0 fnt",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "spd": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Eternatus": {
+        "spa": 1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ninetales",
+        "super effective"
+      ],
+      [
+        "p2a: Latios",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Sand Stream",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ninetales-Alola",
+      "p1b": "Eternatus",
+      "p2a": "Landorus",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Eternatus"
+      ],
+      [
+        "p1b: Eternatus",
+        "Dynamax Cannon",
+        "p2a: Tyranitar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "37/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "spd": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Eternatus": {
+        "spa": 1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Sand Force",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ninetales-Alola",
+      "p1b": "Eternatus",
+      "p2a": "Landorus",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Eternatus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Rillaboom": {
+        "spd": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Eternatus": {
+        "spa": 1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Sand Force",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

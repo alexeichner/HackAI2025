@@ -1,0 +1,515 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Amoonguss",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "51/100",
+      "p2a": "55/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Amoonguss",
+      "p2a: Amoonguss",
+      "p2a: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1b: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Effect Spore",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Rillaboom",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Kyogre",
+        "Calm Mind",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Amoonguss"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Amoonguss",
+      "p2a": "Incineroar",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Kyogre",
+        "Calm Mind",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "51/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p1b: Amoonguss": {
+        "atk": -1
+      },
+      "p2a: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2b: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Amoonguss",
+      "p2a": "Incineroar",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Clear Smog",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "99/100",
+      "p1b": "77/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p1b: Amoonguss": {
+        "atk": -1
+      },
+      "p2a: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Effect Spore",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Incineroar",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p1b: Amoonguss": {
+        "atk": -1
+      },
+      "p2a: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "64/100",
+      "p2a": "94/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Kyogre": {
+        "spa": 2,
+        "spd": 2
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2,
+        "atk": -1
+      },
+      "p1b: Amoonguss": {
+        "atk": -1
+      },
+      "p2a: Incineroar": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drizzle"
+    }
+  }
+]

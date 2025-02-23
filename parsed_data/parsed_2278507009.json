@@ -1,0 +1,274 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Tsareena",
+      "p2a": "Flutter Mane",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Protect",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Tsareena",
+        "Taunt",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Flutter Mane",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Tsareena",
+        "Power Whip",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Tsareena"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "27/100",
+      "p2a": "100/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Tsareena": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Tsareena",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Protect",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Flutter Mane"
+      ],
+      [
+        "p1b: Tsareena",
+        "Triple Axel",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "27/100",
+      "p2a": "0 fnt",
+      "p2b": "77/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Tsareena": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1b: Tsareena",
+        "Triple Axel",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "75/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Tsareena": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Effect Spore"
+    }
+  }
+]

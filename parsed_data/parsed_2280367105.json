@@ -1,0 +1,206 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Gothitelle",
+      "p1b": "Terapagos",
+      "p2a": "Mienshao",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p1b: Terapagos",
+        "Protect",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2a: Mienshao",
+        "Wide Guard",
+        "p2a: Mienshao"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Gothitelle"
+      ],
+      [
+        "p1a: Gothitelle",
+        "Foul Play",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Gothitelle",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Frisk",
+      "p1b": "Tera Shift",
+      "p2a": "Inner Focus",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Primarina",
+      "p1b": "Terapagos",
+      "p2a": "Mienshao",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Feint",
+        "p1b: Terapagos"
+      ],
+      [
+        "p2a: Mienshao",
+        "Close Combat",
+        "p1a: Gothitelle"
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        "p2a: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1a: Gothitelle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Torrent",
+      "p1b": "Tera Shift",
+      "p2a": "Inner Focus",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos-Terastal",
+      "p1b": "Incineroar",
+      "p2a": "Mienshao",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Helping Hand",
+        "p2a: Mienshao"
+      ],
+      [
+        "p2a: Mienshao",
+        "Close Combat",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1a: Primarina",
+        "Flip Turn",
+        "p2a: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Maushold": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Mienshao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Inner Focus",
+      "p2b": "Friend Guard"
+    }
+  }
+]

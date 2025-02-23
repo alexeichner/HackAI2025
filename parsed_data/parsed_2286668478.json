@@ -1,0 +1,433 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        "p2a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "11/100",
+      "p2a": "77/100",
+      "p2b": "74/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Kyurem-Black",
+      "p2a": "Chi-Yu",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Shadow Ball",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "77/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ],
+      [
+        "p1b: Kyurem",
+        "Teravolt"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flutter Mane",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Teravolt",
+      "p2a": "Beads of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Moltres",
+      "p1b": "Kyurem-Black",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Kyurem"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1a: Moltres"
+      ],
+      [
+        "p1b: Kyurem",
+        "Scale Shot",
+        "p2a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "72/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1b: Kyurem": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chi-Yu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Kyurem",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Teravolt",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Moltres",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Ice Spinner",
+        "p1b: Kyurem"
+      ],
+      [
+        "p1b: Kyurem",
+        "Scale Shot",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1b: Kyurem"
+      ],
+      [
+        "p1a: Moltres",
+        "Tailwind",
+        "p1a: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1b: Kyurem": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyurem",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Moltres",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Moltres",
+        "Burning Jealousy",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1b: Kyurem": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Moltres",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1b: Kyurem": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

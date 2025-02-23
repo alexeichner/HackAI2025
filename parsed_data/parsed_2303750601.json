@@ -1,0 +1,509 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Whimsicott",
+      "p2a": "Miraidon",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Whimsicott",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Headlong Rush",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Trick Room",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Facade",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "37/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Protect",
+        "p1a: Ursaluna"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Protect",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Draco Meteor",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "37/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Facade",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100 brn",
+      "p1b": "90/100",
+      "p2a": "91/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [
+      [
+        "p2b: Torkoal",
+        "Air Balloon"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Torkoal"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Headlong Rush",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100 brn",
+      "p1b": "80/100",
+      "p2a": "91/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        ""
+      ],
+      [
+        "p1a: Ursaluna",
+        "Headlong Rush",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100 brn",
+      "p1b": "80/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Ursaluna": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  }
+]

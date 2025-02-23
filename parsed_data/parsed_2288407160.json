@@ -1,0 +1,428 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Weezing-Galar",
+      "p2a": "Iron Crown",
+      "p2b": "Yanmega"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Iron Crown"
+      ],
+      [
+        "p2a: Iron Crown",
+        "Gravity",
+        "p2a: Iron Crown"
+      ],
+      [
+        "p2b: Yanmega",
+        "Hypnosis",
+        "p1b: Weezing"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "100/100",
+      "p2a": "65/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Crown",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "Speed Boost"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Weezing-Galar",
+      "p2a": "Iron Crown",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Yanmega"
+      ],
+      [
+        "p2a: Iron Crown",
+        "Tera Blast",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Weezing",
+        "Toxic Spikes",
+        "p2a: Iron Crown"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "30/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Gravity"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Crown",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Neutralizing Gas",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri-Droopy",
+      "p2a": "Rillaboom",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Iron Crown",
+        "Tera Blast",
+        "p1a: Dondozo"
+      ],
+      [
+        "p1a: Dondozo",
+        "Order Up",
+        "p2a: Iron Crown"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "88/100 psn"
+    },
+    "field_effects": [
+      "Gravity",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "psn",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Groudon",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri-Droopy",
+      "p2a": "Rillaboom",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Dondozo",
+        "Protect",
+        "p1a: Dondozo"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1a: Dondozo"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "100/100",
+      "p2a": "88/100 psn",
+      "p2b": "82/100 psn"
+    },
+    "field_effects": [
+      "Gravity",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "psn",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Groudon",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri-Droopy",
+      "p2a": "Rillaboom",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Dondozo",
+        "Body Press",
+        "p2b: Groudon"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Dondozo"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "79/100",
+      "p1b": "100/100",
+      "p2a": "79/100 psn",
+      "p2b": "27/100 psn"
+    },
+    "field_effects": [
+      "Gravity",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "psn",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1a: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Groudon",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri-Droopy",
+      "p2a": "Rillaboom",
+      "p2b": "Groudon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "79/100",
+      "p1b": "100/100",
+      "p2a": "79/100 psn",
+      "p2b": "27/100 psn"
+    },
+    "field_effects": [
+      "Gravity",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 3,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2b": "psn",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Drought"
+    }
+  }
+]

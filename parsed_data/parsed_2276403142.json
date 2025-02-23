@@ -1,0 +1,577 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Reflect",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Wood Hammer",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Thunder Wave",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Wood Hammer",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "59/100 par",
+      "p2a": "0 fnt",
+      "p2b": "57/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex",
+      "p1b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2a: Kyogre",
+        "Calm Mind",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Wood Hammer",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "59/100 par",
+      "p2a": "15/100",
+      "p2b": "57/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "59/100 par",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Psychic",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        "p1a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "59/100 par",
+      "p2a": "43/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Pollen Puff",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Trick Room",
+        "p1a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "59/100 par",
+      "p2a": "99/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Torkoal",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Amoonguss",
+        "Protect",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "88/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "White Smoke",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Torkoal",
+      "p2a": "Kyogre",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Torkoal",
+        "Eruption",
+        "p2b: Amoonguss"
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        "p1b: Torkoal"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1b: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "58/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Torkoal",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "White Smoke",
+      "p2a": "Drizzle",
+      "p2b": "Effect Spore"
+    }
+  }
+]

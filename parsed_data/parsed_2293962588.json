@@ -1,0 +1,528 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Sinistcha",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Iron Valiant",
+        "Taunt",
+        "p1b: Iron Valiant"
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Moonblast",
+        "p2a: Iron Valiant"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Heatran"
+      ],
+      [
+        "p1a: Heatran",
+        "Iron Head",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "89/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Valiant",
+        "super effective"
+      ],
+      [
+        "p1a: Heatran",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Heatran",
+        "87/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Hospitality",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Sinistcha",
+      "p2a": "Archaludon",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Heatran",
+        "Body Press",
+        "p2a: Archaludon"
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p1b: Sinistcha",
+        "Trick Room",
+        "p1b: Sinistcha"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "72/100",
+      "p2a": "68/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "super effective"
+      ],
+      [
+        "p1b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Heatran",
+        "87/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Hospitality",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Archaludon",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        ""
+      ],
+      [
+        "p1a: Heatran",
+        "Iron Head",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Heatran"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "63/100",
+      "p2b": "47/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spa": 2
+      },
+      "p1a: Heatran": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2b: Tornadus",
+        "resisted"
+      ],
+      [
+        "p1b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p1a: Heatran",
+        "super effective"
+      ],
+      [
+        "p1b: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Heatran",
+        "87/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Heatran",
+        "Body Press",
+        "p2a: Archaludon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Archaludon"
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "1/100",
+      "p2a": "43/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spa": 2
+      },
+      "p1a: Heatran": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Heatran",
+        "87/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Chilling Neigh",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Heatran",
+        "Iron Head",
+        "p2a: Archaludon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "13/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spa": 2
+      },
+      "p1a: Heatran": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Heatran",
+        "87/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Chilling Neigh",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Heatran",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Heatran",
+        "Iron Head",
+        "p2a: Archaludon"
+      ],
+      [
+        "p2a: Archaludon",
+        "Body Press",
+        "p1a: Heatran"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "3/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "def": 6,
+        "spa": 2
+      },
+      "p1a: Heatran": {
+        "spe": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Flash Fire",
+      "p1b": "Chilling Neigh",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  }
+]

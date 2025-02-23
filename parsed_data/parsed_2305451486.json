@@ -1,0 +1,404 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Tornadus",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1a: Regidrago",
+        "Protect",
+        "p1a: Regidrago"
+      ],
+      [
+        "p2a: Tornadus",
+        "Taunt",
+        "p1b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "Prankster",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Amoonguss",
+      "p2a": "Tornadus",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1a: Zacian"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1b: Amoonguss",
+        "Clear Smog",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "79/100",
+      "p2a": "100/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zacian"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Zacian",
+        "resisted"
+      ],
+      [
+        "p1a: Zacian",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Effect Spore",
+      "p2a": "Prankster",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Ditto",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Zacian",
+        "Sacred Sword",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "79/100",
+      "p2a": "0 fnt",
+      "p2b": "73/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Limber",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ditto",
+        "Tailwind",
+        "p1b: Ditto"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Zacian"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Ditto"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "73/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zacian",
+      "p1a: Zacian"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p1a: Regidrago",
+        "Dragon Energy",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "17/100",
+      "p2a": "6/100",
+      "p2b": "74/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Amoonguss",
+      "p1b: Amoonguss",
+      "p1b: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Regidrago",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Regidrago",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1a: Regidrago"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Regidrago",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Dragon's Maw",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  }
+]

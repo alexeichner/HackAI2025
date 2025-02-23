@@ -1,0 +1,591 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Iron Valiant"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2b: Iron Valiant",
+        "Coaching",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p1b: Cresselia",
+        "Trick Room",
+        "p1b: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "44/100",
+      "p1b": "84/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Cresselia",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Levitate",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Iron Valiant"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Cresselia"
+      ],
+      [
+        "p1b: Cresselia",
+        "Skill Swap",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2b: Iron Valiant",
+        "Coaching",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ],
+      [
+        "p1b: Cresselia",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Cresselia",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Dauntless Shield",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Iron Valiant"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Cresselia"
+      ],
+      [
+        "p1b: Cresselia",
+        "Lunar Blessing",
+        "p1b: Cresselia"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Heavy Slam",
+        "p2b: Iron Valiant"
+      ],
+      [
+        "p2b: Iron Valiant",
+        "Coaching",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "93/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Calyrex",
+        "p1b: Cresselia"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Dauntless Shield",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Cresselia"
+      ],
+      [
+        "p1b: Cresselia",
+        "Moonblast",
+        "p2b: Iron Valiant"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Iron Defense",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "43/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Cresselia",
+        "super effective"
+      ],
+      [
+        "p2b: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Dauntless Shield",
+      "p2a": "Unnerve",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Pelipper",
+        "Weather Ball",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Iron Defense",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "35/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Pelipper"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Pelipper"
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Pelipper",
+      "p1b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Pelipper",
+        "resisted"
+      ],
+      [
+        "p2b: Pelipper",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Levitate",
+      "p2a": "Chilling Neigh",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Cresselia",
+        "Lunar Blessing",
+        "p1b: Cresselia"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Cresselia"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "34/100",
+      "p2a": "67/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Cresselia",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Levitate",
+      "p2a": "Chilling Neigh",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Cresselia",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Landorus"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "34/100",
+      "p2a": "67/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": 4,
+        "def": 3
+      },
+      "p1a: Zamazenta": {
+        "def": 5
+      },
+      "p1b: Cresselia": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Steel",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Levitate",
+      "p2a": "Chilling Neigh",
+      "p2b": "Sand Force"
+    }
+  }
+]

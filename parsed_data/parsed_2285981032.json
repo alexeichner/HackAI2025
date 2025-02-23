@@ -1,0 +1,483 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Tsareena",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1b: Tsareena"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "35/100",
+      "p2a": "100/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tsareena"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Leaf Guard",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Tornadus",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "42/100",
+      "p2a": "100/100",
+      "p2b": "78/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Tornadus",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Protect",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "42/100",
+      "p2a": "95/100 brn",
+      "p2b": "78/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Taunt",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "0 fnt",
+      "p2a": "65/100 brn",
+      "p2b": "78/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 0,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tsareena",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Regidrago"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "0 fnt",
+      "p2a": "20/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 0,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Leaf Guard",
+      "p1b": "Drizzle",
+      "p2a": "Chilling Neigh",
+      "p2b": "Dragon's Maw"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tsareena",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Tsareena",
+        "Protect",
+        "p1a: Tsareena"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "84/100",
+      "p2a": "14/100 brn",
+      "p2b": "30/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 0,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Leaf Guard",
+      "p1b": "Drizzle",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tsareena",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1a: Tsareena",
+        "Power Whip",
+        "p2: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "84/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 0,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Tsareena"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Leaf Guard",
+      "p1b": "Drizzle",
+      "p2a": "Chilling Neigh",
+      "p2b": "Own Tempo"
+    }
+  }
+]

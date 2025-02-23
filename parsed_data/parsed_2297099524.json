@@ -1,0 +1,637 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tyranitar",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "100/100",
+      "p2a": "70/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Stream",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Tyranitar",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Dragon Pulse",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "40/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sand Stream",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Tyranitar",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Iron Defense",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Tyranitar"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "5/100",
+      "p2a": "11/100",
+      "p2b": "84/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tyranitar",
+      "p1b: Tyranitar",
+      "p1b: Tyranitar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Tyranitar",
+        "super effective"
+      ],
+      [
+        "p1b: Tyranitar",
+        "super effective"
+      ],
+      [
+        "p1b: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Tyranitar",
+        "p2b: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sand Stream",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Tyranitar",
+      "p2a": "Raging Bolt",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Zamazenta"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100 par",
+      "p1b": "5/100",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zamazenta",
+      "p1a: Zamazenta",
+      "p1a: Zamazenta"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sand Stream",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Moltres-Galar",
+      "p2a": "Raging Bolt",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Moltres"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Moltres-Galar",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1b: Moltres",
+        "Tailwind",
+        "p1b: Moltres"
+      ],
+      [
+        "p1a: Tyranitar",
+        "Rock Slide",
+        "p2a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "85/100",
+      "p2a": "0 fnt",
+      "p2b": "22/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Moltres-Galar",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Moltres",
+        "Fiery Wrath",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Horn Leech",
+        "p1a: Tyranitar"
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        "p1b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "78/100",
+      "p2a": "61/100",
+      "p2b": "4/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Moltres-Galar",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Helping Hand",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Moltres",
+        "Fiery Wrath",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "44/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Moltres": {
+        "atk": -1
+      },
+      "p1b: Tyranitar": {
+        "atk": -2
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "atk": -1
+      },
+      "p1b: Moltres": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "none",
+      "p2a": "Mold Breaker",
+      "p2b": "Intimidate"
+    }
+  }
+]

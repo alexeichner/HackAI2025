@@ -1,0 +1,715 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Incineroar",
+      "p2a": "Zacian",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: My King",
+        "Protect",
+        "p1a: My King"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1a: My King"
+      ],
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "96/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Intimidate",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Incineroar",
+      "p2a": "Zacian",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p1a: My King",
+        "Origin Pulse",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: My King"
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        "p2a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "74/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1a: My King",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Intimidate",
+      "p2a": "Intrepid Sword",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Grimmsnarl",
+      "p2a": "Zacian",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [
+      [
+        "p1a: My King",
+        "Protect",
+        "p1a: My King"
+      ],
+      [
+        "p2b: Landorus",
+        "Tera Blast",
+        "p1a: My King"
+      ],
+      [
+        "p2a: Zacian",
+        "Close Combat",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "74/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Intrepid Sword",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Grimmsnarl",
+      "p2a": "Zacian",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Thunder Wave",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: My King",
+        "Origin Pulse",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "53/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Zacian",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: My King",
+        "Protect",
+        "p1a: My King"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2a: Zacian",
+        "Play Rough",
+        "p1b: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "58/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Zacian",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        "p2a: Zacian"
+      ],
+      [
+        "p1b: Keith",
+        "U-turn",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: My King",
+        "Calm Mind",
+        "p1a: My King"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "17/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Intrepid Sword",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [
+      [
+        "p1b: Keith",
+        "Grassy Glide",
+        "p2a: Zacian"
+      ],
+      [
+        "p2a: Zacian",
+        "Play Rough",
+        "p1a: My King"
+      ],
+      [
+        "p1a: My King",
+        "Origin Pulse",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Keith": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Zacian",
+        "p1a: My King"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: My King"
+      ],
+      [
+        "p2b: Landorus",
+        "Tera Blast",
+        "p1a: My King"
+      ],
+      [
+        "p1b: Keith",
+        "Wood Hammer",
+        "p2b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "70/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Keith": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: My King",
+        "resisted"
+      ],
+      [
+        "p1a: My King",
+        "super effective"
+      ],
+      [
+        "p2b: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "70/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: My King": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Keith": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  }
+]

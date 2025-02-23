@@ -1,0 +1,401 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Miraidon",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Miraidon",
+        "Protect",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Regieleki",
+        "Electroweb",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        "p1a: Regieleki"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1a: Regieleki",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Regieleki",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Miraidon",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Dragon Cheer",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Overheat",
+        "p2b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Miraidon": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Dondozo"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Miraidon",
+      "p2a": "Tatsugiri",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Miraidon",
+        "Protect",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Breaking Swipe",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Muddy Water",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "4/100",
+      "p2b": "54/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Miraidon": {
+        "spa": -4
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tatsugiri",
+        "super effective"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Commander",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Miraidon",
+      "p2a": "Tatsugiri",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Tatsugiri",
+        "Protect",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Fake Out",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1b: Miraidon",
+        "Draco Meteor",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Miraidon": {
+        "spa": -4
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Miraidon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Commander",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Hands",
+      "p1b": "Miraidon",
+      "p2a": "Tatsugiri",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1b: Miraidon",
+        "Electro Drift",
+        "p2b: Dragonite"
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Draco Meteor",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Iron Hands",
+        "Close Combat",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 1,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Miraidon": {
+        "spa": -4
+      },
+      "p2a: Tatsugiri": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p2b: Miraidon": {
+        "atk": -1
+      },
+      "p1a: Iron Hands": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Dragonite"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Commander",
+      "p2b": "Inner Focus"
+    }
+  }
+]

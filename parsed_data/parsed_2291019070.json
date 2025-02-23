@@ -1,0 +1,290 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Kyogre",
+      "p2a": "Terapagos",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Wood Hammer",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "64/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Tornadus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Tera Shift",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Smeargle": {
+        "spd": 2,
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Smeargle",
+        "Struggle",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "75/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Smeargle": {
+        "spd": 2,
+        "def": 1,
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Smeargle"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "75/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Smeargle": {
+        "spd": 2,
+        "def": 1,
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Moody"
+    }
+  }
+]

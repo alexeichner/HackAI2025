@@ -1,0 +1,338 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Misty Terrain",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        "p2b: Groudon"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Urshifu",
+      "p2a": "Whimsicott",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1a: Hitmontop"
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        "p2b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "51/100",
+      "p2a": "100/100",
+      "p2b": "25/100"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Hitmontop",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Groudon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Kyogre",
+      "p2a": "Whimsicott",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Hitmontop",
+        "Fake Out",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "25/100"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Kyogre",
+      "p2a": "Whimsicott",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Hitmontop",
+        "Helping Hand",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Thunderbolt",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "4/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Kyogre",
+      "p2a": "Whimsicott",
+      "p2b": "Groudon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "4/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p2a: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  }
+]

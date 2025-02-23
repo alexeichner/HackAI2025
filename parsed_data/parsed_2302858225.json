@@ -1,0 +1,392 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Zapdos-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Zapdos",
+        "Detect",
+        "p1b: Zapdos"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Zapdos"
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        "p1a: Lapras"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Zapdos-Galar",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Zapdos",
+        "Tailwind",
+        "p1b: Zapdos"
+      ],
+      [
+        "p1a: Lapras",
+        "Freeze-Dry",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        "p1b: Zapdos"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        "p1a: Lapras"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "22/100",
+      "p2a": "62/100",
+      "p2b": "95/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Zapdos",
+        "super effective"
+      ],
+      [
+        "p1a: Lapras",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Kyogre",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Zapdos",
+        "Close Combat",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: Lapras",
+        "Freeze-Dry",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        "p1b: Zapdos"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "0 fnt",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zapdos": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1b: Zapdos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Power Whip",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Lapras",
+        "Freeze-Dry",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "7/100",
+      "p2a": "0 fnt",
+      "p2b": "83/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zapdos": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Sturdy"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "Sturdy",
+      "p2a": "none",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Lunala",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Lapras"
+      ],
+      [
+        "p1a: Lapras",
+        "Hydro Pump",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zapdos": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Chien-Pao"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Lapras",
+      "p1b": "Lunala",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zapdos": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Water Absorb",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

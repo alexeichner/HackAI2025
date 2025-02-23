@@ -1,0 +1,342 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Whimsicott",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Volt Switch",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Moonblast",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Whimsicott",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Protect",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Bulldoze",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "49/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spe": -3,
+        "atk": 3,
+        "spa": 2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Protect",
+        ""
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        "p2b: Farigiraf"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Bulldoze",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spe": -3,
+        "atk": 3,
+        "spa": 2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Whimsicott"
+    ],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Miraidon"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Bulldoze",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "52/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spe": -3,
+        "atk": 3,
+        "spa": 2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Sturdy"
+      ],
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Sturdy",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  }
+]

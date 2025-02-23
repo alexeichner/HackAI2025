@@ -1,0 +1,474 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1a: Iron Moth"
+      ],
+      [
+        "p1b: Zacian",
+        "Tera Blast",
+        "p2a: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "40/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intrepid Sword",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Protect",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1b: Zacian",
+        "Behemoth Blade",
+        "p2b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "45/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intrepid Sword",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p2a: Ursaluna",
+        "Blood Moon",
+        "p1b: Zacian"
+      ],
+      [
+        "p1b: Zacian",
+        "Sacred Sword",
+        "p2a: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "25/100",
+      "p2a": "0 fnt",
+      "p2b": "92/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Intrepid Sword",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Rillaboom",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Protect",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "19/100",
+      "p2a": "0 fnt",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Overgrow",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "33/100",
+      "p2b": "49/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Zacian",
+        "Tera Blast",
+        "p2b: Incineroar"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Zacian"
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zacian": {
+        "atk": 0
+      },
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

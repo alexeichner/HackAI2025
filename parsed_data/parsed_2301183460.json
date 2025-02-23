@@ -1,0 +1,463 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Lilligant-Hisui"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2b: Lilligant",
+        "After You",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Lilligant"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lilligant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Mold Breaker",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Close Combat",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Lilligant"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Lilligant"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Lilligant",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Embody Aspect (Hearthflame)",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Flutter Mane",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Regidrago",
+        "Dragon Energy",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Hyper Voice",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Flutter Mane",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Regidrago",
+        "Protect",
+        "p2a: Regidrago"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Expanding Force",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2a: Regidrago"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Dazzling Gleam",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "2/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Flutter Mane",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Protect",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2a: Regidrago",
+        "Dragon Energy",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Farigiraf",
+        "Hyper Voice",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "2/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Flutter Mane",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Dazzling Gleam",
+        "p2a: Regidrago"
+      ],
+      [
+        "p2a: Regidrago",
+        "Earth Power",
+        "p1b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "26/100",
+      "p2a": "44/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Regidrago",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Flutter Mane",
+      "p2a": "Regidrago",
+      "p2b": "Farigiraf"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "26/100",
+      "p2a": "44/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Calyrex": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dragon's Maw",
+      "p2b": "Cud Chew"
+    }
+  }
+]

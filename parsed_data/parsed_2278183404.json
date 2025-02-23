@@ -1,0 +1,360 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Lunala",
+      "p2a": "Chien-Pao",
+      "p2b": "Ogerpon"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Urshifu",
+        "U-turn",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Ice Spinner",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "63/100",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Lunala"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Shadow Shield",
+      "p2a": "Sword of Ruin",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Ogerpon"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Lunala": {
+        "spa": 1
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Chien-Pao"
+    ],
+    "critical_hits": [
+      "p1b: Lunala"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Lunala": {
+        "spa": 1
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Ogerpon",
+      "p2b: Ogerpon",
+      "p2b: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ],
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Zacian"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Lunala": {
+        "spa": 1
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Zacian",
+      "p2b: Zacian"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Lunala": {
+        "spa": 1
+      },
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Intrepid Sword"
+    }
+  }
+]

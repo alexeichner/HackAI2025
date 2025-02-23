@@ -1,0 +1,539 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Thundurus",
+      "p1b": "Gengar",
+      "p2a": "Eternatus",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Gengar",
+        "Protect",
+        "p1b: Gengar"
+      ],
+      [
+        "p1a: Thundurus",
+        "Eerie Impulse",
+        "p2a: Eternatus"
+      ],
+      [
+        "p2b: Gholdengo",
+        "Shadow Ball",
+        "p1b: Gengar"
+      ],
+      [
+        "p2a: Eternatus",
+        "Meteor Beam",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "35/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Thundurus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cursed Body",
+      "p2a": "Pressure",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Gengar",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Thundurus",
+        "Thunder Wave",
+        "p2b: Gholdengo"
+      ],
+      [
+        "p2b: Gholdengo",
+        "Shadow Ball",
+        "p1a: Thundurus"
+      ],
+      [
+        "p1b: Gengar",
+        "Hex",
+        "p2b: Gholdengo"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gholdengo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Cursed Body",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Gengar"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Icicle Crash",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "25/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Gengar",
+      "p1b: Gengar"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sucker Punch",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "25/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Eternatus",
+        "Pressure"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Chien-Pao",
+      "p1a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Eternatus",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "25/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2b: Eternatus": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p2b: Eternatus",
+        "Meteor Beam",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "58/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2b: Eternatus": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p2b: Eternatus",
+        "Dynamax Cannon",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Iron Defense",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "29/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2b: Eternatus": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p2b: Eternatus",
+        "Dynamax Cannon",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Eternatus": {
+        "spa": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2b: Eternatus": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  }
+]

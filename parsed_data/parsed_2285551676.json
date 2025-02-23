@@ -1,0 +1,386 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Protect",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Snarl",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "78/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Flutter Mane": {
+        "spa": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Chi-Yu",
+        "p2a: Groudon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        "p2a: Groudon"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "67/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Flutter Mane": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Groudon",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Groudon",
+      "p2b": "Torkoal"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "62/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Flutter Mane": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drought",
+      "p2b": "White Smoke"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Groudon",
+      "p2b": "Torkoal"
+    },
+    "moves": [
+      [
+        "p2a: Groudon",
+        "Crunch",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Torkoal"
+      ],
+      [
+        "p2b: Torkoal",
+        "Earth Power",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "48/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Flutter Mane": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2a: Groudon",
+        "resisted"
+      ],
+      [
+        "p2b: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drought",
+      "p2b": "White Smoke"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Groudon",
+      "p2b": "Torkoal"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Torkoal"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Flutter Mane": {
+        "spa": -1,
+        "spe": -1
+      },
+      "p2a: Groudon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Torkoal",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drought",
+      "p2b": "White Smoke"
+    }
+  }
+]

@@ -1,0 +1,640 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Valiant",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Iron Valiant",
+        "Wide Guard",
+        "p1b: Iron Valiant"
+      ],
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2a: Kyogre",
+        "Thunder",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Iron Valiant",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Iron Valiant",
+        "Spirit Break",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Kyogre",
+        "Thunder",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 par",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Iron Valiant",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Spirit Break",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 par",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Iron Valiant",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2b: Archaludon",
+        "Protect",
+        "p2b: Archaludon"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Archaludon"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1b: Iron Valiant"
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Encore",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 par",
+      "p1b": "19/100",
+      "p2a": "80/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2b: Archaludon",
+        "Protect",
+        ""
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Archaludon"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "46/100 par",
+      "p2a": "64/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Archaludon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "100/100 par",
+      "p2a": "48/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Archaludon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "80/100 par",
+      "p2a": "45/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Archaludon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "100/100 par",
+      "p2a": "72/100",
+      "p2b": "55/100 slp"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Archaludon",
+        "Electro Shot",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "81/100 par",
+      "p2a": "0 fnt",
+      "p2b": "13/100"
+    },
+    "field_effects": [
+      "Trick Room",
+      "Grassy Terrain",
+      "Trick Room",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Archaludon": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Chilling Neigh",
+      "p2a": "Overgrow",
+      "p2b": "Stamina"
+    }
+  }
+]

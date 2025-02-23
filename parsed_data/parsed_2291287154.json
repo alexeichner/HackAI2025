@@ -1,0 +1,366 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Kyogre",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Dragon Claw",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1a: Entei",
+        "Sacred Fire",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Entei"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        "p1b: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "0 fnt",
+      "p2a": "57/100 brn",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Entei",
+      "p1a: Entei",
+      "p1a: Entei",
+      "p1b: Roaring Moon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Entei",
+        "super effective"
+      ],
+      [
+        "p1a: Entei",
+        "super effective"
+      ],
+      [
+        "p1a: Entei",
+        "super effective"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "62/100",
+      "p2a": "0 fnt",
+      "p2b": "4/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Hitmontop",
+        "Feint",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Calyrex",
+        "Psychic",
+        "p1a: Hitmontop"
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "69/100",
+      "p2a": "8/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Hitmontop"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Hitmontop",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drizzle",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Protect",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100",
+      "p2a": "14/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drizzle",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100",
+      "p2a": "14/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drizzle",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  }
+]

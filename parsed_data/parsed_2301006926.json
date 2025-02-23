@@ -1,0 +1,148 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Muk-Alola",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Fake Out",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Smeargle"
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        "p1b: Muk"
+      ],
+      [
+        "p1b: Muk",
+        "Minimize",
+        "p1b: Muk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "55/100",
+      "p2a": "96/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Muk": {
+        "evasion": 2,
+        "spd": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Muk",
+        "Moody"
+      ],
+      [
+        "p1b: Muk",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Smeargle",
+      "p1a: Smeargle",
+      "p1a: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Moody",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Muk-Alola",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Sableye",
+        "Disable",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Coaching",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        "p1b: Muk"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "96/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Muk": {
+        "evasion": 2,
+        "spd": 2,
+        "def": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 2,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Muk",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Moody",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

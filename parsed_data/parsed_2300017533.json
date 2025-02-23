@@ -1,0 +1,132 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Lilligant-Hisui",
+      "p2a": "Whimsicott",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Torkoal",
+        "Protect",
+        "p1a: Torkoal"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Misty Terrain",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p1b: Lilligant",
+        "Close Combat",
+        "p2b: Groudon"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Lilligant"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "30/100",
+      "p2a": "100/100",
+      "p2b": "67/100"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Lilligant": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Lilligant",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Torkoal",
+      "p1b": "Lilligant-Hisui",
+      "p2a": "Whimsicott",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        "p1a: Torkoal"
+      ],
+      [
+        "p1b: Lilligant",
+        "Solar Blade",
+        ""
+      ],
+      [
+        "p1a: Torkoal",
+        "Protect",
+        ""
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "30/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Misty Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Lilligant": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Torkoal"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "White Smoke",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

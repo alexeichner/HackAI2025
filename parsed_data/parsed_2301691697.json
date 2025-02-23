@@ -1,0 +1,428 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Amoonguss",
+      "p2a": "Iron Bundle",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Light Screen",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2a: Miraidon"
+      ],
+      [
+        "p1b: Kyogre",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Amoonguss",
+      "p2a": "Iron Bundle",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Iron Bundle",
+        "Encore",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        ""
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        "p2a: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Chien-Pao",
+      "p2a": "Iron Bundle",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2a: Iron Bundle",
+        "Freeze-Dry",
+        "p1b: Amoonguss"
+      ],
+      [
+        "p2b: Dragonite",
+        "Scale Shot",
+        "p1b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dragonite": {
+        "def": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Sword of Ruin",
+      "p2a": "none",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Chien-Pao",
+      "p2a": "Iron Bundle",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2a: Iron Bundle"
+      ],
+      [
+        "p2a: Iron Bundle",
+        "Icy Wind",
+        "p1a: Ursaluna"
+      ],
+      [
+        "p2b: Dragonite",
+        "Fire Punch",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Facade",
+        "p2b: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100 brn",
+      "p1b": "29/100",
+      "p2a": "36/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p1a: Ursaluna": {
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ursaluna",
+        "super effective"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Sword of Ruin",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Chien-Pao",
+      "p2a": "Iron Bundle",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2a: Iron Bundle"
+      ],
+      [
+        "p2b: Miraidon",
+        "Dazzling Gleam",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Facade",
+        "p2b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p1a: Ursaluna": {
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Sword of Ruin",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ursaluna",
+      "p1b": "Chien-Pao",
+      "p2a": "Iron Bundle",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Beat Up",
+        "p1a: Ursaluna"
+      ],
+      [
+        "p1a: Ursaluna",
+        "Facade",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100 brn",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Dragonite": {
+        "def": -1,
+        "spe": 1
+      },
+      "p1a: Ursaluna": {
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ursaluna",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Guts",
+      "p1b": "Sword of Ruin",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  }
+]

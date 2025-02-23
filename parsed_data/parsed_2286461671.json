@@ -1,0 +1,136 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Mienshao",
+        "Fake Out",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "0 fnt",
+      "p2a": "84/100",
+      "p2b": "6/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p2b: Calyrex",
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Inner Focus",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Raging Bolt",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p2a: Mienshao",
+        "Close Combat",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "12/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Inner Focus",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

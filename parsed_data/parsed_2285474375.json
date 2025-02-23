@@ -1,0 +1,492 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Grimmsnarl",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Spiky Shield",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Fake Out",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "96/100",
+      "p2b": "88/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Grimmsnarl",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: u"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Foul Play",
+        "p2b: u"
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "96/100",
+      "p2b": "60/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Embody Aspect (Cornerstone)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: u",
+        "resisted"
+      ],
+      [
+        "p2b: u",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Cornerstone)",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Grimmsnarl",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Reflect",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2b: u",
+        "Wicked Blow",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "68/100",
+      "p2a": "96/100",
+      "p2b": "60/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Ogerpon",
+      "p1a: Ogerpon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Farigiraf"
+      ],
+      [
+        "p2b: u",
+        "Wicked Blow",
+        "p1a: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "96/100",
+      "p2b": "60/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Farigiraf"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Groudon",
+        "super effective"
+      ],
+      [
+        "p1a: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drought",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Fake Out",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Groudon",
+        "Precipice Blades",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "38/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1b: Groudon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drought",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "31/100",
+      "p1b": "0 fnt",
+      "p2a": "38/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1b: Groudon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Groudon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drought",
+      "p2a": "Chilling Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "38/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": -1,
+        "def": 1
+      },
+      "p1b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1b: Groudon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drought",
+      "p2a": "Chilling Neigh",
+      "p2b": "Intimidate"
+    }
+  }
+]

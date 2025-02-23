@@ -1,0 +1,619 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chi-Yu",
+      "p2a": "Roaring Moon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Tailwind",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "77/100",
+      "p2b": "81/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Beads of Ruin",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Tornadus",
+      "p2a": "Roaring Moon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1a: Zacian"
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100",
+      "p1b": "31/100",
+      "p2a": "61/100",
+      "p2b": "16/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Tornadus",
+      "p2a": "Roaring Moon",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Protect",
+        "p1a: Zacian"
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        "p1b: Tornadus"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100",
+      "p1b": "31/100",
+      "p2a": "61/100",
+      "p2b": "16/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        "p2b: Indeedee"
+      ],
+      [
+        "p2b: Indeedee",
+        "Trick Room",
+        "p2b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100",
+      "p2b": "15/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Protect",
+        "p1a: Zacian"
+      ],
+      [
+        "p2b: Indeedee",
+        "Follow Me",
+        "p2b: Indeedee"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        "p2b: Indeedee"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Taunt",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "84/100",
+      "p2a": "61/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        "p2b: Lunala"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "61/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p2b: Lunala",
+        "super effective"
+      ],
+      [
+        "p1b: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1a: Zacian"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Snarl",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "61/100",
+      "p2a": "61/100",
+      "p2b": "40/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      },
+      "p1b: Farigiraf": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zacian"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic Noise",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "61/100",
+      "p2b": "40/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      },
+      "p1b: Farigiraf": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Farigiraf",
+      "p2a": "Roaring Moon",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "61/100",
+      "p2b": "30/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      },
+      "p1b: Farigiraf": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Farigiraf",
+        "resisted"
+      ],
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

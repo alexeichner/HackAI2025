@@ -1,0 +1,406 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Tornadus",
+      "p2a": "Iron Hands",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Fake Out",
+        "p1a: Terapagos"
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Trick Room",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "93/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "7/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Tornadus",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Iron Hands",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Scary Face",
+        "p1a: Terapagos"
+      ],
+      [
+        "p2a: Iron Hands",
+        "Wild Charge",
+        "p1b: Tornadus"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Iron Hands"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "35/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Iron Hands"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Moody",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        "p1b: Smeargle"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Koraidon",
+        "Scale Shot",
+        "p1b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      },
+      "p2a: Koraidon": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Mold Breaker",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Koraidon",
+        "Protect",
+        "p2a: Koraidon"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Koraidon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      },
+      "p2a: Koraidon": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Mold Breaker",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Koraidon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Koraidon",
+        "Scale Shot",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2
+      },
+      "p1b: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      },
+      "p2a: Koraidon": {
+        "def": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Ogerpon",
+      "p2a: Koraidon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Mold Breaker",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  }
+]

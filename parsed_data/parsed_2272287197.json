@@ -1,0 +1,296 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Electivire",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Discharge",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1b: Electivire",
+        "Ice Punch",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "19/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Electivire": {
+        "def": 1,
+        "spe": 1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Electivire",
+        "Motor Drive"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Motor Drive",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Electivire",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1a: Landorus"
+      ],
+      [
+        "p1b: Electivire",
+        "Ice Punch",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "64/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Electivire": {
+        "def": 1,
+        "spe": 1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Motor Drive",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Electivire",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        "p2a: Zamazenta"
+      ],
+      [
+        "p1b: Electivire",
+        "Follow Me",
+        "p1b: Electivire"
+      ],
+      [
+        "p1a: Landorus",
+        "Substitute",
+        "p1a: Landorus"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        "p1b: Electivire"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "39/100",
+      "p2a": "68/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Electivire": {
+        "def": 1,
+        "spe": 1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Motor Drive",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Electivire",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Electivire",
+        "Follow Me",
+        "p1b: Electivire"
+      ],
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1b: Electivire"
+      ],
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        "p2a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "17/100",
+      "p2a": "0 fnt",
+      "p2b": "55/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Electivire": {
+        "def": 1,
+        "spe": 1
+      },
+      "p2a: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Motor Drive",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  }
+]

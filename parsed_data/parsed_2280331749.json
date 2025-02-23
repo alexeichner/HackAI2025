@@ -1,0 +1,282 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2b: Kyogre",
+        "Calm Mind",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "36/100",
+      "p2b": "72/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Moody",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Smeargle",
+      "p2a": "Amoonguss",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1b: Smeargle",
+        "Spore",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "54/100",
+      "p2b": "58/100 slp"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Moody",
+      "p2a": "Effect Spore",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Baxcalibur",
+      "p2a": "Rillaboom",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1b: Smeargle",
+        "Shed Tail",
+        "p1b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "37/100 slp"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Thermal Exchange",
+      "p2a": "Overgrow",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Baxcalibur",
+      "p2a": "Rillaboom",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Baxcalibur",
+        "Scale Shot",
+        "p2b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "def": 1
+      },
+      "p1b: Baxcalibur": {
+        "def": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kyogre"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Thermal Exchange",
+      "p2a": "Overgrow",
+      "p2b": "Drizzle"
+    }
+  }
+]

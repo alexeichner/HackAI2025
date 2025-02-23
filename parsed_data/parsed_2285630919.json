@@ -1,0 +1,921 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Grimmsnarl",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Mienshao",
+        "Fake Out",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Reflect",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2b: Calyrex",
+        "Trick",
+        "p1b: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "92/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [
+      [
+        "p1b: Grimmsnarl",
+        "Choice Scarf"
+      ],
+      [
+        "p2b: Calyrex",
+        "Light Clay"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Inner Focus",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Grimmsnarl",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Light Screen",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2b: Calyrex",
+        "Snarl",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2a: Mienshao",
+        "Knock Off",
+        "p1a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "99/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Prankster",
+      "p2a": "Inner Focus",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Snarl",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2a: Mienshao",
+        "Close Combat",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "56/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "Inner Focus",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Bitter Malice",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Mienshao"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        "p1b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "80/100",
+      "p2a": "59/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "80/100",
+      "p2a": "59/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Bitter Malice",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "80/100",
+      "p2a": "13/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        "p2a: Calyrex"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Snarl",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "80/100",
+      "p2a": "13/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Ursaluna",
+        "p1b: Archaludon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Bitter Malice",
+        "p1b: Archaludon"
+      ],
+      [
+        "p2a: Calyrex",
+        "High Horsepower",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "49/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Archaludon",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Will-O-Wisp",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "43/100 brn",
+      "p2a": "30/100 slp",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp",
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Archaludon",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Hyper Voice",
+        "p1b: Archaludon"
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        "p2a: Ursaluna"
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "24/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp",
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Archaludon",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "24/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "spa": -2
+      },
+      "p1b: Grimmsnarl": {
+        "spa": -1
+      },
+      "p1b: Archaludon": {
+        "spa": -1,
+        "def": 6,
+        "atk": -2
+      },
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Grimmsnarl": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp",
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

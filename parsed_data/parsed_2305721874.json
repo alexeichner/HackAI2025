@@ -1,0 +1,459 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Grimmsnarl",
+      "p2a": "Groudon",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Reflect",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2b: Volcarona",
+        "Tailwind",
+        "p2b: Volcarona"
+      ],
+      [
+        "p2a: Groudon",
+        "Heat Crash",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Prankster",
+      "p2a": "Drought",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Clefairy",
+      "p2a": "Groudon",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2b: Volcarona",
+        "Rage Powder",
+        "p2b: Volcarona"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "70/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Groudon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Cute Charm",
+      "p2a": "Drought",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Clefairy",
+      "p2a": "Groudon",
+      "p2b": "Gouging Fire"
+    },
+    "moves": [
+      [
+        "p2a: Groudon",
+        "Protect",
+        "p2a: Groudon"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Groudon"
+      ],
+      [
+        "p1b: Clefairy",
+        "Life Dew",
+        "p1b: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "95/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Cute Charm",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Clefairy",
+      "p2a": "Groudon",
+      "p2b": "Gouging Fire"
+    },
+    "moves": [
+      [
+        "p2b: Gouging Fire",
+        "Howl",
+        "p2b: Gouging Fire"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Clefairy"
+      ],
+      [
+        "p1b: Clefairy",
+        "Encore",
+        "p2b: Gouging Fire"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "95/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Groudon",
+        "p1b: Clefairy"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cute Charm",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Groudon",
+      "p2b": "Gouging Fire"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Follow Me",
+        "p1b: Clefairy"
+      ],
+      [
+        "p2b: Gouging Fire",
+        "Howl",
+        "p2b: Gouging Fire"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "0 fnt",
+      "p2a": "51/100",
+      "p2b": "54/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Groudon"
+    ],
+    "critical_hits": [
+      "p1b: Clefairy"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Groudon",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Groudon",
+        "Protect",
+        "p2a: Groudon"
+      ],
+      [
+        "p1b: Incineroar",
+        "Roar",
+        "p2b: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "0 fnt",
+      "p2a": "51/100",
+      "p2b": "54/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Drought",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Groudon",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Gouging Fire"
+      ],
+      [
+        "p2b: Gouging Fire",
+        "Flare Blitz",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "6/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Drought",
+      "p2b": "Flame Body"
+    }
+  }
+]

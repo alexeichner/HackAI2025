@@ -1,0 +1,375 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Kyurem-Black",
+      "p2a": "Rayquaza",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Taunt",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Swords Dance",
+        "p2a: Rayquaza"
+      ],
+      [
+        "p1b: Kyurem",
+        "Substitute",
+        "p1b: Kyurem"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "76/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Teravolt",
+      "p2a": "Air Lock",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Kyurem-Black",
+      "p2a": "Smeargle",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Rayquaza",
+        "Extreme Speed",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Coaching",
+        "p1b: Kyurem"
+      ],
+      [
+        "p1b: Kyurem",
+        "Icicle Spear",
+        "p2a: Rayquaza"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "def": -1
+      },
+      "p1b: Kyurem": {
+        "atk": 1,
+        "def": 0,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Teravolt",
+      "p2a": "Own Tempo",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyurem-Black",
+      "p2a": "Smeargle",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        "p1b: Kyurem"
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Taunt",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Throat Chop",
+        "p1a: Iron Valiant"
+      ],
+      [
+        "p1b: Kyurem",
+        "Scale Shot",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "def": -1
+      },
+      "p1b: Kyurem": {
+        "atk": 1,
+        "def": 0,
+        "spe": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 2,
+        "atk": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Teravolt",
+      "p2a": "Moody",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyurem-Black",
+      "p2a": "Smeargle",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Fake Out",
+        ""
+      ],
+      [
+        "p1b: Kyurem",
+        "Icicle Spear",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "def": -1
+      },
+      "p1b: Kyurem": {
+        "atk": 1,
+        "def": 0,
+        "spe": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 2,
+        "atk": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Smeargle"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Teravolt",
+      "p2a": "Moody",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyurem-Black",
+      "p2a": "Smeargle",
+      "p2b": "Rillaboom"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "def": -1
+      },
+      "p1b: Kyurem": {
+        "atk": 1,
+        "def": 0,
+        "spe": 1
+      },
+      "p2a: Smeargle": {
+        "spa": 2,
+        "atk": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Teravolt",
+      "p2a": "Moody",
+      "p2b": "Overgrow"
+    }
+  }
+]

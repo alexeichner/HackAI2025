@@ -1,0 +1,345 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Roaring Moon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Roaring Moon",
+        "Protect",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Calyrex",
+        "Protect",
+        "p2b: Calyrex"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Roaring Moon",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Rage Powder",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "91/100",
+      "p2a": "53/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Roaring Moon",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Roaring Moon",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Tailwind",
+        "p2a: Roaring Moon"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "91/100",
+      "p2a": "53/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        "p1a: Indeedee"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "Knock Off",
+        "p1a: Indeedee"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Indeedee"
+      ],
+      [
+        "p1b: Calyrex",
+        "Draining Kiss",
+        "p2a: Roaring Moon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Indeedee",
+        "super effective"
+      ],
+      [
+        "p2a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Ogerpon-Hearthflame"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Rage Powder",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Urshifu",
+        "Taunt",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      },
+      "p1a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Mold Breaker"
+    }
+  }
+]

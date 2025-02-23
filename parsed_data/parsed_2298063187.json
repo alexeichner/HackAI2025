@@ -1,0 +1,416 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Protect",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Smeargle",
+        "Fake Out",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2a: Ursaluna",
+        "Hyper Voice",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Ursaluna",
+        "Hyper Voice",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "47/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle",
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Knock Off",
+        "p2b: Roaring Moon"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2b: Roaring Moon"
+      ],
+      [
+        "p2a: Ursaluna",
+        "Hyper Voice",
+        "p1b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Roaring Moon",
+        "resisted"
+      ],
+      [
+        "p2b: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Protect",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Protect",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2a: Ursaluna",
+        "Vacuum Wave",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p2b: Lunala",
+        "Trick Room",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Earth Power",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        ""
+      ],
+      [
+        "p1b: Zamazenta",
+        "Heavy Slam",
+        "p2b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "80/100",
+      "p2a": "100/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1a: Pelipper",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Lunala"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "80/100",
+      "p2a": "100/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  }
+]

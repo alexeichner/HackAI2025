@@ -1,0 +1,659 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Lunala",
+      "p2a": "Cobalion",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Charm",
+        "p2a: Cobalion"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p2a: Cobalion",
+        "Stealth Rock",
+        "p1b: Lunala"
+      ],
+      [
+        "p1b: Lunala",
+        "Calm Mind",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Shadow Shield",
+      "p2a": "Justified",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Lunala",
+      "p2a": "Scream Tail",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        ""
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Parting Shot",
+        "p1b: Lunala"
+      ],
+      [
+        "p1b: Lunala",
+        "Calm Mind",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Scream Tail",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Scream Tail",
+        "Encore",
+        "p1b: Lunala"
+      ],
+      [
+        "p1b: Lunala",
+        "Calm Mind",
+        "p1b: Lunala"
+      ],
+      [
+        "p2b: Groudon",
+        "Heat Crash",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Scream Tail",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Groudon"
+      ],
+      [
+        "p2a: Scream Tail",
+        "Encore",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Lunala",
+        "Calm Mind",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "93/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Lunala",
+      "p2a": "Scream Tail",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Scream Tail",
+        "Disable",
+        "p1b: Lunala"
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "96/100",
+      "p2a": "100/100",
+      "p2b": "99/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Shadow Shield",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Grimmsnarl",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        "p2a: Scream Tail"
+      ],
+      [
+        "p1b: Lunala",
+        "Moongeist Beam",
+        "p2a: Scream Tail"
+      ],
+      [
+        "p2b: Groudon",
+        "Heat Crash",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Scream Tail"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Scream Tail",
+        "super effective"
+      ],
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Prankster",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Groudon",
+      "p2b": "Cobalion"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p1b: Lunala",
+        "Dazzling Gleam",
+        "p2b: Cobalion"
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "40/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Drought",
+      "p2b": "Justified"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Groudon",
+      "p2b": "Cobalion"
+    },
+    "moves": [
+      [
+        "p2b: Cobalion",
+        "Body Press",
+        "p1b: Lunala"
+      ],
+      [
+        "p1b: Lunala",
+        "Dazzling Gleam",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "54/100",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Lunala",
+        "resisted"
+      ],
+      [
+        "p2a: Groudon",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Drought",
+      "p2b": "Justified"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Lunala",
+      "p2a": "Groudon",
+      "p2b": "Cobalion"
+    },
+    "moves": [
+      [
+        "p1b: Lunala",
+        "Moongeist Beam",
+        "p2a: Groudon"
+      ],
+      [
+        "p2a: Groudon",
+        "Heat Crash",
+        "p1b: Lunala"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Cobalion": {
+        "atk": -2
+      },
+      "p1b: Lunala": {
+        "spa": 3,
+        "spd": 4,
+        "atk": -1
+      },
+      "p2a: Scream Tail": {
+        "atk": -1
+      },
+      "p2b: Groudon": {
+        "atk": -2
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Shadow Shield",
+      "p2a": "Drought",
+      "p2b": "Justified"
+    }
+  }
+]

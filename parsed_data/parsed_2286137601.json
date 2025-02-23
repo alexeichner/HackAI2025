@@ -1,0 +1,531 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Whimsicott",
+      "p2a": "Grimmsnarl",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p1a: Chi-Yu",
+        "Protect",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Light Screen",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p2b: Necrozma",
+        "Calm Mind",
+        "p2b: Necrozma"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Prankster",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Grimmsnarl",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Parting Shot",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Taunt",
+        "p2b: Necrozma"
+      ],
+      [
+        "p2b: Necrozma",
+        "Moongeist Beam",
+        "p1a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Parting Shot",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        "p2b: Necrozma"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2b: Necrozma"
+      ],
+      [
+        "p2b: Necrozma",
+        "Moongeist Beam",
+        "p1b: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "30/100",
+      "p2a": "17/100",
+      "p2b": "66/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Necrozma",
+        "super effective"
+      ],
+      [
+        "p2b: Necrozma",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Mienshao",
+      "p2a": "Urshifu",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p2b: Necrozma",
+        "Moongeist Beam",
+        "p1b: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "63/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Necrozma",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Inner Focus",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Whimsicott",
+      "p2a": "Urshifu",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p1b: Mienshao",
+        "Fake Out",
+        "p2a: Urshifu"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Taunt",
+        "p2b: Necrozma"
+      ],
+      [
+        "p2b: Necrozma",
+        "Moongeist Beam",
+        "p1b: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "69/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Mienshao"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Prankster",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Grimmsnarl",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2b: Necrozma"
+      ],
+      [
+        "p2b: Necrozma",
+        "Moongeist Beam",
+        "p1b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "67/100"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Necrozma",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Grimmsnarl",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Parting Shot",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1b: Miraidon",
+        "Draco Meteor",
+        "p2b: Necrozma"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "52/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Necrozma",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Miraidon",
+      "p2a": "Grimmsnarl",
+      "p2b": "Necrozma-Dawn-Wings"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "52/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Necrozma": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dragon",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

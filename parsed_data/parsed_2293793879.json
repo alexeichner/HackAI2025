@@ -1,0 +1,783 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Terapagos",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Khairo",
+        "Play Rough",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Will-O-Wisp",
+        "p1b: Khairo"
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "94/100 brn",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intrepid Sword",
+      "p2a": "Tera Shift",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Entei",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Rillaboom"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "94/100 brn",
+      "p2a": "100/100",
+      "p2b": "62/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Pressure",
+      "p2a": "Tera Shift",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Brute Bonnet",
+      "p1b": "Entei",
+      "p2a": "Terapagos",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Entei"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Brute Bonnet"
+      ],
+      [
+        "p1b: Entei",
+        "Roar",
+        "p2a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "94/100",
+      "p2a": "7/100",
+      "p2b": "68/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Beads of Ruin",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Entei",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        "p1a: Khairo"
+      ],
+      [
+        "p1b: Entei",
+        "Snarl",
+        "p2a: Chi-Yu"
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        "p1a: Khairo"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100 brn",
+      "p1b": "99/100",
+      "p2a": "8/100",
+      "p2b": "62/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Beads of Ruin",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Entei",
+      "p2a": "Rillaboom",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Floral Healing",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p1a: Khairo",
+        "Behemoth Blade",
+        "p2b: Comfey"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "45/100 brn"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Comfey",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Overgrow",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Entei",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Khairo",
+        "Protect",
+        "p1a: Khairo"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1a: Khairo"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100 brn",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Comfey"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Entei",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Khairo",
+        "Behemoth Blade",
+        "p2a: Chi-Yu"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1b: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "71/100",
+      "p2a": "0 fnt",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chi-Yu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1a: Khairo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Pressure",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1b: Entei"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p1b: Entei",
+        "Snarl",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2b: Terapagos",
+        "Scorching Sands",
+        "p1b: Entei"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "95/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p2b: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Entei"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Protect",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Terapagos"
+      ],
+      [
+        "p1b: Brute Bonnet",
+        "Spore",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1b: Brute Bonnet"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p2b: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Brute Bonnet",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Brute Bonnet",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Rillaboom"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Knock Off",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Khairo": {
+        "atk": 1
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -3
+      },
+      "p2b: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p2b: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Rillaboom"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ground",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  }
+]

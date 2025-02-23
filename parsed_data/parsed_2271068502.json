@@ -1,0 +1,624 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        "p1a: Koraidon"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Koraidon"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "76/100",
+      "p2b": "94/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "76/100",
+      "p2b": "90/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Raging Bolt",
+        "p2a: Tornadus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Flutter Mane"
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Dazzling Gleam",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "82/100",
+      "p2a": "5/100",
+      "p2b": "62/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Heavy Slam",
+        "p1a: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "5/100",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Koraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Protect",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "61/100",
+      "p2a": "33/100 brn",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Koraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Raging Bolt",
+      "p2a": "Raging Bolt",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        "p1a: Chi-Yu"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "61/100",
+      "p2a": "26/100 brn",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Flamethrower",
+        "p2a: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Weather Ball",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        "p2a: Tornadus"
+      ],
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Dark Pulse",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "16/100",
+      "p2a": "0 fnt",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Raging Bolt",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "16/100",
+      "p2a": "0 fnt",
+      "p2b": "68/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "spa": -1
+      },
+      "p1a: Flutter Mane": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

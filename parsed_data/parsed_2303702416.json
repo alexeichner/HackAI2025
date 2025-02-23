@@ -1,0 +1,432 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Icy Wind",
+        "p2b: Archaludon"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Archaludon"
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        "p1a: Terapagos"
+      ],
+      [
+        "p2b: Archaludon",
+        "Body Press",
+        "p1a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "35/100",
+      "p1b": "51/100",
+      "p2a": "45/100",
+      "p2b": "29/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Archaludon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Kyogre",
+        "p1a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Moonblast",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        "p2b: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "35/100",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Thunder Wave",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1a: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      },
+      "p2b: Urshifu": {
+        "def": -3,
+        "spd": -3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Chien-Pao",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "0 fnt",
+      "p2a": "3/100 par",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      },
+      "p2b: Urshifu": {
+        "def": -3,
+        "spd": -3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Chien-Pao",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2a: Chien-Pao"
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        "p2b: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "41/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      },
+      "p2b: Urshifu": {
+        "def": -3,
+        "spd": -3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Chien-Pao",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "41/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spe": -1,
+        "spa": -1
+      },
+      "p2b: Archaludon": {
+        "spe": -1,
+        "def": 2
+      },
+      "p2b: Urshifu": {
+        "def": -3,
+        "spd": -3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  }
+]

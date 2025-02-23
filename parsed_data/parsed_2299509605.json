@@ -1,0 +1,332 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Dialga-Origin",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Dialga",
+        "Protect",
+        "p2a: Dialga"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2a: Dialga"
+      ],
+      [
+        "p1a: Mienshao",
+        "Close Combat",
+        "p2a: Dialga"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Discharge",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Smeargle",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p1a: Mienshao",
+        "Close Combat",
+        "p2a: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "68/100",
+      "p2a": "1/100",
+      "p2b": "32/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Smeargle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Moody",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Dialga-Origin",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1a: Mienshao",
+        "Feint",
+        "p2a: Smeargle"
+      ],
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        "p1b: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Dialga-Origin",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Ursaluna"
+      ],
+      [
+        "p2a: Dialga",
+        "Flash Cannon",
+        "p1a: Mienshao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Dialga-Origin",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Smeargle": {
+        "spe": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par",
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

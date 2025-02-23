@@ -1,0 +1,406 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu",
+      "p2a": "Comfey",
+      "p2b": "Thundurus"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2b: Thundurus"
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        "p2a: Comfey"
+      ],
+      [
+        "p2b: Thundurus",
+        "Wildbolt Storm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "22/100",
+      "p2a": "71/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Thundurus",
+        "p1a: Tornadus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unseen Fist",
+      "p2a": "Flower Veil",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Thundurus"
+    },
+    "moves": [
+      [
+        "p2a: Comfey",
+        "Draining Kiss",
+        ""
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Comfey"
+      ],
+      [
+        "p2b: Thundurus",
+        "Wildbolt Storm",
+        "p1b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "78/100",
+      "p2a": "33/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Thundurus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Thundurus",
+        "resisted"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Thundurus"
+    },
+    "moves": [
+      [
+        "p2a: Comfey",
+        "Protect",
+        "p2a: Comfey"
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2b: Thundurus",
+        "Wildbolt Storm",
+        "p1b: Farigiraf"
+      ],
+      [
+        "p1b: Farigiraf",
+        "Dazzling Gleam",
+        "p2a: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "54/100 par",
+      "p2a": "33/100",
+      "p2b": "57/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Rillaboom",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "60/100 par",
+      "p2a": "15/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Overgrow",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Thundurus",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2b: Comfey",
+        "Protect",
+        "p2b: Comfey"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2b: Comfey"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "67/100 par",
+      "p2a": "0 fnt",
+      "p2b": "39/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Prankster",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Thundurus",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Floral Healing",
+        "p2a: Thundurus"
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        "p2a: Thundurus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "67/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Prankster",
+      "p2b": "Flower Veil"
+    }
+  }
+]

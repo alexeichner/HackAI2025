@@ -1,0 +1,418 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Kyogre",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "20/100",
+      "p2a": "51/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Amoonguss",
+      "p1a: Amoonguss",
+      "p1a: Amoonguss"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Rage Powder",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "26/100",
+      "p2a": "51/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Mold Breaker",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ogerpon",
+      "p2a: Ogerpon",
+      "p2a: Ogerpon",
+      "p1b: Kyogre",
+      "p1b: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        "p2b: Urshifu"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "32/100",
+      "p1b": "53/100",
+      "p2a": "100/100",
+      "p2b": "8/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Urshifu",
+      "p2b: Urshifu",
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Teraform Zero",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        "p1b: Incineroar"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Teraform Zero",
+      "p2b": "none"
+    }
+  }
+]

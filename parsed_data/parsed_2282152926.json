@@ -1,0 +1,222 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Palkia-Origin",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        "p1b: Palkia"
+      ],
+      [
+        "p1b: Palkia",
+        "Spacial Rend",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "45/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Palkia"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "4/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Incineroar",
+        "p2a: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Keen Eye",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Pelipper",
+        "Wide Guard",
+        "p1b: Pelipper"
+      ],
+      [
+        "p2b: Calyrex",
+        "Draining Kiss",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        "p1b: Pelipper"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Pelipper"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Keen Eye",
+      "p2a": "Unseen Fist",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

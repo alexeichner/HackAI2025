@@ -1,0 +1,598 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Incineroar",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Windyboi",
+        "Protect",
+        "p1a: Windyboi"
+      ],
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1a: Windyboi"
+      ],
+      [
+        "p1b: Lord",
+        "Knock Off",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "78/100",
+      "p2a": "77/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Incineroar",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Windyboi",
+        "Tailwind",
+        "p1a: Windyboi"
+      ],
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1b: Lord"
+      ],
+      [
+        "p1b: Lord",
+        "Flare Blitz",
+        "p2a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "14/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Lord",
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intimidate",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1a: Windyboi",
+        "Bleakwind Storm",
+        "p2a: Incineroar"
+      ],
+      [
+        "p1b: Lord",
+        "Parting Shot",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: Windyboi"
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "14/100",
+      "p2a": "75/100",
+      "p2b": "91/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Boomhorse",
+        "As One"
+      ],
+      [
+        "p1b: Boomhorse",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Boomhorse",
+        "Astral Barrage",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1b: Boomhorse"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1b: Boomhorse"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "57/100",
+      "p2a": "41/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      },
+      "p1a: CILF": {
+        "spe": -2
+      },
+      "p1b: Boomhorse": {
+        "spe": -1,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Incineroar",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: CILF",
+        "Protect",
+        "p1a: CILF"
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        "p1a: CILF"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1b: Lord"
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "4/100",
+      "p2a": "41/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      },
+      "p1a: CILF": {
+        "spe": -2
+      },
+      "p1b: Boomhorse": {
+        "spe": -1,
+        "spa": 2
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Lord",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Intimidate",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: CILF",
+        "Helping Hand",
+        "p1b: Lord"
+      ],
+      [
+        "p1b: Lord",
+        "Fake Out",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1a: CILF"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "42/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      },
+      "p1a: CILF": {
+        "spe": -2
+      },
+      "p1b: Boomhorse": {
+        "spe": -1,
+        "spa": 2
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Boomhorse",
+        "As One"
+      ],
+      [
+        "p1b: Boomhorse",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: CILF",
+        "Helping Hand",
+        "p1b: Boomhorse"
+      ],
+      [
+        "p1b: Boomhorse",
+        "Astral Barrage",
+        "p2a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 2,
+        "spd": 2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -3,
+        "spe": -1,
+        "spa": -1
+      },
+      "p1b: Lord": {
+        "spe": -2,
+        "atk": -1
+      },
+      "p1a: Windyboi": {
+        "atk": -1
+      },
+      "p1a: CILF": {
+        "spe": -2
+      },
+      "p1b: Boomhorse": {
+        "spe": -1,
+        "spa": 2
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Boomhorse",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Grim Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

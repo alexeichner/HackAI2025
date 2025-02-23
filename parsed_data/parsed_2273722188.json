@@ -1,0 +1,513 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Koraidon",
+      "p2b": "Jumpluff"
+    },
+    "moves": [
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2b: Jumpluff",
+        "Sleep Powder",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        "p2a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100 slp",
+      "p2a": "95/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Chlorophyll"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Chi-Yu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "66/100",
+      "p2a": "95/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "51/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chi-Yu",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        "p1b: Roaring Moon"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1a: Incineroar"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Roaring Moon",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chi-Yu",
+      "p2b": "Jumpluff"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1a: Kyogre"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2b: Jumpluff"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Kyogre",
+      "p2b: Jumpluff",
+      "p2b: Jumpluff",
+      "p2b: Jumpluff"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Jumpluff",
+        "resisted"
+      ],
+      [
+        "p2b: Jumpluff",
+        "resisted"
+      ],
+      [
+        "p2b: Jumpluff",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Chlorophyll"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chi-Yu",
+      "p2b": "Jumpluff"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Jumpluff",
+        "Tailwind",
+        "p2b: Jumpluff"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "63/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Chlorophyll"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chi-Yu",
+      "p2b": "Jumpluff"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "63/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Koraidon": {
+        "atk": -2
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Chi-Yu": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Chlorophyll"
+    }
+  }
+]

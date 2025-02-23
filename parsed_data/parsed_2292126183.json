@@ -1,0 +1,209 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Jumpluff",
+        "Tailwind",
+        "p2b: Jumpluff"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p2a: Groudon",
+        "Eruption",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "16/100",
+      "p2a": "83/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Roaring Moon",
+        "resisted"
+      ],
+      [
+        "p2a: Groudon",
+        "resisted"
+      ],
+      [
+        "p2b: Jumpluff",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Roaring Moon"
+      ],
+      [
+        "p2a: Groudon",
+        "Eruption",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Mold Breaker",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Groudon",
+        "Eruption",
+        "p1a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Landorus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Mold Breaker",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  }
+]

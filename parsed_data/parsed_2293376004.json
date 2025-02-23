@@ -1,0 +1,416 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Clefairy",
+      "p2a": "Tornadus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Follow Me",
+        "p1b: Clefairy"
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        "p2a: Tornadus"
+      ],
+      [
+        "p1a: Calyrex",
+        "Nasty Plot",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "85/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Raging Bolt",
+        "p1a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cute Charm",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Clefairy",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Clefairy",
+        "Helping Hand",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2a: Tornadus",
+        "Taunt",
+        "p1b: Clefairy"
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "85/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Raging Bolt"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Cute Charm",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Rillaboom",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Calyrex"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "18/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex",
+      "p1a: Calyrex",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Rillaboom",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "23/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Clefairy",
+      "p1a: Clefairy",
+      "p1a: Clefairy"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        "p2a: Urshifu"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "31/100",
+      "p2b": "97/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Clefairy"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Mold Breaker",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Grassy Glide",
+        "p2b: Kyogre"
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "31/100",
+      "p2b": "8/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Clefairy": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Ogerpon",
+      "p1b: Ogerpon",
+      "p1b: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Mold Breaker",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Melman",
+        "Protect",
+        "p1b: Melman"
+      ],
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        "p1a: Merenoleona"
+      ],
+      [
+        "p1a: Merenoleona",
+        "Shadow Ball",
+        "p2a: Calyrex"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Melman"
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "100/100",
+      "p2a": "40/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Merenoleona": {
+        "atk": -1
+      },
+      "p1b: Melman": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Merenoleona",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Raging Bolt",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Melman",
+        "Protect",
+        ""
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        "p1b: Melman"
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        "p1b: Melman"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "40/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Merenoleona": {
+        "atk": -1
+      },
+      "p1b: Melman": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Melman"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Melman",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Chilling Neigh",
+      "p2b": "Intimidate"
+    }
+  }
+]

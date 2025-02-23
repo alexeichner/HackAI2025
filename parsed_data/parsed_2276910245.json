@@ -1,0 +1,408 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Incineroar",
+      "p2a": "Rillaboom",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        "p1b: Incineroar"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "97/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intimidate",
+      "p2a": "Overgrow",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Miraidon",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Incineroar",
+        "U-turn",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Chien-Pao": {
+        "atk": -1
+      },
+      "p2a: Flutter Mane": {
+        "atk": -2
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Miraidon",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1b: Miraidon"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Moonblast",
+        "p1b: Miraidon"
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "56/100",
+      "p2a": "100/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Chien-Pao": {
+        "atk": -1
+      },
+      "p2a: Flutter Mane": {
+        "atk": -2
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Moonblast",
+        "p1b: Ursaluna"
+      ],
+      [
+        "p1a: Incineroar",
+        "U-turn",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "10/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Chien-Pao": {
+        "atk": -1
+      },
+      "p2a: Flutter Mane": {
+        "atk": -2
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ursaluna",
+        "super effective"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Incineroar",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        "p1a: Miraidon"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "67/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Electric Terrain",
+      "Grassy Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Chien-Pao": {
+        "atk": -1
+      },
+      "p2a: Flutter Mane": {
+        "atk": -2
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Miraidon": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1a: Miraidon": {
+        "spe": -1
+      },
+      "p1b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Electric",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

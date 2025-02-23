@@ -1,0 +1,301 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Calyrex"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ],
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Chilling Neigh",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Raging Bolt",
+      "p2a": "Indeedee-F",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "55/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Wellspring-Tera",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "62/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "55/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Ogerpon-Wellspring-Tera",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Follow Me",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Urshifu",
+        "Rock Slide",
+        "p2b: Chi-Yu"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "53/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "spd": 2
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

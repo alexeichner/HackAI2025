@@ -1,0 +1,389 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Entei",
+      "p2a": "Landorus",
+      "p2b": "Moltres"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p1b: Entei",
+        "Stone Edge",
+        "p2b: Moltres"
+      ],
+      [
+        "p2a: Landorus",
+        "Sludge Bomb",
+        "p1a: Whimsicott"
+      ],
+      [
+        "p2b: Moltres",
+        "Tailwind",
+        "p2b: Moltres"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Entei",
+        "p2b: Moltres"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Pressure",
+      "p2a": "Sand Force",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Entei",
+      "p2a": "Landorus",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        ""
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        "p1b: Entei"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2a: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "11/100",
+      "p2a": "32/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Pressure",
+      "p2a": "Sand Force",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Landorus",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Entei"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Trick Room",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "32/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Landorus",
+      "p2a": "Moltres",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        "p2a: Moltres"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "45/100",
+      "p2a": "82/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Zamazenta",
+      "p1b: Landorus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Moltres",
+        "resisted"
+      ],
+      [
+        "p1b: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Pressure",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Whimsicott",
+      "p2a": "Moltres",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2a: Moltres",
+        "Heat Wave",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "82/100",
+      "p2b": "26/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Moltres",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Pressure",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Whimsicott",
+      "p2a": "Moltres",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        "p2a: Moltres"
+      ],
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        "p1b: Whimsicott"
+      ],
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        "p1a: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "20/100 brn"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Moltres",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Pressure",
+      "p2b": "Sand Force"
+    }
+  }
+]

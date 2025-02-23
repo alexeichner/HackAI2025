@@ -1,0 +1,522 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Tornadus",
+        "Icy Wind",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "91/100",
+      "p2a": "94/100",
+      "p2b": "95/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Urshifu",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2a: Incineroar"
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        "p2a: Incineroar"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "35/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Incineroar",
+      "p2a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2b: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Unseen Fist",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Indeedee-F",
+      "p2a": "Urshifu",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Terapagos"
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        "p1a: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "53/100",
+      "p2a": "15/100",
+      "p2b": "80/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Unseen Fist",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Indeedee-F",
+      "p2a": "Ditto",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee",
+        "Follow Me",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        "p2b: Terapagos"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "53/100",
+      "p2a": "15/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Limber",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ditto",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee",
+        "Follow Me",
+        "p1b: Indeedee"
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        "p2b: Urshifu"
+      ],
+      [
+        "p2a: Ditto",
+        "Alluring Voice",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "15/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Indeedee"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Indeedee",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Limber",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ditto",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        "p2a: Ditto"
+      ],
+      [
+        "p2a: Ditto",
+        "Alluring Voice",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "28/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Limber",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ditto",
+      "p2b": "Urshifu"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "28/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Limber",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

@@ -1,0 +1,509 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Regieleki",
+      "p1b": "Landorus",
+      "p2a": "Miraidon",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2b: Dragonite",
+        "Extreme Speed",
+        "p1a: Regieleki"
+      ],
+      [
+        "p1a: Regieleki",
+        "Electroweb",
+        "p2a: Miraidon"
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "96/100",
+      "p2b": "87/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Transistor",
+      "p1b": "Sand Force",
+      "p2a": "Hadron Engine",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Regieleki",
+      "p1b": "Landorus",
+      "p2a": "Dondozo",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p1a: Regieleki",
+        "Protect",
+        "p1a: Regieleki"
+      ],
+      [
+        "p2b: Dragonite",
+        "Extreme Speed",
+        "p1a: Regieleki"
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        "p2b: Dragonite"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Miraidon"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Transistor",
+      "p1b": "Sand Force",
+      "p2a": "Unaware",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Landorus",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Order Up",
+        "p1a: Calyrex"
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Landorus",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sand Force",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Landorus",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        "p1b: Landorus"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "85/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sand Force",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Regieleki",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Power Whip",
+        "p2a: Dondozo"
+      ],
+      [
+        "p2a: Dondozo",
+        "Wave Crash",
+        "p1b: Landorus"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "16/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ],
+      [
+        "p1b: Landorus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Transistor",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Regieleki",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Dondozo",
+        "Protect",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1b: Regieleki",
+        "Thunderbolt",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "28/100"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Embody Aspect (Cornerstone)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Ogerpon",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Cornerstone)",
+      "p1b": "Transistor",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Cornerstone",
+      "p1b": "Regieleki",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1b: Regieleki",
+        "Thunderbolt",
+        "p2a: Dondozo"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "spe": -1
+      },
+      "p2b: Dragonite": {
+        "spe": -1
+      },
+      "p2a: Dondozo": {
+        "atk": 3,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Cornerstone)",
+      "p1b": "Transistor",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  }
+]

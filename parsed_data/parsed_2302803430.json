@@ -1,0 +1,330 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Crown",
+      "p1b": "Koraidon",
+      "p2a": "Entei",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Iron Crown",
+        "Protect",
+        "p1a: Iron Crown"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        "p2a: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Pressure",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Indeedee-F",
+      "p2a": "Entei",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Iron Crown",
+        "Tachyon Cutter",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        "p1a: Iron Crown"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "91/100",
+      "p2b": "75/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1a: Iron Crown",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Entei",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Indeedee",
+        "Follow Me",
+        "p1b: Indeedee"
+      ],
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        "p1b: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "0 fnt",
+      "p2a": "81/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Entei",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        "p2a: Entei"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1b: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "58/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Entei",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Entei",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "11/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

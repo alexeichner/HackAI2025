@@ -1,0 +1,501 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Grimmsnarl",
+      "p2a": "Terapagos",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2b: Smeargle",
+        "Fake Out",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Thunder Wave",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1b: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "19/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Grimmsnarl",
+        "p2a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Grimmsnarl",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Thunder Wave",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "19/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle",
+      "p2b: Smeargle",
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Thunder Wave",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Grimmsnarl"
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "47/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Mold Breaker",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        "p1a: Urshifu"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Flutter Mane"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Urshifu"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Flutter Mane"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Mold Breaker",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "53/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ogerpon",
+      "p2a: Ogerpon",
+      "p2a: Ogerpon",
+      "p2a: Ogerpon"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Mold Breaker",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Rillaboom",
+      "p2a": "Ogerpon-Hearthflame",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2b: Tornadus"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "11/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Mold Breaker",
+      "p2b": "Prankster"
+    }
+  }
+]

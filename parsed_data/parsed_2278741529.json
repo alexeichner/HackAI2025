@@ -1,0 +1,929 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Tornadus",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "91/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Thunder Wave",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        "p1b: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "100/100 par",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Thunder Wave",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p2a: Kyogre",
+        "Calm Mind",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "97/100 par",
+      "p1b": "100/100 par",
+      "p2a": "40/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        "p2a: Kyogre"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Reflect",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "100/100 par",
+      "p2a": "52/100",
+      "p2b": "16/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Kyogre"
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        "p2a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100 par",
+      "p1b": "100/100 par",
+      "p2a": "0 fnt",
+      "p2b": "22/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "U-turn",
+        "p2b: Grimmsnarl"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        "p1b: Kyogre"
+      ],
+      [
+        "p2a: Amoonguss",
+        "Pollen Puff",
+        "p2b: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100 par",
+      "p1b": "94/100 par",
+      "p2a": "0 fnt",
+      "p2b": "54/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Amoonguss",
+        "Protect",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2b: Tornadus"
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100 par",
+      "p1b": "99/100 par",
+      "p2a": "0 fnt",
+      "p2b": "35/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Amoonguss"
+      ],
+      [
+        "p2a: Amoonguss",
+        "Pollen Puff",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "37/100",
+      "p1b": "100/100 par",
+      "p2a": "23/100",
+      "p2b": "85/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Tornadus",
+        "p1b: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Grimmsnarl",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "96/100 par",
+      "p2a": "7/100",
+      "p2b": "85/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Incineroar"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Kyogre",
+      "p2a": "Grimmsnarl",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        "p2a: Grimmsnarl"
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        "p1b: Kyogre"
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2b: Tornadus"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "92/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Grimmsnarl",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        "p2b: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "92/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain",
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Tornadus": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -2
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 2
+      },
+      "p2a: Kyogre": {
+        "atk": -1,
+        "spa": 0,
+        "spd": 1
+      },
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p2a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Prankster",
+      "p2b": "Effect Spore"
+    }
+  }
+]

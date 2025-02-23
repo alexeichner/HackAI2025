@@ -1,0 +1,135 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Landorus",
+      "p2b": "Weezing-Galar"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Protect",
+        "p2a: Landorus"
+      ],
+      [
+        "p2b: Weezing",
+        "Protect",
+        "p2b: Weezing"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Taunt",
+        "p2b: Weezing"
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        "p1a: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Neutralizing Gas"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Hearthflame",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri-Droopy"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        "p2b: Tatsugiri"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2a: Dondozo"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "59/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p2a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Mold Breaker"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Dondozo"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2a: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Mold Breaker",
+      "p2a": "Unaware",
+      "p2b": "none"
+    }
+  }
+]

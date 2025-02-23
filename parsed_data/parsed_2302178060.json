@@ -1,0 +1,134 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Iron Hands",
+      "p2a": "Regieleki",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Regieleki",
+        "Electro Ball",
+        "p1a: Hallothreen"
+      ],
+      [
+        "p1a: Hallothreen",
+        "Tailwind",
+        "p1a: Hallothreen"
+      ],
+      [
+        "p1b: Proshokza",
+        "Drain Punch",
+        "p2a: Regieleki"
+      ],
+      [
+        "p2b: Dragonite",
+        "Rock Slide",
+        "p1a: Hallothreen"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "94/100",
+      "p2a": "15/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Hallothreen"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Proshokza",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Iron Hands",
+      "p2a": "Regieleki",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Hallothreen",
+        "Snarl",
+        "p2a: Regieleki"
+      ],
+      [
+        "p1b: Proshokza",
+        "Wild Charge",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Poison",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Unnerve"
+    }
+  }
+]

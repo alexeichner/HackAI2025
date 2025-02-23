@@ -1,0 +1,373 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Ogerpon",
+      "p2a": "Rayquaza",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        "p2b: Smeargle"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Swords Dance",
+        "p2a: Rayquaza"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Defiant",
+      "p2a": "Air Lock",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Ogerpon",
+      "p2a": "Rayquaza",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Extreme Speed",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        "p2b: Smeargle"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Ice Spinner",
+        "p2b: Smeargle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Defiant",
+      "p2a": "Air Lock",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Rayquaza",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p2a: Rayquaza",
+        "Extreme Speed",
+        "p1b: Ogerpon"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Ice Spinner",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zacian",
+        "Intrepid Sword"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Intrepid Sword",
+      "p2a": "Air Lock",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Rayquaza",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Rayquaza",
+        "Extreme Speed",
+        "p1b: Zacian"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        "p1a: Chien-Pao"
+      ],
+      [
+        "p1b: Zacian",
+        "Behemoth Blade",
+        "p2a: Rayquaza"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Ice Spinner",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "45/100",
+      "p2a": "0 fnt",
+      "p2b": "73/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Zacian",
+        "resisted"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Intrepid Sword",
+      "p2a": "Air Lock",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Zacian-Crowned",
+      "p2a": "Rayquaza",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Sucker Punch",
+        "p2b: Chien-Pao"
+      ],
+      [
+        "p1b: Zacian",
+        "Behemoth Blade",
+        "p2b: Chien-Pao"
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "45/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Rayquaza": {
+        "atk": 2
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      },
+      "p1b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Intrepid Sword",
+      "p2a": "Air Lock",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

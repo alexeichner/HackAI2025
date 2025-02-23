@@ -1,0 +1,131 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Lilligant-Hisui",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        "p2a: Whimsicott"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1b: Lilligant"
+      ],
+      [
+        "p1b: Lilligant",
+        "Coaching",
+        "p1a: Groudon"
+      ],
+      [
+        "p1a: Groudon",
+        "Heat Crash",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "52/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Groudon": {
+        "atk": 1,
+        "def": 1,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Lilligant-Hisui",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Fake Tears",
+        "p1a: Groudon"
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Groudon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "52/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Groudon": {
+        "atk": 1,
+        "def": 1,
+        "spd": -2
+      },
+      "p2b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Grim Neigh"
+    }
+  }
+]

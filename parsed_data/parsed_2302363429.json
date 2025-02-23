@@ -1,0 +1,670 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Bundle",
+      "p2b": "Jumpluff"
+    },
+    "moves": [
+      [
+        "p2a: Iron Bundle",
+        "Protect",
+        "p2a: Iron Bundle"
+      ],
+      [
+        "p2b: Jumpluff",
+        "Sleep Powder",
+        "p1b: Raging Bolt"
+      ],
+      [
+        "p1a: Incineroar",
+        "Taunt",
+        "p2b: Jumpluff"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Chlorophyll"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Bundle",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2a: Iron Bundle",
+        "Taunt",
+        "p1a: Incineroar"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        "p2a: Iron Bundle"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "2/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Bundle",
+        "super effective"
+      ],
+      [
+        "p2b: Koraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Raging Bolt",
+      "p2a": "Jumpluff",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p2b: Koraidon",
+        "Breaking Swipe",
+        "p1a: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "43/100",
+      "p2a": "2/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "none",
+      "p2a": "Chlorophyll",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Jumpluff",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Protect",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2a: Jumpluff",
+        "Sleep Powder",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2b: Koraidon",
+        "Breaking Swipe",
+        "p1a: Clefairy"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "2/100",
+      "p2b": "86/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Chlorophyll",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Jumpluff",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Helping Hand",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2a: Jumpluff",
+        "Sleep Powder",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "13/100",
+      "p2b": "22/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Jumpluff",
+        "p1a: Clefairy"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Chlorophyll",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Koraidon",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2a: Jumpluff",
+        "Tailwind",
+        "p2a: Jumpluff"
+      ],
+      [
+        "p2b: Volcarona",
+        "Morning Sun",
+        "p2b: Volcarona"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "36/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Iron Bundle",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        "p2a: Iron Bundle"
+      ],
+      [
+        "p2b: Volcarona",
+        "Heat Wave",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Volcarona"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "41/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Iron Bundle",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        "p1b: Calyrex"
+      ],
+      [
+        "p2b: Koraidon",
+        "Flare Blitz",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "35/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Iron Bundle",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        "p1a: Clefairy"
+      ],
+      [
+        "p2b: Koraidon",
+        "Flare Blitz",
+        "p1a: Clefairy"
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        "p2b: Koraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "35/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Iron Bundle": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p2b: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "spe": -1
+      },
+      "p1b: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Jumpluff": {
+        "atk": -1
+      },
+      "p2b: Volcarona": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  }
+]

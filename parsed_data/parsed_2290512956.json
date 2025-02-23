@@ -1,0 +1,412 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Talonflame",
+      "p2a": "Indeedee-F",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Ogerpon",
+        "Spiky Shield",
+        "p1a: Ogerpon"
+      ],
+      [
+        "p1b: Talonflame",
+        "Tailwind",
+        "p1b: Talonflame"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Taunt",
+        "p1a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Mold Breaker",
+      "p1b": "Flame Body",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ogerpon-Hearthflame",
+      "p1b": "Talonflame",
+      "p2a": "Armarouge",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Fake Out",
+        "p1b: Talonflame"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Ogerpon",
+        "Ivy Cudgel",
+        "p2a: Indeedee"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "87/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Embody Aspect (Hearthflame)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Embody Aspect (Hearthflame)",
+      "p1b": "Flame Body",
+      "p2a": "Flash Fire",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu",
+      "p2a": "Armarouge",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Beat Up",
+        "p2a: Armarouge"
+      ],
+      [
+        "p2a: Armarouge",
+        "Expanding Force",
+        "p1b: Talonflame"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "77/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Armarouge",
+        "Weak Armor"
+      ],
+      [
+        "p2a: Armarouge",
+        "Weak Armor"
+      ],
+      [
+        "p2a: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2a: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2a: Armarouge",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unseen Fist",
+      "p2a": "Weak Armor",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu",
+      "p2a": "Armarouge",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Armarouge",
+        "Endure",
+        "p2a: Armarouge"
+      ],
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        ""
+      ],
+      [
+        "p2b: Whimsicott",
+        "Dazzling Gleam",
+        "p1b: Urshifu"
+      ],
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        "p2a: Armarouge"
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "1/100",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unseen Fist",
+      "p2a": "Weak Armor",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu",
+      "p2a": "Armarouge",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Armarouge",
+        "Endure",
+        "p2a: Armarouge"
+      ],
+      [
+        "p1b: Urshifu",
+        "Detect",
+        "p1b: Urshifu"
+      ],
+      [
+        "p2b: Whimsicott",
+        "Dazzling Gleam",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "1/100",
+      "p2a": "1/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unseen Fist",
+      "p2a": "Weak Armor",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu",
+      "p2a": "Armarouge",
+      "p2b": "Whimsicott"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "1/100",
+      "p2a": "1/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Psychic Terrain",
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p1a: Ogerpon": {
+        "atk": 1
+      },
+      "p2a: Armarouge": {
+        "def": -3,
+        "spe": 6,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Unseen Fist",
+      "p2a": "Weak Armor",
+      "p2b": "Prankster"
+    }
+  }
+]

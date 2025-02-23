@@ -1,0 +1,339 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Chien-Pao",
+      "p2a": "Amoonguss",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Protect",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        "p2a: Amoonguss"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sword of Ruin",
+      "p2a": "Effect Spore",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Amoonguss",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Icicle Crash",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        "p2b: Raging Bolt"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        "p1a: Tornadus"
+      ],
+      [
+        "p2a: Amoonguss",
+        "Pollen Puff",
+        "p2: Raging Bolt"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "72/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Amoonguss"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2b: Raging Bolt"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Effect Spore",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Terapagos",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        "p1a: Zacian"
+      ],
+      [
+        "p1a: Zacian",
+        "Play Rough",
+        "p2a: Terapagos"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Icicle Crash",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "91/100",
+      "p2a": "47/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zacian",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ],
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Chien-Pao",
+        "p2b: Flutter Mane"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Sucker Punch",
+        "p2a: Terapagos"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1b: Chien-Pao"
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        "p2b: Flutter Mane"
+      ],
+      [
+        "p2a: Terapagos",
+        "Earth Power",
+        "p1a: Zacian"
+      ]
+    ],
+    "hp": {
+      "p1a": "73/100",
+      "p1b": "0 fnt",
+      "p2a": "2/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "super effective"
+      ],
+      [
+        "p1a: Zacian",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Amoonguss"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "73/100",
+      "p1b": "0 fnt",
+      "p2a": "2/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p1b: Chien-Pao": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "Effect Spore"
+    }
+  }
+]

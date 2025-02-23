@@ -1,0 +1,846 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Latios",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Rage Powder",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p2a: Latios",
+        "Luster Purge",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Levitate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Latios",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Latios",
+        "Protect",
+        "p2a: Latios"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Latios"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Latios"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Shadow Ball",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "47/100",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Levitate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Gyarados"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        "p2a: Gyarados"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "47/100",
+      "p2a": "56/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Gyarados",
+        "Intimidate"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Gyarados",
+        "Protect",
+        "p2a: Gyarados"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Protect",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "97/100",
+      "p2a": "56/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        "p2b: Zamazenta"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Gyarados"
+      ],
+      [
+        "p2a: Gyarados",
+        "Thunder Wave",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "97/100",
+      "p2a": "56/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Latios"
+    },
+    "moves": [
+      [
+        "p2a: Gyarados",
+        "Taunt",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "97/100",
+      "p2a": "56/100",
+      "p2b": "89/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Levitate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Latios"
+    },
+    "moves": [
+      [
+        "p2a: Gyarados",
+        "Protect",
+        "p2a: Gyarados"
+      ],
+      [
+        "p2b: Latios",
+        "Draco Meteor",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        "p2b: Latios"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Gyarados"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "97/100",
+      "p2a": "56/100",
+      "p2b": "10/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Latios",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Levitate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Gyarados",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Gyarados",
+        "Protect",
+        ""
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        ""
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "4/100",
+      "p1b": "97/100",
+      "p2a": "8/100",
+      "p2b": "71/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Gyarados",
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        "p1a: Raging Bolt"
+      ],
+      [
+        "p2a: Gyarados",
+        "Waterfall",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        "p2a: Gyarados"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "75/100 par",
+      "p2a": "0 fnt",
+      "p2b": "56/100"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Chilling Neigh",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Latios",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        "p2a: Flutter Mane"
+      ],
+      [
+        "p2b: Zamazenta",
+        "Behemoth Bash",
+        "p1b: Calyrex"
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        "p2b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "22/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2b: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Chilling Neigh",
+      "p2a": "Levitate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Landorus",
+      "p2a": "Latios",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Latios",
+        "Draco Meteor",
+        "p1b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Latios": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Sand Force",
+      "p2a": "Levitate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Landorus",
+      "p2a": "Latios",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Rage Powder",
+        "p1a: Amoonguss"
+      ],
+      [
+        "p1b: Landorus",
+        "U-turn",
+        "p2a: Latios"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Trick Room"
+    ],
+    "stat_changes": {
+      "p1a: Amoonguss": {
+        "atk": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      },
+      "p2b: Latios": {
+        "spa": -2
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p2a: Latios": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Latios",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Sand Force",
+      "p2a": "Levitate",
+      "p2b": "none"
+    }
+  }
+]

@@ -1,0 +1,340 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Hitmontop",
+      "p1b": "Sinistcha",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p1a: Hitmontop",
+        "Fake Out",
+        "p2b: Pelipper"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Taunt",
+        "p1b: Sinistcha"
+      ],
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        "p2a: Ogerpon"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "72/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": -1
+      },
+      "p2b: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hospitality",
+      "p2a": "none",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Sinistcha",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1a: Hitmontop"
+      ],
+      [
+        "p2b: Pelipper",
+        "Hurricane",
+        "p1a: Hitmontop"
+      ],
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        "p2b: Pelipper"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "43/100",
+      "p2b": "31/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": -1
+      },
+      "p2b: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Hitmontop",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Sinistcha",
+        "p2b: Pelipper"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Hospitality",
+      "p2a": "none",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Sinistcha",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Spiky Shield",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p2b: Pelipper",
+        "Hurricane",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        "p2a: Ogerpon"
+      ],
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        "p2b: Pelipper"
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "100/100",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": -1
+      },
+      "p2b: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Hospitality",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Sinistcha",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        "p1a: Kyogre"
+      ],
+      [
+        "p2a: Ogerpon",
+        "Taunt",
+        "p1b: Sinistcha"
+      ],
+      [
+        "p1b: Sinistcha",
+        "Shadow Ball",
+        "p2b: Calyrex"
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "56/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": -1
+      },
+      "p2b: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Hospitality",
+      "p2a": "none",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Sinistcha",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        "p1b: Sinistcha"
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        "p1a: Kyogre"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "atk": -1
+      },
+      "p2b: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Sinistcha",
+      "p1a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Hospitality",
+      "p2a": "none",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

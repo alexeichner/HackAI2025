@@ -1,0 +1,326 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Entei",
+      "p2a": "Ursaluna",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        "p1a: Miraidon"
+      ],
+      [
+        "p1a: Miraidon",
+        "Dazzling Gleam",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "100/100",
+      "p2a": "36/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Pressure",
+      "p2a": "Guts",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Iron Treads",
+      "p2a": "Ursaluna",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Protect",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        "p1a: Miraidon"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "30/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Guts",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Iron Hands",
+      "p2a": "Torkoal",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Extreme Speed",
+        "p2a: Ursaluna"
+      ],
+      [
+        "p1b: Iron Treads",
+        "High Horsepower",
+        "p2b: Miraidon"
+      ],
+      [
+        "p2a: Ursaluna",
+        "Headlong Rush",
+        "p1b: Iron Treads"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Iron Hands": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [
+      [
+        "p2a: Torkoal",
+        "Air Balloon"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1b: Iron Treads",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "White Smoke",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Iron Hands",
+      "p2a": "Torkoal",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Extreme Speed",
+        "p2a: Torkoal"
+      ],
+      [
+        "p1b: Iron Hands",
+        "Thunder Punch",
+        "p2a: Torkoal"
+      ],
+      [
+        "p2a: Torkoal",
+        "Fissure",
+        "p1b: Iron Hands"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Iron Hands": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Torkoal",
+        "p1b: Iron Hands"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "White Smoke",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Iron Hands",
+      "p2a": "Torkoal",
+      "p2b": "Miraidon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Electric Terrain"
+    ],
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Iron Hands": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Ground"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "White Smoke",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Rillaboom",
+      "p2a": "Whimsicott",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        "p1b: Rillaboom"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "89/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Rillaboom",
+      "p2a": "Archaludon",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        "p2b: Comfey"
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        "p2b: Comfey"
+      ],
+      [
+        "p2b: Comfey",
+        "Taunt",
+        "p1a: Grimmsnarl"
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "71/100",
+      "p2a": "100/100",
+      "p2b": "9/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Overgrow",
+      "p2a": "Stamina",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Foul Play",
+        "p2b: Whimsicott"
+      ]
+    ],
+    "hp": {
+      "p1a": "56/100",
+      "p1b": "71/100",
+      "p2a": "100/100",
+      "p2b": "50/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Beat Up",
+        "p2a: Archaludon"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Heavy Slam",
+        "p2b: Whimsicott"
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Foul Play",
+        "p2a: Archaludon"
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "71/100",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        "p1a: Rillaboom"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Iron Defense",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2a: Archaludon",
+        "Body Press",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "91/100",
+      "p2a": "88/100",
+      "p2b": "25/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Protect",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        "p1b: Zamazenta"
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "66/100",
+      "p1b": "91/100",
+      "p2a": "88/100",
+      "p2b": "25/100 par"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        "p1a: Grimmsnarl"
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        "p2b: Comfey"
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Comfey"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ],
+      [
+        "p2b: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        "p2a: Archaludon"
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        "p1b: Zamazenta"
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "9/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Archaludon",
+      "p2a: Archaludon",
+      "p2a: Archaludon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "9/100"
+    },
+    "field_effects": [
+      "Grassy Terrain"
+    ],
+    "stat_changes": {
+      "p1b: Zamazenta": {
+        "def": 3
+      },
+      "p2a: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  }
+]
