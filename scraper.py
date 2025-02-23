@@ -40,7 +40,7 @@ def get_replay_links(base_url, pages=1):
     return replay_links
 
 # 2️⃣ FUNCTION: Download JSON Replay Data
-def download_replay_json(replay_links, save_dir="replays"):
+def download_replay_json(replay_links, save_dir="replaysRegH"):
     """Downloads replay JSON files from provided links and saves them locally."""
     
     # Create directory if it doesn't exist
