@@ -11,22 +11,30 @@
       [
         "p1a: Suthen",
         "Follow Me",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ],
       [
         "p1b: Duncan",
         "Astral Barrage",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Throat Chop",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "28/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -94,12 +110,16 @@
       [
         "p1b: Duncan",
         "Astral Barrage",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Sludge Bomb",
-        "p2: Chien-Pao"
+        [
+          "p2: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +128,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Duncan": {
         "spa": 2
@@ -166,9 +194,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Duncan": {
         "spa": 2

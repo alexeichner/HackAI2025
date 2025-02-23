@@ -11,22 +11,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "atk": -1
@@ -88,22 +104,30 @@
       [
         "p1b: Whimsicott",
         "Protect",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Bulldoze",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -112,10 +136,18 @@
       "p2a": "77/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "atk": -1
@@ -174,22 +206,30 @@
       [
         "p1b: Whimsicott",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Flare Blitz",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Bulldoze",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -198,10 +238,18 @@
       "p2a": "60/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "atk": -1
@@ -268,12 +316,16 @@
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Bulldoze",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -282,10 +334,18 @@
       "p2a": "52/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "atk": -1

@@ -11,12 +11,16 @@
       [
         "p1a: Queen Mary I",
         "Moonblast",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Okidogi",
         "Gunk Shot",
-        "p1a: Queen Mary I"
+        [
+          "p1a: Queen Mary I"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "psn"
@@ -74,22 +86,30 @@
       [
         "p1b: Moctezuma",
         "Protect",
-        "p1b: Moctezuma"
+        [
+          "p1b: Moctezuma"
+        ]
       ],
       [
         "p1a: Einstein",
         "Light Screen",
-        "p1a: Einstein"
+        [
+          "p1a: Einstein"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Einstein"
+        [
+          "p1a: Einstein"
+        ]
       ],
       [
         "p2b: Okidogi",
         "Gunk Shot",
-        "p1a: Einstein"
+        [
+          "p1a: Einstein"
+        ]
       ]
     ],
     "hp": {
@@ -98,7 +118,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "psn"
@@ -149,17 +177,23 @@
       [
         "p1b: Moctezuma",
         "Flare Blitz",
-        "p2b: Okidogi"
+        [
+          "p2b: Okidogi"
+        ]
       ],
       [
         "p1a: Zheng He",
         "Dark Pulse",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p2b: Okidogi",
         "Drain Punch",
-        "p1a: Zheng He"
+        [
+          "p1a: Zheng He"
+        ]
       ]
     ],
     "hp": {
@@ -168,7 +202,15 @@
       "p2a": "34/100",
       "p2b": "66/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "psn"
@@ -209,17 +251,23 @@
       [
         "p2a: Maushold",
         "Follow Me",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p1b: Moctezuma",
         "Flame Charge",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p2b: Okidogi",
         "Gunk Shot",
-        "p1b: Moctezuma"
+        [
+          "p1b: Moctezuma"
+        ]
       ]
     ],
     "hp": {
@@ -228,7 +276,15 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Moctezuma": {
         "spe": 1
@@ -278,7 +334,9 @@
       [
         "p1b: Moctezuma",
         "Flare Blitz",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -287,7 +345,15 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Moctezuma": {
         "spe": 1

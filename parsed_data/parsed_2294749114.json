@@ -11,17 +11,23 @@
       [
         "p1b: Grimmsnarl",
         "Fake Out",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "46/100",
       "p2b": "60/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -75,12 +89,16 @@
       [
         "p1b: Grimmsnarl",
         "Fake Tears",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2a: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ]
     ],
     "hp": {
@@ -89,10 +107,17 @@
       "p2a": "26/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca": {
         "spd": -2
@@ -129,17 +154,23 @@
       [
         "p1b: Grimmsnarl",
         "Sucker Punch",
-        "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        [
+          "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        ]
       ],
       [
         "p2b: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Electro Drift",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2a: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Wave Crash",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -148,10 +179,17 @@
       "p2a": "7/100",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca": {
         "spd": -2
@@ -191,17 +229,23 @@
       [
         "p1b: Amoonguss",
         "Rage Powder",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2a: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Earthquake",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Electroweb",
-        "p2b: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2b: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -210,10 +254,17 @@
       "p2a": "0 fnt",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca": {
         "spd": -2
@@ -276,17 +327,23 @@
       [
         "p1b: Amoonguss",
         "Rage Powder",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Draco Meteor",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Dragon Pulse",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -295,10 +352,17 @@
       "p2a": "0 fnt",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca": {
         "spd": -2

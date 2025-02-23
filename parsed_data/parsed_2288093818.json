@@ -11,22 +11,30 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Wont Stop",
         "Light Screen",
-        "p2a: Wont Stop"
+        [
+          "p2a: Wont Stop"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2a: Wont Stop"
+        [
+          "p2a: Wont Stop"
+        ]
       ],
       [
         "p2b: Nuke",
         "Volt Switch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "0 fnt",
       "p2b": "16/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "spd": 1
@@ -81,22 +98,30 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2a: Hank"
+        [
+          "p2a: Hank"
+        ]
       ],
       [
         "p2a: Hank",
         "Heavy Slam",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Backwards",
         "Trick Room",
-        "p2b: Backwards"
+        [
+          "p2b: Backwards"
+        ]
       ]
     ],
     "hp": {
@@ -105,11 +130,19 @@
       "p2a": "50/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "spd": 1
@@ -157,11 +190,19 @@
       "p2a": "50/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "spd": 1

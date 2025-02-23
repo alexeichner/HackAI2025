@@ -11,22 +11,30 @@
       [
         "p1b: Zacian",
         "Protect",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Spore",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -79,22 +95,30 @@
       [
         "p1a: Amoonguss",
         "Protect",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Zacian",
         "Behemoth Blade",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -103,9 +127,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -143,17 +175,23 @@
       [
         "p1b: Pelipper",
         "Wide Guard",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2a: Murkrow",
         "Hurricane",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +200,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1

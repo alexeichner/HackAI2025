@@ -11,17 +11,23 @@
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Terrakion",
         "Rock Slide",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Wood Hammer",
-        "p2b: Terrakion"
+        [
+          "p2b: Terrakion"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +93,23 @@
       [
         "p2a: Whimsicott",
         "Taunt",
-        "p1a: TerapaGODO"
+        [
+          "p1a: TerapaGODO"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Knock Off",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1a: TerapaGODO",
         "Tera Starstorm",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,17 @@
       "p2a": "100/100",
       "p2b": "51/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -136,17 +166,23 @@
       [
         "p1b: Rezza Capa",
         "Fake Out",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Knock Off",
-        "p1a: TerapaGODO"
+        [
+          "p1a: TerapaGODO"
+        ]
       ],
       [
         "p1a: TerapaGODO",
         "Tera Starstorm",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -155,10 +191,17 @@
       "p2a": "22/100",
       "p2b": "51/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -207,17 +250,23 @@
       [
         "p2a: Indeedee",
         "Helping Hand",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Acrobatics",
-        "p1b: Rezza Capa"
+        [
+          "p1b: Rezza Capa"
+        ]
       ],
       [
         "p1a: TerapaGODO",
         "Tera Starstorm",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -226,10 +275,17 @@
       "p2a": "0 fnt",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -283,17 +339,23 @@
       [
         "p2b: Roaring Moon",
         "Acrobatics",
-        "p1a: TerapaGODO"
+        [
+          "p1a: TerapaGODO"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: TerapaGODO"
+        [
+          "p1a: TerapaGODO"
+        ]
       ],
       [
         "p1a: TerapaGODO",
         "Tera Starstorm",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -302,10 +364,17 @@
       "p2a": "41/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -357,7 +426,9 @@
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: TerapaGODO"
+        [
+          "p1a: TerapaGODO"
+        ]
       ]
     ],
     "hp": {
@@ -366,10 +437,17 @@
       "p2a": "41/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1

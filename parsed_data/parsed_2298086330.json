@@ -11,17 +11,23 @@
       [
         "p2b: Smeargle",
         "Fake Out",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Hyper Voice",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -81,17 +95,23 @@
       [
         "p1b: Landorus",
         "Rock Slide",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Hyper Voice",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +120,17 @@
       "p2a": "30/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -147,17 +175,23 @@
       [
         "p2a: Ursaluna",
         "Vacuum Wave",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2b: Lunala",
         "Trick Room",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -166,10 +200,17 @@
       "p2a": "30/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -216,17 +257,23 @@
       [
         "p1a: Kingambit",
         "Sucker Punch",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Earth Power",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2b: Lunala",
         "Dazzling Gleam",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -235,10 +282,17 @@
       "p2a": "12/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -290,17 +344,23 @@
       [
         "p1a: Kingambit",
         "Protect",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Vacuum Wave",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p2b: Lunala",
         "Dazzling Gleam",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -309,10 +369,17 @@
       "p2a": "12/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -355,12 +422,16 @@
       [
         "p1a: Kingambit",
         "Sucker Punch",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Lunala",
         "Dazzling Gleam",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -369,10 +440,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1
@@ -420,12 +498,16 @@
       [
         "p1a: Kingambit",
         "Kowtow Cleave",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -434,10 +516,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "atk": -1

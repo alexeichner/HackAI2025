@@ -11,17 +11,23 @@
       [
         "p1a: Whimsicott",
         "Endeavor",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Wicked Blow",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Annihilape",
         "Close Combat",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "43/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +86,23 @@
       [
         "p2a: Urshifu",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Annihilape",
         "Rage Fist",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -140,22 +170,30 @@
       [
         "p1a: Whimsicott",
         "Endeavor",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Annihilape",
         "Coaching",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -164,9 +202,17 @@
       "p2a": "57/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2,
@@ -221,9 +267,17 @@
       "p2a": "57/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2,

@@ -11,17 +11,23 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Fake Out",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Thunderbolt",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,19 @@
       "p2a": "87/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,22 +84,30 @@
       [
         "p2a: Grimmsnarl",
         "Parting Shot",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Thunderbolt",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Bullet Seed",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Body Press",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -92,10 +116,19 @@
       "p2a": "21/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1,
@@ -180,17 +213,23 @@
       [
         "p2a: Miraidon",
         "Overheat",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -199,10 +238,19 @@
       "p2a": "0 fnt",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1,
@@ -254,17 +302,23 @@
       [
         "p2b: Grimmsnarl",
         "Fake Out",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p2a: Gholdengo",
         "Shadow Ball",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Calm Mind",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -273,11 +327,19 @@
       "p2a": "0 fnt",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1,
@@ -326,17 +388,23 @@
       [
         "p2b: Grimmsnarl",
         "Parting Shot",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Origin Pulse",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Bullet Seed",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -345,11 +413,19 @@
       "p2a": "0 fnt",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1,
@@ -416,17 +492,23 @@
       [
         "p2a: Grimmsnarl",
         "Fake Out",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Trick",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Origin Pulse",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ]
     ],
     "hp": {
@@ -435,11 +517,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1,

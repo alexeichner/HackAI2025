@@ -11,22 +11,30 @@
       [
         "p1a: Walking Wake",
         "Flip Turn",
-        "p1b: Armarouge"
+        [
+          "p1b: Armarouge"
+        ]
       ],
       [
         "p1b: Armarouge",
         "Expanding Force",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Earth Power",
-        "p1b: Armarouge"
+        [
+          "p1b: Armarouge"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "38/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,
@@ -96,17 +110,23 @@
       [
         "p2b: Whimsicott",
         "Protect",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flame Charge",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -115,9 +135,15 @@
       "p2a": "38/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,
@@ -158,22 +184,30 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flame Charge",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -182,9 +216,15 @@
       "p2a": "38/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,
@@ -233,17 +273,23 @@
       [
         "p1b: Koraidon",
         "Collision Course",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1b: Koraidon"
+        [
+          "p1b: Koraidon"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Psychic",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -252,9 +298,15 @@
       "p2a": "33/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,
@@ -318,17 +370,23 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Collision Course",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -337,9 +395,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,
@@ -389,12 +453,16 @@
       [
         "p1b: Koraidon",
         "Collision Course",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Draco Meteor",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -403,9 +471,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Armarouge": {
         "def": -1,

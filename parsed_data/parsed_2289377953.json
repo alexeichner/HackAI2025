@@ -11,22 +11,30 @@
       [
         "p2b: Iron Valiant",
         "Protect",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Sableye",
         "Gravity",
-        "p2a: Sableye"
+        [
+          "p2a: Sableye"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2a: Sableye"
+        [
+          "p2a: Sableye"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -81,22 +97,30 @@
       [
         "p1a: Whimsicott",
         "Charm",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Iron Valiant",
         "Hypnosis",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Groudon",
         "Swords Dance",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Taunt",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +129,17 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -152,12 +184,16 @@
       [
         "p2a: Groudon",
         "Swords Dance",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Taunt",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +202,17 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -213,22 +257,30 @@
       [
         "p1a: Whimsicott",
         "Charm",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Sableye",
         "Foul Play",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -237,10 +289,17 @@
       "p2a": "81/100",
       "p2b": "41/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -298,7 +357,9 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ]
     ],
     "hp": {
@@ -307,10 +368,17 @@
       "p2a": "81/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -375,17 +443,23 @@
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Groudon",
         "Swords Dance",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -394,10 +468,17 @@
       "p2a": "81/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -461,17 +542,23 @@
       [
         "p1b: Lunala",
         "Wide Guard",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Encore",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "Swords Dance",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -480,10 +567,17 @@
       "p2a": "81/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -537,12 +631,16 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Lunala",
         "Calm Mind",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -551,10 +649,17 @@
       "p2a": "0 fnt",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -624,22 +729,30 @@
       [
         "p1a: Whimsicott",
         "Charm",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Lunala",
         "Dazzling Gleam",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Groudon",
         "Swords Dance",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -648,11 +761,17 @@
       "p2a": "28/100",
       "p2b": "42/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -717,22 +836,30 @@
       [
         "p2a: Groudon",
         "Protect",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Lunala",
         "Wide Guard",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -741,11 +868,17 @@
       "p2a": "34/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -805,17 +938,23 @@
       [
         "p1b: Lunala",
         "Wide Guard",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -824,11 +963,17 @@
       "p2a": "0 fnt",
       "p2b": "54/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,
@@ -893,17 +1038,23 @@
       [
         "p1b: Lunala",
         "Wide Guard",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -912,11 +1063,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1,

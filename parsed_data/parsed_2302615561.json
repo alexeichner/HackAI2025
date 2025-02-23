@@ -11,22 +11,30 @@
       [
         "p2a: Whimsicott",
         "Light Screen",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Will-O-Wisp",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,21 @@
       "p2a": "42/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -91,22 +111,30 @@
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -115,10 +143,21 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -182,17 +221,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -201,11 +246,21 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -253,17 +308,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Calm Mind",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -272,11 +333,21 @@
       "p2a": "92/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -324,22 +395,30 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Iron Leaves",
         "Megahorn",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ]
     ],
     "hp": {
@@ -348,11 +427,21 @@
       "p2a": "98/100",
       "p2b": "88/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -411,17 +500,23 @@
       [
         "p1a: Calyrex",
         "Draining Kiss",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p2b: Iron Leaves",
         "Leaf Blade",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Gastrodon",
         "Earth Power",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ]
     ],
     "hp": {
@@ -430,12 +525,21 @@
       "p2a": "72/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -494,17 +598,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -513,13 +623,21 @@
       "p2a": "78/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -571,17 +689,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Draining Kiss",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -590,13 +714,21 @@
       "p2a": "84/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,
@@ -661,13 +793,21 @@
       "p2a": "84/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -2,

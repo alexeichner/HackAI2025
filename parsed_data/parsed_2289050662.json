@@ -11,17 +11,23 @@
       [
         "p1b: Regieleki",
         "Volt Switch",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Trick Room",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +87,23 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Psychic",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sandsear Storm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +112,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -139,22 +167,30 @@
       [
         "p1a: Farigiraf",
         "Psychic",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sandsear Storm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -163,9 +199,17 @@
       "p2a": "0 fnt",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1
@@ -225,7 +269,9 @@
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -234,9 +280,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1

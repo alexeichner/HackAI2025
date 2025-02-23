@@ -11,22 +11,30 @@
       [
         "p1b: Whimsicott",
         "Tailwind",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sludge Bomb",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Trick Room",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "1/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1
@@ -80,17 +96,23 @@
       [
         "p1b: Iron Hands",
         "Drain Punch",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -99,10 +121,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1
@@ -157,12 +187,16 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1: Miraidon"
+        [
+          "p1: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -171,10 +205,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1
@@ -224,7 +266,9 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Iron Leaves"
+        [
+          "p1b: Iron Leaves"
+        ]
       ]
     ],
     "hp": {
@@ -233,10 +277,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1

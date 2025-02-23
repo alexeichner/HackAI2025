@@ -11,22 +11,30 @@
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Snarl",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Discharge",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Electivire",
         "Wild Charge",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "38/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -89,22 +105,30 @@
       [
         "p1b: Electivire",
         "Follow Me",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Ice Spinner",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Discharge",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -113,9 +137,17 @@
       "p2a": "0 fnt",
       "p2b": "46/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -170,17 +202,23 @@
       [
         "p2b: Chien-Pao",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Heavy Slam",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1b: Landorus",
         "Earth Power",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -189,9 +227,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -247,12 +293,16 @@
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Heavy Slam",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -261,10 +311,17 @@
       "p2a": "54/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -318,17 +375,23 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -337,10 +400,17 @@
       "p2a": "54/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -389,7 +459,9 @@
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -398,10 +470,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,

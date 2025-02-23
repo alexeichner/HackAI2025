@@ -11,17 +11,23 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Earthquake",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -75,12 +89,16 @@
       [
         "p1a: Tornadus",
         "Taunt",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Earthquake",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +107,17 @@
       "p2a": "34/100",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -134,12 +160,16 @@
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -148,9 +178,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -201,12 +239,16 @@
       [
         "p1b: Ninetales",
         "Aurora Veil",
-        "p1b: Ninetales"
+        [
+          "p1b: Ninetales"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -215,9 +257,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1

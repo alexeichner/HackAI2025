@@ -11,22 +11,30 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Latios",
         "Shadow Ball",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Latios"
+        [
+          "p2b: Latios"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1
@@ -86,17 +103,23 @@
       [
         "p1b: Iron Bundle",
         "Freeze-Dry",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Trick Room",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -105,10 +128,18 @@
       "p2a": "100/100",
       "p2b": "9/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1
@@ -155,10 +186,18 @@
       "p2a": "100/100",
       "p2b": "9/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1

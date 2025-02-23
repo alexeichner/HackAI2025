@@ -11,22 +11,30 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Light Screen",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,20 @@
       "p2a": "52/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -69,17 +87,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -88,10 +112,20 @@
       "p2a": "52/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -122,22 +156,30 @@
       [
         "p1a: Ogerpon",
         "Follow Me",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -146,10 +188,20 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "def": 1
@@ -204,22 +256,30 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Sacred Sword",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -228,10 +288,20 @@
       "p2a": "40/100",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "def": 1
@@ -283,12 +353,16 @@
       [
         "p2b: Chien-Pao",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -297,12 +371,20 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "def": 1
@@ -360,22 +442,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -384,12 +474,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "def": 1

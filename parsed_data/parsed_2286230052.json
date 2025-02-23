@@ -11,12 +11,16 @@
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Sing",
-        "p2b: Mr. Gassy"
+        [
+          "p2b: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"
@@ -70,17 +84,23 @@
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Howl",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Groudon": {
         "spa": -1,
@@ -150,22 +178,30 @@
       [
         "p2a: Suthen",
         "Follow Me",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Crunch",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -174,9 +210,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Groudon": {
         "spa": -1,

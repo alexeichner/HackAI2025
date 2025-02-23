@@ -11,17 +11,23 @@
       [
         "p2b: Charming",
         "Close Combat",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Indeedee",
         "Trick Room",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -1
@@ -92,12 +106,16 @@
       [
         "p1b: Necrozma",
         "Moongeist Beam",
-        "p2a: Duncan"
+        [
+          "p2a: Duncan"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Psychic",
-        "p2b: Mr. Gassy"
+        [
+          "p2b: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -106,10 +124,18 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -1

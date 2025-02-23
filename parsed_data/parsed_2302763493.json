@@ -11,22 +11,30 @@
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Sacred Sword",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Sacred Sword",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -79,22 +95,30 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Tsareena"
+        [
+          "p1a: Tsareena"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Sacred Sword",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Tsareena",
         "Triple Axel",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -103,7 +127,15 @@
       "p2a": "3/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -154,17 +186,23 @@
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Tsareena",
         "Triple Axel",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -173,7 +211,15 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

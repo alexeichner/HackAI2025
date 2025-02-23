@@ -11,17 +11,23 @@
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Draco Meteor",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "51/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3
@@ -83,12 +99,16 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -97,9 +117,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3
@@ -154,12 +182,16 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -168,9 +200,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3

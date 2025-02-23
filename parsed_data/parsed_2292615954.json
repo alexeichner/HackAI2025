@@ -11,17 +11,23 @@
       [
         "p1b: Smeargle",
         "Fake Out",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Rayquaza",
         "Swords Dance",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "97/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "atk": 0,
@@ -77,12 +91,16 @@
       [
         "p1b: Smeargle",
         "Spore",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Rayquaza",
         "Dragon Ascent",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -91,7 +109,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "atk": 0,
@@ -154,7 +180,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "atk": 0,

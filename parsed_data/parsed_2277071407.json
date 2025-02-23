@@ -11,22 +11,30 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Swords Dance",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "23/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -75,22 +92,30 @@
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Encore",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Swords Dance",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -99,9 +124,18 @@
       "p2a": "0 fnt",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -153,12 +187,16 @@
       [
         "p1a: Ogerpon",
         "Power Whip",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -167,10 +205,18 @@
       "p2a": "52/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -233,17 +279,23 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Encore",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -252,10 +304,18 @@
       "p2a": "64/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -307,10 +367,18 @@
       "p2a": "64/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,

@@ -11,22 +11,30 @@
       [
         "p1b: Urshifu",
         "U-turn",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p1a: Lunala",
         "Expanding Force",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "1/100",
       "p2b": "41/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -90,12 +107,16 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -104,11 +125,19 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -146,17 +175,23 @@
       [
         "p1a: Lunala",
         "Wide Guard",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -165,12 +200,19 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -210,17 +252,23 @@
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Earthquake",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Low Kick",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -229,12 +277,19 @@
       "p2a": "42/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -290,22 +345,30 @@
       [
         "p1b: Ursaluna",
         "Protect",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Trick Room",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -314,13 +377,19 @@
       "p2a": "26/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -363,17 +432,23 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Earthquake",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -382,13 +457,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -431,12 +512,16 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -445,13 +530,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -494,12 +585,16 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -508,13 +603,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -557,12 +658,16 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -571,13 +676,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -620,7 +731,9 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -629,13 +742,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

@@ -11,22 +11,30 @@
       [
         "p1b: Duncan",
         "Protect",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p1a: Charming",
         "Close Combat",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Flame Charge",
-        "p1a: Charming"
+        [
+          "p1a: Charming"
+        ]
       ],
       [
         "p2a: Brute Bonnet",
         "Spore",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "38/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "def": -1,
@@ -83,22 +99,30 @@
       [
         "p1b: Duncan",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Koraidon",
         "Flare Blitz",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p1a: Suthen",
         "Dazzling Gleam",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p2a: Brute Bonnet",
         "Spore",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -107,9 +131,17 @@
       "p2a": "16/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "def": -1,

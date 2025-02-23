@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Icicle Spear",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -83,17 +99,23 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Protect",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +124,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -137,12 +167,16 @@
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1a: Weezing"
+        [
+          "p1a: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -151,9 +185,17 @@
       "p2a": "0 fnt",
       "p2b": "23/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Weezing": {
         "spe": -1
@@ -204,17 +246,23 @@
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p1a: Weezing",
         "Play Rough",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -223,9 +271,17 @@
       "p2a": "0 fnt",
       "p2b": "23/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Weezing": {
         "spe": -1
@@ -277,12 +333,16 @@
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -291,9 +351,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Weezing": {
         "spe": -1

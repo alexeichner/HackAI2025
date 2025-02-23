@@ -11,27 +11,37 @@
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -40,9 +50,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -86,17 +104,23 @@
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Iron Bundle",
         "Encore",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +129,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -157,17 +189,23 @@
       [
         "p2a: Iron Bundle",
         "Icy Wind",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p1b: Iron Valiant",
         "Disable",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -176,9 +214,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,

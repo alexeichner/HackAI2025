@@ -11,22 +11,30 @@
       [
         "p1b: Ogerpon",
         "Spiky Shield",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Flame Charge",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Trick Room",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Koraidon": {
         "spe": 1
@@ -77,22 +93,30 @@
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Drain Punch",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -101,9 +125,17 @@
       "p2a": "1/100",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Koraidon": {
         "spe": 1
@@ -143,17 +175,23 @@
       [
         "p1b: Armarouge",
         "Heat Wave",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Armarouge"
+        [
+          "p1b: Armarouge"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Drain Punch",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +200,17 @@
       "p2a": "0 fnt",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Koraidon": {
         "spe": 1

@@ -11,17 +11,23 @@
       [
         "p2a: Iron Hands",
         "Fake Out",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "42/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -69,17 +83,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Low Kick",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -88,9 +108,17 @@
       "p2a": "42/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -133,22 +161,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Pollen Puff",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -157,9 +193,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

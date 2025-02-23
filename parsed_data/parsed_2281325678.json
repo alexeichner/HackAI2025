@@ -11,22 +11,30 @@
       [
         "p2a: Jumpluff",
         "Tailwind",
-        "p2a: Jumpluff"
+        [
+          "p2a: Jumpluff"
+        ]
       ],
       [
         "p2b: Groudon",
         "Heat Crash",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1b: Latios",
         "Tailwind",
-        "p1b: Latios"
+        [
+          "p1b: Latios"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "35/100",
       "p2b": "51/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,12 +89,16 @@
       [
         "p1b: Latios",
         "Luster Purge",
-        "p2a: Jumpluff"
+        [
+          "p2a: Jumpluff"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +107,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -125,22 +153,30 @@
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1b: Latios",
         "Dragon Pulse",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Dark Pulse",
-        "p1b: Latios"
+        [
+          "p1b: Latios"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -149,7 +185,15 @@
       "p2a": "35/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -192,7 +236,9 @@
       [
         "p1b: Dondozo",
         "Earthquake",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -201,7 +247,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,

@@ -11,22 +11,30 @@
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2a: Baxcalibur"
+        [
+          "p2a: Baxcalibur"
+        ]
       ],
       [
         "p2a: Baxcalibur",
         "Scale Shot",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -4
@@ -81,17 +97,23 @@
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Baxcalibur",
         "Swords Dance",
-        "p2a: Baxcalibur"
+        [
+          "p2a: Baxcalibur"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -100,10 +122,18 @@
       "p2a": "40/100",
       "p2b": "56/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -4
@@ -146,17 +176,23 @@
       [
         "p1b: Urshifu",
         "Aqua Jet",
-        "p2a: Baxcalibur"
+        [
+          "p2a: Baxcalibur"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2a: Baxcalibur",
         "Scale Shot",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -165,10 +201,18 @@
       "p2a": "40/100",
       "p2b": "56/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -4

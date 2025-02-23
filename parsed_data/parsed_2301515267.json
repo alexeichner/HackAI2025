@@ -11,22 +11,30 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Weezing",
         "Poison Gas",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "94/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "psn"
@@ -73,17 +91,23 @@
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Baton Pass",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +116,17 @@
       "p2a": "91/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -157,17 +189,23 @@
       [
         "p2b: Urshifu",
         "U-turn",
-        "p1b: Wo-Chien"
+        [
+          "p1b: Wo-Chien"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Wo-Chien",
         "Ruination",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -176,9 +214,17 @@
       "p2a": "82/100",
       "p2b": "51/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1

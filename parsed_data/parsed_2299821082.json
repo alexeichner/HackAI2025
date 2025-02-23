@@ -11,22 +11,30 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Grassy Terrain",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "100/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -76,22 +93,30 @@
       [
         "p2b: Whimsicott",
         "Encore",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Grassy Terrain",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Hyper Voice",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p1a: Entei",
         "Trailblaze",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -100,10 +125,19 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0
@@ -151,12 +185,16 @@
       [
         "p2b: Sneasler",
         "Acid Spray",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Hyper Voice",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -165,10 +203,19 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0
@@ -212,22 +259,30 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: Sneasler",
         "Acid Spray",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Psychic",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -236,10 +291,19 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0
@@ -283,12 +347,16 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2b: Sneasler"
+        [
+          "p2b: Sneasler"
+        ]
       ]
     ],
     "hp": {
@@ -297,11 +365,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0
@@ -345,17 +421,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Grassy Terrain",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -364,12 +446,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0
@@ -416,12 +505,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "spa": 0

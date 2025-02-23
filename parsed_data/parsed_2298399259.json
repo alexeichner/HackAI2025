@@ -11,22 +11,30 @@
       [
         "p1a: Kyogre",
         "Hydro Pump",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -84,17 +100,23 @@
       [
         "p1b: Baxcalibur",
         "Protect",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -103,7 +125,15 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -137,12 +167,16 @@
       [
         "p1a: Kyogre",
         "Hydro Pump",
-        "p2a: Toxapex"
+        [
+          "p2a: Toxapex"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -151,7 +185,15 @@
       "p2a": "61/100",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

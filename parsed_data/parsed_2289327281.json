@@ -11,22 +11,30 @@
       [
         "p2b: Iron Jugulis",
         "Protect",
-        "p2b: Iron Jugulis"
+        [
+          "p2b: Iron Jugulis"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Protect",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Iron Jugulis"
+        [
+          "p2b: Iron Jugulis"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +109,17 @@
       "p2a": "50/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -129,22 +159,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Light Screen",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +191,17 @@
       "p2a": "0 fnt",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

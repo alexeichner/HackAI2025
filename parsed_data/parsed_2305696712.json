@@ -11,22 +11,30 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p1a: Iron Moth",
         "Sludge Wave",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Zacian",
         "Sacred Sword",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "11/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -84,12 +101,16 @@
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -98,10 +119,18 @@
       "p2a": "17/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -161,17 +190,23 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Crunch",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -180,10 +215,18 @@
       "p2a": "23/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -226,12 +269,16 @@
       [
         "p2b: Chien-Pao",
         "Ice Shard",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Iron Moth"
+        [
+          "p1b: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -240,10 +287,18 @@
       "p2a": "23/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1

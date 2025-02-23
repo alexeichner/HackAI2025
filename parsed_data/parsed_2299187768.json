@@ -11,12 +11,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,19 @@
       "p2a": "100/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,
@@ -71,22 +85,30 @@
       [
         "p2b: Urshifu",
         "Protect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Will-O-Wisp",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +117,19 @@
       "p2a": "55/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,
@@ -147,22 +179,30 @@
       [
         "p2b: Urshifu",
         "Aqua Jet",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "U-turn",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -171,10 +211,19 @@
       "p2a": "43/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,
@@ -230,22 +279,30 @@
       [
         "p1b: Flutter Mane",
         "Protect",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Protect",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -254,10 +311,19 @@
       "p2a": "43/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,
@@ -300,17 +366,23 @@
       [
         "p2b: Iron Bundle",
         "Freeze-Dry",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -319,11 +391,19 @@
       "p2a": "49/100",
       "p2b": "22/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,
@@ -387,11 +467,19 @@
       "p2a": "49/100",
       "p2b": "22/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1,

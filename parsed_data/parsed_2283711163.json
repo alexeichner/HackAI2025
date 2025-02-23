@@ -11,22 +11,30 @@
       [
         "p1a: Weather Report",
         "Tailwind",
-        "p1a: Weather Report"
+        [
+          "p1a: Weather Report"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "40/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -91,17 +107,23 @@
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        "p1a: Weather Report"
+        [
+          "p1a: Weather Report"
+        ]
       ],
       [
         "p1b: Made In Heaven",
         "Astral Barrage",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Dark Pulse",
-        "p1b: Made In Heaven"
+        [
+          "p1b: Made In Heaven"
+        ]
       ]
     ],
     "hp": {
@@ -110,7 +132,15 @@
       "p2a": "0 fnt",
       "p2b": "17/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,

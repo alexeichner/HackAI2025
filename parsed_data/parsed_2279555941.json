@@ -11,22 +11,30 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Will-O-Wisp",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Smeargle",
         "Spore",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Smeargle": {
         "atk": -1
@@ -103,12 +119,16 @@
       [
         "p1a: Smeargle",
         "Decorate",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -117,9 +137,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Smeargle": {
         "atk": -1
@@ -173,12 +201,16 @@
       [
         "p1a: Smeargle",
         "Decorate",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -187,9 +219,17 @@
       "p2a": "18/100 slp",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Smeargle": {
         "atk": -1

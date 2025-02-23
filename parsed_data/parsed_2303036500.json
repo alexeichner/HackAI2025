@@ -11,22 +11,30 @@
       [
         "p1a: Iron Valiant",
         "Wide Guard",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -90,12 +107,16 @@
       [
         "p1a: Iron Valiant",
         "Wide Guard",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -104,9 +125,18 @@
       "p2a": "0 fnt",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -158,17 +188,23 @@
       [
         "p1a: Iron Valiant",
         "Moonblast",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Kyogre",
         "Origin Pulse",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -177,10 +213,18 @@
       "p2a": "79/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -227,12 +271,16 @@
       [
         "p1a: Amoonguss",
         "Pollen Puff",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -241,10 +289,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2

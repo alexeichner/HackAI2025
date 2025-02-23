@@ -11,12 +11,16 @@
       [
         "p1a: Dragonite",
         "Extreme Speed",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Will-O-Wisp",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -76,17 +88,23 @@
       [
         "p2b: Iron Leaves",
         "Protect",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Extreme Speed",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Throat Chop",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +113,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1

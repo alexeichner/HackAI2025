@@ -11,22 +11,30 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Taunt",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -75,12 +91,16 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "45/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"
@@ -138,12 +166,16 @@
       [
         "p2a: Iron Hands",
         "Fake Out",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +184,17 @@
       "p2a": "39/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"
@@ -194,17 +234,23 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -213,9 +259,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"
@@ -264,12 +318,16 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -278,9 +336,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"

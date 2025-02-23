@@ -11,22 +11,30 @@
       [
         "p1b: Murkrow",
         "Tailwind",
-        "p1b: Murkrow"
+        [
+          "p1b: Murkrow"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Murkrow"
+        [
+          "p1b: Murkrow"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "69/100",
       "p2b": "81/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 1
@@ -94,17 +110,23 @@
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Crunch",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -113,7 +135,15 @@
       "p2a": "69/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 1

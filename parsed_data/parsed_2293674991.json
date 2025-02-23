@@ -11,17 +11,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -91,12 +105,16 @@
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -105,10 +123,18 @@
       "p2a": "0 fnt",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -165,17 +191,23 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -184,10 +216,18 @@
       "p2a": "71/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -239,22 +279,30 @@
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Will-O-Wisp",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Wave Crash",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -263,11 +311,18 @@
       "p2a": "53/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -315,22 +370,30 @@
       [
         "p1b: Chi-Yu",
         "Protect",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Earthquake",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -339,11 +402,18 @@
       "p2a": "56/100",
       "p2b": "98/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -391,22 +461,30 @@
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Wave Crash",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -415,11 +493,18 @@
       "p2a": "33/100",
       "p2b": "98/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -472,22 +557,30 @@
       [
         "p1b: Chi-Yu",
         "Protect",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Aqua Jet",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Body Press",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -496,12 +589,18 @@
       "p2a": "33/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -562,17 +661,23 @@
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Body Press",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -581,12 +686,18 @@
       "p2a": "33/100",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1
@@ -661,12 +772,18 @@
       "p2a": "33/100",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tatsugiri": {
         "atk": -1

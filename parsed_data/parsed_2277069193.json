@@ -11,17 +11,23 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -83,22 +97,30 @@
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -107,7 +129,15 @@
       "p2a": "72/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -153,7 +183,15 @@
       "p2a": "72/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

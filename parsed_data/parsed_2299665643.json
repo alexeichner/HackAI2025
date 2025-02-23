@@ -11,22 +11,30 @@
       [
         "p1a: Dame Over",
         "Wide Guard",
-        "p1a: Dame Over"
+        [
+          "p1a: Dame Over"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1a: Dame Over"
+        [
+          "p1a: Dame Over"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Dark Pulse",
-        "p1b: Sheist Rider"
+        [
+          "p1b: Sheist Rider"
+        ]
       ],
       [
         "p1b: Sheist Rider",
         "Glacial Lance",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "1/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -81,17 +95,23 @@
       [
         "p1a: Dairy Jane",
         "Follow Me",
-        "p1a: Dairy Jane"
+        [
+          "p1a: Dairy Jane"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Dark Pulse",
-        "p1a: Dairy Jane"
+        [
+          "p1a: Dairy Jane"
+        ]
       ],
       [
         "p1b: Sheist Rider",
         "Trick Room",
-        "p1b: Sheist Rider"
+        [
+          "p1b: Sheist Rider"
+        ]
       ]
     ],
     "hp": {
@@ -100,10 +120,15 @@
       "p2a": "1/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -141,17 +166,23 @@
       [
         "p2a: Bastiodon",
         "Wide Guard",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ],
       [
         "p1b: Sheist Rider",
         "Glacial Lance",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ],
       [
         "p1a: Cloud Nein",
         "Thunderbolt",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -160,10 +191,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -197,17 +233,23 @@
       [
         "p2a: Bastiodon",
         "Iron Defense",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ],
       [
         "p1b: Sheist Rider",
         "High Horsepower",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Cloud Nein",
         "Thunderbolt",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ]
     ],
     "hp": {
@@ -216,10 +258,15 @@
       "p2a": "84/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Bastiodon": {
         "def": 2
@@ -270,22 +317,30 @@
       [
         "p2b: Koraidon",
         "Protect",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p2a: Bastiodon",
         "Foul Play",
-        "p1b: Sheist Rider"
+        [
+          "p1b: Sheist Rider"
+        ]
       ],
       [
         "p1b: Sheist Rider",
         "Glacial Lance",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ],
       [
         "p1a: Cloud Nein",
         "Draco Meteor",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -294,10 +349,15 @@
       "p2a": "27/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Bastiodon": {
         "def": 2
@@ -343,17 +403,23 @@
       [
         "p2b: Koraidon",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Bastiodon",
         "Body Press",
-        "p1b: Sheist Rider"
+        [
+          "p1b: Sheist Rider"
+        ]
       ],
       [
         "p1a: Cloud Nein",
         "Draco Meteor",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -362,10 +428,15 @@
       "p2a": "27/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Bastiodon": {
         "def": 2
@@ -416,7 +487,9 @@
       [
         "p1a: Cloud Nein",
         "Draco Meteor",
-        "p2a: Bastiodon"
+        [
+          "p2a: Bastiodon"
+        ]
       ]
     ],
     "hp": {
@@ -425,10 +498,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Bastiodon": {
         "def": 2

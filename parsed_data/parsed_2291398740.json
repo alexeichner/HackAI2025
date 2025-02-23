@@ -11,22 +11,30 @@
       [
         "p1b: missingno",
         "Helping Hand",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ],
       [
         "p2b: Alcremie",
         "Protect",
-        "p2b: Alcremie"
+        [
+          "p2b: Alcremie"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: horse",
         "Expanding Force",
-        "p2b: Alcremie"
+        [
+          "p2b: Alcremie"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p1b: missingno",
         "Helping Hand",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ],
       [
         "p1a: horse",
         "Astral Barrage",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Alcremie",
         "Decorate",
-        "p2: Calyrex"
+        [
+          "p2: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +109,17 @@
       "p2a": "0 fnt",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "spa": 2
@@ -136,17 +166,23 @@
       [
         "p1b: missingno",
         "Follow Me",
-        "p1b: missingno"
+        [
+          "p1b: missingno"
+        ]
       ],
       [
         "p1a: horse",
         "Astral Barrage",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: missingno"
+        [
+          "p1b: missingno"
+        ]
       ]
     ],
     "hp": {
@@ -155,9 +191,17 @@
       "p2a": "16/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "spa": 2
@@ -201,12 +245,16 @@
       [
         "p1a: horse",
         "Pollen Puff",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: I eat sushi",
         "Wave Crash",
-        "p2a: Alcremie"
+        [
+          "p2a: Alcremie"
+        ]
       ]
     ],
     "hp": {
@@ -215,9 +263,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "spa": 2

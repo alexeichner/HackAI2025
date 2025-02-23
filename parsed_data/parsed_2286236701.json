@@ -11,17 +11,23 @@
       [
         "p2a: Suthen",
         "Follow Me",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Psyshock",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,20 @@
       "p2a": "62/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -74,17 +90,23 @@
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Nasty Plot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -93,10 +115,20 @@
       "p2a": "62/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3
@@ -139,12 +171,16 @@
       [
         "p1a: Calyrex",
         "Psyshock",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -153,11 +189,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3
@@ -213,17 +258,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -232,12 +283,20 @@
       "p2a": "0 fnt",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3
@@ -284,12 +343,16 @@
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -298,12 +361,20 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3
@@ -360,22 +431,30 @@
       [
         "p2a: Charming",
         "Protect",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -384,12 +463,20 @@
       "p2a": "0 fnt",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3
@@ -436,17 +523,23 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p2a: Charming",
         "Close Combat",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -455,12 +548,20 @@
       "p2a": "0 fnt",
       "p2b": "36/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 3

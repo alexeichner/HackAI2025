@@ -11,22 +11,30 @@
       [
         "p1a: Whimsicott",
         "Misty Terrain",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: kingjames",
         "Will-O-Wisp",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        [
+          "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        ]
       ],
       [
         "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Ice Beam",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "58/100",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Whimsicott": {
         "atk": -1
@@ -81,22 +98,30 @@
       [
         "p1a: Whimsicott",
         "Endeavor",
-        "p2b: kingjames"
+        [
+          "p2b: kingjames"
+        ]
       ],
       [
         "p2b: kingjames",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2b: kingjames"
+        [
+          "p2b: kingjames"
+        ]
       ],
       [
         "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Ice Beam",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -105,10 +130,18 @@
       "p2a": "58/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Whimsicott": {
         "atk": -1
@@ -164,17 +197,23 @@
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        [
+          "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        ]
       ],
       [
         "p2a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Ice Beam",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -183,10 +222,18 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Whimsicott": {
         "atk": -1

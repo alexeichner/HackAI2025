@@ -11,17 +11,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Avalugg",
         "Iron Defense",
-        "p2b: Avalugg"
+        [
+          "p2b: Avalugg"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Trick Room",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,11 +36,19 @@
       "p2a": "91/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -69,22 +83,30 @@
       [
         "p2b: Avalugg",
         "Body Press",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Psychic Noise",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -93,11 +115,19 @@
       "p2a": "39/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -132,22 +162,30 @@
       [
         "p2b: Avalugg",
         "Body Press",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Enamorus",
         "Dazzling Gleam",
-        "p2b: Avalugg"
+        [
+          "p2b: Avalugg"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Blood Moon",
-        "p2b: Avalugg"
+        [
+          "p2b: Avalugg"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Enamorus"
+        [
+          "p1a: Enamorus"
+        ]
       ]
     ],
     "hp": {
@@ -156,11 +194,19 @@
       "p2a": "54/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -202,17 +248,23 @@
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1a: Enamorus"
+        [
+          "p1a: Enamorus"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Hyper Voice",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Entei",
         "Sacred Fire",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -221,12 +273,19 @@
       "p2a": "0 fnt",
       "p2b": "50/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -264,17 +323,23 @@
       [
         "p2b: Entei",
         "Protect",
-        "p2b: Entei"
+        [
+          "p2b: Entei"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Hyper Voice",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Entei"
+        [
+          "p2b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -283,12 +348,19 @@
       "p2a": "0 fnt",
       "p2b": "50/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -326,12 +398,16 @@
       [
         "p2b: Entei",
         "Sacred Fire",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Entei"
+        [
+          "p2b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -340,12 +416,19 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3
@@ -388,7 +471,9 @@
       [
         "p2b: Entei",
         "Sacred Fire",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -397,12 +482,19 @@
       "p2a": "0 fnt",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Avalugg": {
         "def": 3

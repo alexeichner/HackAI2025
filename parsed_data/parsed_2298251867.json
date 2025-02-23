@@ -11,17 +11,23 @@
       [
         "p2b: Tornadus",
         "Tailwind",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Tera Blast",
-        "p1a: \u30df\u30e9\u30a4\u30c9\u30f3"
+        [
+          "p1a: \u30df\u30e9\u30a4\u30c9\u30f3"
+        ]
       ],
       [
         "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Earthquake",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "60/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +85,23 @@
       [
         "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Protect",
-        "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Tera Blast",
-        "p1a: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        [
+          "p1a: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        ]
       ],
       [
         "p2b: Tornadus",
         "Bleakwind Storm",
-        "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +110,18 @@
       "p2a": "60/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -132,17 +162,23 @@
       [
         "p2a: Chi-Yu",
         "Tera Blast",
-        "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p2b: Tornadus",
         "Bleakwind Storm",
-        "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Wave Crash",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -151,10 +187,18 @@
       "p2a": "60/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -203,12 +247,16 @@
       [
         "p2a: Chi-Yu",
         "Tera Blast",
-        "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psyshock",
-        "p1a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p1a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -217,10 +265,18 @@
       "p2a": "60/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -264,12 +320,16 @@
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Tera Blast",
-        "p1a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p1a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -278,10 +338,18 @@
       "p2a": "60/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,

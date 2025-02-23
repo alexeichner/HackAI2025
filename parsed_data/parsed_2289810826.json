@@ -11,17 +11,23 @@
       [
         "p1a: Maushold",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Trick Room",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 3
@@ -88,22 +102,30 @@
       [
         "p1a: Maushold",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Taunt",
-        "p1a: Maushold"
+        [
+          "p1a: Maushold"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Maushold"
+        [
+          "p1a: Maushold"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -112,9 +134,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 3

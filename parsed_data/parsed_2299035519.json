@@ -11,22 +11,30 @@
       [
         "p2b: Zacian",
         "Protect",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 1
@@ -72,12 +88,16 @@
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ]
     ],
     "hp": {
@@ -86,7 +106,15 @@
       "p2a": "59/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 1
@@ -134,17 +162,23 @@
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Regidrago",
         "Dragon Energy",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -153,7 +187,15 @@
       "p2a": "59/100",
       "p2b": "31/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 1
@@ -197,17 +239,23 @@
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p2b: Regidrago",
         "Dragon Energy",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -216,7 +264,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 1

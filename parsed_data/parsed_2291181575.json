@@ -11,22 +11,30 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Entei",
         "Eruption",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,17 +87,23 @@
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -90,7 +112,15 @@
       "p2a": "1/100",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "spa": -1,
@@ -144,17 +174,23 @@
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -163,7 +199,15 @@
       "p2a": "1/100",
       "p2b": "87/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "spa": -1,

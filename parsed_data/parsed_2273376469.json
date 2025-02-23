@@ -11,17 +11,23 @@
       [
         "p2b: KING",
         "Protect",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -72,17 +84,23 @@
       [
         "p2a: ROOK",
         "Fake Out",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: KING",
         "Calm Mind",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +109,15 @@
       "p2a": "100/100",
       "p2b": "99/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -140,22 +164,30 @@
       [
         "p1a: Grimmsnarl",
         "Thunder Wave",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ],
       [
         "p2a: ROOK",
         "Wood Hammer",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2a: ROOK"
+        [
+          "p2a: ROOK"
+        ]
       ],
       [
         "p2b: KING",
         "Tera Starstorm",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -164,9 +196,15 @@
       "p2a": "81/100",
       "p2b": "100/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -217,12 +255,16 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2a: QUEEN"
+        [
+          "p2a: QUEEN"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: PAWN"
+        [
+          "p2b: PAWN"
+        ]
       ]
     ],
     "hp": {
@@ -231,9 +273,15 @@
       "p2a": "93/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -285,12 +333,16 @@
       [
         "p2b: PAWN",
         "Thunder Wave",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: QUEEN",
         "Ivy Cudgel",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -299,9 +351,15 @@
       "p2a": "99/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -355,22 +413,30 @@
       [
         "p2a: QUEEN",
         "Spiky Shield",
-        "p2a: QUEEN"
+        [
+          "p2a: QUEEN"
+        ]
       ],
       [
         "p2b: PAWN",
         "Thunder Wave",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: PAWN"
+        [
+          "p2b: PAWN"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Thunder",
-        "p2a: QUEEN"
+        [
+          "p2a: QUEEN"
+        ]
       ]
     ],
     "hp": {
@@ -379,9 +445,15 @@
       "p2a": "99/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -433,22 +505,30 @@
       [
         "p2a: QUEEN",
         "Horn Leech",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: KING"
+        [
+          "p2b: KING"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Thunder",
-        "p2a: QUEEN"
+        [
+          "p2a: QUEEN"
+        ]
       ],
       [
         "p2b: KING",
         "Tera Starstorm",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -457,9 +537,15 @@
       "p2a": "54/100",
       "p2b": "49/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1
@@ -531,9 +617,15 @@
       "p2a": "54/100",
       "p2b": "49/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: PAWN": {
         "atk": -1

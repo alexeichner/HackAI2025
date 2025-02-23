@@ -11,17 +11,23 @@
       [
         "p1a: Calyrex",
         "Calm Mind",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,11 +36,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1,
@@ -81,12 +95,16 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -95,11 +113,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1,

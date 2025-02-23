@@ -11,17 +11,23 @@
       [
         "p2a: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Ice Spinner",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Wave Crash",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,19 @@
       "p2a": "11/100",
       "p2b": "99/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +93,23 @@
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,19 @@
       "p2a": "0 fnt",
       "p2b": "99/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2
@@ -150,12 +182,16 @@
       [
         "p2b: Dondozo",
         "Wave Crash",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -164,9 +200,19 @@
       "p2a": "0 fnt",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2
@@ -222,7 +268,9 @@
       [
         "p1b: Calyrex",
         "Leaf Storm",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -231,11 +279,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2
@@ -292,17 +348,23 @@
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2a: Tatsugiri",
         "Muddy Water",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -311,12 +373,19 @@
       "p2a": "0 fnt",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2
@@ -386,17 +455,23 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Tatsugiri"
+        [
+          "p2a: Tatsugiri"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -405,12 +480,19 @@
       "p2a": "0 fnt",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2
@@ -466,12 +548,19 @@
       "p2a": "0 fnt",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 2

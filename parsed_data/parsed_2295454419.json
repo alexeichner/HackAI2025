@@ -11,12 +11,16 @@
       [
         "p1b: Smeargle",
         "Decorate",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Terapagos": {
         "atk": 2,

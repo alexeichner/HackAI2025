@@ -11,22 +11,30 @@
       [
         "p1b: Charming",
         "Spirit Break",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Will-O-Wisp",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "25/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spa": -1
@@ -93,22 +112,30 @@
       [
         "p1b: Duncan",
         "Protect",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Sludge Bomb",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -117,9 +144,18 @@
       "p2a": "84/100",
       "p2b": "25/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spa": -1
@@ -166,17 +202,23 @@
       [
         "p1a: Suthen",
         "Helping Hand",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p1b: Duncan",
         "Expanding Force",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -185,10 +227,18 @@
       "p2a": "21/100",
       "p2b": "25/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spa": -1

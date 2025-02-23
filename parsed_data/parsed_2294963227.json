@@ -11,17 +11,23 @@
       [
         "p1a: Iron Hands",
         "Fake Out",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,15 @@
       "p2a": "100/100",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -73,22 +84,30 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -97,10 +116,15 @@
       "p2a": "100/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -137,22 +161,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -161,10 +193,15 @@
       "p2a": "0 fnt",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -205,17 +242,23 @@
       [
         "p2b: Iron Hands",
         "Low Kick",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -224,10 +267,15 @@
       "p2a": "51/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -289,17 +337,23 @@
       [
         "p1b: Urshifu",
         "Aqua Jet",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Low Kick",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -308,10 +362,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -370,12 +429,16 @@
       [
         "p1b: Urshifu",
         "Detect",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Sucker Punch",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -384,10 +447,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -428,7 +496,9 @@
       [
         "p2b: Chien-Pao",
         "Sacred Sword",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -437,10 +507,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1

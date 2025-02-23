@@ -11,22 +11,30 @@
       [
         "p2a: Mimikyu",
         "Shadow Sneak",
-        "p1b: Gholdengo"
+        [
+          "p1b: Gholdengo"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Gholdengo",
         "Make It Rain",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "19/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gholdengo": {
         "spa": -1
@@ -85,17 +101,23 @@
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Gholdengo"
+        [
+          "p1b: Gholdengo"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Blood Moon",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -104,10 +126,18 @@
       "p2a": "35/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gholdengo": {
         "spa": -1
@@ -158,22 +188,30 @@
       [
         "p1b: Dragonite",
         "Extreme Speed",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Hyper Voice",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -182,10 +220,18 @@
       "p2a": "0 fnt",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gholdengo": {
         "spa": -1
@@ -234,10 +280,18 @@
       "p2a": "0 fnt",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gholdengo": {
         "spa": -1

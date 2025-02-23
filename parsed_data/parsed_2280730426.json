@@ -11,22 +11,30 @@
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: Alcremie"
+        [
+          "p2a: Alcremie"
+        ]
       ],
       [
         "p1b: Bronzong",
         "Gravity",
-        "p1b: Bronzong"
+        [
+          "p1b: Bronzong"
+        ]
       ],
       [
         "p2a: Alcremie",
         "Decorate",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,17 @@
       "p2a": "49/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 5,
@@ -76,17 +91,23 @@
       [
         "p2a: Alcremie",
         "Encore",
-        "p1b: Bronzong"
+        [
+          "p1b: Bronzong"
+        ]
       ],
       [
         "p1b: Bronzong",
         "Gravity",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +116,17 @@
       "p2a": "49/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 5,
@@ -150,12 +178,16 @@
       [
         "p2a: Alcremie",
         "Endeavor",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -164,10 +196,17 @@
       "p2a": "49/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 5,
@@ -219,17 +258,23 @@
       [
         "p2a: Alcremie",
         "Endeavor",
-        "p1b: Bronzong"
+        [
+          "p1b: Bronzong"
+        ]
       ],
       [
         "p1b: Bronzong",
         "Gyro Ball",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Bronzong"
+        [
+          "p1b: Bronzong"
+        ]
       ]
     ],
     "hp": {
@@ -238,10 +283,17 @@
       "p2a": "49/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 5,

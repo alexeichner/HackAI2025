@@ -11,17 +11,23 @@
       [
         "p2b: Munkidori",
         "Fake Out",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Icy Wind",
-        "p2b: Munkidori"
+        [
+          "p2b: Munkidori"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Ice Beam",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "98/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Terapagos": {
         "spe": -1
@@ -79,12 +93,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -93,9 +111,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Terapagos": {
         "spe": -1
@@ -138,22 +164,30 @@
       [
         "p2b: Urshifu",
         "Aqua Jet",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sandsear Storm",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -162,10 +196,17 @@
       "p2a": "57/100",
       "p2b": "92/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Terapagos": {
         "spe": -1
@@ -229,17 +270,23 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -248,10 +295,17 @@
       "p2a": "57/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Terapagos": {
         "spe": -1

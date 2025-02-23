@@ -11,22 +11,30 @@
       [
         "p1b: Urshifu",
         "Protect",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Urshifu",
         "U-turn",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +93,23 @@
       [
         "p1a: Whimsicott",
         "Taunt",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,17 @@
       "p2a": "67/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1
@@ -159,12 +189,16 @@
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -173,9 +207,17 @@
       "p2a": "41/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1
@@ -232,17 +274,23 @@
       [
         "p2a: Archaludon",
         "Protect",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -251,9 +299,17 @@
       "p2a": "47/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1

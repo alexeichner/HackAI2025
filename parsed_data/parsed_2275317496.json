@@ -11,22 +11,30 @@
       [
         "p2a: Raging Bolt",
         "Protect",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Triple Axel",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Power Whip",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Basculegion": {
         "atk": -1
@@ -148,17 +178,23 @@
       [
         "p1a: Basculegion",
         "Protect",
-        "p1a: Basculegion"
+        [
+          "p1a: Basculegion"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Basculegion"
+        [
+          "p1a: Basculegion"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1b: Tsareena"
+        [
+          "p1b: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +203,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Basculegion": {
         "atk": -1
@@ -213,9 +257,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Basculegion": {
         "atk": -1

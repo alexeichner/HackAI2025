@@ -11,22 +11,30 @@
       [
         "p1b: Pelipper",
         "Protect",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "60/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -75,17 +93,23 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Clefable"
+        [
+          "p1b: Clefable"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Clefable"
+        [
+          "p1b: Clefable"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -94,7 +118,17 @@
       "p2a": "4/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -140,17 +174,23 @@
       [
         "p1b: Clefable",
         "Protect",
-        "p1b: Clefable"
+        [
+          "p1b: Clefable"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -159,7 +199,17 @@
       "p2a": "4/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -196,22 +246,30 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Clefable",
         "Follow Me",
-        "p1b: Clefable"
+        [
+          "p1b: Clefable"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Clefable"
+        [
+          "p1b: Clefable"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Earthquake",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -220,7 +278,17 @@
       "p2a": "4/100",
       "p2b": "48/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -260,22 +328,30 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Earthquake",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -284,9 +360,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -326,22 +410,30 @@
       [
         "p1a: Ursaluna",
         "Protect",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Sludge Bomb",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -350,9 +442,17 @@
       "p2a": "47/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -400,9 +500,17 @@
       "p2a": "47/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

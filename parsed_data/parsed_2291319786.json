@@ -11,17 +11,23 @@
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Overheat",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -79,12 +94,16 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -93,10 +112,19 @@
       "p2a": "50/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -150,12 +178,16 @@
       [
         "p2b: Eternatus",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -164,11 +196,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -229,17 +269,23 @@
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Eternatus",
         "Dynamax Cannon",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2b: Eternatus"
+        [
+          "p2b: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -248,11 +294,19 @@
       "p2a": "0 fnt",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -305,12 +359,16 @@
       [
         "p2b: Eternatus",
         "Dynamax Cannon",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Dazzling Gleam",
-        "p2b: Eternatus"
+        [
+          "p2b: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -319,11 +377,19 @@
       "p2a": "0 fnt",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -376,12 +442,16 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Eternatus"
+        [
+          "p2b: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -390,11 +460,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,

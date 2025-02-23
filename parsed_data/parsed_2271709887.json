@@ -11,17 +11,23 @@
       [
         "p1a: PAWN",
         "Thunder Wave",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: QUEEN",
         "Horn Leech",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Thunder",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "19/100 par",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "par"
@@ -70,17 +84,23 @@
       [
         "p1a: PAWN",
         "Light Screen",
-        "p1a: PAWN"
+        [
+          "p1a: PAWN"
+        ]
       ],
       [
         "p1b: QUEEN",
         "Horn Leech",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Thunder",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ]
     ],
     "hp": {
@@ -89,7 +109,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "par"
@@ -129,12 +157,16 @@
       [
         "p1a: PAWN",
         "Thunder Wave",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: QUEEN",
         "Ivy Cudgel",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -143,7 +175,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "par"

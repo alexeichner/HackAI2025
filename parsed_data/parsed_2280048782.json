@@ -11,22 +11,30 @@
       [
         "p2a: Tornadus",
         "Taunt",
-        "p1a: Bronzong"
+        [
+          "p1a: Bronzong"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Bronzong"
+        [
+          "p1a: Bronzong"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Bronzong",
         "Trick Room",
-        "p1a: Bronzong"
+        [
+          "p1a: Bronzong"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "brn"
@@ -82,17 +96,23 @@
       [
         "p1a: Bronzong",
         "Gravity",
-        "p1a: Bronzong"
+        [
+          "p1a: Bronzong"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -101,10 +121,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "brn"
@@ -139,17 +164,23 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Bronzong",
         "Hypnosis",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -158,10 +189,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "brn"
@@ -210,22 +246,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Bronzong",
         "Hypnosis",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -234,10 +278,15 @@
       "p2a": "91/100",
       "p2b": "42/100 slp"
     },
-    "field_effects": [
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 2
@@ -287,17 +336,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Weather Ball",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -306,10 +361,15 @@
       "p2a": "91/100",
       "p2b": "8/100 slp"
     },
-    "field_effects": [
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 2
@@ -354,12 +414,16 @@
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -368,10 +432,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 2

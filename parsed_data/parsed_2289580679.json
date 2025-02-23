@@ -11,17 +11,23 @@
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Overheat",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Hyper Voice",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "spa": 1
@@ -70,12 +86,16 @@
       [
         "p1b: Groudon",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -84,9 +104,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "spa": 1
@@ -142,22 +170,30 @@
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Snarl",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +202,17 @@
       "p2a": "0 fnt",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "spa": 1
@@ -225,9 +269,17 @@
       "p2a": "0 fnt",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "spa": 1

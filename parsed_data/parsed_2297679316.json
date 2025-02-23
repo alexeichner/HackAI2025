@@ -11,27 +11,37 @@
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Cresselia",
         "Thunder Wave",
-        "p2b: Oranguru"
+        [
+          "p2b: Oranguru"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Leech Seed",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Instruct",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -40,9 +50,17 @@
       "p2a": "88/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1,
@@ -87,27 +105,37 @@
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Cresselia"
+        [
+          "p1b: Cresselia"
+        ]
       ],
       [
         "p1b: Cresselia",
         "Thunder Wave",
-        "p2b: Oranguru"
+        [
+          "p2b: Oranguru"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Leech Seed",
-        "p2b: Oranguru"
+        [
+          "p2b: Oranguru"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Instruct",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Cresselia"
+        [
+          "p1b: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -116,9 +144,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1,

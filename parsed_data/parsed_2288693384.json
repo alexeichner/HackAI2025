@@ -11,22 +11,30 @@
       [
         "p1b: Landorus",
         "Protect",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Melman",
         "Draco Meteor",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p2a: Merenoleona",
         "Trick Room",
-        "p2a: Merenoleona"
+        [
+          "p2a: Merenoleona"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p2b: Melman",
         "Draco Meteor",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p2a: Merenoleona",
         "Dazzling Gleam",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Melman"
+        [
+          "p2b: Melman"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Melman": {
         "spa": -2

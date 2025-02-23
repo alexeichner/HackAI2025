@@ -11,17 +11,23 @@
       [
         "p1a: Mister J",
         "Light Screen",
-        "p1a: Mister J"
+        [
+          "p1a: Mister J"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Cpt. Planet"
+        [
+          "p1b: Cpt. Planet"
+        ]
       ],
       [
         "p1b: Cpt. Planet",
         "Hurricane",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +82,23 @@
       [
         "p1a: Mister J",
         "Thunder Wave",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Tailwind",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p2a: Archaludon",
         "Electro Shot",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +107,17 @@
       "p2a": "100/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -126,22 +154,30 @@
       [
         "p1b: Thunder Bringer",
         "Protect",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ],
       [
         "p1a: Mister J",
         "Thunder Wave",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p2a: Archaludon",
         "Flash Cannon",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Weather Ball",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ]
     ],
     "hp": {
@@ -150,9 +186,17 @@
       "p2a": "100/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -192,17 +236,23 @@
       [
         "p1a: Mister J",
         "Parting Shot",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1b: Thunder Bringer",
         "Earth Power",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Weather Ball",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ]
     ],
     "hp": {
@@ -211,9 +261,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -266,12 +324,16 @@
       [
         "p1b: Thunder Bringer",
         "Protect",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1a: Cpt. Planet"
+        [
+          "p1a: Cpt. Planet"
+        ]
       ]
     ],
     "hp": {
@@ -280,9 +342,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -326,17 +396,23 @@
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1a: Mister J"
+        [
+          "p1a: Mister J"
+        ]
       ],
       [
         "p1b: Thunder Bringer",
         "Earth Power",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1a: Mister J",
         "Spirit Break",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -345,10 +421,17 @@
       "p2a": "64/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -395,17 +478,23 @@
       [
         "p1b: Thunder Bringer",
         "Protect",
-        "p1b: Thunder Bringer"
+        [
+          "p1b: Thunder Bringer"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Mister J"
+        [
+          "p1a: Mister J"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1a: Mister J"
+        [
+          "p1a: Mister J"
+        ]
       ]
     ],
     "hp": {
@@ -414,10 +503,17 @@
       "p2a": "64/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -476,12 +572,16 @@
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Metal Overlord"
+        [
+          "p1a: Metal Overlord"
+        ]
       ],
       [
         "p1a: Metal Overlord",
         "Dragon Pulse",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -490,10 +590,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -544,12 +651,16 @@
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Metal Overlord"
+        [
+          "p1a: Metal Overlord"
+        ]
       ],
       [
         "p1a: Metal Overlord",
         "Dragon Pulse",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -558,10 +669,17 @@
       "p2a": "0 fnt",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -617,12 +735,16 @@
       [
         "p1a: Metal Overlord",
         "Protect",
-        "p1a: Metal Overlord"
+        [
+          "p1a: Metal Overlord"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Metal Overlord"
+        [
+          "p1a: Metal Overlord"
+        ]
       ]
     ],
     "hp": {
@@ -631,10 +753,17 @@
       "p2a": "0 fnt",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1
@@ -685,7 +814,9 @@
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Metal Overlord"
+        [
+          "p1a: Metal Overlord"
+        ]
       ]
     ],
     "hp": {
@@ -694,10 +825,17 @@
       "p2a": "0 fnt",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "spa": 1

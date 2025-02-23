@@ -11,22 +11,30 @@
       [
         "p1a: Shepparoni",
         "Tailwind",
-        "p1a: Shepparoni"
+        [
+          "p1a: Shepparoni"
+        ]
       ],
       [
         "p1b: Pony",
         "Ivy Cudgel",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Pony"
+        [
+          "p1b: Pony"
+        ]
       ],
       [
         "p2b: Brute Bonnet",
         "Clear Smog",
-        "p1a: Shepparoni"
+        [
+          "p1a: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Pony": {
         "atk": 1
@@ -88,12 +104,16 @@
       [
         "p1a: Shepparoni",
         "Taunt",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Pony",
         "Ivy Cudgel",
-        "p2b: Brute Bonnet"
+        [
+          "p2b: Brute Bonnet"
+        ]
       ]
     ],
     "hp": {
@@ -102,7 +122,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Pony": {
         "atk": 1

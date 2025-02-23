@@ -11,17 +11,23 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2a: Regieleki"
+        [
+          "p2a: Regieleki"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "75/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Regieleki": {
         "atk": -1
@@ -93,17 +109,23 @@
       [
         "p1b: Urshifu",
         "Protect",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2a: Regieleki",
         "Electroweb",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -112,9 +134,17 @@
       "p2a": "75/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Regieleki": {
         "atk": -1
@@ -168,17 +198,23 @@
       [
         "p2a: Regieleki",
         "Electroweb",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -187,9 +223,17 @@
       "p2a": "75/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Regieleki": {
         "atk": -1

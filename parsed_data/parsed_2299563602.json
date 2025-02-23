@@ -11,22 +11,30 @@
       [
         "p1b: Zacian",
         "Swords Dance",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Ice Spinner",
-        "p2a: Cpt. Planet"
+        [
+          "p2a: Cpt. Planet"
+        ]
       ],
       [
         "p2a: Cpt. Planet",
         "Tailwind",
-        "p2a: Cpt. Planet"
+        [
+          "p2a: Cpt. Planet"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Electro Shot",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 3
@@ -75,17 +91,23 @@
       [
         "p2a: Cpt. Planet",
         "Weather Ball",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Electro Shot",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Electroweb",
-        "p2a: Cpt. Planet"
+        [
+          "p2a: Cpt. Planet"
+        ]
       ]
     ],
     "hp": {
@@ -94,7 +116,15 @@
       "p2a": "0 fnt",
       "p2b": "90/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 3

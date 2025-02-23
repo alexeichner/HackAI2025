@@ -11,22 +11,30 @@
       [
         "p1b: Entei",
         "Protect",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Thunder Wave",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "par"
@@ -70,17 +86,23 @@
       [
         "p2a: Groudon",
         "Protect",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Entei",
         "Sacred Fire",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Draco Meteor",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -89,7 +111,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "par"
@@ -124,17 +154,23 @@
       [
         "p2b: Flutter Mane",
         "Icy Wind",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Draco Meteor",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -143,7 +179,15 @@
       "p2a": "29/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Entei": {
         "spe": -1

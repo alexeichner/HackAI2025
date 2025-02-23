@@ -11,22 +11,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Sandy Shocks",
         "Gravity",
-        "p1a: Sandy Shocks"
+        [
+          "p1a: Sandy Shocks"
+        ]
       ],
       [
         "p1b: Ninetales",
         "Hypnosis",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp"
@@ -71,17 +86,23 @@
       [
         "p1a: Sandy Shocks",
         "Protect",
-        "p1a: Sandy Shocks"
+        [
+          "p1a: Sandy Shocks"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Ninetales"
+        [
+          "p1b: Ninetales"
+        ]
       ],
       [
         "p1b: Ninetales",
         "Hypnosis",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +111,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp",
@@ -132,7 +160,9 @@
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Ninetales"
+        [
+          "p1b: Ninetales"
+        ]
       ]
     ],
     "hp": {
@@ -141,10 +171,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp",
@@ -192,12 +229,16 @@
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -206,10 +247,17 @@
       "p2a": "68/100",
       "p2b": "75/100 slp"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1
@@ -259,10 +307,17 @@
       "p2a": "68/100",
       "p2b": "75/100 slp"
     },
-    "field_effects": [
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1

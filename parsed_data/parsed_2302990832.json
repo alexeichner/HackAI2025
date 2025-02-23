@@ -11,22 +11,30 @@
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Tinkaton",
         "Feint",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Landorus",
         "Earth Power",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -83,17 +101,23 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Tinkaton"
+        [
+          "p1a: Tinkaton"
+        ]
       ],
       [
         "p1b: Landorus",
         "Earth Power",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Crunch",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -102,7 +126,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -148,17 +182,23 @@
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1b: Landorus",
         "Earth Power",
-        "p2a: Gholdengo"
+        [
+          "p2a: Gholdengo"
+        ]
       ],
       [
         "p1a: Sinistcha",
         "Trick Room",
-        "p1a: Sinistcha"
+        [
+          "p1a: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +207,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

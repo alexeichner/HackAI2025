@@ -11,17 +11,23 @@
       [
         "p2a: Chien-Pao",
         "Ice Shard",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Miraidon",
         "Discharge",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Tera Blast",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,22 +85,30 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Protect",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Tera Blast",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +117,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -138,12 +168,16 @@
       [
         "p2a: Chien-Pao",
         "Ice Shard",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Made In Heaven"
+        [
+          "p1b: Made In Heaven"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +186,17 @@
       "p2a": "91/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

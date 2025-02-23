@@ -11,17 +11,23 @@
       [
         "p1b: Grimmsnarl",
         "Reflect",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Zacian",
         "Behemoth Blade",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Flare Blitz",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "15/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -77,17 +93,23 @@
       [
         "p2b: Zacian",
         "Sacred Sword",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Hyper Voice",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,17 @@
       "p2a": "23/100",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -145,12 +175,16 @@
       [
         "p2b: Zacian",
         "Protect",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -159,9 +193,17 @@
       "p2a": "0 fnt",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -204,12 +246,16 @@
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Hyper Voice",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -218,9 +264,17 @@
       "p2a": "62/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -270,22 +324,30 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Iron Moth",
         "Sludge Wave",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -294,10 +356,17 @@
       "p2a": "62/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -347,22 +416,30 @@
       [
         "p2b: Iron Moth",
         "Protect",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Hyper Voice",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -371,10 +448,17 @@
       "p2a": "2/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -434,17 +518,23 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ]
     ],
     "hp": {
@@ -453,10 +543,17 @@
       "p2a": "2/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -506,22 +603,30 @@
       [
         "p2b: Iron Moth",
         "Protect",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Sucker Punch",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -530,10 +635,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0
@@ -587,17 +699,23 @@
       [
         "p2b: Iron Moth",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Iron Moth"
+        [
+          "p2b: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -606,10 +724,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zacian": {
         "atk": 0

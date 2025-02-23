@@ -11,12 +11,16 @@
       [
         "p1b: Mienshao",
         "Close Combat",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,17 @@
       "p2a": "12/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -74,7 +85,9 @@
       [
         "p1b: Mienshao",
         "Close Combat",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -83,10 +96,17 @@
       "p2a": "12/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -134,22 +154,30 @@
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p1b: Mienshao",
         "Close Combat",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Wood Hammer",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Mienshao"
+        [
+          "p1b: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -158,10 +186,17 @@
       "p2a": "17/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -220,12 +255,16 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1b: Mienshao"
+        [
+          "p1b: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -234,10 +273,17 @@
       "p2a": "17/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -292,17 +338,23 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -311,11 +363,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -379,17 +437,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -398,11 +462,17 @@
       "p2a": "18/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -454,17 +524,23 @@
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -473,11 +549,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -540,12 +622,16 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -554,11 +640,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -611,12 +703,16 @@
       [
         "p1b: Calyrex",
         "Substitute",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -625,11 +721,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -687,12 +789,16 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -701,11 +807,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -758,12 +870,16 @@
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -772,11 +888,17 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1
@@ -838,7 +960,9 @@
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -847,11 +971,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -1

@@ -11,22 +11,30 @@
       [
         "p2b: Charming",
         "Protect",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p1b: Electabuzz",
         "Feint",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p2a: Mr. Gassy",
         "Taunt",
-        "p1b: Electabuzz"
+        [
+          "p1b: Electabuzz"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "31/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +95,23 @@
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1b: Electabuzz",
         "Feint",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +120,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -131,12 +163,16 @@
       [
         "p2a: Suthen",
         "Helping Hand",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -145,9 +181,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

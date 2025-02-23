@@ -11,17 +11,23 @@
       [
         "p2b: Bladedge",
         "Hypnosis",
-        "p1b: Sylveon"
+        [
+          "p1b: Sylveon"
+        ]
       ],
       [
         "p2a: Havallaccia",
         "Gravity",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Tailwind",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp"
@@ -65,17 +79,23 @@
       [
         "p2b: Bladedge",
         "Hypnosis",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p2a: Havallaccia",
         "Astral Barrage",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p1b: Sylveon",
         "Hyper Voice",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ]
     ],
     "hp": {
@@ -84,9 +104,17 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -125,7 +153,9 @@
       [
         "p2b: Kir bu",
         "Sing",
-        "p1b: Sylveon"
+        [
+          "p1b: Sylveon"
+        ]
       ]
     ],
     "hp": {
@@ -134,9 +164,17 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -170,17 +208,23 @@
       [
         "p1a: Dragonite",
         "Rock Slide",
-        "p2a: ASbrega Fioi"
+        [
+          "p2a: ASbrega Fioi"
+        ]
       ],
       [
         "p2b: Kir bu",
         "Play Rough",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p2a: ASbrega Fioi",
         "Magma Storm",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -189,10 +233,17 @@
       "p2a": "83/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -231,12 +282,16 @@
       [
         "p2b: Kir bu",
         "Sing",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Tera Blast",
-        "p2a: ASbrega Fioi"
+        [
+          "p2a: ASbrega Fioi"
+        ]
       ]
     ],
     "hp": {
@@ -245,10 +300,17 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -298,17 +360,23 @@
       [
         "p2a: Havallaccia",
         "Gravity",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ],
       [
         "p2b: Kir bu",
         "Sing",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Tailwind",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -317,11 +385,17 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -357,12 +431,16 @@
       [
         "p1a: Dragonite",
         "Rock Slide",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ],
       [
         "p2a: Havallaccia",
         "Trick Room",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ]
     ],
     "hp": {
@@ -371,12 +449,17 @@
       "p2a": "22/100",
       "p2b": "37/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -414,12 +497,16 @@
       [
         "p2b: Kir bu",
         "Sing",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Dragon Claw",
-        "p2a: Havallaccia"
+        [
+          "p2a: Havallaccia"
+        ]
       ]
     ],
     "hp": {
@@ -428,12 +515,17 @@
       "p2a": "0 fnt",
       "p2b": "37/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",
@@ -477,12 +569,17 @@
       "p2a": "0 fnt",
       "p2b": "37/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Gravity",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp",

@@ -11,22 +11,30 @@
       [
         "p2b: Smeargle",
         "Follow Me",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1b: Gojo",
         "Throat Chop",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1a: Sukuna",
         "Sacred Fire",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p1b: Gojo",
         "Sucker Punch",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Eruption",
-        "p1b: Gojo"
+        [
+          "p1b: Gojo"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1a: Sukuna"
+        [
+          "p1a: Sukuna"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -146,17 +176,23 @@
       [
         "p1b: Gojo",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Todo"
+        [
+          "p1a: Todo"
+        ]
       ],
       [
         "p1a: Todo",
         "Thunderbolt",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -165,9 +201,17 @@
       "p2a": "100/100",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -219,17 +263,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Hakari",
         "Helping Hand",
-        "p1a: Todo"
+        [
+          "p1a: Todo"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Hakari"
+        [
+          "p1b: Hakari"
+        ]
       ]
     ],
     "hp": {
@@ -238,9 +288,17 @@
       "p2a": "100/100",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2

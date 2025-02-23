@@ -11,17 +11,23 @@
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2a: Kingambit",
         "Iron Head",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "84/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -4
@@ -79,22 +93,30 @@
       [
         "p1a: Amoonguss",
         "Protect",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Kingambit",
         "Iron Head",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -103,9 +125,17 @@
       "p2a": "84/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -4
@@ -147,17 +177,23 @@
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2a: Kingambit"
+        [
+          "p2a: Kingambit"
+        ]
       ],
       [
         "p2a: Kingambit",
         "Iron Head",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +202,17 @@
       "p2a": "70/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -4
@@ -223,22 +267,30 @@
       [
         "p2a: Kingambit",
         "Sucker Punch",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2a: Kingambit"
+        [
+          "p2a: Kingambit"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Wood Hammer",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -247,9 +299,17 @@
       "p2a": "24/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -4
@@ -295,7 +355,9 @@
       [
         "p2a: Kingambit",
         "Sucker Punch",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -304,9 +366,17 @@
       "p2a": "24/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -4

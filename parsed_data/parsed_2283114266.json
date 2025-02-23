@@ -11,17 +11,23 @@
       [
         "p1b: Maushold",
         "Taunt",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Maushold"
+        [
+          "p1b: Maushold"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "61/100",
       "p2b": "51/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Maushold": {
         "spe": -1
@@ -69,22 +84,30 @@
       [
         "p1b: Maushold",
         "Super Fang",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Struggle",
-        "p1b: Maushold"
+        [
+          "p1b: Maushold"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -93,10 +116,18 @@
       "p2a": "61/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Maushold": {
         "spe": -1
@@ -135,17 +166,23 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Snarl",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Snarl",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -154,10 +191,18 @@
       "p2a": "10/100",
       "p2b": "42/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Maushold": {
         "spe": -1
@@ -213,12 +258,16 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Snarl",
-        "p2: Raging Bolt"
+        [
+          "p2: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -227,10 +276,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Maushold": {
         "spe": -1

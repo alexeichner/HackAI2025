@@ -11,17 +11,23 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Nasty Plot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1,
@@ -80,22 +94,30 @@
       [
         "p1b: Incineroar",
         "Helping Hand",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Psyshock",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -104,9 +126,17 @@
       "p2a": "22/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1,
@@ -164,9 +194,17 @@
       "p2a": "22/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1,

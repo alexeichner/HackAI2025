@@ -11,17 +11,23 @@
       [
         "p1b: Sableye",
         "Light Screen",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Drum Beating",
-        "p2a: Tsareena"
+        [
+          "p2a: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "77/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -78,22 +92,30 @@
       [
         "p1b: Sableye",
         "Reflect",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Tsareena"
+        [
+          "p2a: Tsareena"
+        ]
       ],
       [
         "p2a: Tsareena",
         "Triple Axel",
-        "p1a: Clefairy"
+        [
+          "p1a: Clefairy"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +124,17 @@
       "p2a": "27/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -150,22 +180,30 @@
       [
         "p1a: Clefairy",
         "Protect",
-        "p1a: Clefairy"
+        [
+          "p1a: Clefairy"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Calm Mind",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: Tsareena",
         "Taunt",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -174,9 +212,17 @@
       "p2a": "27/100",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -223,17 +269,23 @@
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1a: Clefairy",
         "Encore",
-        "p2: Tsareena"
+        [
+          "p2: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -242,9 +294,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -293,22 +353,30 @@
       [
         "p1a: Clefairy",
         "Follow Me",
-        "p1a: Clefairy"
+        [
+          "p1a: Clefairy"
+        ]
       ],
       [
         "p2b: Tornadus",
         "Rain Dance",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Clefairy"
+        [
+          "p1a: Clefairy"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -317,10 +385,17 @@
       "p2a": "7/100",
       "p2b": "21/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -365,22 +440,30 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Tornadus",
         "Hurricane",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -389,10 +472,17 @@
       "p2a": "12/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1
@@ -439,12 +529,16 @@
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -453,10 +547,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tsareena": {
         "spe": -1

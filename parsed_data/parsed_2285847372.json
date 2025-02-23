@@ -11,22 +11,30 @@
       [
         "p2b: Jumpluff",
         "Tail Whip",
-        "p1b: \ubbf8\ub798\ub3c8"
+        [
+          "p1b: \ubbf8\ub798\ub3c8"
+        ]
       ],
       [
         "p1b: \ubbf8\ub798\ub3c8",
         "Volt Switch",
-        "p2b: Jumpluff"
+        [
+          "p2b: Jumpluff"
+        ]
       ],
       [
         "p2a: Groudon",
         "Earthquake",
-        "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        [
+          "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        ]
       ],
       [
         "p1a: \ube60\ub9ac\uae30\ub77c\ud504",
         "Trick Room",
-        "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        [
+          "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \ube60\ub9ac\uae30\ub77c\ud504": {
         "def": 0
@@ -92,22 +108,30 @@
       [
         "p1a: \ube60\ub9ac\uae30\ub77c\ud504",
         "Helping Hand",
-        "p1b: \uc544\uc774\ub3c4\ub8e8"
+        [
+          "p1b: \uc544\uc774\ub3c4\ub8e8"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Groudon",
         "Earthquake",
-        "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        [
+          "p1a: \ube60\ub9ac\uae30\ub77c\ud504"
+        ]
       ],
       [
         "p1b: \uc544\uc774\ub3c4\ub8e8",
         "Wood Hammer",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -116,10 +140,18 @@
       "p2a": "4/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \ube60\ub9ac\uae30\ub77c\ud504": {
         "def": 0

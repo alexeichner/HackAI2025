@@ -11,17 +11,23 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Swords Dance",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -79,22 +93,30 @@
       [
         "p1b: Iron Hands",
         "Detect",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Will-O-Wisp",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -103,9 +125,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -147,12 +177,16 @@
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Will-O-Wisp",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -161,9 +195,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -217,17 +259,23 @@
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Wood Hammer",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Parting Shot",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -236,9 +284,17 @@
       "p2a": "38/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -305,17 +361,23 @@
       [
         "p1b: Iron Bundle",
         "Protect",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -324,10 +386,17 @@
       "p2a": "38/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -381,12 +450,16 @@
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -395,10 +468,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -461,22 +541,30 @@
       [
         "p1b: Iron Bundle",
         "Protect",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -485,10 +573,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -537,17 +632,23 @@
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -556,10 +657,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,
@@ -625,10 +733,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Iron Hands": {
         "def": 1,

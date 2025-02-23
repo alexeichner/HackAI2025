@@ -11,22 +11,30 @@
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2b: Landorus",
         "Earth Power",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2a: Pelipper",
         "Hurricane",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "1/100",
       "p2b": "84/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -86,22 +102,30 @@
       [
         "p2a: Pelipper",
         "Wide Guard",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sludge Bomb",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -110,9 +134,15 @@
       "p2a": "1/100",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -146,22 +176,30 @@
       [
         "p2b: Landorus",
         "Protect",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2a: Pelipper",
         "Wide Guard",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -170,9 +208,15 @@
       "p2a": "0 fnt",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -206,12 +250,16 @@
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -220,9 +268,15 @@
       "p2a": "57/100",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -278,22 +332,30 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -302,9 +364,15 @@
       "p2a": "0 fnt",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -354,17 +422,23 @@
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -373,9 +447,15 @@
       "p2a": "0 fnt",
       "p2b": "56/100 slp"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"
@@ -416,22 +496,30 @@
       [
         "p1b: Pelipper",
         "Helping Hand",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -440,9 +528,15 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 1
@@ -500,7 +594,9 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -509,9 +605,15 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 1

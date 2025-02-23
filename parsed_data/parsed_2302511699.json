@@ -11,22 +11,30 @@
       [
         "p1b: Amoonguss",
         "Rage Powder",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,
@@ -88,22 +103,30 @@
       [
         "p2a: Flutter Mane",
         "Protect",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Annihilape",
         "Bulk Up",
-        "p1b: Annihilape"
+        [
+          "p1b: Annihilape"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Encore",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1b: Annihilape"
+        [
+          "p1b: Annihilape"
+        ]
       ]
     ],
     "hp": {
@@ -112,10 +135,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,
@@ -164,17 +194,23 @@
       [
         "p1b: Annihilape",
         "Drain Punch",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -183,10 +219,17 @@
       "p2a": "100/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,
@@ -242,12 +285,16 @@
       [
         "p1b: Annihilape",
         "Drain Punch",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -256,10 +303,17 @@
       "p2a": "0 fnt",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,
@@ -321,12 +375,16 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Annihilape",
         "Drain Punch",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -335,11 +393,17 @@
       "p2a": "0 fnt",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,
@@ -393,7 +457,9 @@
       [
         "p1a: Regieleki",
         "Explosion",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -402,11 +468,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spe": -1,

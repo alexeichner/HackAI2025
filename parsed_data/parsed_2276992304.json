@@ -11,12 +11,16 @@
       [
         "p2b: Smeargle",
         "Fake Out",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,18 @@
       "p2a": "80/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -63,22 +76,30 @@
       [
         "p2b: Smeargle",
         "Follow Me",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -87,10 +108,18 @@
       "p2a": "80/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -121,17 +150,23 @@
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Wave Crash",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -140,10 +175,18 @@
       "p2a": "80/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -199,17 +242,23 @@
       [
         "p1b: Chien-Pao",
         "Sucker Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Hyper Voice",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -218,10 +267,18 @@
       "p2a": "71/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,

@@ -11,17 +11,23 @@
       [
         "p1b: Smeargle",
         "Fake Out",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Giga Drain",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -66,17 +81,23 @@
       [
         "p1b: Smeargle",
         "Decorate",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -85,9 +106,18 @@
       "p2a": "100/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 4,
@@ -131,12 +161,16 @@
       [
         "p2a: Jigglypuff",
         "Alluring Voice",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ]
     ],
     "hp": {
@@ -145,10 +179,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 4,
@@ -212,12 +254,16 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -226,10 +272,18 @@
       "p2a": "0 fnt",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 4,
@@ -288,10 +342,18 @@
       "p2a": "0 fnt",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 4,

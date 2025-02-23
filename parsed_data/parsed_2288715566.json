@@ -11,17 +11,23 @@
       [
         "p1a: Iron Hands",
         "Fake Out",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Nasty Plot",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Weezing",
         "Poison Gas",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "88/100 psn",
       "p2b": "76/100 psn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -68,17 +84,23 @@
       [
         "p1b: Weezing",
         "Protect",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Psyshock",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +109,17 @@
       "p2a": "76/100 psn",
       "p2b": "63/100 psn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -135,17 +167,23 @@
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Order Up",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -154,9 +192,17 @@
       "p2a": "63/100 psn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -218,17 +264,23 @@
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: Tatsugiri"
+        [
+          "p1b: Tatsugiri"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -237,9 +289,17 @@
       "p2a": "57/100 psn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -292,17 +352,23 @@
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Wave Crash",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -311,9 +377,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -376,12 +450,16 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Hyper Voice",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -390,9 +468,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -449,17 +535,23 @@
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Order Up",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -468,9 +560,17 @@
       "p2a": "0 fnt",
       "p2b": "61/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -527,17 +627,23 @@
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -546,9 +652,17 @@
       "p2a": "0 fnt",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -600,12 +714,16 @@
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -614,9 +732,17 @@
       "p2a": "0 fnt",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -678,22 +804,30 @@
       [
         "p1b: Tatsugiri",
         "Draco Meteor",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Tatsugiri"
+        [
+          "p1b: Tatsugiri"
+        ]
       ],
       [
         "p1a: Weezing",
         "Sludge Bomb",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Hyper Voice",
-        "p1b: Tatsugiri"
+        [
+          "p1b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -702,9 +836,17 @@
       "p2a": "43/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -764,17 +906,23 @@
       [
         "p2b: Farigiraf",
         "Protect",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Weezing"
+        [
+          "p1a: Weezing"
+        ]
       ],
       [
         "p1a: Weezing",
         "Sludge Bomb",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -783,9 +931,17 @@
       "p2a": "36/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3
@@ -845,17 +1001,23 @@
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Weezing"
+        [
+          "p1a: Weezing"
+        ]
       ],
       [
         "p1a: Weezing",
         "Poison Gas",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Weezing"
+        [
+          "p1a: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -864,10 +1026,17 @@
       "p2a": "30/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 3

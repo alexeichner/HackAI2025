@@ -11,22 +11,30 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "def": -1,
@@ -89,17 +105,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Protect",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +130,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "def": -1,
@@ -151,9 +181,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "def": -1,

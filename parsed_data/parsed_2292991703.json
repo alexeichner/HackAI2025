@@ -11,22 +11,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Jumpluff",
         "Sleep Powder",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Raichu",
         "Volt Switch",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Baxcalibur",
         "Dragon Dance",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "78/100 slp",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Baxcalibur": {
         "atk": 2,
@@ -77,12 +93,16 @@
       [
         "p2b: Baxcalibur",
         "Icicle Spear",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ],
       [
         "p1b: Groudon",
         "Eruption",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +111,17 @@
       "p2a": "91/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Baxcalibur": {
         "atk": 2,
@@ -146,9 +174,17 @@
       "p2a": "91/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Baxcalibur": {
         "atk": 2,

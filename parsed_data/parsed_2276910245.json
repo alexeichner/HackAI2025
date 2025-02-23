@@ -11,17 +11,23 @@
       [
         "p1a: Whimsicott",
         "Protect",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,20 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -70,22 +87,30 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Incineroar",
         "U-turn",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -94,11 +119,20 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -160,17 +194,23 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Flare Blitz",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -179,11 +219,20 @@
       "p2a": "100/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -237,17 +286,23 @@
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Incineroar",
         "U-turn",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -256,12 +311,20 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -328,12 +391,16 @@
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -342,12 +409,20 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1

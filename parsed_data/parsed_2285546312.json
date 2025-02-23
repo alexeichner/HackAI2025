@@ -11,17 +11,23 @@
       [
         "p1a: Chi-Yu",
         "Overheat",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Trick Room",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +88,23 @@
       [
         "p1b: Iron Hands",
         "Heavy Slam",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Psychic Noise",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Overheat",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +113,18 @@
       "p2a": "52/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -2
@@ -138,17 +168,23 @@
       [
         "p2a: Farigiraf",
         "Protect",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Wild Charge",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -157,10 +193,18 @@
       "p2a": "52/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -2

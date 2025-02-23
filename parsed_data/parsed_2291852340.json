@@ -11,17 +11,23 @@
       [
         "p2a: Smeargle",
         "Fake Out",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": -1
@@ -70,17 +85,23 @@
       [
         "p2a: Torkoal",
         "Eruption",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +110,18 @@
       "p2a": "47/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": -1
@@ -165,17 +195,23 @@
       [
         "p1b: Terapagos",
         "Protect",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Protect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -184,10 +220,18 @@
       "p2a": "47/100",
       "p2b": "90/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": -1
@@ -227,17 +271,23 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Calm Mind",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -246,10 +296,18 @@
       "p2a": "87/100",
       "p2b": "96/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": -1

@@ -11,17 +11,23 @@
       [
         "p1a: Whimsicott",
         "Light Screen",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Trick Room",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -2
@@ -81,12 +95,16 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +113,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -2
@@ -153,17 +179,23 @@
       [
         "p1a: Ditto",
         "Glacial Lance",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Ditto"
+        [
+          "p1a: Ditto"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: Ditto"
+        [
+          "p1a: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -172,10 +204,18 @@
       "p2a": "1/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -2

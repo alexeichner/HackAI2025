@@ -11,17 +11,23 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Earthquake",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "65/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,22 +87,30 @@
       [
         "p1b: Ogerpon",
         "Spiky Shield",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Earthquake",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Groudon",
         "Heat Crash",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -97,7 +119,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -136,12 +166,16 @@
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Earthquake",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -150,7 +184,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -184,12 +226,16 @@
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Earthquake",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ]
     ],
     "hp": {
@@ -198,7 +244,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gouging Fire": {
         "spe": -1

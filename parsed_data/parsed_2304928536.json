@@ -11,17 +11,23 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "53/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -76,17 +90,23 @@
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +115,17 @@
       "p2a": "85/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -133,22 +161,30 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Crunch",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -157,9 +193,17 @@
       "p2a": "69/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -199,22 +243,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Fake Tears",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Low Kick",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -223,9 +275,17 @@
       "p2a": "3/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "spd": -2
@@ -275,17 +335,23 @@
       [
         "p2b: Whimsicott",
         "Light Screen",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -294,10 +360,17 @@
       "p2a": "0 fnt",
       "p2b": "32/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "spd": -2
@@ -339,22 +412,30 @@
       [
         "p1b: Whimsicott",
         "Tailwind",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -363,10 +444,17 @@
       "p2a": "65/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "spd": -2
@@ -404,12 +492,16 @@
       [
         "p1b: Whimsicott",
         "Light Screen",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -418,10 +510,17 @@
       "p2a": "65/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "spd": -2
@@ -467,10 +566,17 @@
       "p2a": "65/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "spd": -2

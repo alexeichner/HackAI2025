@@ -11,17 +11,23 @@
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Banderilla",
         "Knock Off",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Trick Room",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "atk": -1,
@@ -71,12 +86,16 @@
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Banderilla"
+        [
+          "p2a: Banderilla"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -85,10 +104,18 @@
       "p2a": "0 fnt",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "atk": -1,
@@ -145,17 +172,23 @@
       [
         "p2b: Suthen",
         "Follow Me",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Expanding Force",
-        "p2a: Duncan"
+        [
+          "p2a: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -164,10 +197,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "atk": -1,

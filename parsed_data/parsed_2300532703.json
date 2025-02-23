@@ -11,22 +11,30 @@
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        "p1a: Iron Bundle"
+        [
+          "p1a: Iron Bundle"
+        ]
       ],
       [
         "p1a: Iron Bundle",
         "Freeze-Dry",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "91/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -94,12 +111,16 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        "p1a: Iron Bundle"
+        [
+          "p1a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +129,18 @@
       "p2a": "81/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -157,17 +187,23 @@
       [
         "p1a: Dragonite",
         "Scale Shot",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Incineroar",
         "U-turn",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -176,10 +212,18 @@
       "p2a": "53/100",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -235,22 +279,30 @@
       [
         "p2a: Ursaluna",
         "Protect",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Dazzling Gleam",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Iron Head",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -259,10 +311,18 @@
       "p2a": "47/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -329,12 +389,16 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Rising Voltage",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -343,11 +407,18 @@
       "p2a": "32/100 brn",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -404,11 +475,18 @@
       "p2a": "32/100 brn",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1

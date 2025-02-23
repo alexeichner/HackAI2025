@@ -11,22 +11,30 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Dame Over",
         "Coaching",
-        "p2a: Sheist Rider"
+        [
+          "p2a: Sheist Rider"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2a: Sheist Rider"
+        [
+          "p2a: Sheist Rider"
+        ]
       ],
       [
         "p2a: Sheist Rider",
         "Glacial Lance",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "16/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sheist Rider": {
         "atk": 3,
@@ -96,22 +113,30 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Sheist Rider",
         "Protect",
-        "p2a: Sheist Rider"
+        [
+          "p2a: Sheist Rider"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2a: Sheist Rider"
+        [
+          "p2a: Sheist Rider"
+        ]
       ],
       [
         "p2b: Dairy Jane",
         "Trick Room",
-        "p2b: Dairy Jane"
+        [
+          "p2b: Dairy Jane"
+        ]
       ]
     ],
     "hp": {
@@ -120,10 +145,18 @@
       "p2a": "16/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sheist Rider": {
         "atk": 3,
@@ -172,22 +205,30 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Dairy Jane",
         "Follow Me",
-        "p2b: Dairy Jane"
+        [
+          "p2b: Dairy Jane"
+        ]
       ],
       [
         "p2a: Sheist Rider",
         "Glacial Lance",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2b: Dairy Jane"
+        [
+          "p2b: Dairy Jane"
+        ]
       ]
     ],
     "hp": {
@@ -196,10 +237,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sheist Rider": {
         "atk": 3,
@@ -257,7 +306,9 @@
       [
         "p1a: Ursaluna",
         "Headlong Rush",
-        "p2b: Cloud Nein"
+        [
+          "p2b: Cloud Nein"
+        ]
       ]
     ],
     "hp": {
@@ -266,10 +317,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sheist Rider": {
         "atk": 3,

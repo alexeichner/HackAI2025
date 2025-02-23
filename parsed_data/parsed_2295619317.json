@@ -11,12 +11,16 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "0 fnt",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": -1
@@ -70,22 +82,30 @@
       [
         "p2a: Farigiraf",
         "Helping Hand",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Wild Charge",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -94,9 +114,17 @@
       "p2a": "37/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": -1
@@ -159,9 +187,17 @@
       "p2a": "37/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": -1

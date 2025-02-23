@@ -11,12 +11,16 @@
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,21 @@
       "p2a": "100/100",
       "p2b": "78/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -68,17 +83,23 @@
       [
         "p1b: Ogerpon",
         "Spiky Shield",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -87,11 +108,21 @@
       "p2a": "100/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -128,22 +159,30 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -152,12 +191,21 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -202,17 +250,23 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Heavy Slam",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -221,12 +275,21 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -273,22 +336,30 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Wild Charge",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -297,12 +368,21 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -340,22 +420,30 @@
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Taunt",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Wild Charge",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -364,13 +452,21 @@
       "p2a": "100/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -408,22 +504,30 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Low Kick",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -432,13 +536,21 @@
       "p2a": "100/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -476,22 +588,30 @@
       [
         "p2a: Zamazenta",
         "Wide Guard",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Icy Wind",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Wild Charge",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -500,13 +620,21 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -550,12 +678,16 @@
       [
         "p2a: Zamazenta",
         "Heavy Slam",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -564,13 +696,21 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

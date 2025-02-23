@@ -11,17 +11,23 @@
       [
         "p2b: Ninetales",
         "Icy Wind",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "0 fnt",
       "p2b": "43/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Terapagos": {
         "spe": -1

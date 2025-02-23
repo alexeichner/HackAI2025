@@ -11,17 +11,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +82,23 @@
       [
         "p2b: Flutter Mane",
         "Icy Wind",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +107,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Groudon": {
         "spe": -1

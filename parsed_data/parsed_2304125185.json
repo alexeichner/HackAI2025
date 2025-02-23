@@ -11,17 +11,23 @@
       [
         "p2b: Tornadus",
         "Hurricane",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p2a: Kyogre",
         "Water Spout",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p1a: Oranguru",
         "Trick Room",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -78,27 +92,37 @@
       [
         "p2b: Tornadus",
         "Rain Dance",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p1a: Oranguru",
         "Instruct",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p2a: Kyogre",
         "Water Spout",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -107,10 +131,18 @@
       "p2a": "34/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3
@@ -169,22 +201,30 @@
       [
         "p2b: Urshifu",
         "Sucker Punch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Oranguru",
         "Instruct",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -193,10 +233,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3
@@ -247,7 +295,9 @@
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -256,10 +306,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3

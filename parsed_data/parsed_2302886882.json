@@ -11,22 +11,30 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Tsareena"
+        [
+          "p1b: Tsareena"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Taunt",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1b: Tsareena"
+        [
+          "p1b: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -82,17 +98,23 @@
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -101,10 +123,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -146,17 +176,23 @@
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Eruption",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -165,10 +201,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -216,7 +260,9 @@
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -225,10 +271,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

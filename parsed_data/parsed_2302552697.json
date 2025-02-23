@@ -11,22 +11,30 @@
       [
         "p2b: Iron Leaves",
         "Protect",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Light Screen",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Icy Wind",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "59/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,22 +92,30 @@
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Iron Leaves",
         "Leaf Blade",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Icy Wind",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ]
     ],
     "hp": {
@@ -97,7 +124,18 @@
       "p2a": "3/100",
       "p2b": "71/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1
@@ -144,22 +182,30 @@
       [
         "p2b: Iron Leaves",
         "Protect",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Icy Wind",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Iron Leaves"
+        [
+          "p2b: Iron Leaves"
+        ]
       ]
     ],
     "hp": {
@@ -168,7 +214,18 @@
       "p2a": "0 fnt",
       "p2b": "71/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1
@@ -205,7 +262,9 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -214,10 +273,18 @@
       "p2a": "0 fnt",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1
@@ -265,12 +332,16 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -279,10 +350,18 @@
       "p2a": "78/100",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1
@@ -327,22 +406,30 @@
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -351,10 +438,18 @@
       "p2a": "0 fnt",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1
@@ -426,10 +521,18 @@
       "p2a": "0 fnt",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Leaves": {
         "spe": -1

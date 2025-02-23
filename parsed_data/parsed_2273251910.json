@@ -11,12 +11,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -2,
@@ -69,22 +81,30 @@
       [
         "p2a: Pelipper",
         "Wide Guard",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2b: Trapinch"
+        [
+          "p2b: Trapinch"
+        ]
       ],
       [
         "p2b: Trapinch",
         "Fissure",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -93,7 +113,15 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -2,
@@ -140,7 +168,15 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -2,

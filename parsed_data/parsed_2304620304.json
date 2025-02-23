@@ -11,17 +11,23 @@
       [
         "p2b: Smeargle",
         "Fake Out",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "58/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +84,23 @@
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -89,10 +109,17 @@
       "p2a": "21/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -142,22 +169,30 @@
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Heal Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -166,10 +201,17 @@
       "p2a": "71/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -224,22 +266,30 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Heal Pulse",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -248,10 +298,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -293,17 +350,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1: Dragonite"
+        [
+          "p1: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -312,10 +375,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -375,10 +445,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1

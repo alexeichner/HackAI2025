@@ -11,17 +11,23 @@
       [
         "p1b: Urshifu",
         "Sucker Punch",
-        "p2a: Annihilape"
+        [
+          "p2a: Annihilape"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Annihilape",
         "Rage Fist",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "64/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1

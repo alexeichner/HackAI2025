@@ -11,22 +11,30 @@
       [
         "p2a: MARLIN",
         "Tailwind",
-        "p2a: MARLIN"
+        [
+          "p2a: MARLIN"
+        ]
       ],
       [
         "p2b: NEMO",
         "Thunder",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: NEMO"
+        [
+          "p2b: NEMO"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Icicle Crash",
-        "p2a: MARLIN"
+        [
+          "p2a: MARLIN"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "9/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -79,22 +97,30 @@
       [
         "p1b: Chien-Pao",
         "Protect",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p2b: NEMO",
         "Origin Pulse",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p2a: DARLA",
         "Triple Axel",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2a: DARLA"
+        [
+          "p2a: DARLA"
+        ]
       ]
     ],
     "hp": {
@@ -103,7 +129,17 @@
       "p2a": "0 fnt",
       "p2b": "9/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -159,17 +195,23 @@
       [
         "p1a: Zamazenta",
         "Wide Guard",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Sucker Punch",
-        "p2b: NEMO"
+        [
+          "p2b: NEMO"
+        ]
       ],
       [
         "p2a: GIL",
         "Surging Strikes",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -178,9 +220,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -224,9 +274,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Reflect",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Swords Dance",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Hyper Voice",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "atk": 4
@@ -75,22 +92,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Swords Dance",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -99,10 +124,18 @@
       "p2a": "84/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "atk": 4
@@ -145,17 +178,23 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Expanding Force",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -164,10 +203,18 @@
       "p2a": "68/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "atk": 4

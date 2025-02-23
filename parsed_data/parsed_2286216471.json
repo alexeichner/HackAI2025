@@ -11,17 +11,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Murkrow",
         "Foul Play",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "97/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -64,22 +79,30 @@
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Murkrow",
         "Foul Play",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Murkrow"
+        [
+          "p2b: Murkrow"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -88,10 +111,19 @@
       "p2a": "100/100",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -122,22 +154,30 @@
       [
         "p2b: Murkrow",
         "Sunny Day",
-        "p2b: Murkrow"
+        [
+          "p2b: Murkrow"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2b: Murkrow"
+        [
+          "p2b: Murkrow"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -146,10 +186,19 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -196,22 +245,30 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Vikavolt",
         "Bug Buzz",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -220,10 +277,19 @@
       "p2a": "65/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -278,17 +344,23 @@
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Vikavolt"
+        [
+          "p2b: Vikavolt"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Ice Beam",
-        "p2b: Vikavolt"
+        [
+          "p2b: Vikavolt"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -297,11 +369,19 @@
       "p2a": "85/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -342,22 +422,30 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -366,12 +454,19 @@
       "p2a": "85/100",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -422,22 +517,30 @@
       [
         "p2b: Miraidon",
         "Protect",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -446,12 +549,19 @@
       "p2a": "100/100",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -493,17 +603,23 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -512,12 +628,19 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,
@@ -562,12 +685,19 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": 2,

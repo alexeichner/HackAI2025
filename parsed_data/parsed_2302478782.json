@@ -11,22 +11,30 @@
       [
         "p1a: Miraidon",
         "Tera Blast",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Tera Blast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Weezing",
         "Toxic Spikes",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Psychic",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "54/100",
       "p2b": "73/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -74,22 +92,30 @@
       [
         "p1a: Miraidon",
         "Tera Blast",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Tera Blast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Weezing",
         "Poison Gas",
-        "p1b: Gothitelle"
+        [
+          "p1b: Gothitelle"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Psychic",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -98,7 +124,17 @@
       "p2a": "6/100",
       "p2b": "14/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -149,17 +185,23 @@
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Weezing",
         "Strange Steam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Trick Room",
-        "p1b: Gothitelle"
+        [
+          "p1b: Gothitelle"
+        ]
       ]
     ],
     "hp": {
@@ -168,9 +210,17 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -220,17 +270,23 @@
       [
         "p2b: Weezing",
         "Protect",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Psychic",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -239,9 +295,17 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -282,17 +346,23 @@
       [
         "p1a: Iron Hands",
         "Thunder Punch",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Psychic",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -301,9 +371,17 @@
       "p2a": "13/100",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -354,12 +432,16 @@
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p1b: Gothitelle",
         "Psychic",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -368,9 +450,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1

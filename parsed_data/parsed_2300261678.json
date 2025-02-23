@@ -11,17 +11,23 @@
       [
         "p2a: Roaring Moon",
         "Acrobatics",
-        "p1a: Sylveon"
+        [
+          "p1a: Sylveon"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Sylveon"
+        [
+          "p1a: Sylveon"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "36/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +88,23 @@
       [
         "p2a: Roaring Moon",
         "Tailwind",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Tailwind",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +113,18 @@
       "p2a": "36/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -140,17 +170,23 @@
       [
         "p2a: Roaring Moon",
         "Acrobatics",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Dragon Claw",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -159,10 +195,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 1
@@ -217,12 +261,16 @@
       [
         "p1a: Dragonite",
         "Extreme Speed",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -231,10 +279,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 1

@@ -11,17 +11,23 @@
       [
         "p2a: Tornadus",
         "Sunny Day",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Tornadus",
         "Tailwind",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "4/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -65,17 +81,23 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Tornadus",
         "Bleakwind Storm",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -84,9 +106,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -127,22 +157,30 @@
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Tornadus",
         "Bleakwind Storm",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -151,9 +189,17 @@
       "p2a": "20/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -199,9 +245,17 @@
       "p2a": "20/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

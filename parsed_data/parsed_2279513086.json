@@ -11,22 +11,30 @@
       [
         "p1b: Melman",
         "Protect",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ],
       [
         "p2b: Urshifu",
         "U-turn",
-        "p1a: Merenoleona"
+        [
+          "p1a: Merenoleona"
+        ]
       ],
       [
         "p1a: Merenoleona",
         "Shadow Ball",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "40/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Merenoleona": {
         "atk": -1
@@ -87,17 +103,23 @@
       [
         "p1b: Melman",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ]
     ],
     "hp": {
@@ -106,7 +128,15 @@
       "p2a": "40/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Merenoleona": {
         "atk": -1

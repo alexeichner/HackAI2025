@@ -11,7 +11,9 @@
       [
         "p1b: Duncan",
         "Expanding Force",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -20,9 +22,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Duncan": {
         "spa": 2

@@ -11,12 +11,16 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Annihilape",
         "Final Gambit",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -58,22 +71,30 @@
       [
         "p1a: Smeargle",
         "Follow Me",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -82,10 +103,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -116,17 +145,23 @@
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Hyper Voice",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -135,10 +170,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1

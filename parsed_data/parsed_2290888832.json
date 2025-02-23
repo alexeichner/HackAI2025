@@ -11,12 +11,16 @@
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1a: Murkrow"
+        [
+          "p1a: Murkrow"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2b: Mr. Gassy"
+        [
+          "p2b: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,17 @@
       "p2a": "100/100",
       "p2b": "76/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -72,17 +86,23 @@
       [
         "p2a: Charming",
         "Protect",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +111,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -140,17 +168,23 @@
       [
         "p2a: Charming",
         "Close Combat",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -159,9 +193,17 @@
       "p2a": "0 fnt",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Charming": {
         "def": -1,
@@ -223,7 +265,9 @@
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -232,9 +276,17 @@
       "p2a": "0 fnt",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Charming": {
         "def": -1,

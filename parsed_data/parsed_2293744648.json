@@ -11,22 +11,30 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Iron Valiant",
         "Wide Guard",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p1a: Lokix",
         "First Impression",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Mogging You Soon",
         "Water Spout",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,12 +87,16 @@
       [
         "p2a: Iron Valiant",
         "Coaching",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -82,10 +105,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 2,
@@ -124,17 +155,23 @@
       [
         "p1b: HereComesTheBoom",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: HereComesTheBoom"
+        [
+          "p1b: HereComesTheBoom"
+        ]
       ],
       [
         "p1a: Temu Dialga",
         "Steel Beam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -143,10 +180,18 @@
       "p2a": "100/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 2,

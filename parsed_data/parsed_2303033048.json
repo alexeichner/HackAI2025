@@ -11,12 +11,16 @@
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Hydro Steam",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -72,22 +84,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Snarl",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -96,7 +116,15 @@
       "p2a": "0 fnt",
       "p2b": "18/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 0

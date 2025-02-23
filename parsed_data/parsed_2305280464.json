@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Ice Spinner",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,22 +86,30 @@
       [
         "p2b: Groudon",
         "Protect",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Protect",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Heat Wave",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +118,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -132,17 +162,23 @@
       [
         "p2a: Chien-Pao",
         "Sucker Punch",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Heat Wave",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -151,10 +187,17 @@
       "p2a": "1/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

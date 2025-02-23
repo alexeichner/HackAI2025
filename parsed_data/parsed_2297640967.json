@@ -11,17 +11,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Tera Blast",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,
@@ -90,22 +104,30 @@
       [
         "p1a: Chi-Yu",
         "Tera Blast",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Psyshock",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -114,9 +136,17 @@
       "p2a": "56/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,
@@ -188,12 +218,16 @@
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -202,9 +236,17 @@
       "p2a": "56/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,

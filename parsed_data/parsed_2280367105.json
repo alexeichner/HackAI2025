@@ -11,22 +11,30 @@
       [
         "p1b: Terapagos",
         "Protect",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: Mienshao",
         "Wide Guard",
-        "p2a: Mienshao"
+        [
+          "p2a: Mienshao"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1a: Gothitelle"
+        [
+          "p1a: Gothitelle"
+        ]
       ],
       [
         "p1a: Gothitelle",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +93,23 @@
       [
         "p2b: Maushold",
         "Feint",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: Mienshao",
         "Close Combat",
-        "p1a: Gothitelle"
+        [
+          "p1a: Gothitelle"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2a: Mienshao"
+        [
+          "p2a: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -96,7 +118,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Mienshao": {
         "def": -2,
@@ -143,17 +173,23 @@
       [
         "p2b: Maushold",
         "Helping Hand",
-        "p2a: Mienshao"
+        [
+          "p2a: Mienshao"
+        ]
       ],
       [
         "p2a: Mienshao",
         "Close Combat",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Primarina",
         "Flip Turn",
-        "p2a: Mienshao"
+        [
+          "p2a: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -162,7 +198,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Mienshao": {
         "def": -2,

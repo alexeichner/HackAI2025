@@ -11,22 +11,30 @@
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Snarl",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -87,17 +103,23 @@
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Snarl",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -106,10 +128,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -170,22 +200,30 @@
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Snarl",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Flare Blitz",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -194,10 +232,18 @@
       "p2a": "89/100",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -267,12 +313,16 @@
       [
         "p1a: Miraidon",
         "Dragon Pulse",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Snarl",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -281,10 +331,18 @@
       "p2a": "0 fnt",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -345,12 +403,16 @@
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -359,10 +421,18 @@
       "p2a": "7/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -427,17 +497,23 @@
       [
         "p1b: Baxcalibur",
         "Protect",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -446,11 +522,18 @@
       "p2a": "7/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -507,22 +590,30 @@
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -531,11 +622,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,

@@ -11,22 +11,30 @@
       [
         "p1b: Amoonguss",
         "Protect",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Icicle Crash",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,12 +82,16 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Icicle Crash",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -82,9 +100,15 @@
       "p2a": "42/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -130,12 +154,16 @@
       [
         "p2a: Chien-Pao",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -144,9 +172,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -197,22 +231,30 @@
       [
         "p2b: Zamazenta",
         "Wide Guard",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Ally Switch",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -221,9 +263,15 @@
       "p2a": "81/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -264,17 +312,23 @@
       [
         "p2b: Zamazenta",
         "Wide Guard",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Dazzling Gleam",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -283,9 +337,15 @@
       "p2a": "72/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -331,17 +391,23 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -350,9 +416,15 @@
       "p2a": "62/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -398,17 +470,23 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Wide Guard",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Hydro Pump",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -417,9 +495,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1
@@ -465,12 +549,16 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Hydro Pump",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -479,9 +567,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Raging Bolt": {
         "spe": -1

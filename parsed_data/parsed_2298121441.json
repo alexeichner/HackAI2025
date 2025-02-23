@@ -11,17 +11,23 @@
       [
         "p2b: Urshifu",
         "Detect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Taunt",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 3,
@@ -72,17 +86,23 @@
       [
         "p1a: Zamazenta",
         "Iron Defense",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -91,7 +111,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 3,

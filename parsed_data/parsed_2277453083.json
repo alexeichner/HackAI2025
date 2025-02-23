@@ -11,17 +11,23 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,20 @@
       "p2a": "100/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -84,17 +100,23 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Swords Dance",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Trick Room",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -103,11 +125,20 @@
       "p2a": "100/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -154,17 +185,23 @@
       [
         "p1a: Incineroar",
         "Will-O-Wisp",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -173,11 +210,20 @@
       "p2a": "55/100 brn",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -244,22 +290,30 @@
       [
         "p1b: Sinistcha",
         "Protect",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2b: Ditto",
         "Parting Shot",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Substitute",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -268,12 +322,20 @@
       "p2a": "57/100 brn",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -336,22 +398,30 @@
       [
         "p1b: Sinistcha",
         "Rage Powder",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Swords Dance",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Calm Mind",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -360,12 +430,20 @@
       "p2a": "50/100 brn",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -435,22 +513,30 @@
       [
         "p2b: Urshifu",
         "Protect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Rage Powder",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -459,13 +545,20 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -535,17 +628,23 @@
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -554,14 +653,20 @@
       "p2a": "91/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,
@@ -632,14 +737,20 @@
       "p2a": "91/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1,

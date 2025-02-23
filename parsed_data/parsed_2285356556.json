@@ -11,17 +11,23 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Smeargle",
         "Decorate",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "7/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -91,12 +106,16 @@
       [
         "p2b: Incineroar",
         "Flare Blitz",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +124,18 @@
       "p2a": "7/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -177,12 +205,16 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Iron Defense",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -191,9 +223,18 @@
       "p2a": "98/100",
       "p2b": "13/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -258,22 +299,30 @@
       [
         "p2b: Smeargle",
         "Follow Me",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Heavy Slam",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Will-O-Wisp",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -282,10 +331,18 @@
       "p2a": "94/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -352,12 +409,16 @@
       [
         "p1b: Zamazenta",
         "Protect",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -366,10 +427,18 @@
       "p2a": "94/100 brn",
       "p2b": "88/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -439,17 +508,23 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Tailwind",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -458,10 +533,18 @@
       "p2a": "94/100 brn",
       "p2b": "73/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -532,17 +615,23 @@
       [
         "p1b: Zamazenta",
         "Iron Defense",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Weather Ball",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -551,10 +640,18 @@
       "p2a": "0 fnt",
       "p2b": "61/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -625,12 +722,16 @@
       [
         "p1b: Zamazenta",
         "Body Press",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Low Kick",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -639,10 +740,18 @@
       "p2a": "0 fnt",
       "p2b": "55/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -716,10 +825,18 @@
       "p2a": "0 fnt",
       "p2b": "55/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1

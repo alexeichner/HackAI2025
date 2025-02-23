@@ -11,17 +11,23 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Nasty Plot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "93/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "atk": -1
@@ -77,12 +91,16 @@
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Brute Bonnet"
+        [
+          "p2b: Brute Bonnet"
+        ]
       ]
     ],
     "hp": {
@@ -91,7 +109,15 @@
       "p2a": "100/100",
       "p2b": "77/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "atk": -1

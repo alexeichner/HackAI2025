@@ -11,17 +11,23 @@
       [
         "p2a: Raging Bolt",
         "Protect",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "100/100",
       "p2b": "98/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Smeargle": {
         "def": 1,
@@ -84,12 +99,16 @@
       [
         "p2a: Raging Bolt",
         "Rising Voltage",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Smeargle",
         "Spore",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -98,11 +117,19 @@
       "p2a": "91/100",
       "p2b": "98/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Smeargle": {
         "def": 1,

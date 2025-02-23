@@ -11,22 +11,30 @@
       [
         "p2a: Whimsicott",
         "Misty Terrain",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Landorus",
         "Earth Power",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Moltres",
         "Heat Wave",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Moltres"
+        [
+          "p1b: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,20 @@
       "p2a": "11/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -81,12 +100,16 @@
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +118,20 @@
       "p2a": "11/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -150,17 +183,23 @@
       [
         "p2a: Whimsicott",
         "Misty Terrain",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -169,11 +208,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -224,22 +272,30 @@
       [
         "p2b: Ditto",
         "Body Press",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -248,11 +304,20 @@
       "p2a": "88/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -308,17 +373,23 @@
       [
         "p1a: Zamazenta",
         "Protect",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2b: Ditto",
         "Body Press",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -327,12 +398,20 @@
       "p2a": "88/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -380,22 +459,30 @@
       [
         "p2b: Ditto",
         "Protect",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p2a: Landorus",
         "Protect",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -404,12 +491,20 @@
       "p2a": "88/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -452,22 +547,30 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p2b: Ditto",
         "Body Press",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -476,12 +579,20 @@
       "p2a": "50/100",
       "p2b": "13/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -536,12 +647,20 @@
       "p2a": "50/100",
       "p2b": "13/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Grassy Terrain",
-      "Misty Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain",
+        "Grassy Terrain",
+        "Misty Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

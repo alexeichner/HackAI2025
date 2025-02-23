@@ -11,17 +11,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Calm Mind",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "50/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2,
@@ -82,17 +96,23 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -101,10 +121,18 @@
       "p2a": "100/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2,
@@ -159,12 +187,16 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Calm Mind",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -173,10 +205,18 @@
       "p2a": "100/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2,
@@ -221,17 +261,23 @@
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Will-O-Wisp",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -240,10 +286,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2,

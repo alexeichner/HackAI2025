@@ -11,17 +11,23 @@
       [
         "p1a: Walking Wake",
         "Flamethrower",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,
@@ -93,22 +107,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Hydro Steam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -117,10 +139,18 @@
       "p2a": "100/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,
@@ -167,22 +197,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Koraidon",
         "U-turn",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Draco Meteor",
-        "p1b: Wo-Chien"
+        [
+          "p1b: Wo-Chien"
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Hydro Steam",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -191,10 +229,18 @@
       "p2a": "36/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,
@@ -252,12 +298,16 @@
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Draco Meteor",
-        "p1b: Wo-Chien"
+        [
+          "p1b: Wo-Chien"
+        ]
       ]
     ],
     "hp": {
@@ -266,10 +316,18 @@
       "p2a": "36/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1,

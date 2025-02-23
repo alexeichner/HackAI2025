@@ -11,22 +11,30 @@
       [
         "p2a: Walking Wake",
         "Protect",
-        "p2a: Walking Wake"
+        [
+          "p2a: Walking Wake"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Koraidon",
         "U-turn",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -81,17 +97,23 @@
       [
         "p1b: Raging Bolt",
         "Protect",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Walking Wake",
         "Draco Meteor",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Wo-Chien",
         "Snarl",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +122,17 @@
       "p2a": "100/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -150,17 +180,23 @@
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        "p2a: Walking Wake"
+        [
+          "p2a: Walking Wake"
+        ]
       ],
       [
         "p2a: Walking Wake",
         "Hydro Steam",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Wo-Chien",
         "Snarl",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -169,9 +205,17 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -218,17 +262,23 @@
       [
         "p2a: Walking Wake",
         "Protect",
-        "p2a: Walking Wake"
+        [
+          "p2a: Walking Wake"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Walking Wake"
+        [
+          "p2a: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -237,9 +287,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -293,12 +351,16 @@
       [
         "p1b: Raging Bolt",
         "Protect",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Breaking Swipe",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -307,9 +369,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -365,22 +435,30 @@
       [
         "p1a: Torkoal",
         "Helping Hand",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Breaking Swipe",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Rising Voltage",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p2a: Garganacl",
         "Salt Cure",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -389,9 +467,17 @@
       "p2a": "1/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -442,17 +528,23 @@
       [
         "p1a: Torkoal",
         "Helping Hand",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Garganacl",
         "Salt Cure",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -461,10 +553,17 @@
       "p2a": "1/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -517,22 +616,30 @@
       [
         "p2b: Walking Wake",
         "Protect",
-        "p2b: Walking Wake"
+        [
+          "p2b: Walking Wake"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Walking Wake"
+        [
+          "p2b: Walking Wake"
+        ]
       ],
       [
         "p2a: Garganacl",
         "Salt Cure",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Fissure",
-        "p2a: Garganacl"
+        [
+          "p2a: Garganacl"
+        ]
       ]
     ],
     "hp": {
@@ -541,10 +648,17 @@
       "p2a": "1/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -600,17 +714,23 @@
       [
         "p2a: Garganacl",
         "Protect",
-        "p2a: Garganacl"
+        [
+          "p2a: Garganacl"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Walking Wake"
+        [
+          "p2b: Walking Wake"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Fissure",
-        "p2a: Garganacl"
+        [
+          "p2a: Garganacl"
+        ]
       ]
     ],
     "hp": {
@@ -619,10 +739,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2
@@ -673,17 +800,23 @@
       [
         "p2b: Koraidon",
         "Breaking Swipe",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p2a: Garganacl",
         "Salt Cure",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Fissure",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -692,10 +825,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "spa": -2

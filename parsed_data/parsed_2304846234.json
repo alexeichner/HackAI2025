@@ -11,17 +11,23 @@
       [
         "p2a: Smeargle",
         "Fake Out",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p1a: Sableye",
         "Will-O-Wisp",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -65,17 +79,23 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Sableye",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Smeargle",
         "Spore",
-        "p1a: Sableye"
+        [
+          "p1a: Sableye"
+        ]
       ]
     ],
     "hp": {
@@ -84,9 +104,17 @@
       "p2a": "100/100",
       "p2b": "89/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn",
@@ -128,17 +156,23 @@
       [
         "p2a: Smeargle",
         "Decorate",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Flare Blitz",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -147,9 +181,17 @@
       "p2a": "30/100",
       "p2b": "83/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 6,
@@ -195,12 +237,16 @@
       [
         "p2a: Smeargle",
         "Decorate",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -209,9 +255,17 @@
       "p2a": "30/100",
       "p2b": "77/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 6,

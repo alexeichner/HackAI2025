@@ -11,17 +11,23 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2a: Wildvine"
+        [
+          "p2a: Wildvine"
+        ]
       ],
       [
         "p2b: Spitter",
         "Poison Jab",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2a: Wildvine"
+        [
+          "p2a: Wildvine"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -65,17 +80,23 @@
       [
         "p2b: Spitter",
         "Poison Jab",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2a: Ripjaws",
         "Water Spout",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Wild Charge",
-        "p2a: Ripjaws"
+        [
+          "p2a: Ripjaws"
+        ]
       ]
     ],
     "hp": {
@@ -84,10 +105,18 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "psn"
@@ -142,17 +171,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Spitter",
         "Crunch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Jetray",
         "Acrobatics",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -161,10 +196,18 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "psn"
@@ -207,10 +250,18 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "psn"

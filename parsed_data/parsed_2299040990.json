@@ -11,22 +11,30 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Light Screen",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,20 @@
       "p2a": "43/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -78,17 +96,23 @@
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Calm Mind",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -97,11 +121,20 @@
       "p2a": "43/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -147,17 +180,23 @@
       [
         "p1b: Farigiraf",
         "Psyshock",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -166,11 +205,20 @@
       "p2a": "49/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -216,22 +264,30 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Reflect",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -240,12 +296,20 @@
       "p2a": "54/100",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -291,22 +355,30 @@
       [
         "p2b: Kyogre",
         "Protect",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -315,12 +387,20 @@
       "p2a": "7/100",
       "p2b": "80/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -370,17 +450,23 @@
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -389,13 +475,20 @@
       "p2a": "96/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -445,12 +538,16 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1b: Iron Boulder"
+        [
+          "p1b: Iron Boulder"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1b: Iron Boulder"
+        [
+          "p1b: Iron Boulder"
+        ]
       ]
     ],
     "hp": {
@@ -459,13 +556,20 @@
       "p2a": "100/100",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1

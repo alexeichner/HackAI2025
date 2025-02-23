@@ -11,17 +11,23 @@
       [
         "p1b: OOGA",
         "Follow Me",
-        "p1b: OOGA"
+        [
+          "p1b: OOGA"
+        ]
       ],
       [
         "p2a: Lilligant",
         "Close Combat",
-        "p1b: OOGA"
+        [
+          "p1b: OOGA"
+        ]
       ],
       [
         "p1a: Wildmence",
         "Knock Off",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "32/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -76,22 +91,30 @@
       [
         "p1b: OOGA",
         "Spiky Shield",
-        "p1b: OOGA"
+        [
+          "p1b: OOGA"
+        ]
       ],
       [
         "p2a: Lilligant",
         "After You",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Trick Room",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Wildmence",
         "Knock Off",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -100,10 +123,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -152,10 +183,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1

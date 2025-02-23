@@ -11,17 +11,23 @@
       [
         "p1a: Wulaosu",
         "Fake Out",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Juan",
         "Psychic",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Substitute",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "59/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +82,23 @@
       [
         "p2a: Terapagos",
         "Protect",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p1a: Wulaosu",
         "Close Combat",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Wulaosu"
+        [
+          "p1a: Wulaosu"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +107,17 @@
       "p2a": "70/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -130,17 +158,23 @@
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1a: pon?"
+        [
+          "p1a: pon?"
+        ]
       ],
       [
         "p1b: Le Poisson",
         "Taunt",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1a: pon?"
+        [
+          "p1a: pon?"
+        ]
       ]
     ],
     "hp": {
@@ -149,9 +183,17 @@
       "p2a": "84/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -197,22 +239,30 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Juan",
         "Protect",
-        "p1a: Juan"
+        [
+          "p1a: Juan"
+        ]
       ],
       [
         "p1b: Le Poisson",
         "Heat Wave",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Le Poisson"
+        [
+          "p1b: Le Poisson"
+        ]
       ]
     ],
     "hp": {
@@ -221,9 +271,17 @@
       "p2a": "90/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -258,22 +316,30 @@
       [
         "p2b: Flutter Mane",
         "Thunder Wave",
-        "p1a: Juan"
+        [
+          "p1a: Juan"
+        ]
       ],
       [
         "p1b: Le Poisson",
         "Overheat",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Le Poisson"
+        [
+          "p1b: Le Poisson"
+        ]
       ],
       [
         "p1a: Juan",
         "Astral Barrage",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -282,10 +348,17 @@
       "p2a": "33/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Le Poisson": {
         "spa": -2
@@ -337,22 +410,30 @@
       [
         "p1a: Juan",
         "Protect",
-        "p1a: Juan"
+        [
+          "p1a: Juan"
+        ]
       ],
       [
         "p1b: Wulaosu",
         "Close Combat",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Wulaosu"
+        [
+          "p1b: Wulaosu"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1a: Juan"
+        [
+          "p1a: Juan"
+        ]
       ]
     ],
     "hp": {
@@ -361,10 +442,17 @@
       "p2a": "45/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Le Poisson": {
         "spa": -2
@@ -410,7 +498,9 @@
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Juan"
+        [
+          "p1a: Juan"
+        ]
       ]
     ],
     "hp": {
@@ -419,10 +509,17 @@
       "p2a": "45/100",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Le Poisson": {
         "spa": -2

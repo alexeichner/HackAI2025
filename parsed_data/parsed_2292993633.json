@@ -11,22 +11,30 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Agias",
         "Electro Drift",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2a: Agias"
+        [
+          "p2a: Agias"
+        ]
       ],
       [
         "p2b: Grifaffes",
         "Trick Room",
-        "p2b: Grifaffes"
+        [
+          "p2b: Grifaffes"
+        ]
       ]
     ],
     "hp": {
@@ -35,11 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Grifaffes": {
         "def": 1
@@ -91,22 +106,30 @@
       [
         "p2b: Grifaffes",
         "Helping Hand",
-        "p2a: Desmond"
+        [
+          "p2a: Desmond"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Protect",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Protect",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Desmond",
         "Hyper Voice",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -115,11 +138,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Grifaffes": {
         "def": 1
@@ -157,17 +187,23 @@
       [
         "p2b: Grifaffes",
         "Helping Hand",
-        "p2a: Desmond"
+        [
+          "p2a: Desmond"
+        ]
       ],
       [
         "p2a: Desmond",
         "Hyper Voice",
-        "p1b: Murkrow"
+        [
+          "p1b: Murkrow"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Trick Room",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -176,11 +212,18 @@
       "p2a": "91/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Grifaffes": {
         "def": 1
@@ -218,12 +261,16 @@
       [
         "p2a: Desmond",
         "Hyper Voice",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Grifaffes",
         "Trick Room",
-        "p2b: Grifaffes"
+        [
+          "p2b: Grifaffes"
+        ]
       ]
     ],
     "hp": {
@@ -232,12 +279,18 @@
       "p2a": "81/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Grifaffes": {
         "def": 1
@@ -275,12 +328,16 @@
       [
         "p2b: Grifaffes",
         "Helping Hand",
-        "p2a: Desmond"
+        [
+          "p2a: Desmond"
+        ]
       ],
       [
         "p2a: Desmond",
         "Hyper Voice",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -289,12 +346,18 @@
       "p2a": "72/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Grifaffes": {
         "def": 1

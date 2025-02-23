@@ -11,22 +11,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Nasty Plot",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Calm Mind",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "atk": -3,
@@ -82,22 +98,30 @@
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Calm Mind",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Dazzling Gleam",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -106,10 +130,18 @@
       "p2a": "62/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "atk": -3,
@@ -167,17 +199,23 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -186,10 +224,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "atk": -3,
@@ -238,17 +284,23 @@
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -257,11 +309,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "atk": -3,

@@ -11,22 +11,30 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "84/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -85,17 +103,23 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Flare Blitz",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -104,7 +128,17 @@
       "p2a": "0 fnt",
       "p2b": "68/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -161,22 +195,30 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Jigglypuff",
         "Sing",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -185,7 +227,17 @@
       "p2a": "4/100",
       "p2b": "22/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -244,12 +296,16 @@
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p2a: Jigglypuff",
         "Sing",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -258,7 +314,17 @@
       "p2a": "4/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -318,12 +384,16 @@
       [
         "p2b: Pelipper",
         "Water Pulse",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Jigglypuff",
         "Alluring Voice",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -332,9 +402,17 @@
       "p2a": "4/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -393,17 +471,23 @@
       [
         "p2a: Jigglypuff",
         "Protect",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -412,9 +496,17 @@
       "p2a": "10/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -469,22 +561,30 @@
       [
         "p2a: Jigglypuff",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Psychic",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -493,9 +593,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1
@@ -557,9 +665,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tornadus": {
         "atk": -1

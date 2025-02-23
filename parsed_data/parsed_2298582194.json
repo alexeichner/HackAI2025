@@ -11,12 +11,16 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Phoenix"
+        [
+          "p1a: Phoenix"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -25,11 +29,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -74,22 +86,30 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Knotweed",
         "Grassy Glide",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Facade",
-        "p1b: Knotweed"
+        [
+          "p1b: Knotweed"
+        ]
       ],
       [
         "p1a: Pippin",
         "Iron Defense",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ]
     ],
     "hp": {
@@ -98,11 +118,19 @@
       "p2a": "95/100 brn",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -153,22 +181,30 @@
       [
         "p2a: Ursaluna",
         "Headlong Rush",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Dazzling Gleam",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ],
       [
         "p1a: Pippin",
         "Iron Defense",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ],
       [
         "p1b: Weavile 2.0",
         "Crunch",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -177,11 +213,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -249,17 +293,23 @@
       [
         "p1a: Pippin",
         "Wide Guard",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ],
       [
         "p2a: Torkoal",
         "Overheat",
-        "p1b: Weavile 2.0"
+        [
+          "p1b: Weavile 2.0"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ]
     ],
     "hp": {
@@ -268,11 +318,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -334,7 +392,9 @@
       [
         "p2a: Torkoal",
         "Overheat",
-        "p1a: Pippin"
+        [
+          "p1a: Pippin"
+        ]
       ]
     ],
     "hp": {
@@ -343,11 +403,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

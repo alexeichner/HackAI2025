@@ -11,22 +11,30 @@
       [
         "p2b: Indeedee-\u2640",
         "Follow Me",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ],
       [
         "p2a: Quazar Pulito \u2605\u2605\u2605",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Quazar Pulito \u2605\u2605\u2605": {
         "atk": -2,
@@ -88,22 +104,30 @@
       [
         "p2b: Indeedee-\u2640",
         "Helping Hand",
-        "p2a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p2a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p2a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ],
       [
         "p2a: Quazar Pulito \u2605\u2605\u2605",
         "Moongeist Beam",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -112,10 +136,18 @@
       "p2a": "8/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Quazar Pulito \u2605\u2605\u2605": {
         "atk": -2,
@@ -178,12 +210,16 @@
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Knock Off",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -192,10 +228,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Quazar Pulito \u2605\u2605\u2605": {
         "atk": -2,

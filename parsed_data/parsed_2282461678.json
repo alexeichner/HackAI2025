@@ -11,17 +11,23 @@
       [
         "p1b: Roaring Moon",
         "Knock Off",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1
@@ -83,17 +97,23 @@
       [
         "p1b: Roaring Moon",
         "Acrobatics",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +122,17 @@
       "p2a": "17/100",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1
@@ -162,17 +190,23 @@
       [
         "p1b: Roaring Moon",
         "Acrobatics",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Heavy Slam",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -181,9 +215,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1
@@ -229,17 +271,23 @@
       [
         "p1b: Roaring Moon",
         "Knock Off",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Heavy Slam",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -248,9 +296,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "spa": 1

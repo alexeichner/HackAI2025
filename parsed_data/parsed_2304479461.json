@@ -11,22 +11,30 @@
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Sludge Bomb",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Raichu",
         "Electroweb",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,20 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1,
@@ -85,17 +103,23 @@
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2b: Raichu"
+        [
+          "p2b: Raichu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Raichu"
+        [
+          "p2b: Raichu"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -104,11 +128,20 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1,
@@ -153,17 +186,23 @@
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Sludge Bomb",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -172,11 +211,20 @@
       "p2a": "74/100",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1,
@@ -221,17 +269,23 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -240,12 +294,20 @@
       "p2a": "0 fnt",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1,
@@ -290,17 +352,23 @@
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -309,12 +377,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1,

@@ -11,17 +11,23 @@
       [
         "p2b: Jumpluff",
         "Sleep Powder",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p1a: Annihilape",
         "Final Gambit",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

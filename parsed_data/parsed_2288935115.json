@@ -11,22 +11,30 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Will-O-Wisp",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Sludge Bomb",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,21 @@
       "p2a": "78/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -88,17 +108,23 @@
       [
         "p1a: Amoonguss",
         "Protect",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -107,10 +133,21 @@
       "p2a": "78/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -154,17 +191,23 @@
       [
         "p2a: Urshifu",
         "Protect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Spore",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -173,10 +216,21 @@
       "p2a": "78/100 brn",
       "p2b": "97/100 slp"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -219,12 +273,16 @@
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Sludge Bomb",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -233,11 +291,21 @@
       "p2a": "74/100",
       "p2b": "89/100 slp"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -296,17 +364,23 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Sludge Bomb",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -315,12 +389,21 @@
       "p2a": "39/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -374,12 +457,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Spore",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -388,12 +475,21 @@
       "p2a": "64/100 brn",
       "p2b": "90/100 slp"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -442,22 +538,30 @@
       [
         "p2a: Urshifu",
         "Protect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Amoonguss",
         "Sludge Bomb",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Heavy Slam",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -466,12 +570,21 @@
       "p2a": "64/100 brn",
       "p2b": "96/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -522,17 +635,23 @@
       [
         "p1a: Amoonguss",
         "Rage Powder",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Heavy Slam",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -541,13 +660,21 @@
       "p2a": "16/100",
       "p2b": "96/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -605,17 +732,23 @@
       [
         "p1a: Amoonguss",
         "Rage Powder",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Heavy Slam",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -624,13 +757,21 @@
       "p2a": "0 fnt",
       "p2b": "60/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -687,22 +828,30 @@
       [
         "p1a: Amoonguss",
         "Rage Powder",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Heavy Slam",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -711,13 +860,21 @@
       "p2a": "58/100 brn",
       "p2b": "2/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,
@@ -773,17 +930,23 @@
       [
         "p1a: Amoonguss",
         "Rage Powder",
-        "p1a: Amoonguss"
+        [
+          "p1a: Amoonguss"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -792,13 +955,21 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Urshifu": {
         "atk": -1,

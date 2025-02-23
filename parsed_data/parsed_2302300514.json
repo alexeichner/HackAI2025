@@ -11,22 +11,30 @@
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Collision Course",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Trick Room",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Oranguru": {
         "spe": -1
@@ -83,22 +99,30 @@
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Collision Course",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Flare Blitz",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -107,9 +131,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Oranguru": {
         "spe": -1

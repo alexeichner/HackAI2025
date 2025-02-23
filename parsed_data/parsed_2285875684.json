@@ -11,22 +11,30 @@
       [
         "p1a: Iron Jugulis",
         "Protect",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Parting Shot",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -81,17 +95,23 @@
       [
         "p1a: Iron Jugulis",
         "Tailwind",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +120,15 @@
       "p2a": "100/100",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -143,17 +169,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Iron Jugulis",
         "Hurricane",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +194,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -215,17 +253,23 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Groudon",
         "Heat Crash",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -234,9 +278,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -290,17 +340,23 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -309,9 +365,15 @@
       "p2a": "88/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -360,12 +422,16 @@
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Iron Jugulis"
+        [
+          "p1b: Iron Jugulis"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -374,9 +440,15 @@
       "p2a": "88/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -429,17 +501,23 @@
       [
         "p2b: Groudon",
         "Helping Hand",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -448,9 +526,15 @@
       "p2a": "88/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -494,17 +578,23 @@
       [
         "p2b: Groudon",
         "Protect",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -513,9 +603,15 @@
       "p2a": "88/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -567,12 +663,16 @@
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -581,9 +681,15 @@
       "p2a": "88/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1

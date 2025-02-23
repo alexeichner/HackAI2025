@@ -11,17 +11,23 @@
       [
         "p1b: Torterra",
         "Wide Guard",
-        "p1b: Torterra"
+        [
+          "p1b: Torterra"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Collision Course",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Trick Room",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,22 +85,30 @@
       [
         "p2b: Indeedee",
         "Helping Hand",
-        "p2a: Gallade"
+        [
+          "p2a: Gallade"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Protect",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p1b: Torterra",
         "Wood Hammer",
-        "p2a: Gallade"
+        [
+          "p2a: Gallade"
+        ]
       ],
       [
         "p2a: Gallade",
         "Psycho Cut",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +117,18 @@
       "p2a": "42/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -131,12 +161,16 @@
       [
         "p1b: Torterra",
         "Wood Hammer",
-        "p2a: Gallade"
+        [
+          "p2a: Gallade"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Heal Pulse",
-        "p2: Gallade"
+        [
+          "p2: Gallade"
+        ]
       ]
     ],
     "hp": {
@@ -145,10 +179,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

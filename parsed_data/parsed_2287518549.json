@@ -11,17 +11,23 @@
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,11 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,12 +81,16 @@
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -82,11 +99,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -120,17 +144,23 @@
       [
         "p1b: Farigiraf",
         "Protect",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -139,11 +169,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -177,22 +214,30 @@
       [
         "p1a: Volcarona",
         "Rage Powder",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Hyper Voice",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -201,11 +246,18 @@
       "p2a": "92/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -248,17 +300,23 @@
       [
         "p1a: Volcarona",
         "Rage Powder",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -267,11 +325,18 @@
       "p2a": "32/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -309,22 +374,30 @@
       [
         "p1b: Farigiraf",
         "Protect",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Light Screen",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderbolt",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -333,11 +406,18 @@
       "p2a": "14/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -380,17 +460,23 @@
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderbolt",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -399,12 +485,18 @@
       "p2a": "0 fnt",
       "p2b": "86/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -451,22 +543,30 @@
       [
         "p1a: Raging Bolt",
         "Dragon Pulse",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "High Horsepower",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Low Kick",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -475,12 +575,18 @@
       "p2a": "52/100",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -523,17 +629,23 @@
       [
         "p1b: Rillaboom",
         "High Horsepower",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Psychic",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -542,12 +654,18 @@
       "p2a": "0 fnt",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1
@@ -596,7 +714,9 @@
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -605,12 +725,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "spa": 1

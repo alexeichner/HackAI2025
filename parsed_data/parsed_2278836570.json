@@ -11,22 +11,30 @@
       [
         "p1a: Regieleki",
         "Protect",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Tera Blast",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ],
       [
         "p2a: Maushold",
         "Population Bomb",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +86,23 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ],
       [
         "p2a: Maushold",
         "Population Bomb",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1a: Regieleki",
         "Volt Switch",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "12/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Regieleki": {
         "atk": -1
@@ -144,12 +174,16 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ]
     ],
     "hp": {
@@ -158,9 +192,17 @@
       "p2a": "0 fnt",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Regieleki": {
         "atk": -1
@@ -213,17 +255,23 @@
       [
         "p2b: Incineroar",
         "Will-O-Wisp",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -232,9 +280,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Regieleki": {
         "atk": -1

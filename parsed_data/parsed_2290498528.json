@@ -11,12 +11,16 @@
       [
         "p1a: Walking Wake",
         "Hydro Steam",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Swords Dance",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,20 @@
       "p2a": "100/100",
       "p2b": "60/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -72,17 +86,23 @@
       [
         "p1b: Indeedee",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Walking Wake",
         "Draco Meteor",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -91,10 +111,20 @@
       "p2a": "23/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -136,17 +166,23 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Armarouge",
         "Expanding Force",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Thunder Punch",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -155,11 +191,20 @@
       "p2a": "61/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -201,12 +246,16 @@
       [
         "p1b: Koraidon",
         "Bulldoze",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p1a: Armarouge",
         "Heat Wave",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -215,11 +264,20 @@
       "p2a": "52/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,
@@ -290,22 +348,30 @@
       [
         "p2a: Pelipper",
         "Wide Guard",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Bulldoze",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p1a: Armarouge",
         "Stored Power",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -314,12 +380,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Hands": {
         "def": 1,

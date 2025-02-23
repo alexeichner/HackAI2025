@@ -11,22 +11,30 @@
       [
         "p1b: Whimsicott",
         "Light Screen",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Snarl",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "59/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Flutter Mane": {
         "spa": -2
@@ -75,22 +92,30 @@
       [
         "p1a: Chi-Yu",
         "Snarl",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2b: Tyranitar"
+        [
+          "p2b: Tyranitar"
+        ]
       ],
       [
         "p2b: Tyranitar",
         "Rock Slide",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Trick Room",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -99,10 +124,18 @@
       "p2a": "17/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Flutter Mane": {
         "spa": -2
@@ -157,17 +190,23 @@
       [
         "p2b: Tyranitar",
         "Protect",
-        "p2b: Tyranitar"
+        [
+          "p2b: Tyranitar"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -176,10 +215,18 @@
       "p2a": "0 fnt",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Flutter Mane": {
         "spa": -2
@@ -230,12 +277,16 @@
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        "p2b: Tyranitar"
+        [
+          "p2b: Tyranitar"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -244,10 +295,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Flutter Mane": {
         "spa": -2
@@ -296,7 +355,9 @@
       [
         "p1a: Raging Bolt",
         "Draco Meteor",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -305,10 +366,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Flutter Mane": {
         "spa": -2

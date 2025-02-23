@@ -11,17 +11,23 @@
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Ice Beam",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,19 @@
       "p2a": "41/100",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -76,17 +92,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Thunder",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +117,19 @@
       "p2a": "32/100",
       "p2b": "41/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -140,22 +171,30 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -164,10 +203,19 @@
       "p2a": "0 fnt",
       "p2b": "41/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -209,17 +257,23 @@
       [
         "p2a: Amoonguss",
         "Rage Powder",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Thunder",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -228,11 +282,19 @@
       "p2a": "62/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -286,12 +348,16 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -300,11 +366,19 @@
       "p2a": "57/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -340,22 +414,30 @@
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Thunder",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Spore",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -364,11 +446,19 @@
       "p2a": "42/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"
@@ -434,12 +524,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Pollen Puff",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -448,11 +542,19 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"
@@ -491,11 +593,19 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"

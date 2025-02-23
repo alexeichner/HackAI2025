@@ -11,17 +11,23 @@
       [
         "p1a: Flutter Mane",
         "Icy Wind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,17 @@
       "p2a": "97/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -91,17 +104,23 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Moonblast",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -110,10 +129,17 @@
       "p2a": "100/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -172,17 +198,23 @@
       [
         "p2a: Miraidon",
         "Dragon Pulse",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Taunt",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -191,10 +223,17 @@
       "p2a": "100/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -252,22 +291,30 @@
       [
         "p2b: Iron Bundle",
         "Protect",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Moonblast",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -276,10 +323,17 @@
       "p2a": "100/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -341,12 +395,16 @@
       [
         "p1b: Calyrex",
         "Calm Mind",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -355,11 +413,17 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -429,22 +493,30 @@
       [
         "p1b: Calyrex",
         "Calm Mind",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ],
       [
         "p2b: Wo-Chien",
         "Knock Off",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -453,11 +525,17 @@
       "p2a": "100/100",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -534,17 +612,23 @@
       [
         "p1b: Calyrex",
         "Draining Kiss",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -553,11 +637,17 @@
       "p2a": "27/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -634,17 +724,23 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -653,11 +749,17 @@
       "p2a": "73/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -725,22 +827,30 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Protect",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -749,11 +859,17 @@
       "p2a": "67/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -821,17 +937,23 @@
       [
         "p1b: Calyrex",
         "Draining Kiss",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -840,11 +962,17 @@
       "p2a": "73/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -907,17 +1035,23 @@
       [
         "p2b: Iron Bundle",
         "Protect",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -926,11 +1060,17 @@
       "p2a": "44/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1
@@ -993,12 +1133,16 @@
       [
         "p2b: Iron Bundle",
         "Ice Beam",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -1007,11 +1151,17 @@
       "p2a": "71/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Iron Bundle": {
         "spe": -1

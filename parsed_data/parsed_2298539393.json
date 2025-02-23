@@ -11,17 +11,23 @@
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Gallade"
+        [
+          "p2b: Gallade"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Overheat",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,19 @@
       "p2a": "8/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -4
@@ -74,17 +90,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Regidrago",
         "Dragon Energy",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Overheat",
-        "p2b: Regidrago"
+        [
+          "p2b: Regidrago"
+        ]
       ]
     ],
     "hp": {
@@ -93,9 +115,19 @@
       "p2a": "8/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -4
@@ -147,17 +179,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Regidrago",
         "Dragon Energy",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -166,10 +204,19 @@
       "p2a": "8/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -4
@@ -207,12 +254,16 @@
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -221,11 +272,19 @@
       "p2a": "8/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -4
@@ -279,11 +338,19 @@
       "p2a": "8/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "spa": -4

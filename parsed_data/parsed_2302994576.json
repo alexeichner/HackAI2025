@@ -11,17 +11,23 @@
       [
         "p1b: Lilligant",
         "Close Combat",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1b: Lilligant"
+        [
+          "p1b: Lilligant"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Rising Voltage",
-        "p1b: Lilligant"
+        [
+          "p1b: Lilligant"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "91/100",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,
@@ -84,17 +98,23 @@
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Rising Voltage",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -103,9 +123,17 @@
       "p2a": "0 fnt",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,
@@ -159,22 +187,30 @@
       [
         "p2a: Torkoal",
         "Helping Hand",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Weather Ball",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -183,9 +219,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,
@@ -235,12 +279,16 @@
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Weather Ball",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -249,9 +297,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,

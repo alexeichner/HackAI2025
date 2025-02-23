@@ -11,22 +11,30 @@
       [
         "p1a: \u552f\u4e00\u8d85\u6a21",
         "Astral Barrage",
-        "p2b: Jumpluff"
+        [
+          "p2b: Jumpluff"
+        ]
       ],
       [
         "p2a: Iron Bundle",
         "Taunt",
-        "p1b: \u8def\u706f\u6302\u4ef6"
+        [
+          "p1b: \u8def\u706f\u6302\u4ef6"
+        ]
       ],
       [
         "p2b: Jumpluff",
         "Tailwind",
-        "p2b: Jumpluff"
+        [
+          "p2b: Jumpluff"
+        ]
       ],
       [
         "p1b: \u8def\u706f\u6302\u4ef6",
         "Toxic Spikes",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -69,17 +85,23 @@
       [
         "p2a: Iron Bundle",
         "Taunt",
-        "p1b: \u8def\u706f\u6302\u4ef6"
+        [
+          "p1b: \u8def\u706f\u6302\u4ef6"
+        ]
       ],
       [
         "p2b: Jumpluff",
         "Sleep Powder",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p1b: \u8def\u706f\u6302\u4ef6",
         "Heat Wave",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -88,7 +110,15 @@
       "p2a": "78/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp",
@@ -130,22 +160,30 @@
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p1a: \u4f60\u6ca1\u4e8b\u5427",
         "Sleep Talk",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p1a: \u4f60\u6ca1\u4e8b\u5427",
         "Order Up",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -154,9 +192,15 @@
       "p2a": "84/100",
       "p2b": "39/100 psn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -210,17 +254,23 @@
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p1a: \u4f60\u6ca1\u4e8b\u5427",
         "Sleep Talk",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p1a: \u4f60\u6ca1\u4e8b\u5427",
         "Rest",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -229,9 +279,15 @@
       "p2a": "89/100",
       "p2b": "88/100 psn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -283,12 +339,16 @@
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        [
+          "p1a: \u4f60\u6ca1\u4e8b\u5427"
+        ]
       ]
     ],
     "hp": {
@@ -297,9 +357,15 @@
       "p2a": "95/100",
       "p2b": "82/100 psn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -358,17 +424,23 @@
       [
         "p2a: Iron Bundle",
         "Icy Wind",
-        "p1a: \u552f\u4e00\u8d85\u6a21"
+        [
+          "p1a: \u552f\u4e00\u8d85\u6a21"
+        ]
       ],
       [
         "p1a: \u552f\u4e00\u8d85\u6a21",
         "Astral Barrage",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: \u4f60\u6ca1\u4e8b\u5417",
         "Draco Meteor",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -377,9 +449,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -441,12 +519,16 @@
       [
         "p2b: Koraidon",
         "Flare Blitz",
-        "p1a: \u8def\u706f\u6302\u4ef6"
+        [
+          "p1a: \u8def\u706f\u6302\u4ef6"
+        ]
       ],
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1b: \u4f60\u6ca1\u4e8b\u5417"
+        [
+          "p1b: \u4f60\u6ca1\u4e8b\u5417"
+        ]
       ]
     ],
     "hp": {
@@ -455,9 +537,15 @@
       "p2a": "100/100",
       "p2b": "49/100 psn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -527,12 +615,16 @@
       [
         "p1b: \u552f\u4e00\u8d85\u6a21",
         "Draining Kiss",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p2a: Iron Bundle",
         "Freeze-Dry",
-        "p1a: \u8def\u706f\u6302\u4ef6"
+        [
+          "p1a: \u8def\u706f\u6302\u4ef6"
+        ]
       ]
     ],
     "hp": {
@@ -541,9 +633,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -609,12 +707,16 @@
       [
         "p2a: Iron Bundle",
         "Protect",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ],
       [
         "p1b: \u552f\u4e00\u8d85\u6a21",
         "Draining Kiss",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -623,9 +725,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -681,12 +789,16 @@
       [
         "p2a: Iron Bundle",
         "Icy Wind",
-        "p1b: \u552f\u4e00\u8d85\u6a21"
+        [
+          "p1b: \u552f\u4e00\u8d85\u6a21"
+        ]
       ],
       [
         "p1b: \u552f\u4e00\u8d85\u6a21",
         "Draining Kiss",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -695,9 +807,15 @@
       "p2a": "17/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,
@@ -756,9 +874,15 @@
       "p2a": "17/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u4f60\u6ca1\u4e8b\u5427": {
         "atk": 3,

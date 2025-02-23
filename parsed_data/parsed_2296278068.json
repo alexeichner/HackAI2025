@@ -11,22 +11,30 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Protect",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Tailwind",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,22 +85,30 @@
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Flame Charge",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +117,18 @@
       "p2a": "15/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1
@@ -146,17 +180,23 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -165,10 +205,18 @@
       "p2a": "15/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1
@@ -217,17 +265,23 @@
       [
         "p2b: Koraidon",
         "Protect",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -236,10 +290,18 @@
       "p2a": "0 fnt",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1
@@ -288,17 +350,23 @@
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Overheat",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -307,11 +375,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1
@@ -360,22 +435,30 @@
       [
         "p1b: Farigiraf",
         "Psychic",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Overheat",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Ditto",
         "Electro Drift",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -384,11 +467,18 @@
       "p2a": "0 fnt",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1
@@ -444,7 +534,9 @@
       [
         "p2b: Ditto",
         "Dazzling Gleam",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -453,11 +545,18 @@
       "p2a": "0 fnt",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "spa": -1

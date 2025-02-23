@@ -11,17 +11,23 @@
       [
         "p2a: Smeargle",
         "Fake Out",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -80,17 +92,23 @@
       [
         "p2a: Hitmontop",
         "Fake Out",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -99,9 +117,15 @@
       "p2a": "90/100",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -151,22 +175,30 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Hurricane",
-        "p2a: Hitmontop"
+        [
+          "p2a: Hitmontop"
+        ]
       ],
       [
         "p2a: Hitmontop",
         "Close Combat",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -175,9 +207,15 @@
       "p2a": "29/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -233,22 +271,30 @@
       [
         "p1b: Pelipper",
         "Wide Guard",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2a: Hitmontop",
         "Feint",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Seed Bomb",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -257,9 +303,15 @@
       "p2a": "34/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -313,17 +365,23 @@
       [
         "p2b: Kyogre",
         "Protect",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Hitmontop",
         "Feint",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Hitmontop"
+        [
+          "p2a: Hitmontop"
+        ]
       ]
     ],
     "hp": {
@@ -332,9 +390,15 @@
       "p2a": "0 fnt",
       "p2b": "16/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1
@@ -387,7 +451,9 @@
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -396,9 +462,15 @@
       "p2a": "0 fnt",
       "p2b": "16/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -1

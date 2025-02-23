@@ -11,7 +11,9 @@
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -20,9 +22,17 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 2
@@ -71,9 +81,17 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 2

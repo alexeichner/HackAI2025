@@ -11,22 +11,30 @@
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p2b: Ninetales",
         "Calm Mind",
-        "p2b: Ninetales"
+        [
+          "p2b: Ninetales"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Discharge",
-        "p2b: Ninetales"
+        [
+          "p2b: Ninetales"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ninetales": {
         "def": 1,
@@ -99,9 +115,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ninetales": {
         "def": 1,

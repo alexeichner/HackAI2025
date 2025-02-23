@@ -11,17 +11,23 @@
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: I eat sushi"
+        [
+          "p2b: I eat sushi"
+        ]
       ],
       [
         "p2a: cow with bowl",
         "Sand Tomb",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2b: I eat sushi",
         "Yawn",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -81,22 +95,30 @@
       [
         "p2a: cow with bowl",
         "Protect",
-        "p2a: cow with bowl"
+        [
+          "p2a: cow with bowl"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: cow with bowl"
+        [
+          "p2a: cow with bowl"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Collision Course",
-        "p2a: cow with bowl"
+        [
+          "p2a: cow with bowl"
+        ]
       ],
       [
         "p2b: I eat sushi",
         "Yawn",
-        "p1b: Koraidon"
+        [
+          "p1b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +127,17 @@
       "p2a": "100/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -152,9 +182,17 @@
       "p2a": "100/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1

@@ -11,17 +11,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sludge Bomb",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -74,17 +89,23 @@
       [
         "p2b: Landorus",
         "Sandsear Storm",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -93,9 +114,18 @@
       "p2a": "51/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -153,12 +183,16 @@
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Snarl",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -167,10 +201,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -217,17 +259,23 @@
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Snarl",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -236,10 +284,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -302,12 +358,16 @@
       [
         "p2b: Archaludon",
         "Flash Cannon",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ]
     ],
     "hp": {
@@ -316,10 +376,18 @@
       "p2a": "0 fnt",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -379,12 +447,16 @@
       [
         "p2b: Archaludon",
         "Body Press",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ]
     ],
     "hp": {
@@ -393,10 +465,18 @@
       "p2a": "0 fnt",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1
@@ -451,12 +531,16 @@
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Body Press",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -465,10 +549,18 @@
       "p2a": "0 fnt",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "atk": -1

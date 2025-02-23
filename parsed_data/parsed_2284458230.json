@@ -11,17 +11,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p2b: Clefairy",
         "Helping Hand",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "spa": 1
@@ -74,22 +88,30 @@
       [
         "p2b: Clefairy",
         "Helping Hand",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Expanding Force",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -98,9 +120,17 @@
       "p2a": "6/100",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "spa": 1
@@ -142,9 +172,17 @@
       "p2a": "6/100",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Necrozma": {
         "spa": 1

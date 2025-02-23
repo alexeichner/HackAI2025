@@ -11,22 +11,30 @@
       [
         "p2a: Farigiraf",
         "Helping Hand",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1a: Wyrdeer"
+        [
+          "p1a: Wyrdeer"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Baton Pass",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Wyrdeer",
         "Trick Room",
-        "p1a: Wyrdeer"
+        [
+          "p1a: Wyrdeer"
+        ]
       ]
     ],
     "hp": {
@@ -35,11 +43,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "def": 1,
@@ -86,22 +102,30 @@
       [
         "p1a: Wyrdeer",
         "Gravity",
-        "p1a: Wyrdeer"
+        [
+          "p1a: Wyrdeer"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Psychic",
-        "p1a: Wyrdeer"
+        [
+          "p1a: Wyrdeer"
+        ]
       ],
       [
         "p1b: Weezing",
         "Play Rough",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -110,12 +134,19 @@
       "p2a": "100/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "def": 1,
@@ -166,22 +197,30 @@
       [
         "p2a: Farigiraf",
         "Helping Hand",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Follow Me",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Weezing",
         "Play Rough",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -190,12 +229,19 @@
       "p2a": "100/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "def": 1,
@@ -245,12 +291,19 @@
       "p2a": "100/100",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Farigiraf": {
         "def": 1,

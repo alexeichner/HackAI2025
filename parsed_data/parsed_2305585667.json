@@ -11,22 +11,30 @@
       [
         "p1a: Raging Bolt",
         "Protect",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Blood Moon",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,20 @@
       "p2a": "100/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,17 +89,23 @@
       [
         "p1b: Pelipper",
         "Protect",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Earth Power",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +114,20 @@
       "p2a": "100/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -140,17 +174,23 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Blood Moon",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -159,11 +199,20 @@
       "p2a": "100/100",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -201,22 +250,30 @@
       [
         "p2b: Ursaluna",
         "Protect",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Foul Play",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -225,12 +282,20 @@
       "p2a": "0 fnt",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -271,12 +336,20 @@
       "p2a": "0 fnt",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

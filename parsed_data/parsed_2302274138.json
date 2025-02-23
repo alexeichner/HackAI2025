@@ -11,22 +11,30 @@
       [
         "p2a: Gothitelle",
         "Helping Hand",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Extreme Speed",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ],
       [
         "p1a: Jumpluff",
         "Sleep Powder",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ],
       [
         "p1b: Koraidon",
         "U-turn",
-        "p2a: Gothitelle"
+        [
+          "p2a: Gothitelle"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"

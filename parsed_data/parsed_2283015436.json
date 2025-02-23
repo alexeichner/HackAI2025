@@ -11,17 +11,23 @@
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Icy Wind",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,20 @@
       "p2a": "30/100",
       "p2b": "88/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1
@@ -86,17 +103,23 @@
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Icy Wind",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -105,10 +128,20 @@
       "p2a": "0 fnt",
       "p2b": "76/100 slp"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1
@@ -157,17 +190,23 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -176,10 +215,20 @@
       "p2a": "0 fnt",
       "p2b": "9/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1
@@ -232,17 +281,23 @@
       [
         "p1a: Tornadus",
         "Protect",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Wild Charge",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -251,12 +306,20 @@
       "p2a": "47/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1
@@ -305,12 +368,16 @@
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -319,12 +386,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Landorus": {
         "spe": -1

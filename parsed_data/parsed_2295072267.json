@@ -11,22 +11,30 @@
       [
         "p2b: Sneasler",
         "Gunk Shot",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Moonblast",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2b: Sneasler"
+        [
+          "p2b: Sneasler"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "29/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -82,17 +98,23 @@
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Volt Switch",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -101,9 +123,17 @@
       "p2a": "29/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -145,17 +175,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Order Up",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Close Combat",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -164,9 +200,17 @@
       "p2a": "58/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -214,17 +258,23 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Order Up",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Hyper Voice",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -233,9 +283,17 @@
       "p2a": "58/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -291,12 +349,16 @@
       [
         "p2a: Urshifu",
         "Detect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Dondozo",
         "Earthquake",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -305,10 +367,17 @@
       "p2a": "3/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -366,12 +435,16 @@
       [
         "p2b: Miraidon",
         "Draco Meteor",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Earthquake",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -380,10 +453,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1

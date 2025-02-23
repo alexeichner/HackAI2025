@@ -11,17 +11,23 @@
       [
         "p1b: Dell-eBird",
         "Icy Wind",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Agias",
         "Volt Switch",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Trick Room",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,11 +36,20 @@
       "p2a": "80/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spe": -1
@@ -76,22 +91,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Grifaffes",
         "Psychic Noise",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Dell-eBird"
+        [
+          "p1b: Dell-eBird"
+        ]
       ],
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -100,11 +123,20 @@
       "p2a": "18/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spe": -1
@@ -155,12 +187,16 @@
       [
         "p1a: Bigweld",
         "Fake Out",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -169,12 +205,20 @@
       "p2a": "18/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spe": -1
@@ -214,22 +258,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Bigweld",
         "Low Kick",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Agias"
+        [
+          "p1b: Agias"
+        ]
       ],
       [
         "p1b: Agias",
         "Electro Drift",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -238,12 +290,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spe": -1

@@ -11,22 +11,30 @@
       [
         "p1b: Grimmsnarl",
         "Light Screen",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Dark Pulse",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "23/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -83,12 +99,16 @@
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Spirit Break",
-        "p2: Chi-Yu"
+        [
+          "p2: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -97,9 +117,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -147,17 +175,23 @@
       [
         "p1b: Grimmsnarl",
         "Reflect",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +200,17 @@
       "p2a": "74/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -219,17 +261,23 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Thunder Wave",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -238,9 +286,17 @@
       "p2a": "81/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -287,17 +343,23 @@
       [
         "p1b: Grimmsnarl",
         "Thunder Wave",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -306,9 +368,17 @@
       "p2a": "56/100 par",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -370,17 +440,23 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Dusclops",
         "Trick Room",
-        "p1a: Dusclops"
+        [
+          "p1a: Dusclops"
+        ]
       ]
     ],
     "hp": {
@@ -389,10 +465,17 @@
       "p2a": "62/100 par",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -436,17 +519,23 @@
       [
         "p1a: Dusclops",
         "Haze",
-        "p1a: Dusclops"
+        [
+          "p1a: Dusclops"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1a: Dusclops"
+        [
+          "p1a: Dusclops"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Close Combat",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -455,10 +544,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,
@@ -516,12 +612,16 @@
       [
         "p1a: Dusclops",
         "Night Shade",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Close Combat",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -530,10 +630,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 2,

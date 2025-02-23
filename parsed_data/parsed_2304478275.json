@@ -11,22 +11,30 @@
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Trick Room",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -76,17 +92,23 @@
       [
         "p1b: Farigiraf",
         "Foul Play",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -95,10 +117,18 @@
       "p2a": "100/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -151,17 +181,23 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Protect",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Overheat",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -170,10 +206,18 @@
       "p2a": "100/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -213,22 +257,30 @@
       [
         "p2b: Chien-Pao",
         "Sucker Punch",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -237,10 +289,18 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -291,22 +351,30 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Overheat",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -315,10 +383,18 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -360,22 +436,30 @@
       [
         "p1b: Ursaluna",
         "Protect",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Protect",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -384,10 +468,18 @@
       "p2a": "40/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -429,22 +521,30 @@
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Overheat",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -453,11 +553,18 @@
       "p2a": "0 fnt",
       "p2b": "5/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -503,17 +610,23 @@
       [
         "p1b: Ursaluna",
         "Protect",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -522,11 +635,18 @@
       "p2a": "0 fnt",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -577,22 +697,30 @@
       [
         "p1b: Ursaluna",
         "Protect",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Shadow Ball",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Trick Room",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -601,12 +729,18 @@
       "p2a": "86/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -652,17 +786,23 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Psychic Noise",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -671,12 +811,18 @@
       "p2a": "0 fnt",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -725,12 +871,18 @@
       "p2a": "0 fnt",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1

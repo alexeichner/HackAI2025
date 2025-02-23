@@ -11,17 +11,23 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "92/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -74,22 +88,30 @@
       [
         "p2b: Roaring Moon",
         "Protect",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Flare Blitz",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -98,9 +120,17 @@
       "p2a": "17/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -143,17 +173,23 @@
       [
         "p1b: Urshifu",
         "Sucker Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Tera Blast",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +198,17 @@
       "p2a": "0 fnt",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -215,17 +259,23 @@
       [
         "p1b: Urshifu",
         "Sucker Punch",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Aqua Jet",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Acrobatics",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -234,10 +284,17 @@
       "p2a": "73/100",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -284,12 +341,16 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Tailwind",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -298,10 +359,17 @@
       "p2a": "56/100",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -347,22 +415,30 @@
       [
         "p2b: Roaring Moon",
         "Protect",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ],
       [
         "p2a: Landorus",
         "Protect",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Roaring Moon"
+        [
+          "p2b: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -371,10 +447,17 @@
       "p2a": "56/100",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -415,22 +498,30 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Acrobatics",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sludge Bomb",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Flare Blitz",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -439,10 +530,17 @@
       "p2a": "0 fnt",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -492,22 +590,30 @@
       [
         "p1a: Urshifu",
         "Sucker Punch",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Roaring Moon",
         "Knock Off",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Flare Blitz",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -516,10 +622,17 @@
       "p2a": "12/100 brn",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2
@@ -580,12 +693,16 @@
       [
         "p2b: Roaring Moon",
         "Acrobatics",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -594,10 +711,17 @@
       "p2a": "12/100 brn",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Roaring Moon": {
         "atk": -2

@@ -11,12 +11,16 @@
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -6
@@ -78,22 +90,30 @@
       [
         "p1a: Raging Bolt",
         "Protect",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Snarl",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Ursa-spoona",
         "Substitute",
-        "p2b: Ursa-spoona"
+        [
+          "p2b: Ursa-spoona"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +122,17 @@
       "p2a": "36/100",
       "p2b": "70/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -6
@@ -143,22 +171,30 @@
       [
         "p2a: Chi-Yu",
         "Snarl",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Draco Meteor",
-        "p2b: Ursa-spoona"
+        [
+          "p2b: Ursa-spoona"
+        ]
       ],
       [
         "p2b: Ursa-spoona",
         "Earthquake",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +203,17 @@
       "p2a": "0 fnt",
       "p2b": "64/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -6
@@ -228,17 +272,23 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Ursa-spoona"
+        [
+          "p2b: Ursa-spoona"
+        ]
       ],
       [
         "p2a: Atlas",
         "Eruption",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -247,9 +297,17 @@
       "p2a": "27/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -6
@@ -304,12 +362,16 @@
       [
         "p1b: Farigiraf",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Atlas"
+        [
+          "p2a: Atlas"
+        ]
       ]
     ],
     "hp": {
@@ -318,9 +380,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Miraidon": {
         "spa": -6

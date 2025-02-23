@@ -11,22 +11,30 @@
       [
         "p2b: Flutter Mane",
         "Icy Wind",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ],
       [
         "p1a: Jumpluff",
         "Tailwind",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Heatran",
         "Heat Wave",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "91/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "spe": -1
@@ -81,12 +99,16 @@
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2a: Heatran"
+        [
+          "p2a: Heatran"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +117,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "spe": -1
@@ -144,9 +174,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "spe": -1

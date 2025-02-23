@@ -11,22 +11,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ],
       [
         "p2b: Baxcalibur",
         "Icicle Spear",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,17 @@
       "p2a": "2/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -76,22 +91,30 @@
       [
         "p2a: Indeedee",
         "Helping Hand",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Protect",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -100,10 +123,17 @@
       "p2a": "0 fnt",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -137,17 +167,23 @@
       [
         "p2a: Murkrow",
         "Haze",
-        "p2a: Murkrow"
+        [
+          "p2a: Murkrow"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Wave Crash",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -156,10 +192,17 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -215,12 +258,16 @@
       [
         "p2a: Murkrow",
         "Hurricane",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -229,10 +276,17 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -284,22 +338,30 @@
       [
         "p2a: Murkrow",
         "Tailwind",
-        "p2a: Murkrow"
+        [
+          "p2a: Murkrow"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Tatsugiri",
         "Draco Meteor",
-        "p2a: Murkrow"
+        [
+          "p2a: Murkrow"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Dark Pulse",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -308,10 +370,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -365,12 +434,16 @@
       [
         "p2a: Murkrow",
         "Hurricane",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Tatsugiri",
         "Draco Meteor",
-        "p2a: Murkrow"
+        [
+          "p2a: Murkrow"
+        ]
       ]
     ],
     "hp": {
@@ -379,10 +452,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,

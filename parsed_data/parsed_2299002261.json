@@ -11,17 +11,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Mimikyu"
+        [
+          "p2b: Mimikyu"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Wave Crash",
-        "p2b: Mimikyu"
+        [
+          "p2b: Mimikyu"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -71,12 +86,16 @@
       [
         "p1b: Dondozo",
         "Rock Slide",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Clear Smog",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -85,9 +104,18 @@
       "p2a": "76/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -133,17 +161,23 @@
       [
         "p1b: Dondozo",
         "Rock Slide",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Pollen Puff",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -152,10 +186,18 @@
       "p2a": "100/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -196,17 +238,23 @@
       [
         "p1b: Dondozo",
         "Protect",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Pollen Puff",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -215,10 +263,18 @@
       "p2a": "100/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -259,12 +315,16 @@
       [
         "p2b: Amoonguss",
         "Pollen Puff",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -273,10 +333,18 @@
       "p2a": "100/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -326,17 +394,23 @@
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Aerial Ace",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -345,11 +419,18 @@
       "p2a": "30/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,
@@ -407,12 +488,16 @@
       [
         "p2b: Amoonguss",
         "Pollen Puff",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -421,11 +506,18 @@
       "p2a": "30/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 2,

@@ -11,17 +11,23 @@
       [
         "p2a: Roaring Moon",
         "Tailwind",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1
@@ -72,17 +87,23 @@
       [
         "p1b: Grimmsnarl",
         "Sucker Punch",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2a: Roaring Moon",
         "Knock Off",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -91,10 +112,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1
@@ -144,22 +173,30 @@
       [
         "p1b: Grimmsnarl",
         "Reflect",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Heal Pulse",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Substitute",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -168,10 +205,18 @@
       "p2a": "56/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1
@@ -214,22 +259,30 @@
       [
         "p2a: Indeedee",
         "Helping Hand",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -238,10 +291,18 @@
       "p2a": "28/100",
       "p2b": "19/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1
@@ -286,22 +347,30 @@
       [
         "p2a: Indeedee",
         "Heal Pulse",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Earthquake",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -310,10 +379,18 @@
       "p2a": "0 fnt",
       "p2b": "7/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1
@@ -359,12 +436,16 @@
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -373,10 +454,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Lunala": {
         "spa": 1

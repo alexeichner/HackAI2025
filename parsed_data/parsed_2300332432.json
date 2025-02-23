@@ -11,22 +11,30 @@
       [
         "p2b: Ursaluna",
         "Protect",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1b: Momma",
         "Follow Me",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ],
       [
         "p1a: Horsee",
         "Nasty Plot",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Snarl",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "atk": -3,
@@ -87,17 +104,23 @@
       [
         "p1b: Momma",
         "Helping Hand",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p1a: Horsee",
         "Expanding Force",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Parting Shot",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -106,10 +129,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "atk": -3,
@@ -157,17 +188,23 @@
       [
         "p1a: Horsee",
         "Astral Barrage",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -176,10 +213,18 @@
       "p2a": "6/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "atk": -3,
@@ -234,17 +279,23 @@
       [
         "p2b: Whimsicott",
         "Protect",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Horsee",
         "Astral Barrage",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1b: Beast",
         "Earth Power",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -253,10 +304,18 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "atk": -3,
@@ -311,10 +370,18 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "atk": -3,

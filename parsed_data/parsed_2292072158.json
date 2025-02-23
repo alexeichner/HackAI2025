@@ -11,17 +11,23 @@
       [
         "p1b: NJPhard",
         "Follow Me",
-        "p1b: NJPhard"
+        [
+          "p1b: NJPhard"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: NJPhard"
+        [
+          "p1b: NJPhard"
+        ]
       ],
       [
         "p1a: PeppePizza",
         "Trick Room",
-        "p1a: PeppePizza"
+        [
+          "p1a: PeppePizza"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -64,12 +79,16 @@
       [
         "p2b: Whimsicott",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: scoseca9",
         "Wicked Blow",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -78,11 +97,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: BearyBudin": {
         "spe": -1
@@ -123,22 +150,30 @@
       [
         "p1a: BearyBudin",
         "Alluring Voice",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Wild Charge",
-        "p1b: scoseca9"
+        [
+          "p1b: scoseca9"
+        ]
       ],
       [
         "p1b: scoseca9",
         "Wicked Blow",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1b: scoseca9"
+        [
+          "p1b: scoseca9"
+        ]
       ]
     ],
     "hp": {
@@ -147,11 +182,19 @@
       "p2a": "18/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: BearyBudin": {
         "spe": -1
@@ -206,11 +249,19 @@
       "p2a": "18/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: BearyBudin": {
         "spe": -1

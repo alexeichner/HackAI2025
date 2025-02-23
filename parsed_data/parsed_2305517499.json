@@ -11,22 +11,30 @@
       [
         "p1b: Miraidon",
         "Protect",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Tailwind",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -77,17 +93,23 @@
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -146,22 +176,30 @@
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Earthquake",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Behemoth Bash",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -170,9 +208,17 @@
       "p2a": "37/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -229,22 +275,30 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Extreme Speed",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Earthquake",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -253,9 +307,17 @@
       "p2a": "37/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -301,22 +363,30 @@
       [
         "p1b: Dragonite",
         "Extreme Speed",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Behemoth Bash",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -325,10 +395,17 @@
       "p2a": "7/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1
@@ -379,17 +456,23 @@
       [
         "p2a: Zamazenta",
         "Wide Guard",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -398,10 +481,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1

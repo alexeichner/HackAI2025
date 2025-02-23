@@ -11,17 +11,23 @@
       [
         "p2a: Hallothreen",
         "Protect",
-        "p2a: Hallothreen"
+        [
+          "p2a: Hallothreen"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Proshokza"
+        [
+          "p2b: Proshokza"
+        ]
       ],
       [
         "p2b: Proshokza",
         "Wild Charge",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "20/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +87,23 @@
       [
         "p2a: Hallothreen",
         "Snarl",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2b: Proshokza",
         "Drain Punch",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p1b: Farigiraf",
         "Psychic Noise",
-        "p2b: Proshokza"
+        [
+          "p2b: Proshokza"
+        ]
       ]
     ],
     "hp": {
@@ -92,7 +112,15 @@
       "p2a": "100/100",
       "p2b": "23/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Landorus": {
         "spa": -2
@@ -138,12 +166,16 @@
       [
         "p2a: Hallothreen",
         "Snarl",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p1a: Landorus",
         "Sludge Bomb",
-        "p2b: Proshokza"
+        [
+          "p2b: Proshokza"
+        ]
       ]
     ],
     "hp": {
@@ -152,7 +184,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Landorus": {
         "spa": -2

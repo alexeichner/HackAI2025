@@ -11,17 +11,23 @@
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1b: Maushold"
+        [
+          "p1b: Maushold"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Maushold"
+        [
+          "p1b: Maushold"
+        ]
       ],
       [
         "p1a: Lunala",
         "Dazzling Gleam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "62/100",
       "p2b": "53/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -63,17 +79,23 @@
       [
         "p1b: Landorus",
         "Sludge Bomb",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Lunala",
         "Dazzling Gleam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -82,9 +104,17 @@
       "p2a": "34/100",
       "p2b": "8/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1

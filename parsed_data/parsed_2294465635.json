@@ -11,17 +11,23 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Trick Room",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -79,22 +92,30 @@
       [
         "p1b: Smeargle",
         "Follow Me",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Foul Play",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Rayquaza",
         "Dragon Ascent",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +124,17 @@
       "p2a": "0 fnt",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -168,17 +196,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Rayquaza",
         "Swords Dance",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ]
     ],
     "hp": {
@@ -187,10 +221,17 @@
       "p2a": "0 fnt",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -234,12 +275,16 @@
       [
         "p1a: Rayquaza",
         "Protect",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ]
     ],
     "hp": {
@@ -248,10 +293,17 @@
       "p2a": "87/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -300,17 +352,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Rayquaza",
         "Extreme Speed",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Rayquaza"
+        [
+          "p1a: Rayquaza"
+        ]
       ]
     ],
     "hp": {
@@ -319,11 +377,17 @@
       "p2a": "92/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -367,17 +431,23 @@
       [
         "p2b: Raging Bolt",
         "Protect",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Chien-Pao",
         "Throat Chop",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "High Horsepower",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -386,11 +456,17 @@
       "p2a": "25/100",
       "p2b": "32/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,
@@ -448,17 +524,23 @@
       [
         "p1b: Chien-Pao",
         "Sucker Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "High Horsepower",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -467,11 +549,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Smeargle": {
         "def": 2,

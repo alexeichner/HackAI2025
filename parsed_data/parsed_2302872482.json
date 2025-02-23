@@ -11,22 +11,30 @@
       [
         "p2a: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Throat Chop",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p1a: Necrozma",
         "Sunsteel Strike",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "13/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -94,12 +110,16 @@
       [
         "p2b: Chien-Pao",
         "Throat Chop",
-        "p1a: Necrozma"
+        [
+          "p1a: Necrozma"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -108,7 +128,15 @@
       "p2a": "0 fnt",
       "p2b": "13/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"

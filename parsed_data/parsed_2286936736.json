@@ -11,17 +11,23 @@
       [
         "p1a: Roaring Moon",
         "Acrobatics",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "7/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +84,23 @@
       [
         "p2a: Flutter Mane",
         "Protect",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Roaring Moon",
         "Knock Off",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "13/100",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -124,22 +152,30 @@
       [
         "p1a: Roaring Moon",
         "Protect",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Drum Beating",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -148,9 +184,17 @@
       "p2a": "0 fnt",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -192,17 +236,23 @@
       [
         "p1a: Roaring Moon",
         "Tailwind",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ]
     ],
     "hp": {
@@ -211,9 +261,17 @@
       "p2a": "0 fnt",
       "p2b": "52/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -255,17 +313,23 @@
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Ice Beam",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Brute Bonnet",
         "Spore",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -274,9 +338,17 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -324,17 +396,23 @@
       [
         "p1a: Urshifu",
         "U-turn",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2a: Brute Bonnet",
         "Spore",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -343,10 +421,17 @@
       "p2a": "28/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -393,12 +478,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Flame Charge",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -407,10 +496,17 @@
       "p2a": "23/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -458,22 +554,30 @@
       [
         "p2a: Brute Bonnet",
         "Rage Powder",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Brute Bonnet"
+        [
+          "p2a: Brute Bonnet"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Ice Beam",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -482,10 +586,17 @@
       "p2a": "0 fnt",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1
@@ -535,12 +646,16 @@
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -549,10 +664,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Rillaboom": {
         "spe": -1

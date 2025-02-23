@@ -11,22 +11,30 @@
       [
         "p1b: Walking Wake",
         "Protect",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Taunt",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Snarl",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -66,22 +82,30 @@
       [
         "p1a: Tornadus",
         "Sunny Day",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Beat Up",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p1b: Walking Wake",
         "Flamethrower",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Body Press",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -90,9 +114,15 @@
       "p2a": "100/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "def": 6,
@@ -149,12 +179,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Armarouge"
+        [
+          "p2a: Armarouge"
+        ]
       ]
     ],
     "hp": {
@@ -163,9 +197,15 @@
       "p2a": "63/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "def": 6,
@@ -215,17 +255,23 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Armarouge",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Archaludon",
         "Body Press",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -234,9 +280,15 @@
       "p2a": "69/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "def": 6,
@@ -284,17 +336,23 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Armarouge"
+        [
+          "p2a: Armarouge"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Earth Power",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Body Press",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -303,9 +361,15 @@
       "p2a": "55/100",
       "p2b": "6/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "def": 6,
@@ -365,9 +429,15 @@
       "p2a": "55/100",
       "p2b": "6/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "def": 6,

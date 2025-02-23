@@ -11,17 +11,23 @@
       [
         "p2b: Smeargle",
         "Fake Out",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1b: Volcarona",
         "Will-O-Wisp",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "95/100 brn",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"
@@ -67,22 +81,30 @@
       [
         "p1b: Volcarona",
         "Rage Powder",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p2b: Smeargle",
         "Decorate",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Disable",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +113,17 @@
       "p2a": "89/100 brn",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Volcarona": {
         "atk": 2,
@@ -141,9 +171,17 @@
       "p2a": "89/100 brn",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Volcarona": {
         "atk": 2,

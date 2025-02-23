@@ -11,22 +11,30 @@
       [
         "p1a: Smeargle",
         "Follow Me",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2a: Urshifu",
         "U-turn",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Psychic",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +91,23 @@
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Imprison",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +116,15 @@
       "p2a": "33/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1
@@ -146,17 +172,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -165,9 +197,15 @@
       "p2a": "33/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1
@@ -230,17 +268,23 @@
       [
         "p1b: Iron Hands",
         "Drain Punch",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -249,9 +293,15 @@
       "p2a": "62/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1
@@ -293,17 +343,23 @@
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Psychic",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Wild Charge",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -312,9 +368,15 @@
       "p2a": "62/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1
@@ -374,12 +436,16 @@
       [
         "p2a: Farigiraf",
         "Psychic",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -388,9 +454,15 @@
       "p2a": "62/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 1

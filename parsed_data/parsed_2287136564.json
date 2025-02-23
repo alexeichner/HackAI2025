@@ -11,22 +11,30 @@
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Snarl",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ],
       [
         "p1a: Eternatus",
         "Sludge Bomb",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "U-turn",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "51/100",
       "p2b": "16/100 psn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Eternatus": {
         "spa": -1
@@ -80,7 +98,9 @@
       [
         "p1b: Dondozo",
         "Earthquake",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -89,7 +109,17 @@
       "p2a": "76/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Eternatus": {
         "spa": -1
@@ -155,17 +185,23 @@
       [
         "p1b: Dondozo",
         "Heavy Slam",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Spore",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -174,9 +210,17 @@
       "p2a": "30/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Eternatus": {
         "spa": -1
@@ -224,7 +268,9 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -233,9 +279,17 @@
       "p2a": "30/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Eternatus": {
         "spa": -1
@@ -298,12 +352,16 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Body Press",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -312,9 +370,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Eternatus": {
         "spa": -1

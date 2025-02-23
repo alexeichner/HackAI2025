@@ -11,22 +11,30 @@
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Regieleki",
         "Explosion",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Landorus",
         "Substitute",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p2b: Dialga",
         "Trick Room",
-        "p2b: Dialga"
+        [
+          "p2b: Dialga"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -72,17 +86,23 @@
       [
         "p1b: Landorus",
         "Protect",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Torkoal",
         "Eruption",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +111,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -128,22 +154,30 @@
       [
         "p1b: Landorus",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p2a: Torkoal",
         "Eruption",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +186,15 @@
       "p2a": "35/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -201,17 +241,23 @@
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Earthquake",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Dialga"
+        [
+          "p2a: Dialga"
+        ]
       ]
     ],
     "hp": {
@@ -220,9 +266,15 @@
       "p2a": "77/100",
       "p2b": "2/100 brn"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -269,17 +321,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Dialga",
         "Flash Cannon",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -288,9 +346,15 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -326,17 +390,23 @@
       [
         "p2b: Torkoal",
         "Protect",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ],
       [
         "p2a: Dialga",
         "Flash Cannon",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -345,9 +415,15 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -391,9 +467,15 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"

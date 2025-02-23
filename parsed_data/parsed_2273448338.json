@@ -11,17 +11,23 @@
       [
         "p1a: Chien-Pao",
         "Protect",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Tailwind",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -65,12 +80,16 @@
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Earthquake",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -79,9 +98,18 @@
       "p2a": "70/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn"
@@ -121,22 +149,30 @@
       [
         "p1a: Chien-Pao",
         "Protect",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Earthquake",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Facade",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -145,9 +181,18 @@
       "p2a": "50/100 brn",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",
@@ -197,17 +242,23 @@
       [
         "p2a: Ursaluna",
         "Protect",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Giga Drain",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Icicle Crash",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -216,9 +267,18 @@
       "p2a": "44/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",
@@ -268,17 +328,23 @@
       [
         "p1a: Chien-Pao",
         "Sucker Punch",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Facade",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -287,10 +353,18 @@
       "p2a": "44/100 brn",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",
@@ -341,22 +415,30 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Protect",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Giga Drain",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -365,10 +447,18 @@
       "p2a": "44/100 brn",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",
@@ -405,12 +495,16 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Giga Drain",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -419,10 +513,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",

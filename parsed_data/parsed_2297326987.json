@@ -11,17 +11,23 @@
       [
         "p1b: Cobalion",
         "Protect",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Groudon",
         "Heat Crash",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,17 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1
@@ -75,17 +88,23 @@
       [
         "p1a: Urshifu",
         "Iron Head",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Cobalion",
         "Body Press",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ]
     ],
     "hp": {
@@ -94,10 +113,17 @@
       "p2a": "60/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1
@@ -137,17 +163,23 @@
       [
         "p1b: Cobalion",
         "Protect",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ]
     ],
     "hp": {
@@ -156,10 +188,17 @@
       "p2a": "60/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1
@@ -208,17 +247,23 @@
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -227,10 +272,17 @@
       "p2a": "14/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1
@@ -273,12 +325,16 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -287,10 +343,17 @@
       "p2a": "14/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1
@@ -336,7 +399,9 @@
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -345,10 +410,17 @@
       "p2a": "14/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Cobalion": {
         "def": 1

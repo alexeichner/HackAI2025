@@ -11,22 +11,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Lunala",
         "Trick Room",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -81,22 +97,30 @@
       [
         "p1a: Urshifu",
         "Detect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Spiky Shield",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Wild Charge",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +129,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -147,17 +179,23 @@
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +204,17 @@
       "p2a": "68/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -212,17 +258,23 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -231,9 +283,17 @@
       "p2a": "28/100",
       "p2b": "90/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -279,17 +339,23 @@
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -298,10 +364,17 @@
       "p2a": "28/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -363,12 +436,16 @@
       [
         "p2b: Iron Hands",
         "Fake Out",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -377,10 +454,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -426,12 +510,16 @@
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Iron Hands"
+        [
+          "p2b: Iron Hands"
+        ]
       ],
       [
         "p2b: Iron Hands",
         "Drain Punch",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -440,10 +528,17 @@
       "p2a": "0 fnt",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1
@@ -497,10 +592,17 @@
       "p2a": "0 fnt",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Ogerpon": {
         "atk": 1

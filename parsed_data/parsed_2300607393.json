@@ -11,17 +11,23 @@
       [
         "p2a: Shepparoni",
         "Tailwind",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Dazzling Gleam",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,
@@ -86,17 +101,23 @@
       [
         "p2b: Momma",
         "Helping Hand",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ],
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2a: Horsee",
         "Astral Barrage",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -105,9 +126,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,
@@ -143,17 +173,23 @@
       [
         "p2a: Horsee",
         "Expanding Force",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Momma",
         "Imprison",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +198,18 @@
       "p2a": "0 fnt",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,
@@ -212,17 +257,23 @@
       [
         "p2b: Momma",
         "Helping Hand",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ],
       [
         "p2a: Horsee",
         "Expanding Force",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -231,9 +282,18 @@
       "p2a": "37/100",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,
@@ -278,12 +338,16 @@
       [
         "p2a: Horsee",
         "Expanding Force",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Momma",
         "Trick Room",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -292,10 +356,18 @@
       "p2a": "37/100",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,
@@ -343,12 +415,16 @@
       [
         "p2b: Momma",
         "Helping Hand",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -357,10 +433,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1,

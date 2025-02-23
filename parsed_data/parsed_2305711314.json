@@ -11,17 +11,23 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Boomer",
         "Dazzling Gleam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Quake",
         "Precipice Blades",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "36/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +84,23 @@
       [
         "p1a: Quake",
         "Protect",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Horn Leech",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "41/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -139,17 +167,23 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Quake",
         "Heat Crash",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -158,9 +192,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -205,17 +247,23 @@
       [
         "p1a: Quake",
         "Protect",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ]
     ],
     "hp": {
@@ -224,9 +272,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -268,17 +324,23 @@
       [
         "p1b: Walking Wake",
         "Hydro Steam",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Wicked Blow",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -287,9 +349,17 @@
       "p2a": "7/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -346,22 +416,30 @@
       [
         "p1b: Walking Wake",
         "Protect",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Boomer",
         "Dazzling Gleam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Boomer"
+        [
+          "p1a: Boomer"
+        ]
       ]
     ],
     "hp": {
@@ -370,9 +448,17 @@
       "p2a": "0 fnt",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -423,22 +509,30 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Boomer",
         "Dazzling Gleam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Walking Wake",
         "Hydro Steam",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Trick Room",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -447,10 +541,17 @@
       "p2a": "19/100",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -494,17 +595,23 @@
       [
         "p1b: Walking Wake",
         "Protect",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Hyper Voice",
-        "p1b: Walking Wake"
+        [
+          "p1b: Walking Wake"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Boomer"
+        [
+          "p1a: Boomer"
+        ]
       ]
     ],
     "hp": {
@@ -513,10 +620,17 @@
       "p2a": "19/100",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1
@@ -560,17 +674,23 @@
       [
         "p2a: Farigiraf",
         "Hyper Voice",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ],
       [
         "p1a: Quake",
         "Precipice Blades",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Quake"
+        [
+          "p1a: Quake"
+        ]
       ]
     ],
     "hp": {
@@ -579,10 +699,17 @@
       "p2a": "0 fnt",
       "p2b": "4/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Rillaboom": {
         "atk": -1

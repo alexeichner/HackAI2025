@@ -11,17 +11,23 @@
       [
         "p1a: Pelipper",
         "Protect",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "98/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -81,12 +95,16 @@
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +113,17 @@
       "p2a": "97/100",
       "p2b": "54/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -141,17 +167,23 @@
       [
         "p1a: Pelipper",
         "Protect",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Dynamax Cannon",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Dark Pulse",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -160,9 +192,17 @@
       "p2a": "100/100",
       "p2b": "60/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -201,17 +241,23 @@
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Dynamax Cannon",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -220,9 +266,17 @@
       "p2a": "64/100",
       "p2b": "60/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -287,17 +341,23 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Dynamax Cannon",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -306,9 +366,17 @@
       "p2a": "70/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -357,22 +425,30 @@
       [
         "p1a: Pelipper",
         "Protect",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2a: Eternatus",
         "Dynamax Cannon",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -381,10 +457,17 @@
       "p2a": "70/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,
@@ -431,17 +514,23 @@
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -450,10 +539,17 @@
       "p2a": "0 fnt",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Eternatus": {
         "atk": -1,

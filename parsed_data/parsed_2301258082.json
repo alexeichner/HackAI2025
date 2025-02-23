@@ -11,17 +11,23 @@
       [
         "p1b: Flutter Mane",
         "Icy Wind",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2b: Great Tusk",
         "Headlong Rush",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "94/100",
       "p2b": "63/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Great Tusk": {
         "spe": -1,

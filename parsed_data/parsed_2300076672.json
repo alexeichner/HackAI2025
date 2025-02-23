@@ -11,17 +11,23 @@
       [
         "p2a: Shepparoni",
         "Tailwind",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ],
       [
         "p2b: Pony",
         "Ivy Cudgel",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,18 @@
       "p2a": "62/100",
       "p2b": "25/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -81,17 +98,23 @@
       [
         "p2a: Shepparoni",
         "Moonblast",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ],
       [
         "p2b: Pony",
         "Horn Leech",
-        "p1a: Walking Wake"
+        [
+          "p1a: Walking Wake"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Pony"
+        [
+          "p2b: Pony"
+        ]
       ]
     ],
     "hp": {
@@ -100,7 +123,18 @@
       "p2a": "28/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -159,17 +193,23 @@
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Horsee",
         "Expanding Force",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Thunder Wave",
-        "p2b: Horsee"
+        [
+          "p2b: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -178,9 +218,18 @@
       "p2a": "28/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -223,17 +272,23 @@
       [
         "p2a: Momma",
         "Follow Me",
-        "p2a: Momma"
+        [
+          "p2a: Momma"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Moonblast",
-        "p2a: Momma"
+        [
+          "p2a: Momma"
+        ]
       ],
       [
         "p2b: Horsee",
         "Expanding Force",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -242,10 +297,18 @@
       "p2a": "64/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -288,17 +351,23 @@
       [
         "p1a: Flutter Mane",
         "Protect",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ],
       [
         "p2a: Momma",
         "Follow Me",
-        "p2a: Momma"
+        [
+          "p2a: Momma"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Momma"
+        [
+          "p2a: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -307,10 +376,18 @@
       "p2a": "25/100",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -358,12 +435,16 @@
       [
         "p2b: Shepparoni",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Momma"
+        [
+          "p2a: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -372,10 +453,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -434,17 +523,23 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ],
       [
         "p1b: Groudon",
         "Heat Crash",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ],
       [
         "p2a: Horsee",
         "Nasty Plot",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -453,10 +548,18 @@
       "p2a": "16/100 par",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1
@@ -505,10 +608,18 @@
       "p2a": "16/100 par",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Pony": {
         "atk": 1

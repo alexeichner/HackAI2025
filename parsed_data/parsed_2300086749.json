@@ -11,22 +11,30 @@
       [
         "p2b: Ogerpon",
         "Power Whip",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Landorus",
         "Sandsear Storm",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "59/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1
@@ -103,17 +121,23 @@
       [
         "p2b: Raging Bolt",
         "Protect",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Landorus",
         "Sandsear Storm",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -122,9 +146,17 @@
       "p2a": "21/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1
@@ -167,12 +199,16 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p1a: Landorus",
         "Sandsear Storm",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ]
     ],
     "hp": {
@@ -181,9 +217,17 @@
       "p2a": "25/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1
@@ -235,12 +279,16 @@
       [
         "p1a: Landorus",
         "Sandsear Storm",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Psychic",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ]
     ],
     "hp": {
@@ -249,9 +297,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 1

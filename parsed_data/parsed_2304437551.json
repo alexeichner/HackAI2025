@@ -11,22 +11,30 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Tinkaton",
         "Knock Off",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p1a: Brute Bonnet",
         "Spore",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -76,17 +92,23 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Nasty Plot",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Brute Bonnet",
         "Spore",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -95,9 +117,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -143,12 +173,16 @@
       [
         "p1b: Gouging Fire",
         "Howl",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Stomping Tantrum",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ]
     ],
     "hp": {
@@ -157,9 +191,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -223,12 +265,16 @@
       [
         "p1b: Gouging Fire",
         "Burning Bulwark",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Collision Course",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -237,9 +283,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -313,12 +367,16 @@
       [
         "p2b: Smeargle",
         "Fake Out",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p1b: Gouging Fire",
         "Flare Blitz",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -327,10 +385,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -387,12 +452,16 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Draining Kiss",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -401,10 +470,17 @@
       "p2a": "97/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -475,17 +551,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Tinkaton",
         "Fake Out",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Gouging Fire",
         "Flare Blitz",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -494,10 +576,17 @@
       "p2a": "100/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,
@@ -554,17 +643,23 @@
       [
         "p1b: Gouging Fire",
         "Burning Bulwark",
-        "p1b: Gouging Fire"
+        [
+          "p1b: Gouging Fire"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Tinkaton"
+        [
+          "p1a: Tinkaton"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Tinkaton"
+        [
+          "p1a: Tinkaton"
+        ]
       ]
     ],
     "hp": {
@@ -573,10 +668,17 @@
       "p2a": "97/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Brute Bonnet": {
         "atk": -3,

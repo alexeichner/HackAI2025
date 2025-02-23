@@ -11,22 +11,30 @@
       [
         "p2a: Grimmsnarl",
         "Reflect",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Beat Up",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p1a: Annihilape",
         "Rage Fist",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "33/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -66,17 +84,23 @@
       [
         "p1a: Annihilape",
         "Protect",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Thunder Wave",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ]
     ],
     "hp": {
@@ -85,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -118,22 +150,30 @@
       [
         "p1a: Annihilape",
         "Protect",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Light Screen",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -142,9 +182,17 @@
       "p2a": "9/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -193,17 +241,23 @@
       [
         "p2a: Grimmsnarl",
         "Thunder Wave",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -212,9 +266,17 @@
       "p2a": "0 fnt",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -276,17 +338,23 @@
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Dragonite",
         "Fire Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -295,9 +363,17 @@
       "p2a": "75/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -354,12 +430,16 @@
       [
         "p1b: Whimsicott",
         "Tailwind",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -368,9 +448,17 @@
       "p2a": "75/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1

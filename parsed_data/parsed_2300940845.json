@@ -11,22 +11,30 @@
       [
         "p1a: Chi-Yu",
         "Protect",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "67/100",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -79,17 +95,23 @@
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -98,10 +120,18 @@
       "p2a": "0 fnt",
       "p2b": "61/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -162,17 +192,23 @@
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -181,10 +217,18 @@
       "p2a": "41/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -242,17 +286,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -261,10 +311,18 @@
       "p2a": "47/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -315,12 +373,16 @@
       [
         "p1a: Dondozo",
         "Order Up",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -329,10 +391,18 @@
       "p2a": "41/100",
       "p2b": "53/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -402,12 +472,16 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Earthquake",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -416,11 +490,18 @@
       "p2a": "0 fnt",
       "p2b": "53/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -482,17 +563,23 @@
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Nasty Plot",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -501,11 +588,18 @@
       "p2a": "79/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -560,17 +654,23 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Wave Crash",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -579,11 +679,18 @@
       "p2a": "84/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -643,17 +750,23 @@
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1b: Tatsugiri"
+        [
+          "p1b: Tatsugiri"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Wave Crash",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -662,11 +775,18 @@
       "p2a": "85/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1
@@ -734,11 +854,18 @@
       "p2a": "85/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Chi-Yu": {
         "atk": -1

@@ -11,22 +11,30 @@
       [
         "p1b: Tinkaton",
         "Helping Hand",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ],
       [
         "p1a: Eternatus",
         "Sludge Wave",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Trick Room",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "psn"
@@ -79,17 +95,23 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Hatterene",
         "Expanding Force",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p1b: Tinkaton",
         "Gigaton Hammer",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -98,10 +120,18 @@
       "p2a": "0 fnt",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "psn"
@@ -142,22 +172,30 @@
       [
         "p1b: Tinkaton",
         "Helping Hand",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p2b: Hatterene",
         "Dazzling Gleam",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p1a: Kingambit",
         "Iron Head",
-        "p2b: Hatterene"
+        [
+          "p2b: Hatterene"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Headlong Rush",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -166,10 +204,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ursaluna": {
         "def": -1,

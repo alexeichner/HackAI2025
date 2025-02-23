@@ -11,22 +11,30 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Rely On"
+        [
+          "p1a: Rely On"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Iron Defense",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Rely On",
         "Electro Drift",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: The Jig and Graph",
         "Foul Play",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 3
@@ -83,17 +99,23 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: The Jig and Graph"
+        [
+          "p1b: The Jig and Graph"
+        ]
       ],
       [
         "p1b: The Jig and Graph",
         "Foul Play",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -102,10 +124,18 @@
       "p2a": "49/100",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 3
@@ -150,12 +180,16 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: The Jig and Graph"
+        [
+          "p1b: The Jig and Graph"
+        ]
       ],
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -164,10 +198,18 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 3
@@ -212,17 +254,23 @@
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p1b: The Jig and Graph",
         "Psychic Noise",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -231,10 +279,18 @@
       "p2a": "78/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 3
@@ -282,17 +338,23 @@
       [
         "p1b: The Jig and Graph",
         "Helping Hand",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1b: The Jig and Graph"
+        [
+          "p1b: The Jig and Graph"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Low Kick",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -301,10 +363,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 3

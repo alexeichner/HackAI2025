@@ -11,12 +11,16 @@
       [
         "p1a: Baxcalibur",
         "Scale Shot",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "100/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "def": -2,
@@ -72,17 +84,23 @@
       [
         "p1a: Baxcalibur",
         "Protect",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "def": -2,
@@ -133,17 +159,23 @@
       [
         "p1a: Baxcalibur",
         "Scale Shot",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Substitute",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +184,17 @@
       "p2a": "50/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Baxcalibur": {
         "def": -2,

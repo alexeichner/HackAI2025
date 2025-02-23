@@ -11,22 +11,30 @@
       [
         "p1a: Iron Valiant",
         "Wide Guard",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Newton",
         "Gravity",
-        "p1b: Newton"
+        [
+          "p1b: Newton"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -78,12 +95,16 @@
       [
         "p1a: Iron Valiant",
         "Hypnosis",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Incineroar",
         "U-turn",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -92,11 +113,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -143,12 +172,16 @@
       [
         "p1a: Iron Valiant",
         "Hypnosis",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -157,11 +190,19 @@
       "p2a": "96/100 slp",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -209,12 +250,16 @@
       [
         "p1a: Iron Valiant",
         "Coaching",
-        "p1b: Golden apple"
+        [
+          "p1b: Golden apple"
+        ]
       ],
       [
         "p1b: Golden apple",
         "Precipice Blades",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -223,11 +268,19 @@
       "p2a": "11/100",
       "p2b": "67/100 slp"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -285,12 +338,16 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1b: Golden apple"
+        [
+          "p1b: Golden apple"
+        ]
       ],
       [
         "p1a: Iron Valiant",
         "Moonblast",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -299,11 +356,19 @@
       "p2a": "17/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -356,17 +421,23 @@
       [
         "p2b: Iron Bundle",
         "Freeze-Dry",
-        "p1b: Golden apple"
+        [
+          "p1b: Golden apple"
+        ]
       ],
       [
         "p1a: Iron Valiant",
         "Moonblast",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Golden apple",
         "Precipice Blades",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -375,12 +446,19 @@
       "p2a": "28/100 slp",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3
@@ -441,12 +519,16 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Golden apple",
         "Precipice Blades",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -455,12 +537,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -3

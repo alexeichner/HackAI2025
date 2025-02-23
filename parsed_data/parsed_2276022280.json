@@ -11,17 +11,23 @@
       [
         "p2a: Eternatus",
         "Sludge Wave",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Tinkaton",
         "Play Rough",
-        "p1b: Gallade"
+        [
+          "p1b: Gallade"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,12 +86,16 @@
       [
         "p1b: Torkoal",
         "Eruption",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -85,9 +104,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 2
@@ -139,12 +167,16 @@
       [
         "p2b: Pelipper",
         "Wide Guard",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: Eternatus"
+        [
+          "p2a: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -153,10 +185,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 2
@@ -204,12 +244,16 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -218,10 +262,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 2

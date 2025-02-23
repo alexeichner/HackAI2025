@@ -11,17 +11,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Iron Moth",
         "Heat Wave",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Iron Moth"
+        [
+          "p1a: Iron Moth"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -97,12 +111,16 @@
       [
         "p2a: Chien-Pao",
         "Protect",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -111,10 +129,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -161,17 +187,23 @@
       [
         "p2a: Chien-Pao",
         "Icicle Crash",
-        "p1b: Iron Moth"
+        [
+          "p1b: Iron Moth"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -180,10 +212,18 @@
       "p2a": "7/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -229,22 +269,30 @@
       [
         "p2a: Chien-Pao",
         "Protect",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Aqua Jet",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -253,10 +301,18 @@
       "p2a": "0 fnt",
       "p2b": "6/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -298,10 +354,18 @@
       "p2a": "0 fnt",
       "p2b": "6/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1

@@ -11,17 +11,23 @@
       [
         "p1b: Urshifu",
         "Detect",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "2/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -61,17 +77,23 @@
       [
         "p1b: Urshifu",
         "Aqua Jet",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Spore",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -80,7 +102,17 @@
       "p2a": "37/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"
@@ -129,12 +161,16 @@
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -143,9 +179,17 @@
       "p2a": "10/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -202,9 +246,17 @@
       "p2a": "10/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,

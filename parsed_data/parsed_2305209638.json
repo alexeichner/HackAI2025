@@ -11,22 +11,30 @@
       [
         "p2b: Weezing",
         "Protect",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Sucker Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sludge Bomb",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "12/100 psn",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "psn"
@@ -80,17 +98,23 @@
       [
         "p1a: Urshifu",
         "Sucker Punch",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sludge Bomb",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p2b: Weezing",
         "Strange Steam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -99,7 +123,17 @@
       "p2a": "0 fnt",
       "p2b": "53/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "psn"
@@ -144,12 +178,16 @@
       [
         "p2a: Iron Hands",
         "Fake Out",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -158,9 +196,17 @@
       "p2a": "71/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Hands": {
         "spe": -2
@@ -200,12 +246,16 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -214,9 +264,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Hands": {
         "spe": -2

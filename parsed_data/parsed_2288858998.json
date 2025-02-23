@@ -11,22 +11,30 @@
       [
         "p1b: Charming",
         "Protect",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Will-O-Wisp",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "94/100 brn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -68,17 +87,23 @@
       [
         "p1b: Charming",
         "Close Combat",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Sludge Bomb",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Incineroar",
         "U-turn",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +112,18 @@
       "p2a": "14/100",
       "p2b": "73/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Charming": {
         "def": -2,
@@ -143,22 +179,30 @@
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Charming",
         "Spirit Break",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Taunt",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +211,18 @@
       "p2a": "14/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Charming": {
         "def": -2,
@@ -210,12 +263,16 @@
       [
         "p1a: Mr. Gassy",
         "Will-O-Wisp",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Mr. Gassy"
+        [
+          "p1a: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -224,9 +281,18 @@
       "p2a": "95/100 brn",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Charming": {
         "def": -2,
@@ -277,17 +343,23 @@
       [
         "p2b: Incineroar",
         "Flare Blitz",
-        "p1a: Mr. Gassy"
+        [
+          "p1a: Mr. Gassy"
+        ]
       ],
       [
         "p1a: Mr. Gassy",
         "Sludge Bomb",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -296,10 +368,18 @@
       "p2a": "69/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Charming": {
         "def": -2,
@@ -368,12 +448,16 @@
       [
         "p1a: Duncan",
         "Expanding Force",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Charming",
         "Close Combat",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -382,10 +466,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Charming": {
         "def": -2,

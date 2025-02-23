@@ -11,22 +11,30 @@
       [
         "p1b: Regieleki",
         "Protect",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ],
       [
         "p2a: Blueberry",
         "Spiky Shield",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ],
       [
         "p2b: Spinach",
         "U-turn",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "100/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +87,23 @@
       [
         "p1b: Regieleki",
         "Electroweb",
-        "p2b: Spinach"
+        [
+          "p2b: Spinach"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Haystack"
+        [
+          "p2a: Haystack"
+        ]
       ],
       [
         "p2b: Spinach",
         "U-turn",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +112,15 @@
       "p2a": "83/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2
@@ -159,22 +185,30 @@
       [
         "p2b: Horse",
         "Protect",
-        "p2b: Horse"
+        [
+          "p2b: Horse"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Regieleki",
         "Electroweb",
-        "p2a: Haystack"
+        [
+          "p2a: Haystack"
+        ]
       ],
       [
         "p2a: Haystack",
         "Thunderbolt",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -183,9 +217,15 @@
       "p2a": "74/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2
@@ -232,17 +272,23 @@
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Spinach"
+        [
+          "p2a: Spinach"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Triple Axel",
-        "p2b: Horse"
+        [
+          "p2b: Horse"
+        ]
       ],
       [
         "p2b: Horse",
         "Astral Barrage",
-        "p1b: Tsareena"
+        [
+          "p1b: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -251,9 +297,15 @@
       "p2a": "0 fnt",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2
@@ -305,22 +357,30 @@
       [
         "p2b: Horse",
         "Protect",
-        "p2b: Horse"
+        [
+          "p2b: Horse"
+        ]
       ],
       [
         "p2a: Blueberry",
         "Spiky Shield",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Power Whip",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ]
     ],
     "hp": {
@@ -329,9 +389,15 @@
       "p2a": "0 fnt",
       "p2b": "40/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2
@@ -372,17 +438,23 @@
       [
         "p1b: Tsareena",
         "Helping Hand",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Blueberry",
         "Follow Me",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Blueberry"
+        [
+          "p2a: Blueberry"
+        ]
       ]
     ],
     "hp": {
@@ -391,9 +463,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2
@@ -442,9 +520,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Haystack": {
         "spe": -2

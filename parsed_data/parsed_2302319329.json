@@ -11,17 +11,23 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Entei",
         "Sacred Fire",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "2/100 brn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn",
@@ -88,17 +102,23 @@
       [
         "p2b: Amoonguss",
         "Rage Powder",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -107,7 +127,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn",
@@ -162,12 +190,16 @@
       [
         "p1b: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Calyrex",
         "Psyshock",
-        "p1a: Entei"
+        [
+          "p1a: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -176,7 +208,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1
@@ -228,17 +268,23 @@
       [
         "p1a: Chien-Pao",
         "Sucker Punch",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Pelipper",
         "Weather Ball",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Thunderbolt",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -247,7 +293,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1

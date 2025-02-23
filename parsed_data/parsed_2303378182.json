@@ -11,22 +11,30 @@
       [
         "p1b: fartn\u00b4t",
         "Follow Me",
-        "p1b: fartn\u00b4t"
+        [
+          "p1b: fartn\u00b4t"
+        ]
       ],
       [
         "p2b: Sneasler",
         "Dire Claw",
-        "p1b: fartn\u00b4t"
+        [
+          "p1b: fartn\u00b4t"
+        ]
       ],
       [
         "p1a: horse",
         "Astral Barrage",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1b: fartn\u00b4t"
+        [
+          "p1b: fartn\u00b4t"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "36/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1
@@ -93,10 +109,18 @@
       "p2a": "36/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Sneasler": {
         "def": 1

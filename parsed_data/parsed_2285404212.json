@@ -11,17 +11,23 @@
       [
         "p2b: Ursaluna",
         "Will-O-Wisp",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Kleavor"
+        [
+          "p2a: Kleavor"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -77,22 +93,30 @@
       [
         "p2a: Ursaluna",
         "Protect",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -101,9 +125,17 @@
       "p2a": "0 fnt",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -147,17 +179,23 @@
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Hyper Voice",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +204,17 @@
       "p2a": "91/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -221,7 +267,9 @@
       [
         "p1b: Raging Bolt",
         "Draco Meteor",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -230,9 +278,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Raging Bolt": {
         "spa": -2

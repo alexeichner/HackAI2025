@@ -11,22 +11,30 @@
       [
         "p1a: Maushold",
         "Helping Hand",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Maushold"
+        [
+          "p1a: Maushold"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Snarl",
-        "p1a: Maushold"
+        [
+          "p1a: Maushold"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "17/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 1
@@ -89,17 +105,23 @@
       [
         "p1a: Maushold",
         "Feint",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2a: Scream Tail"
+        [
+          "p2a: Scream Tail"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Tailwind",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +130,17 @@
       "p2a": "0 fnt",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 1
@@ -162,17 +192,23 @@
       [
         "p2b: Pelipper",
         "Wide Guard",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p1a: Maushold",
         "Feint",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -181,9 +217,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "spa": 1

@@ -11,22 +11,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Imprison",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Gallade",
         "Psycho Cut",
-        "p1b: Koraidon"
+        [
+          "p1b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -86,22 +102,30 @@
       [
         "p2b: Gallade",
         "Wide Guard",
-        "p2b: Gallade"
+        [
+          "p2b: Gallade"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2b: Gallade"
+        [
+          "p2b: Gallade"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -110,9 +134,17 @@
       "p2a": "54/100",
       "p2b": "53/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2
@@ -166,12 +198,16 @@
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Gallade"
+        [
+          "p2b: Gallade"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -180,9 +216,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2
@@ -228,12 +272,16 @@
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -242,9 +290,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -2

@@ -11,22 +11,30 @@
       [
         "p2a: horse",
         "Protect",
-        "p2a: horse"
+        [
+          "p2a: horse"
+        ]
       ],
       [
         "p2b: fart",
         "Protect",
-        "p2b: fart"
+        [
+          "p2b: fart"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: horse"
+        [
+          "p2a: horse"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: horse"
+        [
+          "p2a: horse"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -66,17 +82,23 @@
       [
         "p2a: horse",
         "Astral Barrage",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: fart"
+        [
+          "p2b: fart"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: fart"
+        [
+          "p2b: fart"
+        ]
       ]
     ],
     "hp": {
@@ -85,7 +107,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: I eat sushi": {
         "atk": 2,
@@ -143,17 +173,23 @@
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: I eat sushi"
+        [
+          "p2a: I eat sushi"
+        ]
       ],
       [
         "p2a: I eat sushi",
         "Order Up",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Groudon",
         "High Horsepower",
-        "p2a: I eat sushi"
+        [
+          "p2a: I eat sushi"
+        ]
       ]
     ],
     "hp": {
@@ -162,7 +198,15 @@
       "p2a": "70/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: I eat sushi": {
         "atk": 2,
@@ -211,17 +255,23 @@
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: sushi"
+        [
+          "p2b: sushi"
+        ]
       ],
       [
         "p2a: I eat sushi",
         "Order Up",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Groudon",
         "Rock Slide",
-        "p2b: sushi"
+        [
+          "p2b: sushi"
+        ]
       ]
     ],
     "hp": {
@@ -230,7 +280,15 @@
       "p2a": "40/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: I eat sushi": {
         "atk": 2,

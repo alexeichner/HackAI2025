@@ -11,17 +11,23 @@
       [
         "p2b: Sableye",
         "Gravity",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ],
       [
         "p2a: Scream Tail",
         "Sing",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "56/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Scream Tail": {
         "atk": -2
@@ -72,12 +86,16 @@
       [
         "p2a: Scream Tail",
         "Crunch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Will-O-Wisp",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -86,9 +104,17 @@
       "p2a": "100/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Scream Tail": {
         "atk": -2
@@ -134,12 +160,16 @@
       [
         "p2a: Scream Tail",
         "Crunch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -148,10 +178,17 @@
       "p2a": "100/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Scream Tail": {
         "atk": -2
@@ -214,10 +251,17 @@
       "p2a": "100/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Scream Tail": {
         "atk": -2

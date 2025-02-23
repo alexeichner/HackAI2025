@@ -11,17 +11,23 @@
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "100/100",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -69,17 +84,23 @@
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Calm Mind",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -88,10 +109,19 @@
       "p2a": "96/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -146,17 +176,23 @@
       [
         "p2a: Lunala",
         "Protect",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Parting Shot",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -165,10 +201,19 @@
       "p2a": "100/100",
       "p2b": "99/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -218,17 +263,23 @@
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -237,10 +288,19 @@
       "p2a": "98/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -307,12 +367,16 @@
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Taunt",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ]
     ],
     "hp": {
@@ -321,10 +385,19 @@
       "p2a": "70/100",
       "p2b": "99/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -376,22 +449,30 @@
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p2b: Porygon2",
         "Tera Blast",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -400,10 +481,19 @@
       "p2a": "100/100",
       "p2b": "68/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -462,22 +552,30 @@
       [
         "p2a: Lunala",
         "Protect",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Parting Shot",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p2b: Porygon2",
         "Tera Blast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -486,11 +584,19 @@
       "p2a": "100/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -549,17 +655,23 @@
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moonblast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Snarl",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -568,12 +680,19 @@
       "p2a": "62/100",
       "p2b": "15/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -633,12 +752,16 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ],
       [
         "p2a: Lunala",
         "Calm Mind",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -647,12 +770,19 @@
       "p2a": "75/100",
       "p2b": "21/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -724,17 +854,23 @@
       [
         "p2a: Lunala",
         "Protect",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Body Press",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -743,12 +879,19 @@
       "p2a": "87/100",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -811,17 +954,23 @@
       [
         "p2a: Lunala",
         "Moonblast",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Body Press",
-        "p2b: Porygon2"
+        [
+          "p2b: Porygon2"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -830,12 +979,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,
@@ -903,12 +1059,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -3,

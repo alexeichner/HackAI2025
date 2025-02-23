@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Snarl",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Tera Blast",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Overheat",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "68/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -95,17 +111,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Overheat",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -114,9 +136,17 @@
       "p2a": "59/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1

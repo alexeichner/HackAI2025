@@ -11,22 +11,30 @@
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Expanding Force",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "44/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,22 +93,30 @@
       [
         "p2b: Urshifu",
         "Sucker Punch",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ],
       [
         "p1b: Regieleki",
         "Electroweb",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Origin Pulse",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Lunala",
         "Expanding Force",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -101,9 +125,17 @@
       "p2a": "28/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "spe": -1
@@ -148,17 +180,23 @@
       [
         "p1b: Regieleki",
         "Thunder",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ],
       [
         "p2b: Iron Valiant",
         "Moonblast",
-        "p1b: Regieleki"
+        [
+          "p1b: Regieleki"
+        ]
       ],
       [
         "p1a: Tsareena",
         "Power Whip",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +205,17 @@
       "p2a": "0 fnt",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "spe": -1
@@ -209,12 +255,16 @@
       [
         "p2b: Iron Valiant",
         "Disable",
-        "p1a: Tsareena"
+        [
+          "p1a: Tsareena"
+        ]
       ],
       [
         "p1a: Tsareena",
         "Triple Axel",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -223,9 +273,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "spe": -1

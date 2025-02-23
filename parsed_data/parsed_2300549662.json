@@ -11,12 +11,16 @@
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2a: Flamigo"
+        [
+          "p2a: Flamigo"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Smeargle": {
         "spd": 2,
@@ -78,17 +90,23 @@
       [
         "p2b: Smeargle",
         "Follow Me",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ],
       [
         "p2a: Annihilape",
         "Final Gambit",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Rising Voltage",
-        "p2b: Smeargle"
+        [
+          "p2b: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -97,9 +115,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Smeargle": {
         "spd": 2,
@@ -150,9 +176,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Smeargle": {
         "spd": 2,

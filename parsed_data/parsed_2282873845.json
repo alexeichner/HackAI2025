@@ -11,22 +11,30 @@
       [
         "p2b: Tornadus",
         "Tailwind",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Dark Pulse",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Belly Drum",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +89,23 @@
       [
         "p2b: Tornadus",
         "Protect",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Expanding Force",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +114,17 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": 2,
@@ -141,17 +171,23 @@
       [
         "p2a: Smeargle",
         "Fake Out",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p2b: Tornadus",
         "Scary Face",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Rock Slide",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -160,10 +196,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": 2,
@@ -213,17 +256,23 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -232,10 +281,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": 2,
@@ -290,10 +346,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "atk": 2,

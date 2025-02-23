@@ -11,12 +11,16 @@
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1b: Farigiraf"
+        [
+          "p1b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -69,17 +81,23 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Blood Moon",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -88,9 +106,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -133,17 +159,23 @@
       [
         "p1a: Ursaluna",
         "Protect",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Dark Pulse",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +184,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1
@@ -192,7 +232,9 @@
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -201,9 +243,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Farigiraf": {
         "def": 1

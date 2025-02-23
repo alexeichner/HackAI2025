@@ -11,17 +11,23 @@
       [
         "p2a: Annihilape",
         "Final Gambit",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Annihilape": {
         "atk": -1
@@ -90,17 +104,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Pelipper"
+        [
+          "p2a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -109,10 +129,18 @@
       "p2a": "16/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Annihilape": {
         "atk": -1
@@ -178,12 +206,16 @@
       [
         "p1b: Rillaboom",
         "Grassy Glide",
-        "p2a: Jigglypuff"
+        [
+          "p2a: Jigglypuff"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Seed Bomb",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -192,10 +224,18 @@
       "p2a": "72/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Annihilape": {
         "atk": -1
@@ -254,12 +294,16 @@
       [
         "p2a: Jigglypuff",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -268,10 +312,18 @@
       "p2a": "72/100",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Annihilape": {
         "atk": -1

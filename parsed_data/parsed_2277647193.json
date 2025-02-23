@@ -11,17 +11,23 @@
       [
         "p2a: Glimmora",
         "Mortal Spin",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Tera Blast",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Lunala",
         "Trick Room",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1
@@ -87,17 +101,23 @@
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Glimmora",
         "Mortal Spin",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -106,9 +126,17 @@
       "p2a": "9/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1
@@ -177,9 +205,17 @@
       "p2a": "9/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": 1

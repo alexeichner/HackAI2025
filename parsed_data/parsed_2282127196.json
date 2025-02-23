@@ -11,17 +11,23 @@
       [
         "p2a: Chien-Pao",
         "Icicle Crash",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p1b: Groudon",
         "Heat Crash",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -83,22 +99,30 @@
       [
         "p2a: Chien-Pao",
         "Throat Chop",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Brute Bonnet",
         "Spore",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -107,7 +131,17 @@
       "p2a": "30/100",
       "p2b": "75/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -152,17 +186,23 @@
       [
         "p1a: Brute Bonnet",
         "Rage Powder",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p2a: Chien-Pao",
         "Throat Chop",
-        "p1a: Brute Bonnet"
+        [
+          "p1a: Brute Bonnet"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Chien-Pao"
+        [
+          "p2a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -171,7 +211,17 @@
       "p2a": "30/100",
       "p2b": "50/100 slp"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -221,17 +271,23 @@
       [
         "p2a: Chien-Pao",
         "Throat Chop",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Trick Room",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -240,9 +296,17 @@
       "p2a": "0 fnt",
       "p2b": "26/100 slp"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1

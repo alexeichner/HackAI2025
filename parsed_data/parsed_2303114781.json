@@ -11,22 +11,30 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Order Up",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Weezing",
         "Strange Steam",
-        "p1a: Tatsugiri"
+        [
+          "p1a: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "43/100",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 3,
@@ -82,12 +99,16 @@
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Wave Crash",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -96,10 +117,19 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 3,
@@ -143,12 +173,16 @@
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -157,11 +191,19 @@
       "p2a": "55/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 3,
@@ -207,22 +249,30 @@
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1a: Tatsugiri",
         "Icy Wind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -231,11 +281,19 @@
       "p2a": "0 fnt",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Dondozo": {
         "atk": 3,

@@ -11,12 +11,16 @@
       [
         "p2a: Iron Hands",
         "Fake Out",
-        "p1b: Gaeul"
+        [
+          "p1b: Gaeul"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gaeul": {
         "atk": 1
@@ -67,12 +79,16 @@
       [
         "p1a: Yujin",
         "Spore",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1b: Gaeul",
         "Behemoth Blade",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -81,9 +97,17 @@
       "p2a": "100/100",
       "p2b": "57/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gaeul": {
         "atk": 1
@@ -130,17 +154,23 @@
       [
         "p1a: Yujin",
         "Sludge Bomb",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Low Kick",
-        "p1b: Gaeul"
+        [
+          "p1b: Gaeul"
+        ]
       ],
       [
         "p1b: Gaeul",
         "Play Rough",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -149,9 +179,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gaeul": {
         "atk": 1
@@ -200,9 +238,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Gaeul": {
         "atk": 1

@@ -11,22 +11,30 @@
       [
         "p1a: Tornadus",
         "Protect",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Burning Bulwark",
-        "p2a: Gouging Fire"
+        [
+          "p2a: Gouging Fire"
+        ]
       ],
       [
         "p1b: Regidrago",
         "Protect",
-        "p1b: Regidrago"
+        [
+          "p1b: Regidrago"
+        ]
       ],
       [
         "p2b: Koraidon",
         "U-turn",
-        "p1b: Regidrago"
+        [
+          "p1b: Regidrago"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,12 +84,16 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Regidrago",
         "Dragon Energy",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -82,7 +102,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -120,17 +148,23 @@
       [
         "p2a: Murkrow",
         "Tailwind",
-        "p2a: Murkrow"
+        [
+          "p2a: Murkrow"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Regidrago",
         "Dragon Energy",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -139,7 +173,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

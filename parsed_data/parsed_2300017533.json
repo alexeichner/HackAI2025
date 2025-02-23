@@ -11,22 +11,30 @@
       [
         "p1a: Torkoal",
         "Protect",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Misty Terrain",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Lilligant",
         "Close Combat",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Lilligant"
+        [
+          "p1b: Lilligant"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,
@@ -80,17 +96,23 @@
       [
         "p2a: Whimsicott",
         "Encore",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ],
       [
         "p1b: Lilligant",
         "Solar Blade",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Torkoal",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -99,9 +121,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Misty Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lilligant": {
         "def": -1,

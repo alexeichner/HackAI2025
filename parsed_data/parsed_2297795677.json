@@ -11,22 +11,30 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p1b: Volcarona",
         "Will-O-Wisp",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "44/100 brn",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "brn",
@@ -100,12 +116,16 @@
       [
         "p1b: Volcarona",
         "Struggle Bug",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Cobalion"
+        [
+          "p1a: Cobalion"
+        ]
       ]
     ],
     "hp": {
@@ -114,9 +134,17 @@
       "p2a": "86/100",
       "p2b": "72/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -177,22 +205,30 @@
       [
         "p1b: Volcarona",
         "Struggle Bug",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Cobalion",
         "Body Press",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Pelipper",
         "Weather Ball",
-        "p1a: Cobalion"
+        [
+          "p1a: Cobalion"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -201,9 +237,17 @@
       "p2a": "71/100",
       "p2b": "3/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -264,12 +308,16 @@
       [
         "p1b: Volcarona",
         "Struggle Bug",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Cobalion",
         "Body Press",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -278,9 +326,17 @@
       "p2a": "30/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -336,17 +392,23 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p1a: Cobalion",
         "Body Press",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Weather Ball",
-        "p1a: Cobalion"
+        [
+          "p1a: Cobalion"
+        ]
       ]
     ],
     "hp": {
@@ -355,10 +417,17 @@
       "p2a": "30/100 brn",
       "p2b": "22/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -426,12 +495,16 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2b: Pelipper"
+        [
+          "p2b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -440,10 +513,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -495,12 +575,16 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Power Whip",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -509,10 +593,17 @@
       "p2a": "0 fnt",
       "p2b": "23/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -564,12 +655,16 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -578,10 +673,17 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -628,12 +730,16 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -642,10 +748,17 @@
       "p2a": "0 fnt",
       "p2b": "34/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1
@@ -692,12 +805,16 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -706,10 +823,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Cobalion": {
         "def": 1

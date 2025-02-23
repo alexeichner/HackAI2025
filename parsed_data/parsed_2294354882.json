@@ -11,22 +11,30 @@
       [
         "p1b: Roaring Moon",
         "Protect",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1a: Lunala",
         "Protect",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2b: Weezing",
         "Taunt",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +86,23 @@
       [
         "p2a: Calyrex",
         "Hyper Beam",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1b: Roaring Moon",
         "Tailwind",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1a: Lunala",
         "Expanding Force",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +111,17 @@
       "p2a": "91/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -128,12 +162,16 @@
       [
         "p1a: Lunala",
         "Expanding Force",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Order Up",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -142,9 +180,17 @@
       "p2a": "24/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -183,9 +229,17 @@
       "p2a": "24/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

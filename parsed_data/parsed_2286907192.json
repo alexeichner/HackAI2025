@@ -11,12 +11,16 @@
       [
         "p2b: Urshifu",
         "U-turn",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Psyshock",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "91/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 2
@@ -74,17 +86,23 @@
       [
         "p1a: Mr. Gassy",
         "Protect",
-        "p1a: Mr. Gassy"
+        [
+          "p1a: Mr. Gassy"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Psyshock",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Mr. Gassy"
+        [
+          "p1a: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -93,9 +111,17 @@
       "p2a": "81/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 2

@@ -11,22 +11,30 @@
       [
         "p2a: Roaring Moon",
         "Protect",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Protect",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Wo-Chien",
         "Protect",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ],
       [
         "p1b: Lay Ciege",
         "Thunderbolt",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -70,22 +88,30 @@
       [
         "p2a: Roaring Moon",
         "Taunt",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ],
       [
         "p1b: Lay Ciege",
         "Thunderbolt",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Wo-Chien",
         "Pollen Puff",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ]
     ],
     "hp": {
@@ -94,7 +120,17 @@
       "p2a": "100/100",
       "p2b": "74/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -139,22 +175,30 @@
       [
         "p2a: Roaring Moon",
         "Protect",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p1b: Lay Ciege",
         "Dragon Pulse",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Wo-Chien",
         "Pollen Puff",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ]
     ],
     "hp": {
@@ -163,7 +207,17 @@
       "p2a": "100/100",
       "p2b": "25/100 par"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -203,17 +257,23 @@
       [
         "p2a: Roaring Moon",
         "Tailwind",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p1b: Lay Ciege",
         "Dragon Pulse",
-        "p2a: Roaring Moon"
+        [
+          "p2a: Roaring Moon"
+        ]
       ],
       [
         "p1a: Wo-Chien",
         "Pollen Puff",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ]
     ],
     "hp": {
@@ -222,7 +282,17 @@
       "p2a": "0 fnt",
       "p2b": "25/100 par"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -267,12 +337,16 @@
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Once"
+        [
+          "p1a: Once"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Spore",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ]
     ],
     "hp": {
@@ -281,9 +355,17 @@
       "p2a": "0 fnt",
       "p2b": "31/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -326,12 +408,16 @@
       [
         "p1a: Once",
         "Fake Out",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Pollen Puff",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -340,9 +426,17 @@
       "p2a": "0 fnt",
       "p2b": "81/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -383,17 +477,23 @@
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1b: Lay Ciege"
+        [
+          "p1b: Lay Ciege"
+        ]
       ],
       [
         "p1a: Once",
         "U-turn",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Pollen Puff",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ]
     ],
     "hp": {
@@ -402,9 +502,17 @@
       "p2a": "0 fnt",
       "p2b": "66/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -455,22 +563,30 @@
       [
         "p1a: Wo-Chien",
         "Protect",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ],
       [
         "p1b: Lay Ciege",
         "Dragon Pulse",
-        "p2a: Amoonguss"
+        [
+          "p2a: Amoonguss"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Spore",
-        "p1a: Wo-Chien"
+        [
+          "p1a: Wo-Chien"
+        ]
       ]
     ],
     "hp": {
@@ -479,9 +595,17 @@
       "p2a": "50/100",
       "p2b": "72/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -525,9 +649,17 @@
       "p2a": "50/100",
       "p2b": "72/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1

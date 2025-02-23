@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee-\u2640",
         "Follow Me",
-        "p1b: Indeedee-\u2640"
+        [
+          "p1b: Indeedee-\u2640"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Indeedee-\u2640"
+        [
+          "p1b: Indeedee-\u2640"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Indeedee-\u2640"
+        [
+          "p1b: Indeedee-\u2640"
+        ]
       ],
       [
         "p1a: Quazar Pulito \u2605\u2605\u2605",
         "Trick Room",
-        "p1a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p1a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ]
     ],
     "hp": {
@@ -35,11 +43,20 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": 1
@@ -83,22 +100,30 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Quazar Pulito \u2605\u2605\u2605",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p1a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ]
     ],
     "hp": {
@@ -107,11 +132,20 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": 1
@@ -167,12 +201,16 @@
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p1a: Quazar Pulito \u2605\u2605\u2605",
         "Expanding Force",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -181,12 +219,20 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": 1
@@ -243,17 +289,23 @@
       [
         "p2b: Urshifu",
         "Protect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Quazar Pulito \u2605\u2605\u2605",
         "Moongeist Beam",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -262,12 +314,20 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": 1
@@ -321,12 +381,20 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": 1

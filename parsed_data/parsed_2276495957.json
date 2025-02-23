@@ -11,17 +11,23 @@
       [
         "p1b: Smeargle",
         "Fake Out",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "91/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -65,22 +79,30 @@
       [
         "p2a: Maushold",
         "Follow Me",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Expanding Force",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "3/100 slp",
       "p2b": "25/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp"
@@ -126,17 +156,23 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Decorate",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ]
     ],
     "hp": {
@@ -145,9 +181,17 @@
       "p2a": "0 fnt",
       "p2b": "25/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": 3,

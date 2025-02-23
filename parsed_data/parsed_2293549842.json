@@ -11,22 +11,30 @@
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Shadow Ball",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Weather Ball",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "32/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3
@@ -77,17 +93,23 @@
       [
         "p2a: Calyrex",
         "Shadow Ball",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2b: Landorus",
         "Sludge Bomb",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -96,7 +118,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 3

@@ -11,17 +11,23 @@
       [
         "p1b: Duncan",
         "Protect",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p2a: Wildmence",
         "Tailwind",
-        "p2a: Wildmence"
+        [
+          "p2a: Wildmence"
+        ]
       ],
       [
         "p2b: Intimidatless",
         "Sludge Bomb",
-        "p1a: Charming"
+        [
+          "p1a: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,22 +84,30 @@
       [
         "p1a: Suthen",
         "Follow Me",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ],
       [
         "p2a: Wildmence",
         "Knock Off",
-        "p1a: Suthen"
+        [
+          "p1a: Suthen"
+        ]
       ],
       [
         "p2b: Intimidatless",
         "Sandsear Storm",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p1b: Duncan",
         "Astral Barrage",
-        "p2a: Wildmence"
+        [
+          "p2a: Wildmence"
+        ]
       ]
     ],
     "hp": {
@@ -94,9 +116,17 @@
       "p2a": "51/100",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -151,9 +181,17 @@
       "p2a": "51/100",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

@@ -11,17 +11,23 @@
       [
         "p1a: Iron Valiant",
         "Protect",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Kyogre",
         "Hydro Pump",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -63,17 +77,23 @@
       [
         "p1a: Iron Valiant",
         "Disable",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p2b: Garganacl",
         "Salt Cure",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -82,10 +102,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -118,17 +145,23 @@
       [
         "p2b: Garganacl",
         "Salt Cure",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Garganacl"
+        [
+          "p2b: Garganacl"
+        ]
       ],
       [
         "p1a: Iron Valiant",
         "Coaching",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -137,10 +170,17 @@
       "p2a": "54/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -1
@@ -196,22 +236,30 @@
       [
         "p2b: Garganacl",
         "Wide Guard",
-        "p2b: Garganacl"
+        [
+          "p2b: Garganacl"
+        ]
       ],
       [
         "p2a: Wyrdeer",
         "Gravity",
-        "p2a: Wyrdeer"
+        [
+          "p2a: Wyrdeer"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Wyrdeer"
+        [
+          "p2a: Wyrdeer"
+        ]
       ],
       [
         "p1a: Iron Valiant",
         "Coaching",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -220,11 +268,17 @@
       "p2a": "54/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -1
@@ -268,17 +322,23 @@
       [
         "p1a: Iron Valiant",
         "Protect",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2b: Garganacl",
         "Wide Guard",
-        "p2b: Garganacl"
+        [
+          "p2b: Garganacl"
+        ]
       ],
       [
         "p2a: Wyrdeer",
         "Hypnosis",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -287,11 +347,17 @@
       "p2a": "54/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -1
@@ -341,11 +407,17 @@
       "p2a": "54/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Iron Valiant": {
         "atk": -1

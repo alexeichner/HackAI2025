@@ -11,22 +11,30 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ],
       [
         "p1b: Iron Valiant",
         "Moonblast",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Annihilape",
         "Taunt",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Annihilape": {
         "atk": 1
@@ -86,12 +103,16 @@
       [
         "p2b: Whimsicott",
         "Moonblast",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Incineroar",
         "U-turn",
-        "p1a: Annihilape"
+        [
+          "p1a: Annihilape"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +121,18 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Annihilape": {
         "atk": 1
@@ -162,17 +192,23 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1a: Sinistcha",
         "Trick Room",
-        "p1a: Sinistcha"
+        [
+          "p1a: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -181,10 +217,18 @@
       "p2a": "79/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Annihilape": {
         "atk": 1
@@ -238,10 +282,18 @@
       "p2a": "79/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Annihilape": {
         "atk": 1

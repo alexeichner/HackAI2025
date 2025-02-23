@@ -11,17 +11,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Mienshao",
         "Close Combat",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Outrage",
-        "p1b: Mienshao"
+        [
+          "p1b: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "61/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Mienshao": {
         "def": -1,
@@ -68,22 +83,30 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Mienshao",
         "Feint",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Substitute",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Outrage",
-        "p1b: Mienshao"
+        [
+          "p1b: Mienshao"
+        ]
       ]
     ],
     "hp": {
@@ -92,10 +115,18 @@
       "p2a": "67/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Mienshao": {
         "def": -1,
@@ -131,7 +162,9 @@
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -140,10 +173,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Mienshao": {
         "def": -1,
@@ -193,7 +234,9 @@
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2b: Dragonite"
+        [
+          "p2b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -202,10 +245,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Mienshao": {
         "def": -1,

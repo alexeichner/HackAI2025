@@ -11,17 +11,23 @@
       [
         "p2a: \u827a\u82d1",
         "Fake Out",
-        "p1b: \u9633\u5149\u5f00\u6717"
+        [
+          "p1b: \u9633\u5149\u5f00\u6717"
+        ]
       ],
       [
         "p2b: \u7389\u82f1",
         "Glacial Lance",
-        "p1b: \u9633\u5149\u5f00\u6717"
+        [
+          "p1b: \u9633\u5149\u5f00\u6717"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: \u827a\u82d1"
+        [
+          "p2a: \u827a\u82d1"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,22 +83,30 @@
       [
         "p2a: \u827a\u82d1",
         "Follow Me",
-        "p2a: \u827a\u82d1"
+        [
+          "p2a: \u827a\u82d1"
+        ]
       ],
       [
         "p1b: \u9633\u5149\u5f00\u6717",
         "Disable",
-        "p2a: \u827a\u82d1"
+        [
+          "p2a: \u827a\u82d1"
+        ]
       ],
       [
         "p2b: \u7389\u82f1",
         "Glacial Lance",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: \u827a\u82d1"
+        [
+          "p2a: \u827a\u82d1"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +115,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u7389\u82f1": {
         "atk": 1
@@ -139,22 +171,30 @@
       [
         "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f",
         "Ivy Cudgel",
-        "p2b: \u7389\u82f1"
+        [
+          "p2b: \u7389\u82f1"
+        ]
       ],
       [
         "p2a: \u6c84\u6c84",
         "Taunt",
-        "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        [
+          "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        ]
       ],
       [
         "p2b: \u7389\u82f1",
         "Glacial Lance",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Wild Charge",
-        "p2b: \u7389\u82f1"
+        [
+          "p2b: \u7389\u82f1"
+        ]
       ]
     ],
     "hp": {
@@ -163,9 +203,18 @@
       "p2a": "0 fnt",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u7389\u82f1": {
         "atk": 1
@@ -209,22 +258,30 @@
       [
         "p2a: \u6c84\u6c84",
         "Follow Me",
-        "p2a: \u6c84\u6c84"
+        [
+          "p2a: \u6c84\u6c84"
+        ]
       ],
       [
         "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f",
         "Ivy Cudgel",
-        "p2a: \u6c84\u6c84"
+        [
+          "p2a: \u6c84\u6c84"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Drain Punch",
-        "p2a: \u6c84\u6c84"
+        [
+          "p2a: \u6c84\u6c84"
+        ]
       ],
       [
         "p2b: \u7389\u82f1",
         "Trick Room",
-        "p2b: \u7389\u82f1"
+        [
+          "p2b: \u7389\u82f1"
+        ]
       ]
     ],
     "hp": {
@@ -233,10 +290,18 @@
       "p2a": "38/100",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u7389\u82f1": {
         "atk": 1
@@ -276,10 +341,18 @@
       "p2a": "38/100",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u7389\u82f1": {
         "atk": 1

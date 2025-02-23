@@ -11,22 +11,30 @@
       [
         "p2a: Iron Valiant",
         "Wide Guard",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Taunt",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p2b: Newton",
         "Gravity",
-        "p2b: Newton"
+        [
+          "p2b: Newton"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Newton"
+        [
+          "p2b: Newton"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,17 +84,23 @@
       [
         "p2b: Newton",
         "Encore",
-        "p1a: \u60e1\u718a\u5669\u5922"
+        [
+          "p1a: \u60e1\u718a\u5669\u5922"
+        ]
       ],
       [
         "p2a: Iron Valiant",
         "Moonblast",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Newton"
+        [
+          "p2b: Newton"
+        ]
       ]
     ],
     "hp": {
@@ -87,10 +109,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -1
@@ -127,17 +156,23 @@
       [
         "p1b: Chi-Yu",
         "Protect",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p2a: Iron Valiant",
         "Moonblast",
-        "p1a: \u60e1\u718a\u5669\u5922"
+        [
+          "p1a: \u60e1\u718a\u5669\u5922"
+        ]
       ],
       [
         "p2b: Golden apple",
         "Precipice Blades",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -146,10 +181,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -1
@@ -188,12 +230,16 @@
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -202,10 +248,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -1
@@ -244,12 +297,16 @@
       [
         "p1a: Whimsicott",
         "Dazzling Gleam",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -258,10 +315,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chi-Yu": {
         "spa": -1

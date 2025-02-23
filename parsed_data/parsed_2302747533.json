@@ -11,17 +11,23 @@
       [
         "p1b: Sneasler",
         "Fake Out",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1b: Sneasler"
+        [
+          "p1b: Sneasler"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "84/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Sneasler": {
         "def": 1,
@@ -78,22 +92,30 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Sneasler"
+        [
+          "p1b: Sneasler"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Electro Drift",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1b: Sneasler",
         "Dire Claw",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +124,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Sneasler": {
         "def": 1,
@@ -153,17 +183,23 @@
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Sneasler",
         "Dire Claw",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -172,9 +208,17 @@
       "p2a": "48/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Sneasler": {
         "def": 1,
@@ -227,12 +271,16 @@
       [
         "p2b: Iron Bundle",
         "Freeze-Dry",
-        "p1b: Sneasler"
+        [
+          "p1b: Sneasler"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Wood Hammer",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -241,9 +289,17 @@
       "p2a": "13/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Sneasler": {
         "def": 1,

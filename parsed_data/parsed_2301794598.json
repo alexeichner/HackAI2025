@@ -11,22 +11,30 @@
       [
         "p2a: Koraidon",
         "Breaking Swipe",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Baton Pass",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Iron Hands",
         "Drain Punch",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Trick Room",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -96,22 +112,30 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Hyper Voice",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ],
       [
         "p2b: Wo-Chien",
         "Leech Seed",
-        "p1b: Iron Hands"
+        [
+          "p1b: Iron Hands"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Breaking Swipe",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -120,10 +144,18 @@
       "p2a": "66/100",
       "p2b": "83/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -171,12 +203,16 @@
       [
         "p1b: Iron Hands",
         "Close Combat",
-        "p2b: Wo-Chien"
+        [
+          "p2b: Wo-Chien"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Psychic Noise",
-        "p2a: Walking Wake"
+        [
+          "p2a: Walking Wake"
+        ]
       ]
     ],
     "hp": {
@@ -185,10 +221,18 @@
       "p2a": "55/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1

@@ -11,17 +11,23 @@
       [
         "p1b: Smeargle",
         "Fake Out",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Calm Mind",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,18 @@
       "p2a": "36/100",
       "p2b": "72/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -84,12 +101,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -98,7 +119,18 @@
       "p2a": "54/100",
       "p2b": "58/100 slp"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -154,12 +186,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Shed Tail",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -168,9 +204,18 @@
       "p2a": "0 fnt",
       "p2b": "37/100 slp"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -223,12 +268,16 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Scale Shot",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -237,10 +286,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,

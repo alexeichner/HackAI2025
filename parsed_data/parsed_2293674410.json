@@ -11,22 +11,30 @@
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Zacian",
         "Behemoth Blade",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Hyper Voice",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -80,22 +96,30 @@
       [
         "p1b: Zacian",
         "Protect",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Armarouge",
         "Heat Wave",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Hyper Voice",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -104,9 +128,17 @@
       "p2a": "77/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -149,17 +181,23 @@
       [
         "p1b: Zacian",
         "Play Rough",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p2b: Armarouge",
         "Heat Wave",
-        "p1b: Zacian"
+        [
+          "p1b: Zacian"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Hyper Voice",
-        "p2b: Armarouge"
+        [
+          "p2b: Armarouge"
+        ]
       ]
     ],
     "hp": {
@@ -168,9 +206,17 @@
       "p2a": "3/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -226,17 +272,23 @@
       [
         "p1b: Pelipper",
         "Weather Ball",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Hyper Voice",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -245,10 +297,17 @@
       "p2a": "0 fnt",
       "p2b": "37/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -293,12 +352,16 @@
       [
         "p1b: Pelipper",
         "Wide Guard",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -307,10 +370,17 @@
       "p2a": "0 fnt",
       "p2b": "37/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1
@@ -356,7 +426,9 @@
       [
         "p1a: Kingambit",
         "Kowtow Cleave",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -365,10 +437,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zacian": {
         "atk": 1

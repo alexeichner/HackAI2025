@@ -11,17 +11,23 @@
       [
         "p1b: Flutter Mane",
         "Icy Wind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Flare Blitz",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "0 fnt",
       "p2b": "88/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "spe": -1
@@ -89,12 +104,16 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +122,18 @@
       "p2a": "0 fnt",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "spe": -1
@@ -155,17 +182,23 @@
       [
         "p1a: Flutter Mane",
         "Shadow Ball",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p1b: Entei",
         "Sacred Fire",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -174,10 +207,18 @@
       "p2a": "32/100 brn",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "spe": -1
@@ -242,12 +283,16 @@
       [
         "p1b: Entei",
         "Protect",
-        "p1b: Entei"
+        [
+          "p1b: Entei"
+        ]
       ],
       [
         "p1a: Koraidon",
         "Collision Course",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -256,10 +301,18 @@
       "p2a": "0 fnt",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "spe": -1
@@ -313,17 +366,23 @@
       [
         "p1b: Entei",
         "Extreme Speed",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ],
       [
         "p2b: Tatsugiri",
         "Icy Wind",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1a: Koraidon"
+        [
+          "p1a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -332,10 +391,18 @@
       "p2a": "0 fnt",
       "p2b": "52/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "spe": -1

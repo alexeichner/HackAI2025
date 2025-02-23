@@ -11,22 +11,30 @@
       [
         "p1a: Ogerpon",
         "Power Whip",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2a: Ting-Lu",
         "Sand Tomb",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Yawn",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2a: Ting-Lu"
+        [
+          "p2a: Ting-Lu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "57/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp"
@@ -78,7 +94,9 @@
       [
         "p1a: Ogerpon",
         "Power Whip",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -87,7 +105,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp"
@@ -137,7 +163,15 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "slp"

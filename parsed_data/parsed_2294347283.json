@@ -11,17 +11,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "65/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -72,17 +86,23 @@
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p1a: Groudon",
         "Heat Crash",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +111,17 @@
       "p2a": "0 fnt",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -142,22 +170,30 @@
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: Dragonite",
         "Iron Head",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -166,10 +202,17 @@
       "p2a": "18/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -209,17 +252,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ],
       [
         "p1a: Groudon",
         "Heat Crash",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -228,10 +277,17 @@
       "p2a": "24/100",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp"
@@ -272,12 +328,16 @@
       [
         "p2b: Amoonguss",
         "Pollen Puff",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Dragonite"
+        [
+          "p1b: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -286,10 +346,17 @@
       "p2a": "79/100",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -343,12 +410,16 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Solar Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -357,10 +428,17 @@
       "p2a": "79/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -405,12 +483,16 @@
       [
         "p2a: Calyrex",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Torkoal",
         "Weather Ball",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -419,10 +501,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2

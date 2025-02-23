@@ -11,22 +11,30 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Dazzling Gleam",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,15 @@
       "p2a": "1/100",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +91,23 @@
       [
         "p2a: Chi-Yu",
         "Protect",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Discharge",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +116,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -134,17 +160,23 @@
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderbolt",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +185,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -201,17 +239,23 @@
       [
         "p1b: Groudon",
         "High Horsepower",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderbolt",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Earthquake",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -220,9 +264,15 @@
       "p2a": "1/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -282,17 +332,23 @@
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderclap",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -301,9 +357,15 @@
       "p2a": "1/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -347,12 +409,16 @@
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Earthquake",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -361,9 +427,15 @@
       "p2a": "1/100",
       "p2b": "32/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -415,12 +487,16 @@
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -429,9 +505,15 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -473,7 +555,9 @@
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -482,9 +566,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,
@@ -531,7 +621,9 @@
       [
         "p2a: Tatsugiri",
         "Icy Wind",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -540,9 +632,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Dondozo": {
         "atk": 2,

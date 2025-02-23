@@ -11,22 +11,30 @@
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Weezing",
         "Poison Gas",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -81,17 +97,23 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Landorus",
         "Earth Power",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +122,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -151,17 +179,23 @@
       [
         "p1b: Landorus",
         "Protect",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Wave Crash",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -170,9 +204,15 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -223,17 +263,23 @@
       [
         "p2a: Dondozo",
         "Protect",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sludge Bomb",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -242,9 +288,15 @@
       "p2a": "83/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -291,17 +343,23 @@
       [
         "p1b: Landorus",
         "Protect",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Order Up",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Tailwind",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -310,9 +368,15 @@
       "p2a": "90/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -359,12 +423,16 @@
       [
         "p1b: Landorus",
         "Sludge Bomb",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Hurricane",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -373,9 +441,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1
@@ -434,9 +508,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "spa": 1

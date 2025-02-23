@@ -11,22 +11,30 @@
       [
         "p1a: Regieleki",
         "Electroweb",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Solar Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "59/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Torkoal": {
         "spe": -1
@@ -87,17 +103,23 @@
       [
         "p1a: Regieleki",
         "Protect",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Eruption",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -106,9 +128,17 @@
       "p2a": "59/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Torkoal": {
         "spe": -1
@@ -154,12 +184,16 @@
       [
         "p1b: Urshifu",
         "Aqua Jet",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -168,9 +202,17 @@
       "p2a": "30/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Torkoal": {
         "spe": -1
@@ -227,9 +269,17 @@
       "p2a": "30/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Torkoal": {
         "spe": -1

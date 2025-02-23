@@ -11,17 +11,23 @@
       [
         "p1b: Shepparoni",
         "Tailwind",
-        "p1b: Shepparoni"
+        [
+          "p1b: Shepparoni"
+        ]
       ],
       [
         "p1a: Panda",
         "Surging Strikes",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Ice Beam",
-        "p1b: Shepparoni"
+        [
+          "p1b: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,20 @@
       "p2a": "100/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -84,17 +101,23 @@
       [
         "p1a: Panda",
         "Surging Strikes",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Calm Mind",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1a: Panda"
+        [
+          "p1a: Panda"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +126,20 @@
       "p2a": "100/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -163,17 +196,23 @@
       [
         "p1b: Momma",
         "Follow Me",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ],
       [
         "p1a: Panda",
         "Surging Strikes",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -182,11 +221,20 @@
       "p2a": "84/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -238,17 +286,23 @@
       [
         "p1a: Panda",
         "Detect",
-        "p1a: Panda"
+        [
+          "p1a: Panda"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1a: Panda"
+        [
+          "p1a: Panda"
+        ]
       ],
       [
         "p2a: Overqwil",
         "Crunch",
-        "p1b: Shepparoni"
+        [
+          "p1b: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -257,12 +311,20 @@
       "p2a": "97/100",
       "p2b": "90/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -303,22 +365,30 @@
       [
         "p1b: Momma",
         "Follow Me",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ],
       [
         "p2a: Overqwil",
         "Gunk Shot",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ],
       [
         "p1a: Panda",
         "Surging Strikes",
-        "p2a: Overqwil"
+        [
+          "p2a: Overqwil"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Panda"
+        [
+          "p1a: Panda"
+        ]
       ]
     ],
     "hp": {
@@ -327,12 +397,20 @@
       "p2a": "0 fnt",
       "p2b": "71/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -395,17 +473,23 @@
       [
         "p1a: Horsee",
         "Expanding Force",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -414,12 +498,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,
@@ -467,12 +559,16 @@
       [
         "p1a: Horsee",
         "Nasty Plot",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -481,12 +577,20 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spa": 1,

@@ -11,17 +11,23 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Iron Valiant",
         "Spirit Break",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Thunder",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "95/100",
       "p2b": "32/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": -1
@@ -71,12 +86,16 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -85,10 +104,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": -1
@@ -126,17 +153,23 @@
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -145,10 +178,18 @@
       "p2a": "77/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": -1
@@ -199,12 +240,16 @@
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Overqwil"
+        [
+          "p1b: Overqwil"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -213,10 +258,18 @@
       "p2a": "83/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Kyogre": {
         "spa": -1

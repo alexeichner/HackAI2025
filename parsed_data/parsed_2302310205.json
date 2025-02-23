@@ -11,22 +11,30 @@
       [
         "p1a: Iron Valiant",
         "Wide Guard",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Sableye",
         "Gravity",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -35,12 +43,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -77,17 +92,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Facade",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Sableye",
         "Foul Play",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -96,12 +117,19 @@
       "p2a": "95/100 brn",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -143,17 +171,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1b: Sableye",
         "Foul Play",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2a: Ursaluna",
         "Facade",
-        "p1a: Groudon"
+        [
+          "p1a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -162,12 +196,19 @@
       "p2a": "95/100 brn",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -214,12 +255,19 @@
       "p2a": "95/100 brn",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Gravity",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

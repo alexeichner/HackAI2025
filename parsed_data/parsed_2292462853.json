@@ -11,17 +11,23 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Tornadus",
         "Tailwind",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -65,22 +79,30 @@
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p1b: Tornadus",
         "Bleakwind Storm",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Weather Ball",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p1a: Landorus",
         "Earth Power",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -133,17 +163,23 @@
       [
         "p1a: Landorus",
         "Protect",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +188,17 @@
       "p2a": "48/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -187,17 +231,23 @@
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Weather Ball",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ]
     ],
     "hp": {
@@ -206,9 +256,17 @@
       "p2a": "20/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Tornadus": {
         "spe": -1

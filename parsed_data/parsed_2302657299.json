@@ -11,27 +11,37 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -40,10 +50,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -82,17 +99,23 @@
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Amoonguss",
         "Spore",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -101,10 +124,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -143,12 +173,16 @@
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -157,10 +191,17 @@
       "p2a": "45/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -226,17 +267,23 @@
       [
         "p2a: Entei",
         "Extreme Speed",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dragon Pulse",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ],
       [
         "p2b: Lunala",
         "Moonblast",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -245,10 +292,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -289,17 +343,23 @@
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Lunala",
         "Calm Mind",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -308,10 +368,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -356,22 +423,30 @@
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Lunala",
         "Moonblast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Foul Play",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -380,10 +455,17 @@
       "p2a": "95/100",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -441,22 +523,30 @@
       [
         "p1a: Miraidon",
         "Dragon Pulse",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2b: Lunala",
         "Moonblast",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1: Miraidon"
+        [
+          "p1: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -465,10 +555,17 @@
       "p2a": "90/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -524,27 +621,37 @@
       [
         "p2b: Lunala",
         "Moonblast",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Icicle Spear",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ],
       [
         "p1b: Oranguru",
         "Instruct",
-        "p1a: Baxcalibur"
+        [
+          "p1a: Baxcalibur"
+        ]
       ],
       [
         "p1a: Baxcalibur",
         "Icicle Spear",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -553,10 +660,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,

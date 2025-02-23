@@ -11,17 +11,23 @@
       [
         "p2a: Urshifu",
         "Detect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Charming",
         "Close Combat",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Suthen"
+        [
+          "p1b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "23/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -90,17 +104,23 @@
       [
         "p1b: Suthen",
         "Helping Hand",
-        "p1a: Charming"
+        [
+          "p1a: Charming"
+        ]
       ],
       [
         "p1a: Charming",
         "Spirit Break",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Calm Mind",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -109,9 +129,17 @@
       "p2a": "100/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -164,17 +192,23 @@
       [
         "p1b: Suthen",
         "Follow Me",
-        "p1b: Suthen"
+        [
+          "p1b: Suthen"
+        ]
       ],
       [
         "p1a: Charming",
         "Close Combat",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Calm Mind",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -183,9 +217,17 @@
       "p2a": "90/100",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -240,17 +282,23 @@
       [
         "p2b: Calyrex",
         "Calm Mind",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Suthen",
         "Dazzling Gleam",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Clefairy",
         "Sing",
-        "p1a: Mr. Gassy"
+        [
+          "p1a: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -259,9 +307,17 @@
       "p2a": "81/100",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -318,17 +374,23 @@
       [
         "p2b: Calyrex",
         "Calm Mind",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Suthen",
         "Dazzling Gleam",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ],
       [
         "p2a: Clefairy",
         "Sing",
-        "p1b: Suthen"
+        [
+          "p1b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -337,9 +399,17 @@
       "p2a": "74/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -392,12 +462,16 @@
       [
         "p2a: Clefairy",
         "Follow Me",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1b: Charming"
+        [
+          "p1b: Charming"
+        ]
       ]
     ],
     "hp": {
@@ -406,10 +480,17 @@
       "p2a": "74/100",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -475,17 +556,23 @@
       [
         "p2a: Clefairy",
         "Protect",
-        "p2a: Clefairy"
+        [
+          "p2a: Clefairy"
+        ]
       ],
       [
         "p1a: Duncan",
         "Expanding Force",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Draining Kiss",
-        "p1a: Duncan"
+        [
+          "p1a: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -494,10 +581,17 @@
       "p2a": "74/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,
@@ -554,10 +648,17 @@
       "p2a": "74/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "atk": -2,

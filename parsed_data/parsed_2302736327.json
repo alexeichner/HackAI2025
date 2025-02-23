@@ -11,17 +11,23 @@
       [
         "p1b: Iron Valiant",
         "Spirit Break",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Zacian",
         "Behemoth Blade",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "69/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zacian": {
         "atk": 1
@@ -78,22 +92,30 @@
       [
         "p1b: Iron Valiant",
         "Wide Guard",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2b: Smeargle",
         "Spore",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1a: Zacian"
+        [
+          "p1a: Zacian"
+        ]
       ],
       [
         "p1a: Zacian",
         "Tera Blast",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +124,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zacian": {
         "atk": 1

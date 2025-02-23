@@ -11,22 +11,30 @@
       [
         "p1b: Tinkaton",
         "Fake Out",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Tera Starstorm",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Weather Ball",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,17 +93,23 @@
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Tinkaton"
+        [
+          "p1b: Tinkaton"
+        ]
       ],
       [
         "p1a: Meowscarada",
         "Knock Off",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2b: Pelipper",
         "Hurricane",
-        "p1a: Meowscarada"
+        [
+          "p1a: Meowscarada"
+        ]
       ]
     ],
     "hp": {
@@ -96,7 +118,15 @@
       "p2a": "0 fnt",
       "p2b": "81/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

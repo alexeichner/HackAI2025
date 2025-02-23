@@ -11,17 +11,23 @@
       [
         "p1b: \u7389\u82f1",
         "Protect",
-        "p1b: \u7389\u82f1"
+        [
+          "p1b: \u7389\u82f1"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: \u7389\u82f1"
+        [
+          "p1b: \u7389\u82f1"
+        ]
       ],
       [
         "p1a: \u6c84\u6c84",
         "Taunt",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "91/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -61,17 +75,23 @@
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: \u7389\u82f1"
+        [
+          "p1b: \u7389\u82f1"
+        ]
       ],
       [
         "p2b: Weezing",
         "Dazzling Gleam",
-        "p1a: \u6bb7\u6708"
+        [
+          "p1a: \u6bb7\u6708"
+        ]
       ],
       [
         "p1b: \u7389\u82f1",
         "Trick Room",
-        "p1b: \u7389\u82f1"
+        [
+          "p1b: \u7389\u82f1"
+        ]
       ]
     ],
     "hp": {
@@ -80,9 +100,15 @@
       "p2a": "82/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -115,17 +141,23 @@
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: \u6bb7\u6708",
         "Hyper Voice",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1b: \u7389\u82f1",
         "Glacial Lance",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -134,9 +166,15 @@
       "p2a": "82/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u7389\u82f1": {
         "atk": 1
@@ -178,12 +216,16 @@
       [
         "p1a: \u6bb7\u6708",
         "Hyper Voice",
-        "p2a: Tatsugiri"
+        [
+          "p2a: Tatsugiri"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Order Up",
-        "p1b: \u7f28\u626c"
+        [
+          "p1b: \u7f28\u626c"
+        ]
       ]
     ],
     "hp": {
@@ -192,9 +234,15 @@
       "p2a": "82/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u7389\u82f1": {
         "atk": 1
@@ -243,12 +291,16 @@
       [
         "p1a: \u6bb7\u6708",
         "Earth Power",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1b: \u7f28\u626c",
         "Wicked Blow",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -257,9 +309,15 @@
       "p2a": "82/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u7389\u82f1": {
         "atk": 1
@@ -314,22 +372,30 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: \u6bb7\u6708",
         "Blood Moon",
-        "p2a: Tatsugiri"
+        [
+          "p2a: Tatsugiri"
+        ]
       ],
       [
         "p1b: \u7f28\u626c",
         "Wicked Blow",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Tatsugiri",
         "Muddy Water",
-        "p1a: \u6bb7\u6708"
+        [
+          "p1a: \u6bb7\u6708"
+        ]
       ]
     ],
     "hp": {
@@ -338,9 +404,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u7389\u82f1": {
         "atk": 1
@@ -395,9 +467,15 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: \u7389\u82f1": {
         "atk": 1

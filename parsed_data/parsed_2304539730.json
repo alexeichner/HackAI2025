@@ -11,17 +11,23 @@
       [
         "p2a: Indeedee",
         "Helping Hand",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Oranguru"
+        [
+          "p1b: Oranguru"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,21 @@
       "p2a": "78/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -82,17 +99,23 @@
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2a: Indeedee",
         "Trick Room",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -101,11 +124,21 @@
       "p2a": "26/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -156,12 +189,16 @@
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Gravity",
-        "p2b: Wyrdeer"
+        [
+          "p2b: Wyrdeer"
+        ]
       ]
     ],
     "hp": {
@@ -170,12 +207,21 @@
       "p2a": "26/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -226,17 +272,23 @@
       [
         "p1b: Clefairy",
         "Heal Pulse",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Hypnosis",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Weezing",
         "Gunk Shot",
-        "p1b: Clefairy"
+        [
+          "p1b: Clefairy"
+        ]
       ]
     ],
     "hp": {
@@ -245,12 +297,21 @@
       "p2a": "26/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -303,22 +364,30 @@
       [
         "p1b: Clefairy",
         "Protect",
-        "p1b: Clefairy"
+        [
+          "p1b: Clefairy"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Expanding Force",
-        "p1b: Clefairy"
+        [
+          "p1b: Clefairy"
+        ]
       ],
       [
         "p2a: Weezing",
         "Clear Smog",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -327,12 +396,21 @@
       "p2a": "26/100",
       "p2b": "65/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -380,22 +458,30 @@
       [
         "p1b: Clefairy",
         "After You",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Weezing"
+        [
+          "p2a: Weezing"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Expanding Force",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Weezing",
         "Clear Smog",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -404,12 +490,21 @@
       "p2a": "71/100",
       "p2b": "69/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -457,17 +552,23 @@
       [
         "p1a: Miraidon",
         "Calm Mind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2b: Wyrdeer"
+        [
+          "p2b: Wyrdeer"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Hypnosis",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -476,14 +577,21 @@
       "p2a": "71/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -536,17 +644,23 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Baxcalibur",
         "Icicle Spear",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Trick Room",
-        "p2b: Wyrdeer"
+        [
+          "p2b: Wyrdeer"
+        ]
       ]
     ],
     "hp": {
@@ -555,15 +669,21 @@
       "p2a": "0 fnt",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -616,17 +736,23 @@
       [
         "p1b: Baxcalibur",
         "Protect",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2b: Wyrdeer",
         "Gravity",
-        "p2b: Wyrdeer"
+        [
+          "p2b: Wyrdeer"
+        ]
       ],
       [
         "p2a: Weezing",
         "Play Rough",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -635,16 +761,21 @@
       "p2a": "0 fnt",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -697,17 +828,23 @@
       [
         "p2b: Wyrdeer",
         "Hypnosis",
-        "p1b: Baxcalibur"
+        [
+          "p1b: Baxcalibur"
+        ]
       ],
       [
         "p2a: Weezing",
         "Play Rough",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2a: Weezing"
+        [
+          "p2a: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -716,16 +853,21 @@
       "p2a": "34/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,
@@ -780,12 +922,16 @@
       [
         "p2a: Weezing",
         "Gunk Shot",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Parabolic Charge",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -794,17 +940,21 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Gravity",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Miraidon": {
         "def": 1,

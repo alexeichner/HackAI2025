@@ -11,17 +11,23 @@
       [
         "p1a: horse",
         "Protect",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Light Screen",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -75,17 +89,23 @@
       [
         "p2a: Grimmsnarl",
         "Misty Terrain",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: fart",
         "Sludge Bomb",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Roar",
-        "p1a: cow with bowl"
+        [
+          "p1a: cow with bowl"
+        ]
       ]
     ],
     "hp": {
@@ -94,10 +114,17 @@
       "p2a": "53/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -140,17 +167,23 @@
       [
         "p2a: Grimmsnarl",
         "Parting Shot",
-        "p1b: fart"
+        [
+          "p1b: fart"
+        ]
       ],
       [
         "p1b: fart",
         "Dazzling Gleam",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: fart"
+        [
+          "p1b: fart"
+        ]
       ]
     ],
     "hp": {
@@ -159,10 +192,17 @@
       "p2a": "90/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -213,22 +253,30 @@
       [
         "p1b: fart",
         "Protect",
-        "p1b: fart"
+        [
+          "p1b: fart"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Calm Mind",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Grimmsnarl",
         "Reflect",
-        "p2b: Grimmsnarl"
+        [
+          "p2b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: cow with bowl",
         "Fissure",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -237,10 +285,17 @@
       "p2a": "90/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -293,17 +348,23 @@
       [
         "p2a: Calyrex",
         "Draining Kiss",
-        "p1a: cow with bowl"
+        [
+          "p1a: cow with bowl"
+        ]
       ],
       [
         "p1b: fart",
         "Sludge Bomb",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: cow with bowl",
         "Fissure",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -312,10 +373,17 @@
       "p2a": "0 fnt",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -372,22 +440,30 @@
       [
         "p2a: Grimmsnarl",
         "Parting Shot",
-        "p1a: cow with bowl"
+        [
+          "p1a: cow with bowl"
+        ]
       ],
       [
         "p1b: fart",
         "Sludge Bomb",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: fart"
+        [
+          "p1b: fart"
+        ]
       ],
       [
         "p1a: cow with bowl",
         "Sand Tomb",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -396,10 +472,17 @@
       "p2a": "86/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1
@@ -461,12 +544,16 @@
       [
         "p2a: Rillaboom",
         "Drum Beating",
-        "p1b: fart"
+        [
+          "p1b: fart"
+        ]
       ],
       [
         "p2b: Grimmsnarl",
         "Parting Shot",
-        "p1a: cow with bowl"
+        [
+          "p1a: cow with bowl"
+        ]
       ]
     ],
     "hp": {
@@ -475,10 +562,17 @@
       "p2a": "86/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "atk": -1

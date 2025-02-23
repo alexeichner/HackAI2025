@@ -11,22 +11,30 @@
       [
         "p1a: Charming",
         "Protect",
-        "p1a: Charming"
+        [
+          "p1a: Charming"
+        ]
       ],
       [
         "p1b: Duncan",
         "Protect",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ],
       [
         "p2b: Gothitelle",
         "Protect",
-        "p2b: Gothitelle"
+        [
+          "p2b: Gothitelle"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick",
-        "p1b: Duncan"
+        [
+          "p1b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,12 +84,16 @@
       [
         "p1a: Charming",
         "Close Combat",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Duncan",
         "Astral Barrage",
-        "p2b: Gothitelle"
+        [
+          "p2b: Gothitelle"
+        ]
       ]
     ],
     "hp": {
@@ -82,7 +102,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "def": -1,
@@ -144,7 +172,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Charming": {
         "def": -1,

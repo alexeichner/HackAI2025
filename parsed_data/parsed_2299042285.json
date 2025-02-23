@@ -11,17 +11,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -76,22 +88,30 @@
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Bronzong"
+        [
+          "p2a: Bronzong"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2a: Bronzong"
+        [
+          "p2a: Bronzong"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -100,9 +120,15 @@
       "p2a": "70/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -157,17 +183,23 @@
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -176,9 +208,15 @@
       "p2a": "70/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -234,22 +272,30 @@
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Spirit Break",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Bronzong",
         "Gyro Ball",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -258,9 +304,15 @@
       "p2a": "82/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -334,17 +386,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Bronzong",
         "Trick Room",
-        "p2b: Bronzong"
+        [
+          "p2b: Bronzong"
+        ]
       ]
     ],
     "hp": {
@@ -353,10 +411,15 @@
       "p2a": "88/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -424,12 +487,16 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -438,10 +505,15 @@
       "p2a": "37/100",
       "p2b": "76/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -513,17 +585,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Parting Shot",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -532,11 +610,15 @@
       "p2a": "37/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -614,12 +696,16 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2a: Bronzong",
         "Iron Defense",
-        "p2a: Bronzong"
+        [
+          "p2a: Bronzong"
+        ]
       ]
     ],
     "hp": {
@@ -628,11 +714,15 @@
       "p2a": "37/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -700,17 +790,23 @@
       [
         "p2a: Bronzong",
         "Gyro Ball",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -719,11 +815,15 @@
       "p2a": "54/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -801,12 +901,16 @@
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -815,11 +919,15 @@
       "p2a": "0 fnt",
       "p2b": "56/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -902,17 +1010,23 @@
       [
         "p2a: Incineroar",
         "Helping Hand",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Draco Meteor",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -921,12 +1035,15 @@
       "p2a": "55/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1000,22 +1117,30 @@
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Parting Shot",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Drum Beating",
-        "p2a: Ho-Oh"
+        [
+          "p2a: Ho-Oh"
+        ]
       ]
     ],
     "hp": {
@@ -1024,12 +1149,15 @@
       "p2a": "90/100",
       "p2b": "52/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1124,17 +1252,23 @@
       [
         "p2a: Ho-Oh",
         "Brave Bird",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -1143,12 +1277,15 @@
       "p2a": "62/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1240,17 +1377,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Thunder Wave",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -1259,12 +1402,15 @@
       "p2a": "59/100",
       "p2b": "23/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1339,22 +1485,30 @@
       [
         "p2b: Incineroar",
         "Helping Hand",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Calm Mind",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -1363,12 +1517,15 @@
       "p2a": "65/100",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1448,22 +1605,30 @@
       [
         "p1a: Grimmsnarl",
         "Thunder Wave",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Ice Beam",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -1472,12 +1637,15 @@
       "p2a": "21/100",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1563,22 +1731,30 @@
       [
         "p2b: Ho-Oh",
         "Protect",
-        "p2b: Ho-Oh"
+        [
+          "p2b: Ho-Oh"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Ho-Oh"
+        [
+          "p2b: Ho-Oh"
+        ]
       ]
     ],
     "hp": {
@@ -1587,12 +1763,15 @@
       "p2a": "9/100 par",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1683,17 +1862,23 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Thunder Wave",
-        "p2b: Ho-Oh"
+        [
+          "p2b: Ho-Oh"
+        ]
       ],
       [
         "p2b: Ho-Oh",
         "Brave Bird",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -1702,12 +1887,15 @@
       "p2a": "9/100 par",
       "p2b": "87/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1784,7 +1972,9 @@
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -1793,12 +1983,15 @@
       "p2a": "0 fnt",
       "p2b": "43/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1884,12 +2077,16 @@
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Raging Bolt"
+        [
+          "p2a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -1898,12 +2095,15 @@
       "p2a": "12/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,
@@ -1995,7 +2195,9 @@
       [
         "p2a: Raging Bolt",
         "Volt Switch",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -2004,12 +2206,15 @@
       "p2a": "12/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "atk": -3,

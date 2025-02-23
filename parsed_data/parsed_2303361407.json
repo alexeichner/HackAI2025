@@ -11,22 +11,30 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: horse",
         "Calm Mind",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Foul Play",
-        "p1a: horse"
+        [
+          "p1a: horse"
+        ]
       ],
       [
         "p1b: I eat sushi",
         "Yawn",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: horse": {
         "spa": 1,

@@ -11,17 +11,23 @@
       [
         "p1b: Grimmsnarl",
         "Light Screen",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Indeedee",
         "Trick Room",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,11 +36,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1
@@ -69,17 +83,23 @@
       [
         "p2b: Indeedee",
         "Helping Hand",
-        "p2a: Necrozma"
+        [
+          "p2a: Necrozma"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2a: Necrozma"
+        [
+          "p2a: Necrozma"
+        ]
       ],
       [
         "p2a: Necrozma",
         "Moongeist Beam",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -88,11 +108,19 @@
       "p2a": "25/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1
@@ -137,17 +165,23 @@
       [
         "p1b: Grimmsnarl",
         "Foul Play",
-        "p2a: Necrozma"
+        [
+          "p2a: Necrozma"
+        ]
       ],
       [
         "p2a: Necrozma",
         "Moongeist Beam",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p1a: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -156,11 +190,19 @@
       "p2a": "2/100",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1
@@ -208,17 +250,23 @@
       [
         "p1a: Ogerpon",
         "Spiky Shield",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Necrozma",
         "Moongeist Beam",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -227,11 +275,19 @@
       "p2a": "2/100",
       "p2b": "21/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1
@@ -274,17 +330,23 @@
       [
         "p1a: Ogerpon",
         "Spiky Shield",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p1b: Talonflame",
         "Brave Bird",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Necrozma",
         "Expanding Force",
-        "p1b: Talonflame"
+        [
+          "p1b: Talonflame"
+        ]
       ]
     ],
     "hp": {
@@ -293,12 +355,19 @@
       "p2a": "2/100",
       "p2b": "21/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1
@@ -344,12 +413,19 @@
       "p2a": "2/100",
       "p2b": "21/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Necrozma": {
         "spa": 1

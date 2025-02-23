@@ -11,22 +11,30 @@
       [
         "p1a: Agias",
         "Volt Switch",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Calm Mind",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Grifaffes"
+        [
+          "p1a: Grifaffes"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Drain Punch",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -87,22 +103,30 @@
       [
         "p2a: Urshifu",
         "Surging Strikes",
-        "p1a: Grifaffes"
+        [
+          "p1a: Grifaffes"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Substitute",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Drain Punch",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Grifaffes",
         "Trick Room",
-        "p1a: Grifaffes"
+        [
+          "p1a: Grifaffes"
+        ]
       ]
     ],
     "hp": {
@@ -111,11 +135,18 @@
       "p2a": "100/100",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -160,17 +191,23 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Grifaffes",
         "Psychic Noise",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Drain Punch",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -179,11 +216,18 @@
       "p2a": "100/100",
       "p2b": "31/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -219,17 +263,23 @@
       [
         "p2a: Grimmsnarl",
         "Reflect",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Grifaffes",
         "Foul Play",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Drain Punch",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -238,11 +288,18 @@
       "p2a": "100/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -278,22 +335,30 @@
       [
         "p1a: Grifaffes",
         "Psychic Noise",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Low Kick",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Bigweld"
+        [
+          "p1b: Bigweld"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1b: Bigweld"
+        [
+          "p1b: Bigweld"
+        ]
       ]
     ],
     "hp": {
@@ -302,11 +367,18 @@
       "p2a": "100/100",
       "p2b": "43/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -354,22 +426,30 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Grifaffes",
         "Psychic Noise",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Bigweld",
         "Drain Punch",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Bigweld"
+        [
+          "p1b: Bigweld"
+        ]
       ]
     ],
     "hp": {
@@ -378,11 +458,18 @@
       "p2a": "72/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -426,12 +513,16 @@
       [
         "p2b: Terapagos",
         "Tera Starstorm",
-        "p1a: Grifaffes"
+        [
+          "p1a: Grifaffes"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Spirit Break",
-        "p1b: Bigweld"
+        [
+          "p1b: Bigweld"
+        ]
       ]
     ],
     "hp": {
@@ -440,12 +531,18 @@
       "p2a": "72/100",
       "p2b": "56/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -489,22 +586,30 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2a: Grimmsnarl",
         "Light Screen",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -513,12 +618,18 @@
       "p2a": "23/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -559,12 +670,16 @@
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -573,13 +688,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -625,22 +745,30 @@
       [
         "p2a: Urshifu",
         "Protect",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -649,13 +777,18 @@
       "p2a": "0 fnt",
       "p2b": "74/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -696,17 +829,23 @@
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Calm Mind",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -715,13 +854,18 @@
       "p2a": "0 fnt",
       "p2b": "67/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -779,17 +923,23 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -798,13 +948,18 @@
       "p2a": "0 fnt",
       "p2b": "73/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -846,17 +1001,23 @@
       [
         "p1b: Dell-eBird",
         "Freeze-Dry",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Tera Starstorm",
-        "p1a: Agias"
+        [
+          "p1a: Agias"
+        ]
       ]
     ],
     "hp": {
@@ -865,13 +1026,18 @@
       "p2a": "0 fnt",
       "p2b": "56/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -920,17 +1086,23 @@
       [
         "p2b: Terapagos",
         "Protect",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1b: Dell-eBird",
         "Hydro Pump",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -939,13 +1111,18 @@
       "p2a": "0 fnt",
       "p2b": "62/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -989,17 +1166,23 @@
       [
         "p1b: Dell-eBird",
         "Hydro Pump",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ],
       [
         "p2b: Terapagos",
         "Tera Starstorm",
-        "p1b: Dell-eBird"
+        [
+          "p1b: Dell-eBird"
+        ]
       ]
     ],
     "hp": {
@@ -1008,13 +1191,18 @@
       "p2a": "0 fnt",
       "p2b": "39/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -1063,7 +1251,9 @@
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -1072,13 +1262,18 @@
       "p2a": "0 fnt",
       "p2b": "19/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,
@@ -1122,7 +1317,9 @@
       [
         "p1a: Agias",
         "Discharge",
-        "p2b: Terapagos"
+        [
+          "p2b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -1131,13 +1328,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Terapagos": {
         "spa": 2,

@@ -11,17 +11,23 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Protect",
-        "p2b: Dondozo"
+        [
+          "p2b: Dondozo"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Wood Hammer",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "49/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,12 +87,16 @@
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Rillaboom"
+        [
+          "p1b: Rillaboom"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Yawn",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -87,9 +105,17 @@
       "p2a": "54/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -136,12 +162,16 @@
       [
         "p2b: Dondozo",
         "Yawn",
-        "p1b: The Grougooner"
+        [
+          "p1b: The Grougooner"
+        ]
       ],
       [
         "p1b: The Grougooner",
         "Precipice Blades",
-        "p2a: Ting-Lu"
+        [
+          "p2a: Ting-Lu"
+        ]
       ]
     ],
     "hp": {
@@ -150,9 +180,17 @@
       "p2a": "77/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -194,22 +232,30 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: The Grougooner"
+        [
+          "p1b: The Grougooner"
+        ]
       ],
       [
         "p2a: Ting-Lu",
         "Sand Tomb",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Dondozo",
         "Yawn",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1b: The Grougooner",
         "Precipice Blades",
-        "p2a: Ting-Lu"
+        [
+          "p2a: Ting-Lu"
+        ]
       ]
     ],
     "hp": {
@@ -218,9 +264,17 @@
       "p2a": "33/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -259,12 +313,16 @@
       [
         "p2a: Ting-Lu",
         "Ruination",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -273,9 +331,17 @@
       "p2a": "45/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -329,12 +395,16 @@
       [
         "p2a: Ting-Lu",
         "Ruination",
-        "p1b: The Grougooner"
+        [
+          "p1b: The Grougooner"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Trick Room",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -343,10 +413,17 @@
       "p2a": "51/100",
       "p2b": "58/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -386,17 +463,23 @@
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Ting-Lu",
         "Ruination",
-        "p1b: The Grougooner"
+        [
+          "p1b: The Grougooner"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -405,10 +488,17 @@
       "p2a": "58/100",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -477,17 +567,23 @@
       [
         "p2a: Ting-Lu",
         "Protect",
-        "p2a: Ting-Lu"
+        [
+          "p2a: Ting-Lu"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Heat Wave",
-        "p2a: Ting-Lu"
+        [
+          "p2a: Ting-Lu"
+        ]
       ]
     ],
     "hp": {
@@ -496,10 +592,17 @@
       "p2a": "64/100",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1
@@ -548,12 +651,16 @@
       [
         "p1b: Incineroar",
         "Heat Wave",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Ting-Lu",
         "Ruination",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -562,10 +669,17 @@
       "p2a": "55/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Ogerpon": {
         "atk": -1

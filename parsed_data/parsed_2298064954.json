@@ -11,17 +11,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Lilligant",
         "Coaching",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Momma",
         "Imprison",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1
@@ -80,22 +94,30 @@
       [
         "p2b: Momma",
         "Follow Me",
-        "p2b: Momma"
+        [
+          "p2b: Momma"
+        ]
       ],
       [
         "p2a: Horsee",
         "Expanding Force",
-        "p1b: Lilligant"
+        [
+          "p1b: Lilligant"
+        ]
       ],
       [
         "p1b: Lilligant",
         "Coaching",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Horsee"
+        [
+          "p2a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -104,9 +126,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1
@@ -161,22 +191,30 @@
       [
         "p2a: Pony",
         "Follow Me",
-        "p2a: Pony"
+        [
+          "p2a: Pony"
+        ]
       ],
       [
         "p1b: Lilligant",
         "After You",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Panda",
         "Surging Strikes",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Panda"
+        [
+          "p2b: Panda"
+        ]
       ]
     ],
     "hp": {
@@ -185,9 +223,17 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1
@@ -247,9 +293,17 @@
       "p2a": "0 fnt",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Horsee": {
         "spd": 1

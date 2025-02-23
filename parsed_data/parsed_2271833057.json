@@ -11,17 +11,23 @@
       [
         "p2b: Grimmsnarl",
         "Light Screen",
-        "p2b: Grimmsnarl"
+        [
+          "p2b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Trick Room",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -71,17 +86,23 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p2b: Grimmsnarl",
         "Parting Shot",
-        "p1b: Ursaluna"
+        [
+          "p1b: Ursaluna"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -90,11 +111,19 @@
       "p2a": "2/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -148,17 +177,23 @@
       [
         "p2a: Miraidon",
         "Protect",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Incineroar",
         "U-turn",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Alluring Voice",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -167,11 +202,19 @@
       "p2a": "27/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -225,17 +268,23 @@
       [
         "p2b: Sinistcha",
         "Rage Powder",
-        "p2b: Sinistcha"
+        [
+          "p2b: Sinistcha"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2b: Sinistcha"
+        [
+          "p2b: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -244,11 +293,19 @@
       "p2a": "77/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -313,22 +370,30 @@
       [
         "p2b: Grimmsnarl",
         "Reflect",
-        "p2b: Grimmsnarl"
+        [
+          "p2b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Calm Mind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Tera Blast",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Overheat",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -337,11 +402,19 @@
       "p2a": "5/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -403,17 +476,23 @@
       [
         "p2a: Miraidon",
         "Protect",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2b: Grimmsnarl",
         "Parting Shot",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Grimmsnarl"
+        [
+          "p2b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -422,12 +501,19 @@
       "p2a": "5/100",
       "p2b": "80/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2
@@ -485,12 +571,16 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Tera Blast",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -499,12 +589,19 @@
       "p2a": "0 fnt",
       "p2b": "80/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Indeedee": {
         "atk": -2

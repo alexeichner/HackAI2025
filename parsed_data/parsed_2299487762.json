@@ -11,22 +11,30 @@
       [
         "p1a: Whimsicott",
         "Misty Terrain",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Instruct",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1
@@ -84,17 +100,23 @@
       [
         "p1a: Whimsicott",
         "Encore",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +125,18 @@
       "p2a": "38/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1
@@ -152,22 +182,30 @@
       [
         "p2b: Iron Valiant",
         "Wide Guard",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1b: Groudon",
         "Heavy Slam",
-        "p2b: Iron Valiant"
+        [
+          "p2b: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -176,10 +214,18 @@
       "p2a": "18/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Misty Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "def": 1

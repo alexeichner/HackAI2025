@@ -11,22 +11,30 @@
       [
         "p1b: Chien-Pao",
         "Protect",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p2b: Charming",
         "Protect",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Heavy Slam",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p2a: Mr. Gassy",
         "Will-O-Wisp",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "brn"
@@ -70,22 +89,30 @@
       [
         "p1b: Chien-Pao",
         "Icicle Crash",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p2b: Charming",
         "Spirit Break",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Heavy Slam",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p2a: Mr. Gassy",
         "Taunt",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -94,7 +121,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chien-Pao": {
         "spa": -1
@@ -151,7 +189,9 @@
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1a: Moltres"
+        [
+          "p1a: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -160,10 +200,18 @@
       "p2a": "100/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chien-Pao": {
         "spa": -1
@@ -223,17 +271,23 @@
       [
         "p2a: Suthen",
         "Helping Hand",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p2b: Duncan",
         "Hyper Beam",
-        "p1a: Moltres"
+        [
+          "p1a: Moltres"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -242,10 +296,18 @@
       "p2a": "20/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chien-Pao": {
         "spa": -1
@@ -304,17 +366,23 @@
       [
         "p2a: Suthen",
         "Follow Me",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Body Press",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -323,10 +391,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chien-Pao": {
         "spa": -1
@@ -376,12 +452,16 @@
       [
         "p1b: Zamazenta",
         "Body Press",
-        "p2b: Mr. Gassy"
+        [
+          "p2b: Mr. Gassy"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2b: Mr. Gassy"
+        [
+          "p2b: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -390,10 +470,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Chien-Pao": {
         "spa": -1

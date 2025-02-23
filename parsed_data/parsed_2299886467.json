@@ -11,22 +11,30 @@
       [
         "p2b: Muk",
         "Protect",
-        "p2b: Muk"
+        [
+          "p2b: Muk"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Taunt",
-        "p2b: Muk"
+        [
+          "p2b: Muk"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Heat Wave",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ],
       [
         "p2a: Smeargle",
         "Spore",
-        "p1a: Flutter Mane"
+        [
+          "p1a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "spa": 2,
@@ -81,7 +97,15 @@
       "p2a": "1/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Smeargle": {
         "spa": 2,

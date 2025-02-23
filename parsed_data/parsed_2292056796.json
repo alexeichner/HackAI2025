@@ -11,17 +11,23 @@
       [
         "p1a: Moonwater",
         "Follow Me",
-        "p1a: Moonwater"
+        [
+          "p1a: Moonwater"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Moonwater"
+        [
+          "p1a: Moonwater"
+        ]
       ],
       [
         "p1b: Perrine",
         "Calm Mind",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -71,17 +85,23 @@
       [
         "p1a: Moonwater",
         "Helping Hand",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ],
       [
         "p1b: Perrine",
         "Tera Starstorm",
-        "p2a: Tsareena"
+        [
+          "p2a: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -90,7 +110,15 @@
       "p2a": "15/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -138,22 +166,30 @@
       [
         "p1a: Moonwater",
         "Follow Me",
-        "p1a: Moonwater"
+        [
+          "p1a: Moonwater"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Close Combat",
-        "p1a: Moonwater"
+        [
+          "p1a: Moonwater"
+        ]
       ],
       [
         "p2a: Tsareena",
         "Power Whip",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ],
       [
         "p1b: Perrine",
         "Tera Starstorm",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +198,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -212,22 +254,30 @@
       [
         "p2b: Kyogre",
         "Protect",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p1a: Lion's Roar",
         "Fake Out",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Hurricane",
-        "p1a: Lion's Roar"
+        [
+          "p1a: Lion's Roar"
+        ]
       ],
       [
         "p1b: Perrine",
         "Tera Starstorm",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -236,9 +286,15 @@
       "p2a": "23/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -286,17 +342,23 @@
       [
         "p1a: Lion's Roar",
         "Grassy Glide",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Perrine"
+        [
+          "p1b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -305,9 +367,15 @@
       "p2a": "23/100",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -365,12 +433,16 @@
       [
         "p1b: Presto",
         "Ice Spinner",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Origin Pulse",
-        "p1b: Presto"
+        [
+          "p1b: Presto"
+        ]
       ]
     ],
     "hp": {
@@ -379,9 +451,15 @@
       "p2a": "0 fnt",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,
@@ -432,7 +510,9 @@
       [
         "p1b: Presto",
         "Ice Spinner",
-        "p2b: Kyogre"
+        [
+          "p2b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -441,9 +521,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Perrine": {
         "spa": 1,

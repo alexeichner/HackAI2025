@@ -11,22 +11,30 @@
       [
         "p2b: Demeter",
         "Follow Me",
-        "p2b: Demeter"
+        [
+          "p2b: Demeter"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Moonblast",
-        "p2b: Demeter"
+        [
+          "p2b: Demeter"
+        ]
       ],
       [
         "p1b: Urshifu",
         "U-turn",
-        "p2b: Demeter"
+        [
+          "p2b: Demeter"
+        ]
       ],
       [
         "p2a: Hephestus",
         "Trick Room",
-        "p2a: Hephestus"
+        [
+          "p2a: Hephestus"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,17 +87,23 @@
       [
         "p2a: Hephestus",
         "Armor Cannon",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ],
       [
         "p1b: Archaludon",
         "Dragon Pulse",
-        "p2a: Hephestus"
+        [
+          "p2a: Hephestus"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Beat Up",
-        "p1b: Archaludon"
+        [
+          "p1b: Archaludon"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +112,18 @@
       "p2a": "18/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Hephestus": {
         "def": -1,
@@ -157,12 +187,16 @@
       [
         "p2a: Hephestus",
         "Expanding Force",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: Hades",
         "Precipice Blades",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -171,10 +205,18 @@
       "p2a": "8/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Hephestus": {
         "def": -1,
@@ -226,22 +268,30 @@
       [
         "p2a: Hephestus",
         "Wide Guard",
-        "p2a: Hephestus"
+        [
+          "p2a: Hephestus"
+        ]
       ],
       [
         "p2b: Hades",
         "Precipice Blades",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Origin Pulse",
-        "p2a: Hephestus"
+        [
+          "p2a: Hephestus"
+        ]
       ]
     ],
     "hp": {
@@ -250,10 +300,18 @@
       "p2a": "8/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Hephestus": {
         "def": -1,
@@ -307,12 +365,16 @@
       [
         "p2b: Demeter",
         "Helping Hand",
-        "p2a: Hephestus"
+        [
+          "p2a: Hephestus"
+        ]
       ],
       [
         "p2a: Hephestus",
         "Expanding Force",
-        "p1a: Kyogre"
+        [
+          "p1a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -321,10 +383,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Hephestus": {
         "def": -1,

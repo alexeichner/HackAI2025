@@ -11,17 +11,23 @@
       [
         "p1a: Tinkaton",
         "Fake Out",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Trick Room",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,17 @@
       "p2a": "96/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -64,17 +77,23 @@
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Electabuzz",
         "Thunder",
-        "p1a: Tinkaton"
+        [
+          "p1a: Tinkaton"
+        ]
       ],
       [
         "p1a: Tinkaton",
         "Gigaton Hammer",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -83,10 +102,17 @@
       "p2a": "26/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -122,17 +148,23 @@
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2b: Electabuzz"
+        [
+          "p2b: Electabuzz"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Electabuzz",
         "Thunder",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -141,10 +173,17 @@
       "p2a": "100/100",
       "p2b": "53/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "par"
@@ -198,22 +237,30 @@
       [
         "p2b: Electabuzz",
         "Protect",
-        "p2b: Electabuzz"
+        [
+          "p2b: Electabuzz"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p2a: Kyogre",
         "Tera Blast",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -222,10 +269,17 @@
       "p2a": "18/100",
       "p2b": "59/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "par"
@@ -274,17 +328,23 @@
       [
         "p2b: Electabuzz",
         "Follow Me",
-        "p2b: Electabuzz"
+        [
+          "p2b: Electabuzz"
+        ]
       ],
       [
         "p1a: Tinkaton",
         "Feint",
-        "p2b: Electabuzz"
+        [
+          "p2b: Electabuzz"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -293,10 +353,17 @@
       "p2a": "13/100 brn",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "par",
@@ -337,17 +404,23 @@
       [
         "p1a: Tinkaton",
         "Play Rough",
-        "p2b: Tsareena"
+        [
+          "p2b: Tsareena"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1a: Tinkaton"
+        [
+          "p1a: Tinkaton"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Trick Room",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ]
     ],
     "hp": {
@@ -356,11 +429,17 @@
       "p2a": "13/100 brn",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "par",
@@ -406,22 +485,30 @@
       [
         "p2a: Electabuzz",
         "Protect",
-        "p2a: Electabuzz"
+        [
+          "p2a: Electabuzz"
+        ]
       ],
       [
         "p1b: Sinistcha",
         "Matcha Gotcha",
-        "p2b: Tsareena"
+        [
+          "p2b: Tsareena"
+        ]
       ],
       [
         "p2b: Tsareena",
         "Triple Axel",
-        "p1b: Sinistcha"
+        [
+          "p1b: Sinistcha"
+        ]
       ],
       [
         "p1a: Tinkaton",
         "Gigaton Hammer",
-        "p2b: Tsareena"
+        [
+          "p2b: Tsareena"
+        ]
       ]
     ],
     "hp": {
@@ -430,11 +517,17 @@
       "p2a": "13/100 brn",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "par",

@@ -11,22 +11,30 @@
       [
         "p1a: Indeedee",
         "Helping Hand",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1b: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lunala": {
         "spa": 0
@@ -77,17 +93,23 @@
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1b: Lunala",
         "Expanding Force",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -96,9 +118,17 @@
       "p2a": "1/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lunala": {
         "spa": 0
@@ -143,17 +173,23 @@
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Facade",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -162,9 +198,17 @@
       "p2a": "1/100",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lunala": {
         "spa": 0
@@ -223,7 +267,9 @@
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -232,9 +278,17 @@
       "p2a": "1/100",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Lunala": {
         "spa": 0

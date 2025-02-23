@@ -11,22 +11,30 @@
       [
         "p1b: Smeargle",
         "Decorate",
-        "p2b: Entei"
+        [
+          "p2b: Entei"
+        ]
       ],
       [
         "p2b: Entei",
         "Sacred Fire",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p2a: Urshifu",
         "Taunt",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Urshifu"
+        [
+          "p2a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "77/100",
       "p2b": "68/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Entei": {
         "atk": 2,

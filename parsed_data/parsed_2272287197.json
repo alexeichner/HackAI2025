@@ -11,17 +11,23 @@
       [
         "p1a: Miraidon",
         "Discharge",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1b: Electivire",
         "Ice Punch",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Draco Meteor",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "68/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -89,12 +103,16 @@
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p1b: Electivire",
         "Ice Punch",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +121,18 @@
       "p2a": "68/100",
       "p2b": "64/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -161,22 +187,30 @@
       [
         "p2a: Zamazenta",
         "Protect",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1b: Electivire",
         "Follow Me",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p1a: Landorus",
         "Substitute",
-        "p1a: Landorus"
+        [
+          "p1a: Landorus"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ]
     ],
     "hp": {
@@ -185,10 +219,18 @@
       "p2a": "68/100",
       "p2b": "50/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,
@@ -233,17 +275,23 @@
       [
         "p1b: Electivire",
         "Follow Me",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Grassy Glide",
-        "p1b: Electivire"
+        [
+          "p1b: Electivire"
+        ]
       ],
       [
         "p1a: Landorus",
         "Earth Power",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -252,10 +300,18 @@
       "p2a": "0 fnt",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Electivire": {
         "def": 1,

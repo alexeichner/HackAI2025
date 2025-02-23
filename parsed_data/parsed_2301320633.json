@@ -11,17 +11,23 @@
       [
         "p2a: Tornadus",
         "Protect",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1a: Flutter Mane",
         "Thunder Wave",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -63,12 +77,16 @@
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "Wood Hammer",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -77,9 +95,17 @@
       "p2a": "100/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -128,22 +154,30 @@
       [
         "p2a: Landorus",
         "Protect",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Behemoth Bash",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -152,9 +186,17 @@
       "p2a": "100/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -204,17 +246,23 @@
       [
         "p1b: Flutter Mane",
         "Thunder Wave",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Behemoth Bash",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Heavy Slam",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -223,9 +271,17 @@
       "p2a": "16/100",
       "p2b": "48/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -272,17 +328,23 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Iron Defense",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -291,9 +353,17 @@
       "p2a": "9/100",
       "p2b": "82/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -336,12 +406,16 @@
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Ditto"
+        [
+          "p1a: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -350,9 +424,17 @@
       "p2a": "0 fnt",
       "p2b": "82/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -412,22 +494,30 @@
       [
         "p2a: Tornadus",
         "Tailwind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Behemoth Bash",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Ditto",
         "Body Press",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Body Press",
-        "p1a: Ditto"
+        [
+          "p1a: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -436,10 +526,17 @@
       "p2a": "40/100",
       "p2b": "50/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -493,10 +590,17 @@
       "p2a": "40/100",
       "p2b": "50/100 par"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

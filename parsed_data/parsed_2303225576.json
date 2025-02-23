@@ -11,17 +11,23 @@
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

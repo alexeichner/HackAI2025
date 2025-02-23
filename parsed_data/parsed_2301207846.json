@@ -11,22 +11,30 @@
       [
         "p2a: Grimmsnarl",
         "Reflect",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Jumpluff",
         "Tailwind",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Grimmsnarl"
+        [
+          "p2a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Scream Tail",
         "Ice Beam",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -73,17 +89,23 @@
       [
         "p2a: Moltres",
         "Protect",
-        "p2a: Moltres"
+        [
+          "p2a: Moltres"
+        ]
       ],
       [
         "p1a: Jumpluff",
         "Sleep Powder",
-        "p2b: Scream Tail"
+        [
+          "p2b: Scream Tail"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Moltres"
+        [
+          "p2a: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -92,7 +114,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"
@@ -127,12 +157,16 @@
       [
         "p1a: Jumpluff",
         "Pollen Puff",
-        "p1b: Koraidon"
+        [
+          "p1b: Koraidon"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2a: Moltres"
+        [
+          "p2a: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -141,7 +175,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"
@@ -176,17 +218,23 @@
       [
         "p1a: Jumpluff",
         "Sleep Powder",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Flare Blitz",
-        "p2b: Scream Tail"
+        [
+          "p2b: Scream Tail"
+        ]
       ],
       [
         "p2b: Scream Tail",
         "Ice Beam",
-        "p1a: Jumpluff"
+        [
+          "p1a: Jumpluff"
+        ]
       ]
     ],
     "hp": {
@@ -195,7 +243,15 @@
       "p2a": "0 fnt",
       "p2b": "5/100 slp"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp",
@@ -237,7 +293,9 @@
       [
         "p1a: Iron Bundle",
         "Icy Wind",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -246,7 +304,15 @@
       "p2a": "95/100 slp",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Groudon": {
         "spe": -1
@@ -292,12 +358,16 @@
       [
         "p1a: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Volcarona",
         "Quiver Dance",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -306,7 +376,15 @@
       "p2a": "86/100 slp",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Groudon": {
         "spe": -1
@@ -357,17 +435,23 @@
       [
         "p1a: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Volcarona",
         "Quiver Dance",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ],
       [
         "p2a: Groudon",
         "Stone Edge",
-        "p1b: Volcarona"
+        [
+          "p1b: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -376,7 +460,15 @@
       "p2a": "75/100 slp",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Groudon": {
         "spe": -1
@@ -431,12 +523,16 @@
       [
         "p1a: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Koraidon",
         "Collision Course",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -445,7 +541,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Groudon": {
         "spe": -1

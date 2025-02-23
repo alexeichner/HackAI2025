@@ -11,22 +11,30 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Horsee",
         "Nasty Plot",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p1b: Momma",
         "Imprison",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -80,17 +97,23 @@
       [
         "p1b: Momma",
         "Follow Me",
-        "p1b: Momma"
+        [
+          "p1b: Momma"
+        ]
       ],
       [
         "p1a: Horsee",
         "Expanding Force",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Dazzling Gleam",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -99,11 +122,19 @@
       "p2a": "0 fnt",
       "p2b": "42/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -159,17 +190,23 @@
       [
         "p1a: Pony",
         "Spiky Shield",
-        "p1a: Pony"
+        [
+          "p1a: Pony"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1a: Pony"
+        [
+          "p1a: Pony"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1a: Pony"
+        [
+          "p1a: Pony"
+        ]
       ]
     ],
     "hp": {
@@ -178,11 +215,19 @@
       "p2a": "0 fnt",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -224,17 +269,23 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Draco Meteor",
-        "p1b: Beast"
+        [
+          "p1b: Beast"
+        ]
       ],
       [
         "p1a: Pony",
         "Ivy Cudgel",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -243,11 +294,19 @@
       "p2a": "31/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

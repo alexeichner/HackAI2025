@@ -11,22 +11,30 @@
       [
         "p1b: Flutter Mane",
         "Thunder Wave",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p2b: Entei",
         "Sacred Fire",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Parting Shot",
-        "p2b: Entei"
+        [
+          "p2b: Entei"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "84/100 par",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1,
@@ -85,12 +101,16 @@
       [
         "p1b: Rillaboom",
         "Fake Out",
-        "p2a: Zamazenta"
+        [
+          "p2a: Zamazenta"
+        ]
       ],
       [
         "p1a: Terapagos",
         "Substitute",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -99,9 +119,17 @@
       "p2a": "83/100 par",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1,
@@ -151,22 +179,30 @@
       [
         "p1a: Terapagos",
         "Calm Mind",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p1b: Rillaboom",
         "U-turn",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ],
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1a: Terapagos"
+        [
+          "p1a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -175,9 +211,17 @@
       "p2a": "90/100 par",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zamazenta": {
         "def": 1,

@@ -11,22 +11,30 @@
       [
         "p1b: Iron Valiant",
         "Icy Wind",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Lash Out",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ],
       [
         "p2b: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "94/100",
       "p2b": "7/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Chi-Yu": {
         "spe": -1
@@ -93,17 +112,23 @@
       [
         "p1b: Iron Valiant",
         "Protect",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Lunala",
         "Trick Room",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -112,9 +137,18 @@
       "p2a": "94/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Chi-Yu": {
         "spe": -1
@@ -160,12 +194,16 @@
       [
         "p2b: Lunala",
         "Expanding Force",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Thunderbolt",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -174,10 +212,18 @@
       "p2a": "94/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Chi-Yu": {
         "spe": -1

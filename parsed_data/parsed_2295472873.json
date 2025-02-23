@@ -11,22 +11,30 @@
       [
         "p2b: Indeedee-\u2640",
         "Helping Hand",
-        "p2a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p2a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ],
       [
         "p2a: Quazar Pulito \u2605\u2605\u2605",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "56/100",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -75,17 +91,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Crunch",
-        "p2a: Quazar Pulito \u2605\u2605\u2605"
+        [
+          "p2a: Quazar Pulito \u2605\u2605\u2605"
+        ]
       ],
       [
         "p2b: Indeedee-\u2640",
         "Trick Room",
-        "p2b: Indeedee-\u2640"
+        [
+          "p2b: Indeedee-\u2640"
+        ]
       ]
     ],
     "hp": {
@@ -94,10 +116,17 @@
       "p2a": "0 fnt",
       "p2b": "45/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -151,17 +180,23 @@
       [
         "p2a: Ursaluna",
         "Protect",
-        "p2a: Ursaluna"
+        [
+          "p2a: Ursaluna"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Gallade"
+        [
+          "p2b: Gallade"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -170,10 +205,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1

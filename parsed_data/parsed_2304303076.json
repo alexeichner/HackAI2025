@@ -11,7 +11,9 @@
       [
         "p1b: Ogerpon",
         "Taunt",
-        "p2a: TerapaGODO"
+        [
+          "p2a: TerapaGODO"
+        ]
       ]
     ],
     "hp": {
@@ -20,9 +22,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Raging Bolt": {
         "atk": -1
@@ -66,22 +77,30 @@
       [
         "p1a: Farigiraf",
         "Helping Hand",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2a: TerapaGODO"
+        [
+          "p2a: TerapaGODO"
+        ]
       ],
       [
         "p2a: TerapaGODO",
         "Tera Starstorm",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2b: Incycoso",
         "Knock Off",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +109,18 @@
       "p2a": "69/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Raging Bolt": {
         "atk": -1
@@ -137,12 +164,16 @@
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Incycoso"
+        [
+          "p2b: Incycoso"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2a: Rezza Capa"
+        [
+          "p2a: Rezza Capa"
+        ]
       ]
     ],
     "hp": {
@@ -151,11 +182,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Raging Bolt": {
         "atk": -1
@@ -210,17 +248,23 @@
       [
         "p2b: Flutter Mane",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2a: TerapaGODO"
+        [
+          "p2a: TerapaGODO"
+        ]
       ],
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2a: TerapaGODO"
+        [
+          "p2a: TerapaGODO"
+        ]
       ]
     ],
     "hp": {
@@ -229,11 +273,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Raging Bolt": {
         "atk": -1
@@ -296,11 +347,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Raging Bolt": {
         "atk": -1

@@ -11,22 +11,30 @@
       [
         "p1b: Whimsicott",
         "Light Screen",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Psychic",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ],
       [
         "p2a: Lunala",
         "Trick Room",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,11 +43,20 @@
       "p2a": "80/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -79,22 +96,30 @@
       [
         "p2b: Indeedee",
         "Imprison",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -103,11 +128,20 @@
       "p2a": "52/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -152,17 +186,23 @@
       [
         "p1a: Farigiraf",
         "Psychic Noise",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moonblast",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -171,11 +211,20 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -219,17 +268,23 @@
       [
         "p1b: Whimsicott",
         "Tailwind",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Clear Smog",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -238,12 +293,20 @@
       "p2a": "0 fnt",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -290,12 +353,16 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -304,13 +371,20 @@
       "p2a": "0 fnt",
       "p2b": "89/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -355,13 +429,20 @@
       "p2a": "0 fnt",
       "p2b": "89/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1

@@ -11,22 +11,30 @@
       [
         "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Protect",
-        "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p1b: \ub9e5\ub3c4\ud604",
         "Tailwind",
-        "p1b: \ub9e5\ub3c4\ud604"
+        [
+          "p1b: \ub9e5\ub3c4\ud604"
+        ]
       ],
       [
         "p1a: Jayson tatum",
         "Dazzling Gleam",
-        "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1b: \ub9e5\ub3c4\ud604"
+        [
+          "p1b: \ub9e5\ub3c4\ud604"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "43/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,12 +87,16 @@
       [
         "p1b: \ub9e5\ub3c4\ud604",
         "Endeavor",
-        "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p1a: Jayson tatum",
         "Dazzling Gleam",
-        "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ]
     ],
     "hp": {
@@ -85,9 +105,17 @@
       "p2a": "43/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -134,17 +162,23 @@
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Helping Hand",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ],
       [
         "p1b: \ub9e5\ub3c4\ud604",
         "Endeavor",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ],
       [
         "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca",
         "Low Kick",
-        "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        [
+          "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +187,17 @@
       "p2a": "43/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -202,17 +244,23 @@
       [
         "p1b: \ub9e5\ub3c4\ud604",
         "Endeavor",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ],
       [
         "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Psychic",
-        "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        [
+          "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        ]
       ],
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Muddy Water",
-        "p1b: \ub9e5\ub3c4\ud604"
+        [
+          "p1b: \ub9e5\ub3c4\ud604"
+        ]
       ]
     ],
     "hp": {
@@ -221,9 +269,17 @@
       "p2a": "1/100",
       "p2b": "14/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -284,17 +340,23 @@
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Protect",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ],
       [
         "p1b: kingjames",
         "Fake Out",
-        "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30ab\u30a4\u30ca"
+        ]
       ],
       [
         "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Psychic",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -303,10 +365,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -357,22 +426,30 @@
       [
         "p2b: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        [
+          "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138"
+        ]
       ],
       [
         "p1b: kingjames",
         "Knock Off",
-        "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        [
+          "p2b: \u30df\u30e9\u30a4\u30c9\u30f3"
+        ]
       ],
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Muddy Water",
-        "p1b: kingjames"
+        [
+          "p1b: kingjames"
+        ]
       ],
       [
         "p1a: \uc0ac\uc2b9\ud5cc\ud06c\uc138",
         "Psychic",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -381,10 +458,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,
@@ -449,7 +533,9 @@
       [
         "p1b: Jayson tatum",
         "Dazzling Gleam",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -458,10 +544,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3": {
         "atk": 2,

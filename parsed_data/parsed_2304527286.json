@@ -11,17 +11,23 @@
       [
         "p2a: Kyogre",
         "Water Spout",
-        "p1a: Meowscarada"
+        [
+          "p1a: Meowscarada"
+        ]
       ],
       [
         "p1a: Meowscarada",
         "Knock Off",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "4/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -84,12 +98,16 @@
       [
         "p1a: Meowscarada",
         "Flower Trick",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2b: Weezing"
+        [
+          "p2b: Weezing"
+        ]
       ]
     ],
     "hp": {
@@ -98,9 +116,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -136,17 +162,23 @@
       [
         "p2a: Kyogre",
         "Origin Pulse",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1a: Meowscarada",
         "Knock Off",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ],
       [
         "p2b: Baxcalibur",
         "Swords Dance",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -155,9 +187,17 @@
       "p2a": "0 fnt",
       "p2b": "33/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Baxcalibur": {
         "atk": 2
@@ -202,12 +242,16 @@
       [
         "p1b: Zapdos",
         "Thunderous Kick",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p1a: Meowscarada",
         "Knock Off",
-        "p2b: Baxcalibur"
+        [
+          "p2b: Baxcalibur"
+        ]
       ]
     ],
     "hp": {
@@ -216,9 +260,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Baxcalibur": {
         "atk": 2

@@ -11,12 +11,16 @@
       [
         "p1a: Iron Hands",
         "Fake Out",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Skips"
+        [
+          "p2b: Skips"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,18 @@
       "p2a": "72/100",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -59,17 +71,23 @@
       [
         "p2a: Benson",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Skips",
         "Wood Hammer",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Low Kick",
-        "p2b: Skips"
+        [
+          "p2b: Skips"
+        ]
       ]
     ],
     "hp": {
@@ -78,10 +96,18 @@
       "p2a": "78/100",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -126,17 +152,23 @@
       [
         "p2a: Benson",
         "Protect",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ],
       [
         "p1b: Ditto",
         "Dynamax Cannon",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ],
       [
         "p2b: Skips",
         "Wood Hammer",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -145,11 +177,18 @@
       "p2a": "78/100",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -189,17 +228,23 @@
       [
         "p1a: Miraidon",
         "Protect",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Benson",
         "Dynamax Cannon",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1b: Ditto",
         "Dynamax Cannon",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ]
     ],
     "hp": {
@@ -208,11 +253,18 @@
       "p2a": "49/100",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -254,17 +306,23 @@
       [
         "p2b: Mordecai",
         "Dazzling Gleam",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Ditto",
         "Sludge Bomb",
-        "p2b: Mordecai"
+        [
+          "p2b: Mordecai"
+        ]
       ],
       [
         "p2a: Benson",
         "Sludge Bomb",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ]
     ],
     "hp": {
@@ -273,11 +331,18 @@
       "p2a": "49/100",
       "p2b": "26/100 psn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -321,22 +386,30 @@
       [
         "p1b: Ditto",
         "Protect",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ],
       [
         "p2a: Benson",
         "Protect",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ],
       [
         "p2b: Mordecai",
         "Icy Wind",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Benson"
+        [
+          "p2a: Benson"
+        ]
       ]
     ],
     "hp": {
@@ -345,11 +418,18 @@
       "p2a": "49/100",
       "p2b": "14/100 psn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -392,17 +472,23 @@
       [
         "p1b: Ditto",
         "Protect",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ],
       [
         "p2b: Mordecai",
         "Moonblast",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ],
       [
         "p2a: Benson",
         "Sludge Bomb",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -411,11 +497,18 @@
       "p2a": "49/100",
       "p2b": "1/100 psn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1
@@ -466,11 +559,18 @@
       "p2a": "49/100",
       "p2b": "1/100 psn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Benson": {
         "spa": 1

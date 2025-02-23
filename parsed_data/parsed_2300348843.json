@@ -11,22 +11,30 @@
       [
         "p1a: Shepparoni",
         "Tailwind",
-        "p1a: Shepparoni"
+        [
+          "p1a: Shepparoni"
+        ]
       ],
       [
         "p1b: Panda",
         "Surging Strikes",
-        "p2b: Maushold"
+        [
+          "p2b: Maushold"
+        ]
       ],
       [
         "p2b: Maushold",
         "Super Fang",
-        "p1a: Shepparoni"
+        [
+          "p1a: Shepparoni"
+        ]
       ],
       [
         "p2a: Lunala",
         "Dazzling Gleam",
-        "p1a: Shepparoni"
+        [
+          "p1a: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "spd": 1,
@@ -93,22 +110,30 @@
       [
         "p1b: Momma",
         "Helping Hand",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ],
       [
         "p2b: Maushold",
         "Helping Hand",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1a: Horsee",
         "Expanding Force",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -117,10 +142,18 @@
       "p2a": "71/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "spd": 1,
@@ -168,17 +201,23 @@
       [
         "p2a: Lunala",
         "Protect",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1a: Horsee",
         "Astral Barrage",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -187,10 +226,18 @@
       "p2a": "77/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "spd": 1,
@@ -237,12 +284,16 @@
       [
         "p1a: Horsee",
         "Psyshock",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2a: Lunala",
         "Dazzling Gleam",
-        "p1a: Horsee"
+        [
+          "p1a: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -251,10 +302,18 @@
       "p2a": "14/100",
       "p2b": "47/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Horsee": {
         "spd": 1,

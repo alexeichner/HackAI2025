@@ -11,17 +11,23 @@
       [
         "p2a: Zacian",
         "Substitute",
-        "p2a: Zacian"
+        [
+          "p2a: Zacian"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: Zacian"
+        [
+          "p2a: Zacian"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,21 @@
       "p2a": "75/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -80,17 +97,23 @@
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Knock Off",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Zacian",
         "Play Rough",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -99,10 +122,21 @@
       "p2a": "75/100",
       "p2b": "30/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -147,12 +181,16 @@
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Rillaboom"
+        [
+          "p2b: Rillaboom"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -161,11 +199,21 @@
       "p2a": "75/100",
       "p2b": "86/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -210,12 +258,16 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Psychic",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -224,12 +276,21 @@
       "p2a": "62/100",
       "p2b": "12/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -288,17 +349,23 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Foul Play",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Heal Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -307,12 +374,21 @@
       "p2a": "29/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -360,17 +436,23 @@
       [
         "p2b: Zacian",
         "Play Rough",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -379,13 +461,21 @@
       "p2a": "29/100",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -433,17 +523,23 @@
       [
         "p2b: Zacian",
         "Protect",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Psychic",
-        "p2b: Zacian"
+        [
+          "p2b: Zacian"
+        ]
       ]
     ],
     "hp": {
@@ -452,14 +548,21 @@
       "p2a": "0 fnt",
       "p2b": "18/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -512,7 +615,9 @@
       [
         "p2a: Rillaboom",
         "Wood Hammer",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -521,14 +626,21 @@
       "p2a": "67/100",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1
@@ -575,14 +687,21 @@
       "p2a": "67/100",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zacian": {
         "atk": 1

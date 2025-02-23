@@ -11,22 +11,30 @@
       [
         "p1b: Roaring Moon",
         "Protect",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Detect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Presto",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Lion's Roar",
         "Grassy Glide",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +86,23 @@
       [
         "p1b: Roaring Moon",
         "Tailwind",
-        "p1b: Roaring Moon"
+        [
+          "p1b: Roaring Moon"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: Presto"
+        [
+          "p2b: Presto"
+        ]
       ],
       [
         "p2a: Lion's Roar",
         "Wood Hammer",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "95/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -134,17 +164,23 @@
       [
         "p1b: Roaring Moon",
         "Acrobatics",
-        "p2b: Ram"
+        [
+          "p2b: Ram"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Lion's Roar"
+        [
+          "p2a: Lion's Roar"
+        ]
       ],
       [
         "p2b: Ram",
         "Wicked Blow",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +189,17 @@
       "p2a": "0 fnt",
       "p2b": "40/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -220,17 +264,23 @@
       [
         "p1b: Roaring Moon",
         "Knock Off",
-        "p2a: Ernesto"
+        [
+          "p2a: Ernesto"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ram"
+        [
+          "p2b: Ram"
+        ]
       ],
       [
         "p2a: Ernesto",
         "Torch Song",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -239,9 +289,17 @@
       "p2a": "34/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -298,9 +356,17 @@
       "p2a": "34/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

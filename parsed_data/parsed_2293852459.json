@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Lunala",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Umbreon",
         "Taunt",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "29/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Lunala": {
         "spa": 1
@@ -74,17 +91,23 @@
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p1a: Lunala",
         "Moongeist Beam",
-        "p2a: Umbreon"
+        [
+          "p2a: Umbreon"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -93,10 +116,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Lunala": {
         "spa": 1
@@ -138,17 +169,23 @@
       [
         "p1b: Indeedee",
         "Heal Pulse",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ],
       [
         "p1a: Lunala",
         "Moongeist Beam",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Dazzling Gleam",
-        "p1a: Lunala"
+        [
+          "p1a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -157,10 +194,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Lunala": {
         "spa": 1

@@ -11,22 +11,30 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Misty Terrain",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Brute Bonnet",
         "Spore",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Entei",
         "Roar",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,22 +84,30 @@
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Entei",
         "Snarl",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2b: Brute Bonnet",
         "Crunch",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Flamethrower",
-        "p2b: Brute Bonnet"
+        [
+          "p2b: Brute Bonnet"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +116,17 @@
       "p2a": "100/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -139,22 +171,30 @@
       [
         "p1a: Grimmsnarl",
         "Parting Shot",
-        "p2b: Brute Bonnet"
+        [
+          "p2b: Brute Bonnet"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2b: Brute Bonnet",
         "Crunch",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Flamethrower",
-        "p2b: Brute Bonnet"
+        [
+          "p2b: Brute Bonnet"
+        ]
       ]
     ],
     "hp": {
@@ -163,9 +203,17 @@
       "p2a": "100/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -209,17 +257,23 @@
       [
         "p1a: Comfey",
         "Synthesis",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Flamethrower",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ]
     ],
     "hp": {
@@ -228,9 +282,17 @@
       "p2a": "100/100",
       "p2b": "82/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -274,22 +336,30 @@
       [
         "p1a: Comfey",
         "Synthesis",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Leech Life",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Solar Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -298,9 +368,17 @@
       "p2a": "100/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -349,17 +427,23 @@
       [
         "p1a: Comfey",
         "Synthesis",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Liquidation",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -368,9 +452,17 @@
       "p2a": "100/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -416,22 +508,30 @@
       [
         "p2b: Araquanid",
         "Protect",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p1a: Comfey",
         "Floral Healing",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Misty Terrain",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -440,10 +540,17 @@
       "p2a": "100/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -489,22 +596,30 @@
       [
         "p1a: Comfey",
         "Synthesis",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Parting Shot",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Liquidation",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ]
     ],
     "hp": {
@@ -513,10 +628,17 @@
       "p2a": "100/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -575,22 +697,30 @@
       [
         "p1a: Comfey",
         "Synthesis",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Liquidation",
-        "p1a: Comfey"
+        [
+          "p1a: Comfey"
+        ]
       ],
       [
         "p2a: Entei",
         "Roar",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -599,10 +729,17 @@
       "p2a": "17/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -666,17 +803,23 @@
       [
         "p1b: Grimmsnarl",
         "Reflect",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Leech Life",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -685,10 +828,17 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -752,22 +902,30 @@
       [
         "p2b: Araquanid",
         "Wide Guard",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Parting Shot",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ]
     ],
     "hp": {
@@ -776,10 +934,17 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -840,22 +1005,30 @@
       [
         "p2b: Araquanid",
         "Wide Guard",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Light Screen",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -864,11 +1037,17 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -927,22 +1106,30 @@
       [
         "p2b: Araquanid",
         "Wide Guard",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Parting Shot",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2a: Tornadus",
         "Bleakwind Storm",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -951,11 +1138,17 @@
       "p2a": "1/100",
       "p2b": "39/100"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -1018,22 +1211,30 @@
       [
         "p2a: Tornadus",
         "Rain Dance",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Flamethrower",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Araquanid",
         "Liquidation",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Araquanid"
+        [
+          "p2b: Araquanid"
+        ]
       ]
     ],
     "hp": {
@@ -1042,11 +1243,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1
@@ -1124,11 +1331,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Misty Terrain",
-      "Misty Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Grimmsnarl": {
         "spa": -1

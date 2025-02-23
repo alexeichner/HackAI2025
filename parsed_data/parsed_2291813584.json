@@ -11,17 +11,23 @@
       [
         "p1a: Primarina",
         "Protect",
-        "p1a: Primarina"
+        [
+          "p1a: Primarina"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Taunt",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -71,17 +85,23 @@
       [
         "p2b: Urshifu",
         "Protect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Electroweb",
-        "p1b: Gothitelle"
+        [
+          "p1b: Gothitelle"
+        ]
       ],
       [
         "p1a: Primarina",
         "Moonblast",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -90,7 +110,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1
@@ -142,12 +170,16 @@
       [
         "p1b: Gothitelle",
         "Fake Out",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Raging Bolt",
         "Thunderbolt",
-        "p1a: Primarina"
+        [
+          "p1a: Primarina"
+        ]
       ]
     ],
     "hp": {
@@ -156,7 +188,15 @@
       "p2a": "100/100",
       "p2b": "94/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Raging Bolt": {
         "atk": -1

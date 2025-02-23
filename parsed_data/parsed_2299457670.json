@@ -11,22 +11,30 @@
       [
         "p1b: Dialga",
         "Protect",
-        "p1b: Dialga"
+        [
+          "p1b: Dialga"
+        ]
       ],
       [
         "p2a: Jumpluff",
         "Sleep Powder",
-        "p1b: Dialga"
+        [
+          "p1b: Dialga"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1b: Dialga"
+        [
+          "p1b: Dialga"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Flare Blitz",
-        "p2a: Jumpluff"
+        [
+          "p2a: Jumpluff"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Jumpluff": {
         "atk": -1
@@ -85,22 +101,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1b: Dialga"
+        [
+          "p1b: Dialga"
+        ]
       ],
       [
         "p1b: Dialga",
         "Dragon Pulse",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -109,9 +133,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Jumpluff": {
         "atk": -1
@@ -165,17 +197,23 @@
       [
         "p2a: Kingambit",
         "Protect",
-        "p2a: Kingambit"
+        [
+          "p2a: Kingambit"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Collision Course",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Dialga",
         "Dragon Pulse",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -184,9 +222,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Jumpluff": {
         "atk": -1
@@ -245,9 +291,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Jumpluff": {
         "atk": -1

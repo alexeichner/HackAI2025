@@ -11,17 +11,23 @@
       [
         "p1a: Sableye",
         "Gravity",
-        "p1a: Sableye"
+        [
+          "p1a: Sableye"
+        ]
       ],
       [
         "p2a: Lilligant",
         "Sleep Powder",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Weather Ball",
-        "p1a: Sableye"
+        [
+          "p1a: Sableye"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp"
@@ -70,17 +84,23 @@
       [
         "p1a: Chien-Pao",
         "Protect",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2a: Lilligant",
         "Sleep Powder",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Weather Ball",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp"
@@ -124,17 +152,23 @@
       [
         "p1a: Chien-Pao",
         "Ice Shard",
-        "p2a: Lilligant"
+        [
+          "p2a: Lilligant"
+        ]
       ],
       [
         "p2a: Lilligant",
         "Sleep Powder",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Weather Ball",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -143,9 +177,17 @@
       "p2a": "8/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "slp"
@@ -187,12 +229,16 @@
       [
         "p1a: Chien-Pao",
         "Ice Shard",
-        "p2a: Lilligant"
+        [
+          "p2a: Lilligant"
+        ]
       ],
       [
         "p2a: Lilligant",
         "Solar Blade",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -201,10 +247,17 @@
       "p2a": "8/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1
@@ -249,10 +302,17 @@
       "p2a": "8/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Indeedee": {
         "spd": 1

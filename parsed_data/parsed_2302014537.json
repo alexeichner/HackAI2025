@@ -11,22 +11,30 @@
       [
         "p1b: Zoroastre",
         "Protect",
-        "p1b: Zoroastre"
+        [
+          "p1b: Zoroastre"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Protect",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1a: Arizona",
         "Spiky Shield",
-        "p1a: Arizona"
+        [
+          "p1a: Arizona"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Zoroastre"
+        [
+          "p1b: Zoroastre"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Arizona": {
         "atk": -1
@@ -74,17 +92,23 @@
       [
         "p1b: Zoroastre",
         "Astral Barrage",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p1a: Arizona",
         "Ivy Cudgel",
-        "p2a: Gastrodon"
+        [
+          "p2a: Gastrodon"
+        ]
       ],
       [
         "p2b: Incineroar",
         "Parting Shot",
-        "p1b: Zoroastre"
+        [
+          "p1b: Zoroastre"
+        ]
       ]
     ],
     "hp": {
@@ -93,7 +117,17 @@
       "p2a": "33/100",
       "p2b": "79/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Arizona": {
         "atk": -1
@@ -156,17 +190,23 @@
       [
         "p1b: Zoroastre",
         "Astral Barrage",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Astral Barrage",
-        "p1b: Zoroastre"
+        [
+          "p1b: Zoroastre"
+        ]
       ],
       [
         "p1a: Arizona",
         "Ivy Cudgel",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -175,7 +215,17 @@
       "p2a": "66/100",
       "p2b": "20/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Arizona": {
         "atk": -1
@@ -231,7 +281,9 @@
       [
         "p1b: Zoroastre",
         "Astral Barrage",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -240,9 +292,17 @@
       "p2a": "82/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Arizona": {
         "atk": -1

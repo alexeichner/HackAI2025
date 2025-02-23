@@ -11,22 +11,30 @@
       [
         "p1a: Ogerpon",
         "Follow Me",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Ivy Cudgel",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Ditto",
         "Ivy Cudgel",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Trick Room",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -69,22 +82,30 @@
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p2b: Ditto",
         "Spiky Shield",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -93,10 +114,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -127,17 +153,23 @@
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p2b: Ditto",
         "Ivy Cudgel",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -146,10 +178,15 @@
       "p2a": "0 fnt",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -206,22 +243,30 @@
       [
         "p2a: Koraidon",
         "Protect",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p2b: Ditto",
         "Spiky Shield",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -230,10 +275,15 @@
       "p2a": "0 fnt",
       "p2b": "13/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -270,12 +320,16 @@
       [
         "p1b: Calyrex",
         "High Horsepower",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -284,10 +338,15 @@
       "p2a": "0 fnt",
       "p2b": "87/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -343,17 +402,23 @@
       [
         "p1b: Calyrex",
         "Protect",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Weather Ball",
-        "p2a: Ditto"
+        [
+          "p2a: Ditto"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Electroweb",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -362,10 +427,15 @@
       "p2a": "0 fnt",
       "p2b": "93/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2
@@ -411,17 +481,23 @@
       [
         "p1a: Pelipper",
         "Wide Guard",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Thunderbolt",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -430,10 +506,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Calyrex": {
         "atk": 2

@@ -11,17 +11,23 @@
       [
         "p2b: Knotweed",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2a: Phoenix",
         "Tailwind",
-        "p2a: Phoenix"
+        [
+          "p2a: Phoenix"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Reflect",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "100/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -66,22 +80,30 @@
       [
         "p1b: Grimmsnarl",
         "Thunder Wave",
-        "p2b: Knotweed"
+        [
+          "p2b: Knotweed"
+        ]
       ],
       [
         "p2a: Phoenix",
         "Taunt",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Phoenix"
+        [
+          "p2a: Phoenix"
+        ]
       ],
       [
         "p2b: Knotweed",
         "High Horsepower",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +112,18 @@
       "p2a": "0 fnt",
       "p2b": "93/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -142,17 +172,23 @@
       [
         "p1a: Volcarona",
         "Protect",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p2a: Pippin",
         "Heavy Slam",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2b: Knotweed",
         "High Horsepower",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -161,11 +197,18 @@
       "p2a": "0 fnt",
       "p2b": "93/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -213,22 +256,30 @@
       [
         "p2a: Pippin",
         "Body Press",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2a: Pippin"
+        [
+          "p2a: Pippin"
+        ]
       ],
       [
         "p1a: Volcarona",
         "Heat Wave",
-        "p2a: Pippin"
+        [
+          "p2a: Pippin"
+        ]
       ],
       [
         "p2b: Knotweed",
         "High Horsepower",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -237,11 +288,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -302,17 +360,23 @@
       [
         "p1a: Volcarona",
         "Giga Drain",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p1b: Grimmsnarl",
         "Spirit Break",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p2b: Bowl Cut",
         "Ruination",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -321,11 +385,18 @@
       "p2a": "0 fnt",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -383,17 +454,23 @@
       [
         "p1b: Grimmsnarl",
         "Thunder Wave",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p1a: Volcarona",
         "Heat Wave",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p2b: Bowl Cut",
         "Heavy Slam",
-        "p1b: Grimmsnarl"
+        [
+          "p1b: Grimmsnarl"
+        ]
       ]
     ],
     "hp": {
@@ -402,11 +479,18 @@
       "p2a": "0 fnt",
       "p2b": "69/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -460,17 +544,23 @@
       [
         "p1a: Volcarona",
         "Quiver Dance",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p1b: Okidogi",
         "Knock Off",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p2b: Bowl Cut",
         "Ruination",
-        "p1b: Okidogi"
+        [
+          "p1b: Okidogi"
+        ]
       ]
     ],
     "hp": {
@@ -479,11 +569,18 @@
       "p2a": "0 fnt",
       "p2b": "50/100 par"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1
@@ -537,12 +634,16 @@
       [
         "p1a: Volcarona",
         "Heat Wave",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ],
       [
         "p1b: Okidogi",
         "Psychic Fangs",
-        "p2b: Bowl Cut"
+        [
+          "p2b: Bowl Cut"
+        ]
       ]
     ],
     "hp": {
@@ -551,11 +652,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Pippin": {
         "def": 1

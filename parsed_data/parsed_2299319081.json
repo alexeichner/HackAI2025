@@ -11,22 +11,30 @@
       [
         "p2b: Iron Bundle",
         "Protect",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Fake Out",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -89,12 +105,16 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -103,9 +123,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -154,22 +182,30 @@
       [
         "p2b: Iron Bundle",
         "Protect",
-        "p2b: Iron Bundle"
+        [
+          "p2b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "U-turn",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -178,9 +214,17 @@
       "p2a": "28/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -240,17 +284,23 @@
       [
         "p2a: Dragonite",
         "Protect",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -259,9 +309,17 @@
       "p2a": "28/100",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -328,17 +386,23 @@
       [
         "p2b: Incineroar",
         "Fake Out",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ],
       [
         "p2a: Dragonite",
         "Scale Shot",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -347,10 +411,17 @@
       "p2a": "18/100",
       "p2b": "11/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -417,17 +488,23 @@
       [
         "p2a: Dragonite",
         "Protect",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Freeze-Dry",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2b: Incineroar"
+        [
+          "p2b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -436,10 +513,17 @@
       "p2a": "18/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -501,17 +585,23 @@
       [
         "p2a: Dragonite",
         "Extreme Speed",
-        "p1a: Dragonite"
+        [
+          "p1a: Dragonite"
+        ]
       ],
       [
         "p2b: Iron Bundle",
         "Icy Wind",
-        "p1b: Iron Bundle"
+        [
+          "p1b: Iron Bundle"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -520,10 +610,17 @@
       "p2a": "0 fnt",
       "p2b": "90/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1
@@ -598,17 +695,23 @@
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1b: Iron Bundle",
         "Icy Wind",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -617,10 +720,17 @@
       "p2a": "25/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Miraidon": {
         "atk": -1

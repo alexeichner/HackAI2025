@@ -11,22 +11,30 @@
       [
         "p2b: Ursaluna",
         "Calm Mind",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Parting Shot",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Volcarona"
+        [
+          "p2a: Volcarona"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,23 @@
       "p2a": "85/100",
       "p2b": "78/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -89,7 +110,9 @@
       [
         "p2b: Ursaluna",
         "Hyper Voice",
-        "p1a: Ursaluna"
+        [
+          "p1a: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -98,10 +121,23 @@
       "p2a": "85/100",
       "p2b": "78/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -162,17 +198,23 @@
       [
         "p2b: Ursaluna",
         "Protect",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1a: Ursaluna",
         "Headlong Rush",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -181,11 +223,23 @@
       "p2a": "0 fnt",
       "p2b": "78/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -246,7 +300,9 @@
       [
         "p1b: Amoonguss",
         "Spore",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -255,12 +311,23 @@
       "p2a": "0 fnt",
       "p2b": "78/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -317,7 +384,9 @@
       [
         "p1b: Amoonguss",
         "Clear Smog",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -326,13 +395,23 @@
       "p2a": "0 fnt",
       "p2b": "65/100 slp"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -398,12 +477,16 @@
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -412,15 +495,23 @@
       "p2a": "0 fnt",
       "p2b": "65/100 slp"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -477,22 +568,30 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Volcarona"
+        [
+          "p2a: Volcarona"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Heal Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Hyper Voice",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2a: Volcarona",
         "Struggle Bug",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -501,15 +600,23 @@
       "p2a": "54/100",
       "p2b": "17/100 slp"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -579,17 +686,23 @@
       [
         "p2b: Ursaluna",
         "Protect",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Facade",
-        "p2a: Volcarona"
+        [
+          "p2a: Volcarona"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -598,16 +711,23 @@
       "p2a": "0 fnt",
       "p2b": "17/100 slp"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,
@@ -664,17 +784,23 @@
       [
         "p2b: Ursaluna",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -683,16 +809,23 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Calyrex": {
         "atk": -2,

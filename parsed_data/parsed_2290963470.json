@@ -11,22 +11,30 @@
       [
         "p1a: Hallothreen",
         "Tailwind",
-        "p1a: Hallothreen"
+        [
+          "p1a: Hallothreen"
+        ]
       ],
       [
         "p1b: Arizona",
         "Ivy Cudgel",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Arizona"
+        [
+          "p1b: Arizona"
+        ]
       ],
       [
         "p2a: Groudon",
         "Heat Crash",
-        "p1b: Arizona"
+        [
+          "p1b: Arizona"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "52/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Arizona": {
         "atk": 1
@@ -99,17 +115,23 @@
       [
         "p1a: Hallothreen",
         "Air Slash",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1b: Zoroastre",
         "Astral Barrage",
-        "p2b: Chi-Yu"
+        [
+          "p2b: Chi-Yu"
+        ]
       ],
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1b: Zoroastre"
+        [
+          "p1b: Zoroastre"
+        ]
       ]
     ],
     "hp": {
@@ -118,7 +140,15 @@
       "p2a": "63/100",
       "p2b": "68/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Arizona": {
         "atk": 1

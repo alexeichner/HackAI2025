@@ -11,22 +11,30 @@
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1a: Dondozo",
         "Earthquake",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "61/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Dondozo": {
         "atk": 2,
@@ -89,17 +105,23 @@
       [
         "p1a: Dondozo",
         "Protect",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +130,17 @@
       "p2a": "61/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Dondozo": {
         "atk": 2,
@@ -152,12 +182,16 @@
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1a: Dondozo"
+        [
+          "p1a: Dondozo"
+        ]
       ],
       [
         "p2b: Raging Bolt",
         "Volt Switch",
-        "p1b: Tatsugiri"
+        [
+          "p1b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +200,17 @@
       "p2a": "61/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Dondozo": {
         "atk": 2,
@@ -217,12 +259,16 @@
       [
         "p2b: Chi-Yu",
         "Heat Wave",
-        "p1a: Gholdengo"
+        [
+          "p1a: Gholdengo"
+        ]
       ],
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -231,9 +277,17 @@
       "p2a": "61/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Dondozo": {
         "atk": 2,

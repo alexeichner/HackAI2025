@@ -11,22 +11,30 @@
       [
         "p2a: Charming",
         "Protect",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p1a: Regieleki",
         "Electroweb",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p1b: Chi-Yu",
         "Snarl",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p2b: Mr. Grizz",
         "Earth Power",
-        "p1a: Regieleki"
+        [
+          "p1a: Regieleki"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "81/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Mr. Grizz": {
         "spa": -1
@@ -77,12 +96,16 @@
       [
         "p2a: Charming",
         "Close Combat",
-        "p1b: Chi-Yu"
+        [
+          "p1b: Chi-Yu"
+        ]
       ],
       [
         "p1a: Iron Hands",
         "Low Kick",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -91,10 +114,18 @@
       "p2a": "100/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Mr. Grizz": {
         "spa": -1
@@ -135,17 +166,23 @@
       [
         "p2b: Suthen",
         "Helping Hand",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1a: Iron Hands"
+        [
+          "p1a: Iron Hands"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -154,10 +191,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Mr. Grizz": {
         "spa": -1
@@ -215,7 +260,9 @@
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -224,10 +271,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Mr. Grizz": {
         "spa": -1

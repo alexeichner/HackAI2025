@@ -11,12 +11,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Annihilape"
+        [
+          "p2a: Annihilape"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Power Whip",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -25,7 +29,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +82,23 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p1b: Tsareena",
         "Triple Axel",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ],
       [
         "p2a: Amoonguss",
         "Pollen Puff",
-        "p2: Raging Bolt"
+        [
+          "p2: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -89,7 +107,15 @@
       "p2a": "35/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -149,7 +175,15 @@
       "p2a": "35/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

@@ -11,22 +11,30 @@
       [
         "p1a: Chien-Pao",
         "Protect",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Endeavor",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1b: Umbreon"
+        [
+          "p1b: Umbreon"
+        ]
       ],
       [
         "p1b: Umbreon",
         "Yawn",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -74,22 +90,30 @@
       [
         "p2a: Whimsicott",
         "Misty Terrain",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Throat Chop",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p1b: Umbreon",
         "Foul Play",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -98,9 +122,15 @@
       "p2a": "100/100",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -143,22 +173,30 @@
       [
         "p2a: Whimsicott",
         "Tailwind",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1a: Chien-Pao"
+        [
+          "p1a: Chien-Pao"
+        ]
       ],
       [
         "p1a: Chien-Pao",
         "Ice Spinner",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Umbreon",
         "Foul Play",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -167,9 +205,15 @@
       "p2a": "0 fnt",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -214,17 +258,23 @@
       [
         "p2b: Calyrex",
         "Protect",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2a: Landorus",
         "Sandsear Storm",
-        "p1b: Umbreon"
+        [
+          "p1b: Umbreon"
+        ]
       ],
       [
         "p1b: Umbreon",
         "Yawn",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -233,9 +283,15 @@
       "p2a": "0 fnt",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -285,17 +341,23 @@
       [
         "p1a: Zamazenta",
         "Protect",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p2a: Landorus",
         "Earth Power",
-        "p1b: Umbreon"
+        [
+          "p1b: Umbreon"
+        ]
       ],
       [
         "p2b: Calyrex",
         "High Horsepower",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -304,9 +366,15 @@
       "p2a": "0 fnt",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -351,12 +419,16 @@
       [
         "p1b: Chien-Pao",
         "Ice Spinner",
-        "p2a: Landorus"
+        [
+          "p2a: Landorus"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Heavy Slam",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -365,9 +437,15 @@
       "p2a": "0 fnt",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -432,22 +510,30 @@
       [
         "p1b: Chien-Pao",
         "Protect",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p2b: Ditto",
         "Body Press",
-        "p1a: Zamazenta"
+        [
+          "p1a: Zamazenta"
+        ]
       ],
       [
         "p1a: Zamazenta",
         "Body Press",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -456,9 +542,15 @@
       "p2a": "0 fnt",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1
@@ -522,7 +614,9 @@
       [
         "p2b: Ditto",
         "Body Press",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -531,9 +625,15 @@
       "p2a": "0 fnt",
       "p2b": "27/100"
     },
-    "field_effects": [
-      "Misty Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Zamazenta": {
         "def": 1

@@ -11,12 +11,16 @@
       [
         "p2b: Ursaluna",
         "Blood Moon",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Kingambit",
         "Iron Head",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,19 @@
       "p2a": "76/100",
       "p2b": "91/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -74,17 +88,23 @@
       [
         "p1a: Kingambit",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Earth Power",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -93,9 +113,19 @@
       "p2a": "76/100",
       "p2b": "81/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Kingambit": {
         "atk": 1
@@ -152,12 +182,16 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -166,9 +200,19 @@
       "p2a": "76/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Kingambit": {
         "atk": 1
@@ -219,17 +263,23 @@
       [
         "p2b: Whimsicott",
         "Tailwind",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Flare Blitz",
-        "p1a: Kingambit"
+        [
+          "p1a: Kingambit"
+        ]
       ]
     ],
     "hp": {
@@ -238,10 +288,19 @@
       "p2a": "95/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Kingambit": {
         "atk": 1
@@ -291,17 +350,23 @@
       [
         "p2b: Whimsicott",
         "Protect",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -310,10 +375,19 @@
       "p2a": "90/100",
       "p2b": "7/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Kingambit": {
         "atk": 1
@@ -358,22 +432,30 @@
       [
         "p2b: Whimsicott",
         "Encore",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Psychic",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2a: Incineroar",
         "U-turn",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -382,11 +464,19 @@
       "p2a": "90/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Kingambit": {
         "atk": 1

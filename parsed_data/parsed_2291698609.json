@@ -11,22 +11,30 @@
       [
         "p1b: Zamazenta",
         "Wide Guard",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Lunala",
         "Expanding Force",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "3/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -78,22 +95,30 @@
       [
         "p1a: Urshifu",
         "Detect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Indeedee",
         "Follow Me",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Body Press",
-        "p2b: Indeedee"
+        [
+          "p2b: Indeedee"
+        ]
       ],
       [
         "p2a: Lunala",
         "Trick Room",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -102,10 +127,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -142,17 +175,23 @@
       [
         "p2b: Ursaluna",
         "Headlong Rush",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Zamazenta",
         "Body Press",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ]
     ],
     "hp": {
@@ -161,11 +200,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -214,22 +260,30 @@
       [
         "p1b: Zamazenta",
         "Protect",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Grassy Glide",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -238,11 +292,18 @@
       "p2a": "91/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -286,17 +347,23 @@
       [
         "p1a: Roaring Moon",
         "Protect",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Zamazenta"
+        [
+          "p1b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -305,11 +372,18 @@
       "p2a": "97/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -353,22 +427,30 @@
       [
         "p1b: Urshifu",
         "Detect",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Roaring Moon",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1a: Roaring Moon"
+        [
+          "p1a: Roaring Moon"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -377,11 +459,18 @@
       "p2a": "100/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1
@@ -427,12 +516,16 @@
       [
         "p1b: Urshifu",
         "Surging Strikes",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -441,11 +534,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Zamazenta": {
         "def": 1

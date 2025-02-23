@@ -11,12 +11,16 @@
       [
         "p2b: Rillaboom",
         "Fake Out",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Trick Room",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -25,11 +29,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -60,22 +72,30 @@
       [
         "p2a: Farigiraf",
         "Foul Play",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p2b: Rillaboom",
         "U-turn",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ],
       [
         "p1a: Oranguru",
         "Trick Room",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ]
     ],
     "hp": {
@@ -84,11 +104,19 @@
       "p2a": "78/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -137,22 +165,30 @@
       [
         "p1b: Okidogi",
         "Knock Off",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p1a: Oranguru",
         "Imprison",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Glacial Lance",
-        "p1a: Oranguru"
+        [
+          "p1a: Oranguru"
+        ]
       ],
       [
         "p2a: Farigiraf",
         "Trick Room",
-        "p2a: Farigiraf"
+        [
+          "p2a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -161,12 +197,19 @@
       "p2a": "84/100",
       "p2b": "42/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Trick Room",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "atk": 1

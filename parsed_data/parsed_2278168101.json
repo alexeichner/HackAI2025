@@ -11,22 +11,30 @@
       [
         "p2b: Tornadus",
         "Snowscape",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Thunder Wave",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ],
       [
         "p1b: Groudon",
         "Stone Edge",
-        "p2b: Tornadus"
+        [
+          "p2b: Tornadus"
+        ]
       ],
       [
         "p2a: Cresselia",
         "Trick Room",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "par"
@@ -75,12 +91,16 @@
       [
         "p2a: Cresselia",
         "Skill Swap",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Encore",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +109,17 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -140,12 +168,16 @@
       [
         "p2b: Zamazenta",
         "Heavy Slam",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Thunder Wave",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -154,9 +186,17 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -199,17 +239,23 @@
       [
         "p2a: Tornadus",
         "Snowscape",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1b: Groudon",
         "Heat Crash",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Encore",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -218,9 +264,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -267,9 +321,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -313,17 +375,23 @@
       [
         "p1b: Cobalion",
         "Iron Defense",
-        "p1b: Cobalion"
+        [
+          "p1b: Cobalion"
+        ]
       ],
       [
         "p1a: Moltres",
         "Fiery Wrath",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Heavy Slam",
-        "p1a: Moltres"
+        [
+          "p1a: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -332,9 +400,17 @@
       "p2a": "65/100 par",
       "p2b": "80/100 par"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -386,17 +462,23 @@
       [
         "p1b: Cobalion",
         "Iron Head",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ],
       [
         "p1a: Moltres",
         "Fiery Wrath",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ],
       [
         "p2b: Zamazenta",
         "Heavy Slam",
-        "p1a: Moltres"
+        [
+          "p1a: Moltres"
+        ]
       ]
     ],
     "hp": {
@@ -405,9 +487,17 @@
       "p2a": "10/100 par",
       "p2b": "61/100 par"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -467,12 +557,16 @@
       [
         "p1b: Cobalion",
         "Iron Head",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p1a: Moltres",
         "Air Slash",
-        "p2b: Zamazenta"
+        [
+          "p2b: Zamazenta"
+        ]
       ]
     ],
     "hp": {
@@ -481,10 +575,17 @@
       "p2a": "82/100",
       "p2b": "27/100 par"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1
@@ -537,10 +638,17 @@
       "p2a": "82/100",
       "p2b": "27/100 par"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Zamazenta": {
         "def": 1

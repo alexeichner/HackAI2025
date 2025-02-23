@@ -11,22 +11,30 @@
       [
         "p2a: Iron Bundle",
         "Icy Wind",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p1a: Iron Jugulis",
         "Tailwind",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Iron Jugulis"
+        [
+          "p1a: Iron Jugulis"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Will-O-Wisp",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -95,17 +113,23 @@
       [
         "p1a: Urshifu",
         "Close Combat",
-        "p2a: Iron Bundle"
+        [
+          "p2a: Iron Bundle"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1b: Incineroar",
         "Will-O-Wisp",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -114,9 +138,17 @@
       "p2a": "0 fnt",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -178,12 +210,16 @@
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -192,9 +228,17 @@
       "p2a": "0 fnt",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -276,17 +320,23 @@
       [
         "p2b: Urshifu",
         "Detect",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Fake Out",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -295,9 +345,17 @@
       "p2a": "64/100",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -358,17 +416,23 @@
       [
         "p2a: Rillaboom",
         "Grassy Glide",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Ice Beam",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -377,9 +441,17 @@
       "p2a": "18/100 frz",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -448,12 +520,16 @@
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ]
     ],
     "hp": {
@@ -462,9 +538,17 @@
       "p2a": "0 fnt",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1
@@ -555,7 +639,9 @@
       [
         "p2a: Zamazenta",
         "Body Press",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -564,9 +650,17 @@
       "p2a": "0 fnt",
       "p2b": "95/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Iron Bundle": {
         "atk": -1

@@ -11,22 +11,30 @@
       [
         "p2a: Flutter Mane",
         "Protect",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Protect",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ],
       [
         "p1a: \u559c\u6b22\u6211\u5417\u8001\u5f1f",
         "Protect",
-        "p1a: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        [
+          "p1a: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        ]
       ],
       [
         "p1b: \u4e16\u754c\u51a0\u519b",
         "Volt Switch",
-        "p2b: Koraidon"
+        [
+          "p2b: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -70,17 +86,23 @@
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p2b: Koraidon",
         "Scale Shot",
-        "p1a: Ogerpon"
+        [
+          "p1a: Ogerpon"
+        ]
       ],
       [
         "p1b: \u4e16\u754c\u51a0\u519b",
         "Dazzling Gleam",
-        "p2a: Flutter Mane"
+        [
+          "p2a: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -89,9 +111,17 @@
       "p2a": "54/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1
@@ -145,17 +175,23 @@
       [
         "p1a: \u9633\u5149\u5f00\u6717",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Ditto",
         "Encore",
-        "p1b: \u4e16\u754c\u51a0\u519b"
+        [
+          "p1b: \u4e16\u754c\u51a0\u519b"
+        ]
       ],
       [
         "p1b: \u4e16\u754c\u51a0\u519b",
         "Dazzling Gleam",
-        "p2b: Ditto"
+        [
+          "p2b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -164,9 +200,17 @@
       "p2a": "87/100",
       "p2b": "46/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1
@@ -218,12 +262,16 @@
       [
         "p2a: Entei",
         "Stomping Tantrum",
-        "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        [
+          "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        ]
       ],
       [
         "p1a: \u9633\u5149\u5f00\u6717",
         "Foul Play",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -232,9 +280,17 @@
       "p2a": "87/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1
@@ -284,17 +340,23 @@
       [
         "p2a: Entei",
         "Extreme Speed",
-        "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        [
+          "p1b: \u559c\u6b22\u6211\u5417\u8001\u5f1f"
+        ]
       ],
       [
         "p1a: \u9633\u5149\u5f00\u6717",
         "Disable",
-        "p2a: Entei"
+        [
+          "p2a: Entei"
+        ]
       ],
       [
         "p2b: Flutter Mane",
         "Moonblast",
-        "p1a: \u9633\u5149\u5f00\u6717"
+        [
+          "p1a: \u9633\u5149\u5f00\u6717"
+        ]
       ]
     ],
     "hp": {
@@ -303,10 +365,17 @@
       "p2a": "87/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1
@@ -356,17 +425,23 @@
       [
         "p2b: Flutter Mane",
         "Protect",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p1b: \u4e16\u754c\u51a0\u519b",
         "Dazzling Gleam",
-        "p2b: Flutter Mane"
+        [
+          "p2b: Flutter Mane"
+        ]
       ],
       [
         "p2a: Entei",
         "Sacred Fire",
-        "p1b: \u4e16\u754c\u51a0\u519b"
+        [
+          "p1b: \u4e16\u754c\u51a0\u519b"
+        ]
       ]
     ],
     "hp": {
@@ -375,10 +450,17 @@
       "p2a": "74/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1
@@ -431,10 +513,17 @@
       "p2a": "74/100",
       "p2b": "17/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Ogerpon": {
         "spe": -1

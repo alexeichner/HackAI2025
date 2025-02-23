@@ -11,17 +11,23 @@
       [
         "p2a: Incineroar",
         "Fake Out",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Taunt",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Taunt",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -67,22 +83,30 @@
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ],
       [
         "p2a: Incineroar",
         "Flare Blitz",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Foul Play",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -91,9 +115,17 @@
       "p2a": "40/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -135,17 +167,23 @@
       [
         "p2b: Oranguru",
         "Encore",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Incineroar",
         "Knock Off",
-        "p1b: Flutter Mane"
+        [
+          "p1b: Flutter Mane"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2a: Incineroar"
+        [
+          "p2a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -154,9 +192,17 @@
       "p2a": "23/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -195,12 +241,16 @@
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2b: Oranguru"
+        [
+          "p2b: Oranguru"
+        ]
       ],
       [
         "p2b: Oranguru",
         "Foul Play",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -209,10 +259,17 @@
       "p2a": "0 fnt",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -266,17 +323,23 @@
       [
         "p2a: Miraidon",
         "Protect",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2b: Oranguru"
+        [
+          "p2b: Oranguru"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -285,10 +348,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -328,17 +398,23 @@
       [
         "p1a: Torkoal",
         "Eruption",
-        "p2b: Clefairy"
+        [
+          "p2b: Clefairy"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Glacial Lance",
-        "p2b: Clefairy"
+        [
+          "p2b: Clefairy"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Torkoal"
+        [
+          "p1a: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -347,10 +423,17 @@
       "p2a": "42/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -411,12 +494,16 @@
       [
         "p1b: Flutter Mane",
         "Moonblast",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1a: Raging Bolt"
+        [
+          "p1a: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -425,10 +512,17 @@
       "p2a": "29/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1
@@ -477,12 +571,16 @@
       [
         "p2a: Miraidon",
         "Parabolic Charge",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ],
       [
         "p1a: Raging Bolt",
         "Draco Meteor",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -491,10 +589,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Flutter Mane": {
         "atk": -1

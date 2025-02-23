@@ -11,12 +11,16 @@
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1b: Talonflame"
+        [
+          "p1b: Talonflame"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ]
     ],
     "hp": {
@@ -25,9 +29,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1
@@ -86,22 +98,30 @@
       [
         "p2b: Suthen",
         "Follow Me",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ],
       [
         "p2a: Charming",
         "Spirit Break",
-        "p1b: Dondozo"
+        [
+          "p1b: Dondozo"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2a: Charming"
+        [
+          "p2a: Charming"
+        ]
       ],
       [
         "p1b: Dondozo",
         "Wave Crash",
-        "p2b: Suthen"
+        [
+          "p2b: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -110,9 +130,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1

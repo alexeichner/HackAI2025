@@ -11,22 +11,30 @@
       [
         "p2b: Urshifu",
         "Surging Strikes",
-        "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9"
+        [
+          "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9"
+        ]
       ],
       [
         "p2a: Chi-Yu",
         "Heat Wave",
-        "p1b: \u9e92\u9e9f\u4fa0"
+        [
+          "p1b: \u9e92\u9e9f\u4fa0"
+        ]
       ],
       [
         "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9",
         "High Horsepower",
-        "p2a: Chi-Yu"
+        [
+          "p2a: Chi-Yu"
+        ]
       ],
       [
         "p1b: \u9e92\u9e9f\u4fa0",
         "Trick Room",
-        "p1b: \u9e92\u9e9f\u4fa0"
+        [
+          "p1b: \u9e92\u9e9f\u4fa0"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9": {
         "atk": 1
@@ -114,17 +130,23 @@
       [
         "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9",
         "Glacial Lance",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p1b: \u9e92\u9e9f\u4fa0",
         "Psychic",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Astral Barrage",
-        "p1b: \u9e92\u9e9f\u4fa0"
+        [
+          "p1b: \u9e92\u9e9f\u4fa0"
+        ]
       ]
     ],
     "hp": {
@@ -133,9 +155,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: \u30d0\u30c9\u30ec\u30c3\u30af\u30b9": {
         "atk": 1

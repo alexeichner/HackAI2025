@@ -11,17 +11,23 @@
       [
         "p1b: Tornadus",
         "Taunt",
-        "p2a: Scream Tail"
+        [
+          "p2a: Scream Tail"
+        ]
       ],
       [
         "p2b: Sableye",
         "Sunny Day",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "82/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -63,12 +77,16 @@
       [
         "p1b: Tornadus",
         "Bleakwind Storm",
-        "p2a: Sableye"
+        [
+          "p2a: Sableye"
+        ]
       ],
       [
         "p2b: Curveball",
         "Wood Hammer",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -77,9 +95,17 @@
       "p2a": "12/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -132,22 +158,30 @@
       [
         "p1b: Tornadus",
         "Tailwind",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p2a: Sableye",
         "Gravity",
-        "p2a: Sableye"
+        [
+          "p2a: Sableye"
+        ]
       ],
       [
         "p1a: Incineroar",
         "Will-O-Wisp",
-        "p2b: Curveball"
+        [
+          "p2b: Curveball"
+        ]
       ],
       [
         "p2b: Curveball",
         "U-turn",
-        "p1a: Incineroar"
+        [
+          "p1a: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -156,10 +190,17 @@
       "p2a": "18/100",
       "p2b": "97/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -199,22 +240,30 @@
       [
         "p2a: Sableye",
         "Encore",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ],
       [
         "p1b: Tornadus",
         "Tailwind",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Tornadus"
+        [
+          "p1b: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -223,10 +272,17 @@
       "p2a": "23/100",
       "p2b": "80/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -271,12 +327,16 @@
       [
         "p1a: Incineroar",
         "Parting Shot",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -285,10 +345,17 @@
       "p2a": "87/100",
       "p2b": "86/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -335,17 +402,23 @@
       [
         "p1a: Tornadus",
         "Taunt",
-        "p2a: Scream Tail"
+        [
+          "p2a: Scream Tail"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Sableye"
+        [
+          "p2b: Sableye"
+        ]
       ],
       [
         "p2a: Scream Tail",
         "Play Rough",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -354,10 +427,17 @@
       "p2a": "36/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -404,12 +484,16 @@
       [
         "p1a: Gofres",
         "Fake Out",
-        "p2b: Curveball"
+        [
+          "p2b: Curveball"
+        ]
       ],
       [
         "p2a: Scream Tail",
         "Play Rough",
-        "p1a: Gofres"
+        [
+          "p1a: Gofres"
+        ]
       ]
     ],
     "hp": {
@@ -418,11 +502,17 @@
       "p2a": "42/100",
       "p2b": "89/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -477,17 +567,23 @@
       [
         "p2a: Scream Tail",
         "Play Rough",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ],
       [
         "p1a: Gofres",
         "Nuzzle",
-        "p2a: Scream Tail"
+        [
+          "p2a: Scream Tail"
+        ]
       ],
       [
         "p2b: Curveball",
         "Wood Hammer",
-        "p1b: Incineroar"
+        [
+          "p1b: Incineroar"
+        ]
       ]
     ],
     "hp": {
@@ -496,11 +592,17 @@
       "p2a": "42/100 par",
       "p2b": "81/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -558,22 +660,30 @@
       [
         "p1b: Kyogre",
         "Protect",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p2b: Curveball",
         "Grassy Glide",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Gofres",
         "Nuzzle",
-        "p2a: Scream Tail"
+        [
+          "p2a: Scream Tail"
+        ]
       ],
       [
         "p2a: Scream Tail",
         "Play Rough",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -582,11 +692,17 @@
       "p2a": "43/100 par",
       "p2b": "81/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -637,17 +753,23 @@
       [
         "p2b: Curveball",
         "Grassy Glide",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Gofres",
         "Volt Switch",
-        "p2b: Curveball"
+        [
+          "p2b: Curveball"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Curveball"
+        [
+          "p2b: Curveball"
+        ]
       ]
     ],
     "hp": {
@@ -656,11 +778,17 @@
       "p2a": "0 fnt",
       "p2b": "27/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1
@@ -724,22 +852,30 @@
       [
         "p2b: Curveball",
         "Grassy Glide",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1a: Gofres",
         "Nuzzle",
-        "p2a: Groudon"
+        [
+          "p2a: Groudon"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Origin Pulse",
-        "p2b: Curveball"
+        [
+          "p2b: Curveball"
+        ]
       ],
       [
         "p2a: Groudon",
         "Precipice Blades",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -748,11 +884,17 @@
       "p2a": "82/100",
       "p2b": "14/100 brn"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Gravity",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Sableye": {
         "atk": -1

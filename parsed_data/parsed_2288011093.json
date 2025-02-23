@@ -11,17 +11,23 @@
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p1b: Whimsicott",
         "Moonblast",
-        "p2b: Charming"
+        [
+          "p2b: Charming"
+        ]
       ],
       [
         "p2a: Mr. Gassy",
         "Sludge Bomb",
-        "p1b: Whimsicott"
+        [
+          "p1b: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,20 @@
       "p2a": "65/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -86,17 +105,23 @@
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Mr. Gassy",
         "Sludge Bomb",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -105,7 +130,20 @@
       "p2a": "8/100",
       "p2b": "29/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -140,17 +178,23 @@
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Mr. Gassy"
+        [
+          "p2a: Mr. Gassy"
+        ]
       ],
       [
         "p1b: Ursaluna",
         "Headlong Rush",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -159,10 +203,20 @@
       "p2a": "0 fnt",
       "p2b": "29/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1b": "brn"
@@ -197,17 +251,23 @@
       [
         "p2a: Suthen",
         "Helping Hand",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Whimsicott",
         "Tailwind",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ],
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1a: Whimsicott"
+        [
+          "p1a: Whimsicott"
+        ]
       ]
     ],
     "hp": {
@@ -216,11 +276,20 @@
       "p2a": "0 fnt",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 2
@@ -264,17 +333,23 @@
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p2a: Suthen",
         "Trick Room",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -283,12 +358,20 @@
       "p2a": "64/100",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 2
@@ -327,12 +410,16 @@
       [
         "p2a: Suthen",
         "Dazzling Gleam",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2b: Duncan",
         "Astral Barrage",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -341,12 +428,20 @@
       "p2a": "64/100",
       "p2b": "10/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 2

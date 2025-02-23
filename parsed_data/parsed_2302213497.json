@@ -11,17 +11,23 @@
       [
         "p1b: Pachirisu",
         "Follow Me",
-        "p1b: Pachirisu"
+        [
+          "p1b: Pachirisu"
+        ]
       ],
       [
         "p2a: Regieleki",
         "Electroweb",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Entei",
         "Eruption",
-        "p1b: Pachirisu"
+        [
+          "p1b: Pachirisu"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],

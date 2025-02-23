@@ -11,17 +11,23 @@
       [
         "p1a: Iron Valiant",
         "Icy Wind",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Wave Crash",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "81/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -91,17 +105,23 @@
       [
         "p1a: Iron Valiant",
         "Close Combat",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Earthquake",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -110,9 +130,17 @@
       "p2a": "44/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -175,12 +203,16 @@
       [
         "p1a: Iron Valiant",
         "Close Combat",
-        "p2a: Dondozo"
+        [
+          "p2a: Dondozo"
+        ]
       ],
       [
         "p2a: Dondozo",
         "Wave Crash",
-        "p1b: Landorus"
+        [
+          "p1b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -189,9 +221,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -244,22 +284,30 @@
       [
         "p1a: Iron Valiant",
         "Wide Guard",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ],
       [
         "p2a: Dragonite",
         "Extreme Speed",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2b: Tatsugiri",
         "Muddy Water",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Dazzling Gleam",
-        "p2b: Tatsugiri"
+        [
+          "p2b: Tatsugiri"
+        ]
       ]
     ],
     "hp": {
@@ -268,9 +316,17 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -328,17 +384,23 @@
       [
         "p2a: Dragonite",
         "Extreme Speed",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Iron Valiant",
         "Icy Wind",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Iron Valiant"
+        [
+          "p1a: Iron Valiant"
+        ]
       ]
     ],
     "hp": {
@@ -347,10 +409,17 @@
       "p2a": "5/100",
       "p2b": "89/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -414,17 +483,23 @@
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Dragonite",
         "Extreme Speed",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -433,10 +508,17 @@
       "p2a": "5/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,
@@ -499,12 +581,16 @@
       [
         "p2a: Dragonite",
         "Extreme Speed",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Draco Meteor",
-        "p2a: Dragonite"
+        [
+          "p2a: Dragonite"
+        ]
       ]
     ],
     "hp": {
@@ -513,10 +599,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Dondozo": {
         "atk": 1,

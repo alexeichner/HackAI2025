@@ -11,22 +11,30 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p2a: Whimsicott",
         "Moonblast",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p2b: Archaludon",
         "Electro Shot",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "1/100",
       "p2b": "9/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "spa": 1
@@ -89,17 +105,23 @@
       [
         "p2b: Archaludon",
         "Protect",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ],
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Whimsicott"
+        [
+          "p2a: Whimsicott"
+        ]
       ],
       [
         "p1b: Weezing",
         "Play Rough",
-        "p2b: Archaludon"
+        [
+          "p2b: Archaludon"
+        ]
       ]
     ],
     "hp": {
@@ -108,9 +130,17 @@
       "p2a": "0 fnt",
       "p2b": "9/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "spa": 1
@@ -162,12 +192,16 @@
       [
         "p1a: Kyogre",
         "Water Spout",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p1b: Weezing",
         "Assurance",
-        "p2: Calyrex"
+        [
+          "p2: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -176,9 +210,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Archaludon": {
         "spa": 1

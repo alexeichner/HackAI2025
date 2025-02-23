@@ -11,22 +11,30 @@
       [
         "p2a: Sneasler",
         "Fake Out",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ],
       [
         "p1a: Eternatus",
         "Sludge Bomb",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p1b: Amoonguss",
         "Pollen Puff",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -78,22 +97,30 @@
       [
         "p1b: Amoonguss",
         "Rage Powder",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p1a: Eternatus",
         "Sludge Bomb",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Sneasler",
         "Gunk Shot",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -102,7 +129,18 @@
       "p2a": "100/100",
       "p2b": "35/100 psn"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -157,22 +195,30 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Eternatus",
         "Recover",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ],
       [
         "p1b: Ditto",
         "Throat Chop",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Sneasler",
         "Gunk Shot",
-        "p1a: Eternatus"
+        [
+          "p1a: Eternatus"
+        ]
       ]
     ],
     "hp": {
@@ -181,9 +227,18 @@
       "p2a": "100/100",
       "p2b": "23/100 psn"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -228,12 +283,16 @@
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Sneasler"
+        [
+          "p2a: Sneasler"
+        ]
       ],
       [
         "p1b: Ditto",
         "Throat Chop",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ]
     ],
     "hp": {
@@ -242,10 +301,18 @@
       "p2a": "82/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -289,22 +356,30 @@
       [
         "p2a: Sneasler",
         "Gunk Shot",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p1b: Ditto",
         "Close Combat",
-        "p2b: Miraidon"
+        [
+          "p2b: Miraidon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: Sneasler"
+        [
+          "p2a: Sneasler"
+        ]
       ]
     ],
     "hp": {
@@ -313,10 +388,18 @@
       "p2a": "46/100",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1
@@ -378,12 +461,16 @@
       [
         "p2a: Sneasler",
         "Close Combat",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Miraidon",
         "Electro Drift",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -392,10 +479,18 @@
       "p2a": "46/100",
       "p2b": "38/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Ogerpon": {
         "atk": 1

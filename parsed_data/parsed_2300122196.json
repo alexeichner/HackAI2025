@@ -11,22 +11,30 @@
       [
         "p2a: Shepparoni",
         "Tailwind",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ],
       [
         "p2b: Panda",
         "Surging Strikes",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p1a: Regigigas",
         "Crush Grip",
-        "p2b: Panda"
+        [
+          "p2b: Panda"
+        ]
       ],
       [
         "p1b: Weezing",
         "Sludge Bomb",
-        "p2a: Shepparoni"
+        [
+          "p2a: Shepparoni"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "1/100",
       "p2b": "18/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,22 +95,30 @@
       [
         "p1b: Weezing",
         "Protect",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p2a: Shepparoni",
         "Encore",
-        "p1a: Regigigas"
+        [
+          "p1a: Regigigas"
+        ]
       ],
       [
         "p2b: Panda",
         "Surging Strikes",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p1a: Regigigas",
         "Crush Grip",
-        "p2b: Panda"
+        [
+          "p2b: Panda"
+        ]
       ]
     ],
     "hp": {
@@ -101,7 +127,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -145,17 +181,23 @@
       [
         "p2b: Horsee",
         "Astral Barrage",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p2a: Shepparoni",
         "Encore",
-        "p1b: Weezing"
+        [
+          "p1b: Weezing"
+        ]
       ],
       [
         "p1b: Weezing",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -164,7 +206,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Horsee": {
         "spa": 3,
@@ -216,17 +268,23 @@
       [
         "p1a: Regigigas",
         "Wide Guard",
-        "p1a: Regigigas"
+        [
+          "p1a: Regigigas"
+        ]
       ],
       [
         "p2b: Horsee",
         "Astral Barrage",
-        "p1b: Calyrex"
+        [
+          "p1b: Calyrex"
+        ]
       ],
       [
         "p2a: Shepparoni",
         "Moonblast",
-        "p1a: Regigigas"
+        [
+          "p1a: Regigigas"
+        ]
       ]
     ],
     "hp": {
@@ -235,7 +293,17 @@
       "p2a": "1/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Horsee": {
         "spa": 3,
@@ -282,22 +350,30 @@
       [
         "p1a: Regigigas",
         "Wide Guard",
-        "p1a: Regigigas"
+        [
+          "p1a: Regigigas"
+        ]
       ],
       [
         "p2a: Shepparoni",
         "Taunt",
-        "p1a: Regigigas"
+        [
+          "p1a: Regigigas"
+        ]
       ],
       [
         "p2b: Horsee",
         "Nasty Plot",
-        "p2b: Horsee"
+        [
+          "p2b: Horsee"
+        ]
       ],
       [
         "p1b: Calyrex",
         "Astral Barrage",
-        "p2b: Horsee"
+        [
+          "p2b: Horsee"
+        ]
       ]
     ],
     "hp": {
@@ -306,9 +382,17 @@
       "p2a": "0 fnt",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Horsee": {
         "spa": 3,
@@ -363,9 +447,17 @@
       "p2a": "0 fnt",
       "p2b": "75/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Horsee": {
         "spa": 3,

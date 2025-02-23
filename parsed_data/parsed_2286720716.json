@@ -11,22 +11,30 @@
       [
         "p1b: Terapagos",
         "Protect",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1a: Grimmsnarl",
         "Reflect",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -68,22 +85,30 @@
       [
         "p1a: Grimmsnarl",
         "Thunder Wave",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Tera Starstorm",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2b: Ogerpon",
         "Ivy Cudgel",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +117,18 @@
       "p2a": "100/100",
       "p2b": "45/100 par"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "par"
@@ -134,17 +168,23 @@
       [
         "p2b: Ogerpon",
         "Spiky Shield",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: QUEEN",
         "Ivy Cudgel",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Drain Punch",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +193,18 @@
       "p2a": "100/100",
       "p2b": "45/100 par"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "par"
@@ -188,22 +237,30 @@
       [
         "p2b: Ogerpon",
         "Follow Me",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Encore",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p1b: QUEEN",
         "Ivy Cudgel",
-        "p2b: Ogerpon"
+        [
+          "p2b: Ogerpon"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -212,9 +269,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -258,22 +324,30 @@
       [
         "p1b: QUEEN",
         "Follow Me",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Encore",
-        "p2a: Iron Hands"
+        [
+          "p2a: Iron Hands"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ],
       [
         "p2a: Iron Hands",
         "Heavy Slam",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ]
     ],
     "hp": {
@@ -282,9 +356,18 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -328,17 +411,23 @@
       [
         "p1a: Scream Tail",
         "Disable",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: QUEEN",
         "Horn Leech",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Foul Play",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -347,10 +436,18 @@
       "p2a": "100/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -391,22 +488,30 @@
       [
         "p2b: Farigiraf",
         "Helping Hand",
-        "p2a: Miraidon"
+        [
+          "p2a: Miraidon"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Protect",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1b: QUEEN",
         "Spiky Shield",
-        "p1b: QUEEN"
+        [
+          "p1b: QUEEN"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Dazzling Gleam",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -415,10 +520,18 @@
       "p2a": "100/100",
       "p2b": "77/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -457,17 +570,23 @@
       [
         "p1a: Scream Tail",
         "Disable",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: QUEEN",
         "Ivy Cudgel",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ],
       [
         "p2b: Farigiraf",
         "Trick Room",
-        "p2b: Farigiraf"
+        [
+          "p2b: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -476,11 +595,18 @@
       "p2a": "100/100",
       "p2b": "40/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1
@@ -533,11 +659,18 @@
       "p2a": "100/100",
       "p2b": "40/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Farigiraf": {
         "def": 1

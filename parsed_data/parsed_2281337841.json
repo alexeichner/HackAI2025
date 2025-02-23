@@ -11,22 +11,30 @@
       [
         "p1a: Dewgong",
         "Fake Out",
-        "p2a: Zapdos"
+        [
+          "p2a: Zapdos"
+        ]
       ],
       [
         "p2a: Zapdos",
         "Brave Bird",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p1b: Lunala",
         "Moonblast",
-        "p2a: Zapdos"
+        [
+          "p2a: Zapdos"
+        ]
       ],
       [
         "p2b: Lunala",
         "Moongeist Beam",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "48/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zapdos": {
         "spa": -1,
@@ -81,17 +97,23 @@
       [
         "p1a: Dewgong",
         "Aqua Jet",
-        "p2a: Zapdos"
+        [
+          "p2a: Zapdos"
+        ]
       ],
       [
         "p2a: Zapdos",
         "Close Combat",
-        "p1b: Lunala"
+        [
+          "p1b: Lunala"
+        ]
       ],
       [
         "p2b: Lunala",
         "Calm Mind",
-        "p2b: Lunala"
+        [
+          "p2b: Lunala"
+        ]
       ]
     ],
     "hp": {
@@ -100,7 +122,15 @@
       "p2a": "38/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Zapdos": {
         "spa": -1,

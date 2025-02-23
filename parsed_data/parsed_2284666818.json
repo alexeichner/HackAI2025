@@ -11,22 +11,30 @@
       [
         "p1b: Sableye",
         "Gravity",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p2b: Lilligant",
         "After You",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p2a: Torkoal",
         "Eruption",
-        "p1b: Sableye"
+        [
+          "p1b: Sableye"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Sing",
-        "p2b: Lilligant"
+        [
+          "p2b: Lilligant"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,19 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Gravity"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "slp"
@@ -72,12 +90,16 @@
       [
         "p1a: Scream Tail",
         "Play Rough",
-        "p2b: Lilligant"
+        [
+          "p2b: Lilligant"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -86,10 +108,19 @@
       "p2a": "46/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -137,22 +168,30 @@
       [
         "p2a: Indeedee",
         "Follow Me",
-        "p2a: Indeedee"
+        [
+          "p2a: Indeedee"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Howl",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2b: Necrozma"
+        [
+          "p2b: Necrozma"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Trick Room",
-        "p2b: Necrozma"
+        [
+          "p2b: Necrozma"
+        ]
       ]
     ],
     "hp": {
@@ -161,11 +200,19 @@
       "p2a": "0 fnt",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -210,12 +257,16 @@
       [
         "p2a: Torkoal",
         "Eruption",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -224,12 +275,19 @@
       "p2a": "0 fnt",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1
@@ -287,12 +345,16 @@
       [
         "p1b: Curveball",
         "Fake Out",
-        "p2a: Torkoal"
+        [
+          "p2a: Torkoal"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Moongeist Beam",
-        "p1b: Curveball"
+        [
+          "p1b: Curveball"
+        ]
       ]
     ],
     "hp": {
@@ -301,12 +363,19 @@
       "p2a": "90/100",
       "p2b": "26/100"
     },
-    "field_effects": [
-      "Gravity",
-      "Psychic Terrain",
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Indeedee": {
         "spd": 1

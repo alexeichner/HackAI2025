@@ -11,22 +11,30 @@
       [
         "p2b: Thundurus",
         "Thunder Wave",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ],
       [
         "p2a: Terapagos",
         "Tera Starstorm",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2a: Terapagos"
+        [
+          "p2a: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,19 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -91,17 +109,23 @@
       [
         "p2a: Rillaboom",
         "Fake Out",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Rillaboom"
+        [
+          "p2a: Rillaboom"
+        ]
       ],
       [
         "p2b: Thundurus",
         "Wildbolt Storm",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ]
     ],
     "hp": {
@@ -110,10 +134,19 @@
       "p2a": "33/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -166,22 +199,30 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Thundurus"
+        [
+          "p2b: Thundurus"
+        ]
       ],
       [
         "p2b: Thundurus",
         "Wildbolt Storm",
-        "p1a: Chi-Yu"
+        [
+          "p1a: Chi-Yu"
+        ]
       ],
       [
         "p2a: Rillaboom",
         "U-turn",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -190,10 +231,19 @@
       "p2a": "7/100",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -251,17 +301,23 @@
       [
         "p2a: Comfey",
         "Floral Healing",
-        "p2b: Thundurus"
+        [
+          "p2b: Thundurus"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Comfey"
+        [
+          "p2a: Comfey"
+        ]
       ],
       [
         "p2b: Thundurus",
         "Wildbolt Storm",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -270,10 +326,19 @@
       "p2a": "7/100",
       "p2b": "50/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -331,12 +396,16 @@
       [
         "p2a: Comfey",
         "Draining Kiss",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2a: Comfey"
+        [
+          "p2a: Comfey"
+        ]
       ]
     ],
     "hp": {
@@ -345,11 +414,19 @@
       "p2a": "36/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,
@@ -406,17 +483,23 @@
       [
         "p2a: Comfey",
         "Floral Healing",
-        "p2b: Thundurus"
+        [
+          "p2b: Thundurus"
+        ]
       ],
       [
         "p2b: Thundurus",
         "Thunder Wave",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Astral Barrage",
-        "p2b: Thundurus"
+        [
+          "p2b: Thundurus"
+        ]
       ]
     ],
     "hp": {
@@ -425,11 +508,19 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Psychic Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Urshifu": {
         "def": -1,

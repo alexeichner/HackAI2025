@@ -11,22 +11,30 @@
       [
         "p2a: Maushold",
         "Follow Me",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Shadow Ball",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Surging Strikes",
-        "p2a: Maushold"
+        [
+          "p2a: Maushold"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Tailwind",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "62/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Urshifu": {
         "spd": -1
@@ -84,17 +100,23 @@
       [
         "p2a: Maushold",
         "Helping Hand",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ],
       [
         "p2b: Calyrex",
         "Shadow Ball",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1b: Pelipper",
         "Weather Ball",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -103,7 +125,15 @@
       "p2a": "62/100",
       "p2b": "54/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Urshifu": {
         "spd": -1

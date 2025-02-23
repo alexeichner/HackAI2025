@@ -11,22 +11,30 @@
       [
         "p2a: Joe johnson",
         "Helping Hand",
-        "p2b: Kingjames"
+        [
+          "p2b: Kingjames"
+        ]
       ],
       [
         "p1a: Scream Tail",
         "Howl",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p2b: Kingjames",
         "Earthquake",
-        "p1a: Scream Tail"
+        [
+          "p1a: Scream Tail"
+        ]
       ],
       [
         "p1b: Groudon",
         "Heat Crash",
-        "p2b: Kingjames"
+        [
+          "p2b: Kingjames"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "100/100",
       "p2b": "1/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -73,17 +89,23 @@
       [
         "p1a: Scream Tail",
         "Disable",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Groudon",
         "Heat Crash",
-        "p2a: Joe johnson"
+        [
+          "p2a: Joe johnson"
+        ]
       ],
       [
         "p2a: Joe johnson",
         "Trick Room",
-        "p2a: Joe johnson"
+        [
+          "p2a: Joe johnson"
+        ]
       ]
     ],
     "hp": {
@@ -92,9 +114,15 @@
       "p2a": "51/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -134,17 +162,23 @@
       [
         "p2a: Joe johnson",
         "Helping Hand",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ],
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Miami heatran",
         "Heat Wave",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ]
     ],
     "hp": {
@@ -153,10 +187,15 @@
       "p2a": "51/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -194,22 +233,30 @@
       [
         "p2b: Miami heatran",
         "Protect",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ],
       [
         "p2a: Joe johnson",
         "Ice Beam",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1b: Groudon",
         "Precipice Blades",
-        "p2a: Joe johnson"
+        [
+          "p2a: Joe johnson"
+        ]
       ]
     ],
     "hp": {
@@ -218,10 +265,15 @@
       "p2a": "51/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -264,22 +316,30 @@
       [
         "p1b: Groudon",
         "Protect",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2b: Miami heatran",
         "Heat Wave",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p2a: Joe johnson",
         "Ice Beam",
-        "p1b: Groudon"
+        [
+          "p1b: Groudon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: Joe johnson"
+        [
+          "p2a: Joe johnson"
+        ]
       ]
     ],
     "hp": {
@@ -288,10 +348,15 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -336,17 +401,23 @@
       [
         "p2a: \uc74c\ub780\ub9c8\uae30",
         "Rock Slide",
-        "p1a: Rillaboom"
+        [
+          "p1a: Rillaboom"
+        ]
       ],
       [
         "p2b: Miami heatran",
         "Heat Wave",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2a: \uc74c\ub780\ub9c8\uae30"
+        [
+          "p2a: \uc74c\ub780\ub9c8\uae30"
+        ]
       ]
     ],
     "hp": {
@@ -355,10 +426,15 @@
       "p2a": "63/100",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -416,22 +492,30 @@
       [
         "p2a: \uc74c\ub780\ub9c8\uae30",
         "Protect",
-        "p2a: \uc74c\ub780\ub9c8\uae30"
+        [
+          "p2a: \uc74c\ub780\ub9c8\uae30"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2a: \uc74c\ub780\ub9c8\uae30"
+        [
+          "p2a: \uc74c\ub780\ub9c8\uae30"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Electroweb",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ],
       [
         "p2b: Miami heatran",
         "Heat Wave",
-        "p1b: Raging Bolt"
+        [
+          "p1b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -440,10 +524,15 @@
       "p2a": "69/100",
       "p2b": "66/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -500,17 +589,23 @@
       [
         "p2b: Miami heatran",
         "Protect",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: \uc74c\ub780\ub9c8\uae30"
+        [
+          "p2a: \uc74c\ub780\ub9c8\uae30"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Dragon Pulse",
-        "p2b: Miami heatran"
+        [
+          "p2b: Miami heatran"
+        ]
       ]
     ],
     "hp": {
@@ -519,10 +614,15 @@
       "p2a": "0 fnt",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0
@@ -585,10 +685,15 @@
       "p2a": "0 fnt",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Scream Tail": {
         "atk": 0

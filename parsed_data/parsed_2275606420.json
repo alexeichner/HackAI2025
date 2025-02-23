@@ -11,22 +11,30 @@
       [
         "p1b: Iron Valiant",
         "Wide Guard",
-        "p1b: Iron Valiant"
+        [
+          "p1b: Iron Valiant"
+        ]
       ],
       [
         "p2a: Miraidon",
         "Volt Switch",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Nasty Plot",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0
@@ -80,17 +96,23 @@
       [
         "p2a: Ogerpon",
         "Follow Me",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Shadow Ball",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -99,10 +121,18 @@
       "p2a": "41/100",
       "p2b": "79/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0
@@ -144,22 +174,30 @@
       [
         "p2b: Gholdengo",
         "Protect",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p2a: Ogerpon",
         "Spiky Shield",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Heat Wave",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ]
     ],
     "hp": {
@@ -168,10 +206,18 @@
       "p2a": "41/100",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0
@@ -208,17 +254,23 @@
       [
         "p1b: Torkoal",
         "Heat Wave",
-        "p2a: Ogerpon"
+        [
+          "p2a: Ogerpon"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Make It Rain",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -227,11 +279,18 @@
       "p2a": "0 fnt",
       "p2b": "22/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0
@@ -282,22 +341,30 @@
       [
         "p2b: Gholdengo",
         "Protect",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ],
       [
         "p2a: Iron Valiant",
         "Wide Guard",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p1b: Torkoal",
         "Heat Wave",
-        "p2a: Iron Valiant"
+        [
+          "p2a: Iron Valiant"
+        ]
       ],
       [
         "p1a: Indeedee",
         "Psychic",
-        "p2b: Gholdengo"
+        [
+          "p2b: Gholdengo"
+        ]
       ]
     ],
     "hp": {
@@ -306,11 +373,18 @@
       "p2a": "0 fnt",
       "p2b": "28/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0
@@ -348,12 +422,16 @@
       [
         "p2a: Iron Valiant",
         "Close Combat",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ],
       [
         "p2b: Gholdengo",
         "Make It Rain",
-        "p1a: Indeedee"
+        [
+          "p1a: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -362,11 +440,18 @@
       "p2a": "0 fnt",
       "p2b": "35/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Gholdengo": {
         "spa": 0

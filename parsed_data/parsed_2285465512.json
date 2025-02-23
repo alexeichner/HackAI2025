@@ -11,22 +11,30 @@
       [
         "p1a: Tornadus",
         "Tailwind",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Whimsicott"
+        [
+          "p2b: Whimsicott"
+        ]
       ],
       [
         "p2b: Whimsicott",
         "Beat Up",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2a: Annihilape",
         "Drain Punch",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "20/100",
       "p2b": "3/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -77,12 +93,16 @@
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2a: Annihilape"
+        [
+          "p2a: Annihilape"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2: Annihilape"
+        [
+          "p2: Annihilape"
+        ]
       ]
     ],
     "hp": {
@@ -91,7 +111,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -131,17 +159,23 @@
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2b: Amoonguss"
+        [
+          "p2b: Amoonguss"
+        ]
       ],
       [
         "p1a: Tornadus",
         "Bleakwind Storm",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p2a: Archaludon",
         "Body Press",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -150,7 +184,15 @@
       "p2a": "42/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "def": 2
@@ -213,7 +255,9 @@
       [
         "p1b: Flutter Mane",
         "Dazzling Gleam",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ]
     ],
     "hp": {
@@ -222,7 +266,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Archaludon": {
         "def": 2

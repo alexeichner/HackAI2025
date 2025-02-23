@@ -11,22 +11,30 @@
       [
         "p2a: Moonwater",
         "Follow Me",
-        "p2a: Moonwater"
+        [
+          "p2a: Moonwater"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Volt Switch",
-        "p2a: Moonwater"
+        [
+          "p2a: Moonwater"
+        ]
       ],
       [
         "p1b: Okidogi",
         "Knock Off",
-        "p2a: Moonwater"
+        [
+          "p2a: Moonwater"
+        ]
       ],
       [
         "p2b: Perrine",
         "Calm Mind",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -35,10 +43,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -83,17 +99,23 @@
       [
         "p2a: Lion's Roar",
         "Fake Out",
-        "p1b: Okidogi"
+        [
+          "p1b: Okidogi"
+        ]
       ],
       [
         "p1a: Volcarona",
         "Struggle Bug",
-        "p2a: Lion's Roar"
+        [
+          "p2a: Lion's Roar"
+        ]
       ],
       [
         "p2b: Perrine",
         "Calm Mind",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -102,10 +124,18 @@
       "p2a": "79/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -157,22 +187,30 @@
       [
         "p1a: Volcarona",
         "Fiery Dance",
-        "p2a: Lion's Roar"
+        [
+          "p2a: Lion's Roar"
+        ]
       ],
       [
         "p1b: Okidogi",
         "Knock Off",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ],
       [
         "p2b: Perrine",
         "Earth Power",
-        "p1b: Okidogi"
+        [
+          "p1b: Okidogi"
+        ]
       ],
       [
         "p2a: Lion's Roar",
         "Wood Hammer",
-        "p1b: Okidogi"
+        [
+          "p1b: Okidogi"
+        ]
       ]
     ],
     "hp": {
@@ -181,10 +219,18 @@
       "p2a": "21/100",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -244,12 +290,16 @@
       [
         "p2b: Perrine",
         "Protect",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ],
       [
         "p1a: Volcarona",
         "Struggle Bug",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -258,11 +308,18 @@
       "p2a": "0 fnt",
       "p2b": "94/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -315,22 +372,30 @@
       [
         "p2a: Presto",
         "Protect",
-        "p2a: Presto"
+        [
+          "p2a: Presto"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Volt Switch",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ],
       [
         "p1a: Volcarona",
         "Struggle Bug",
-        "p2a: Presto"
+        [
+          "p2a: Presto"
+        ]
       ],
       [
         "p2b: Perrine",
         "Tera Starstorm",
-        "p1b: Urshifu"
+        [
+          "p1b: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -339,11 +404,18 @@
       "p2a": "0 fnt",
       "p2b": "70/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -396,17 +468,23 @@
       [
         "p1a: Volcarona",
         "Rage Powder",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ],
       [
         "p2a: Presto",
         "Sucker Punch",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Urshifu",
         "Close Combat",
-        "p2b: Perrine"
+        [
+          "p2b: Perrine"
+        ]
       ]
     ],
     "hp": {
@@ -415,11 +493,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,
@@ -479,11 +564,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Grassy Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Volcarona": {
         "def": 1,

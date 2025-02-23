@@ -11,22 +11,30 @@
       [
         "p2b: Venusaur",
         "Protect",
-        "p2b: Venusaur"
+        [
+          "p2b: Venusaur"
+        ]
       ],
       [
         "p1b: Landorus",
         "Sandsear Storm",
-        "p2b: Venusaur"
+        [
+          "p2b: Venusaur"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Icy Wind",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Venusaur"
+        [
+          "p2b: Venusaur"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Landorus": {
         "spe": -1
@@ -87,17 +103,23 @@
       [
         "p2a: Koraidon",
         "Collision Course",
-        "p1b: Pelipper"
+        [
+          "p1b: Pelipper"
+        ]
       ],
       [
         "p2b: Venusaur",
         "Sleep Powder",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Koraidon"
+        [
+          "p2a: Koraidon"
+        ]
       ]
     ],
     "hp": {
@@ -106,7 +128,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Landorus": {
         "spe": -1

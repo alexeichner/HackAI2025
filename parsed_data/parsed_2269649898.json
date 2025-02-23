@@ -11,22 +11,30 @@
       [
         "p2a: Tornadus",
         "Rain Dance",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1a: Artemis",
         "Icy Wind",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Zeus"
+        [
+          "p1b: Zeus"
+        ]
       ],
       [
         "p1b: Zeus",
         "Volt Switch",
-        "p2a: Tornadus"
+        [
+          "p2a: Tornadus"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "0 fnt",
       "p2b": "85/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spe": -1
@@ -91,17 +107,23 @@
       [
         "p2a: Archaludon",
         "Protect",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p1a: Artemis",
         "Icy Wind",
-        "p2a: Archaludon"
+        [
+          "p2a: Archaludon"
+        ]
       ],
       [
         "p1b: Hades",
         "Precipice Blades",
-        "p2b: Landorus"
+        [
+          "p2b: Landorus"
+        ]
       ]
     ],
     "hp": {
@@ -110,7 +132,15 @@
       "p2a": "0 fnt",
       "p2b": "23/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spe": -1
@@ -155,12 +185,16 @@
       [
         "p1a: Artemis",
         "Icy Wind",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ],
       [
         "p1b: Hades",
         "Precipice Blades",
-        "p2a: Kyogre"
+        [
+          "p2a: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -169,7 +203,15 @@
       "p2a": "33/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Kyogre": {
         "spe": -1

@@ -11,22 +11,30 @@
       [
         "p2a: Suthen",
         "Follow Me",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ],
       [
         "p1b: Jumpluff",
         "Tailwind",
-        "p1b: Jumpluff"
+        [
+          "p1b: Jumpluff"
+        ]
       ],
       [
         "p1a: Groudon",
         "Precipice Blades",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p2b: Duncan",
         "Expanding Force",
-        "p1b: Jumpluff"
+        [
+          "p1b: Jumpluff"
+        ]
       ]
     ],
     "hp": {
@@ -35,9 +43,17 @@
       "p2a": "43/100",
       "p2b": "21/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1
@@ -83,17 +99,23 @@
       [
         "p2b: Duncan",
         "Protect",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1b: Jumpluff",
         "Sleep Powder",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2a: Suthen"
+        [
+          "p2a: Suthen"
+        ]
       ]
     ],
     "hp": {
@@ -102,9 +124,17 @@
       "p2a": "0 fnt",
       "p2b": "21/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1
@@ -139,12 +169,16 @@
       [
         "p2a: Charming",
         "Shadow Sneak",
-        "p1b: Jumpluff"
+        [
+          "p1b: Jumpluff"
+        ]
       ],
       [
         "p1a: Chi-Yu",
         "Heat Wave",
-        "p2b: Duncan"
+        [
+          "p2b: Duncan"
+        ]
       ]
     ],
     "hp": {
@@ -153,9 +187,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1
@@ -195,7 +237,9 @@
       [
         "p1b: Ogerpon",
         "Ivy Cudgel",
-        "p2b: Mr. Grizz"
+        [
+          "p2b: Mr. Grizz"
+        ]
       ]
     ],
     "hp": {
@@ -204,9 +248,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Duncan": {
         "spa": 1

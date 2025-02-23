@@ -11,17 +11,23 @@
       [
         "p1a: Pelipper",
         "Helping Hand",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Burning Bulwark",
-        "p2a: Gouging Fire"
+        [
+          "p2a: Gouging Fire"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2b: Raging Bolt"
+        [
+          "p2b: Raging Bolt"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -75,22 +89,30 @@
       [
         "p1a: Pelipper",
         "Wide Guard",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Howl",
-        "p2a: Gouging Fire"
+        [
+          "p2a: Gouging Fire"
+        ]
       ],
       [
         "p1b: Miraidon",
         "Draco Meteor",
-        "p2a: Gouging Fire"
+        [
+          "p2a: Gouging Fire"
+        ]
       ],
       [
         "p2b: Groudon",
         "Thunder Punch",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -99,9 +121,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -152,17 +182,23 @@
       [
         "p2a: Gouging Fire",
         "Burning Bulwark",
-        "p2a: Gouging Fire"
+        [
+          "p2a: Gouging Fire"
+        ]
       ],
       [
         "p1a: Pelipper",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Groudon",
         "High Horsepower",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -171,9 +207,17 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -226,22 +270,30 @@
       [
         "p1a: Pelipper",
         "Helping Hand",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Flare Blitz",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p1b: Ditto",
         "Breaking Swipe",
-        "p2b: Groudon"
+        [
+          "p2b: Groudon"
+        ]
       ],
       [
         "p2b: Groudon",
         "High Horsepower",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ]
     ],
     "hp": {
@@ -250,9 +302,17 @@
       "p2a": "22/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -309,17 +369,23 @@
       [
         "p1a: Pelipper",
         "Wide Guard",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Flare Blitz",
-        "p1b: Ditto"
+        [
+          "p1b: Ditto"
+        ]
       ],
       [
         "p2b: Groudon",
         "High Horsepower",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ]
     ],
     "hp": {
@@ -328,10 +394,17 @@
       "p2a": "22/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -382,17 +455,23 @@
       [
         "p1b: Miraidon",
         "Protect",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Breaking Swipe",
-        "p1a: Pelipper"
+        [
+          "p1a: Pelipper"
+        ]
       ],
       [
         "p2b: Groudon",
         "Precipice Blades",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -401,10 +480,17 @@
       "p2a": "22/100",
       "p2b": "72/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -450,12 +536,16 @@
       [
         "p1b: Miraidon",
         "Electro Drift",
-        "p2b: Chien-Pao"
+        [
+          "p2b: Chien-Pao"
+        ]
       ],
       [
         "p2a: Gouging Fire",
         "Flare Blitz",
-        "p1a: Volcarona"
+        [
+          "p1a: Volcarona"
+        ]
       ]
     ],
     "hp": {
@@ -464,10 +554,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1
@@ -518,7 +615,9 @@
       [
         "p2b: Chien-Pao",
         "Icicle Crash",
-        "p1b: Miraidon"
+        [
+          "p1b: Miraidon"
+        ]
       ]
     ],
     "hp": {
@@ -527,10 +626,17 @@
       "p2a": "0 fnt",
       "p2b": "1/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Pelipper": {
         "def": 1

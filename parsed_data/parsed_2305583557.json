@@ -11,17 +11,23 @@
       [
         "p2b: Mr. Rider",
         "Protect",
-        "p2b: Mr. Rider"
+        [
+          "p2b: Mr. Rider"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Rising Voltage",
-        "p2b: Mr. Rider"
+        [
+          "p2b: Mr. Rider"
+        ]
       ],
       [
         "p2a: Mr. Snoopy",
         "Decorate",
-        "p2b: Mr. Rider"
+        [
+          "p2b: Mr. Rider"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Farigiraf": {
         "def": 1
@@ -73,22 +87,30 @@
       [
         "p2a: Mr. Snoopy",
         "Follow Me",
-        "p2a: Mr. Snoopy"
+        [
+          "p2a: Mr. Snoopy"
+        ]
       ],
       [
         "p1b: Raging Bolt",
         "Rising Voltage",
-        "p2a: Mr. Snoopy"
+        [
+          "p2a: Mr. Snoopy"
+        ]
       ],
       [
         "p1a: Farigiraf",
         "Foul Play",
-        "p2a: Mr. Snoopy"
+        [
+          "p2a: Mr. Snoopy"
+        ]
       ],
       [
         "p2b: Mr. Rider",
         "Glacial Lance",
-        "p1a: Farigiraf"
+        [
+          "p1a: Farigiraf"
+        ]
       ]
     ],
     "hp": {
@@ -97,9 +119,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Farigiraf": {
         "def": 1
@@ -152,17 +182,23 @@
       [
         "p1b: Torkoal",
         "Helping Hand",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Electro Drift",
-        "p2a: Mr. Face"
+        [
+          "p2a: Mr. Face"
+        ]
       ],
       [
         "p2b: Mr. Rider",
         "Glacial Lance",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -171,9 +207,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Farigiraf": {
         "def": 1
@@ -235,7 +279,9 @@
       [
         "p2b: Mr. Rider",
         "Glacial Lance",
-        "p1b: Torkoal"
+        [
+          "p1b: Torkoal"
+        ]
       ]
     ],
     "hp": {
@@ -244,9 +290,17 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Farigiraf": {
         "def": 1

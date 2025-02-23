@@ -11,17 +11,23 @@
       [
         "p1b: Indeedee",
         "Helping Hand",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Expanding Force",
-        "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        [
+          "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3"
+        ]
       ],
       [
         "p2b: \u30d8\u30a4\u30e9\u30c3\u30b7\u30e3",
         "Wave Crash",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,22 @@
       "p2a": "100/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -85,17 +103,23 @@
       [
         "p2b: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Electro Drift",
-        "p1a: Weezing"
+        [
+          "p1a: Weezing"
+        ]
       ],
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Muddy Water",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -104,12 +128,22 @@
       "p2a": "55/100",
       "p2b": "63/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -162,17 +196,23 @@
       [
         "p1a: Urshifu",
         "Protect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Muddy Water",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ]
     ],
     "hp": {
@@ -181,12 +221,22 @@
       "p2a": "8/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -235,22 +285,30 @@
       [
         "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df",
         "Encore",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1a: Urshifu",
         "Protect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4",
         "Muddy Water",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Trick Room",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -259,13 +317,22 @@
       "p2a": "8/100",
       "p2b": "62/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -314,17 +381,23 @@
       [
         "p1a: Urshifu",
         "Protect",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        [
+          "p2a: \u30b7\u30e3\u30ea\u30bf\u30c4"
+        ]
       ],
       [
         "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df",
         "Freeze-Dry",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ]
     ],
     "hp": {
@@ -333,14 +406,22 @@
       "p2a": "0 fnt",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -391,22 +472,30 @@
       [
         "p1a: Urshifu",
         "Protect",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ],
       [
         "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df",
         "Protect",
-        "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Dazzling Gleam",
-        "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -415,14 +504,22 @@
       "p2a": "46/100",
       "p2b": "20/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -467,12 +564,16 @@
       [
         "p1a: Urshifu",
         "Wicked Blow",
-        "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        [
+          "p2b: \u30c6\u30c4\u30ce\u30c4\u30c4\u30df"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -481,14 +582,22 @@
       "p2a": "46/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1
@@ -540,12 +649,16 @@
       [
         "p1a: Urshifu",
         "Close Combat",
-        "p2a: \u30df\u30e9\u30a4\u30c9\u30f3"
+        [
+          "p2a: \u30df\u30e9\u30a4\u30c9\u30f3"
+        ]
       ],
       [
         "p2a: \u30df\u30e9\u30a4\u30c9\u30f3",
         "Dazzling Gleam",
-        "p1a: Urshifu"
+        [
+          "p1a: Urshifu"
+        ]
       ]
     ],
     "hp": {
@@ -554,14 +667,22 @@
       "p2a": "14/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Electric Terrain",
-      "Psychic Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1b: Indeedee": {
         "spd": 1

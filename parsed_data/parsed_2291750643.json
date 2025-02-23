@@ -11,12 +11,16 @@
       [
         "p2b: Kingjames",
         "Fake Out",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2a: \uc0ac\uc2b9\ud5cc",
         "Trick Room",
-        "p2a: \uc0ac\uc2b9\ud5cc"
+        [
+          "p2a: \uc0ac\uc2b9\ud5cc"
+        ]
       ]
     ],
     "hp": {
@@ -25,10 +29,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -84,17 +96,23 @@
       [
         "p1a: Incineroar",
         "Knock Off",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Calm Mind",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p2b: Kingjames",
         "Parting Shot",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -103,10 +121,18 @@
       "p2a": "80/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -152,17 +178,23 @@
       [
         "p2b: \uc0ac\uc2b9\ud5cc",
         "Helping Hand",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ],
       [
         "p2a: Canada bear",
         "Headlong Rush",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ],
       [
         "p1b: Terapagos",
         "Calm Mind",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -171,10 +203,18 @@
       "p2a": "86/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -230,17 +270,23 @@
       [
         "p2b: \uc0ac\uc2b9\ud5cc",
         "Helping Hand",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Fake Out",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ],
       [
         "p2a: Canada bear",
         "Headlong Rush",
-        "p1b: Terapagos"
+        [
+          "p1b: Terapagos"
+        ]
       ]
     ],
     "hp": {
@@ -249,10 +295,18 @@
       "p2a": "92/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -313,17 +367,23 @@
       [
         "p2b: \uc0ac\uc2b9\ud5cc",
         "Helping Hand",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ],
       [
         "p2a: Canada bear",
         "Headlong Rush",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "Wood Hammer",
-        "p2a: Canada bear"
+        [
+          "p2a: Canada bear"
+        ]
       ]
     ],
     "hp": {
@@ -332,11 +392,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -397,17 +464,23 @@
       [
         "p1b: Ogerpon",
         "Follow Me",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p2a: Jayson tatum",
         "Draco Meteor",
-        "p1b: Ogerpon"
+        [
+          "p1b: Ogerpon"
+        ]
       ],
       [
         "p1a: Rillaboom",
         "U-turn",
-        "p2b: Kingjames"
+        [
+          "p2b: Kingjames"
+        ]
       ]
     ],
     "hp": {
@@ -416,12 +489,18 @@
       "p2a": "0 fnt",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2
@@ -496,12 +575,18 @@
       "p2a": "0 fnt",
       "p2b": "85/100"
     },
-    "field_effects": [
-      "Grassy Terrain",
-      "Trick Room",
-      "Electric Terrain",
-      "Grassy Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Rillaboom": {
         "atk": -2

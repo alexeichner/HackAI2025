@@ -11,22 +11,30 @@
       [
         "p1a: Smeargle",
         "Follow Me",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Taunt",
-        "p1a: Smeargle"
+        [
+          "p1a: Smeargle"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p1b: Muk",
         "Minimize",
-        "p1b: Muk"
+        [
+          "p1b: Muk"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Necrozma": {
         "spa": 2
@@ -84,22 +102,30 @@
       [
         "p1b: Muk",
         "Protect",
-        "p1b: Muk"
+        [
+          "p1b: Muk"
+        ]
       ],
       [
         "p1a: Smeargle",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Taunt",
-        "p1b: Muk"
+        [
+          "p1b: Muk"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Meteor Beam",
-        ""
+        [
+          ""
+        ]
       ]
     ],
     "hp": {
@@ -108,7 +134,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Necrozma": {
         "spa": 2
@@ -161,17 +197,23 @@
       [
         "p1a: Smeargle",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2a: Flutter Mane",
         "Moonblast",
-        "p1b: Muk"
+        [
+          "p1b: Muk"
+        ]
       ],
       [
         "p2b: Necrozma",
         "Meteor Beam",
-        "p1b: Muk"
+        [
+          "p1b: Muk"
+        ]
       ]
     ],
     "hp": {
@@ -180,7 +222,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Necrozma": {
         "spa": 2
@@ -233,12 +285,16 @@
       [
         "p1a: Smeargle",
         "Fake Out",
-        ""
+        [
+          ""
+        ]
       ],
       [
         "p2b: Necrozma",
         "Expanding Force",
-        "p1b: Amoonguss"
+        [
+          "p1b: Amoonguss"
+        ]
       ]
     ],
     "hp": {
@@ -247,9 +303,17 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Necrozma": {
         "spa": 2

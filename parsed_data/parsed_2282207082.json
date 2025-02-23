@@ -11,22 +11,30 @@
       [
         "p1a: Australian Summer",
         "Heat Wave",
-        "p2b: Urshifu"
+        [
+          "p2b: Urshifu"
+        ]
       ],
       [
         "p2b: Urshifu",
         "Wicked Blow",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ],
       [
         "p2a: Smeargle",
         "Spore",
-        "p1a: Australian Summer"
+        [
+          "p1a: Australian Summer"
+        ]
       ],
       [
         "p1b: Melman",
         "Dazzling Gleam",
-        "p2a: Smeargle"
+        [
+          "p2a: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,17 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"
@@ -90,17 +108,23 @@
       [
         "p1b: Melman",
         "Foul Play",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Heat Wave",
-        "p1a: Australian Summer"
+        [
+          "p1a: Australian Summer"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Trick Room",
-        "p2a: Calyrex"
+        [
+          "p2a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -109,9 +133,17 @@
       "p2a": "46/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p1a": "slp"
@@ -160,12 +192,16 @@
       [
         "p2b: Torkoal",
         "Eruption",
-        "p1b: Melman"
+        [
+          "p1b: Melman"
+        ]
       ],
       [
         "p2a: Calyrex",
         "High Horsepower",
-        "p1a: Australian Summer"
+        [
+          "p1a: Australian Summer"
+        ]
       ]
     ],
     "hp": {
@@ -174,9 +210,17 @@
       "p2a": "46/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -237,22 +281,30 @@
       [
         "p1b: Honse",
         "Protect",
-        "p1b: Honse"
+        [
+          "p1b: Honse"
+        ]
       ],
       [
         "p2b: Torkoal",
         "Eruption",
-        "p1a: Golden child"
+        [
+          "p1a: Golden child"
+        ]
       ],
       [
         "p1a: Golden child",
         "Earth Power",
-        "p2b: Torkoal"
+        [
+          "p2b: Torkoal"
+        ]
       ],
       [
         "p2a: Calyrex",
         "Glacial Lance",
-        "p1b: Honse"
+        [
+          "p1b: Honse"
+        ]
       ]
     ],
     "hp": {
@@ -261,9 +313,17 @@
       "p2a": "46/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2
@@ -318,7 +378,9 @@
       [
         "p2b: Torkoal",
         "Flamethrower",
-        "p1b: Honse"
+        [
+          "p1b: Honse"
+        ]
       ]
     ],
     "hp": {
@@ -327,9 +389,17 @@
       "p2a": "46/100",
       "p2b": "24/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Calyrex": {
         "atk": 2

@@ -43,6 +43,14 @@ def parse_log(log_data):
         "abilities": {}
     }
 
+    # Initialize field tracking properly
+    current_state["field_effects"] = {
+        "universal": [],
+        "p1-side": [],
+        "p2-side": [],
+        "spikes": {"p1": 0, "p2": 0}  # Spikes count for each side
+    }
+
     log_lines = log_data["log"].split("\n")
     for line in log_lines:
         if line.startswith("|turn|"):
@@ -82,8 +90,17 @@ def parse_log(log_data):
         
         elif line.startswith("|move|"):
             parts = line.split("|")
-            attacker, move, target = parts[2], parts[3], parts[4]
-            current_state["moves"].append((attacker, move, target))
+            attacker, move = parts[2], parts[3]
+            
+            # Check if the move has multiple targets
+            if "[spread]" in parts:
+                spread_index = parts.index("[spread]")  # Find where "[spread]" appears
+                target_list = parts[spread_index + 1:]  # Capture all targets after "[spread]"
+            else:
+                target_list = [parts[4]]  # Default to a single target if no "[spread]" is found
+
+            current_state["moves"].append((attacker, move, target_list))
+
         
         elif line.startswith("|-damage|"):
             parts = line.split("|")
@@ -115,11 +132,50 @@ def parse_log(log_data):
             parts = line.split("|")
             target, damage_info = parts[2], parts[3]
             current_state["self_inflicted_damage"].append((target, damage_info))
-        
+
         elif line.startswith("|-fieldstart|"):
             parts = line.split("|")
             effect = parts[2].split(":")[-1].strip()
-            current_state["field_effects"].append(effect)
+
+            # Universal effects (weather, terrain, Trick Room)
+            universal_effects = ["Rain Dance", "Sunny Day", "Sandstorm", "Hail", 
+                                "Electric Terrain", "Grassy Terrain", "Misty Terrain", 
+                                "Psychic Terrain", "Trick Room"]  # Trick Room added here
+            if effect in universal_effects:
+                current_state["field_effects"]["universal"].append(effect)
+
+            # One-sided effects (Reflect, Light Screen, Aurora Veil)
+            elif effect in ["Reflect", "Light Screen", "Aurora Veil"]:
+                side = "p1-side" if "[of] p1" in line else "p2-side"
+                current_state["field_effects"][side].append(effect)
+
+            # Spikes (stackable up to 3)
+            elif effect == "Spikes":
+                side = "p1" if "[of] p1" in line else "p2"
+                if current_state["field_effects"]["spikes"][side] < 3:
+                    current_state["field_effects"]["spikes"][side] += 1  # Increase spike count
+
+        elif line.startswith("|-fieldend|"):
+            parts = line.split("|")
+            effect = parts[2].split(":")[-1].strip()
+
+            # Remove from universal effects
+            if effect in current_state["field_effects"]["universal"]:
+                current_state["field_effects"]["universal"].remove(effect)
+
+            # Remove from one-sided effects
+            elif effect in ["Reflect", "Light Screen", "Aurora Veil"]:
+                side = "p1-side" if "[of] p1" in line else "p2-side"
+                if effect in current_state["field_effects"][side]:
+                    current_state["field_effects"][side].remove(effect)
+
+            # Remove Spikes (reduce count)
+            elif effect == "Spikes":
+                side = "p1" if "[of] p1" in line else "p2"
+                if current_state["field_effects"]["spikes"][side] > 0:
+                    current_state["field_effects"]["spikes"][side] -= 1
+
+
         
         elif line.startswith("|-boost|") or line.startswith("|-unboost|"):
             parts = line.split("|")

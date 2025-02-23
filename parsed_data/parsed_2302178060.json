@@ -11,22 +11,30 @@
       [
         "p2a: Regieleki",
         "Electro Ball",
-        "p1a: Hallothreen"
+        [
+          "p1a: Hallothreen"
+        ]
       ],
       [
         "p1a: Hallothreen",
         "Tailwind",
-        "p1a: Hallothreen"
+        [
+          "p1a: Hallothreen"
+        ]
       ],
       [
         "p1b: Proshokza",
         "Drain Punch",
-        "p2a: Regieleki"
+        [
+          "p2a: Regieleki"
+        ]
       ],
       [
         "p2b: Dragonite",
         "Rock Slide",
-        "p1a: Hallothreen"
+        [
+          "p1a: Hallothreen"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "15/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -75,12 +91,16 @@
       [
         "p1a: Hallothreen",
         "Snarl",
-        "p2a: Regieleki"
+        [
+          "p2a: Regieleki"
+        ]
       ],
       [
         "p1b: Proshokza",
         "Wild Charge",
-        "p2b: Calyrex"
+        [
+          "p2b: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -89,7 +109,15 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Calyrex": {
         "spa": -1

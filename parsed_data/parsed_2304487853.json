@@ -11,22 +11,30 @@
       [
         "p1a: Tornadus",
         "Rain Dance",
-        "p1a: Tornadus"
+        [
+          "p1a: Tornadus"
+        ]
       ],
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ],
       [
         "p1b: Kyogre",
         "Water Spout",
-        "p2a: Weezing"
+        [
+          "p2a: Weezing"
+        ]
       ],
       [
         "p2a: Weezing",
         "Gunk Shot",
-        "p1b: Kyogre"
+        [
+          "p1b: Kyogre"
+        ]
       ]
     ],
     "hp": {
@@ -35,7 +43,15 @@
       "p2a": "19/100",
       "p2b": "62/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -80,12 +96,16 @@
       [
         "p2b: Kyogre",
         "Water Spout",
-        "p1b: Chien-Pao"
+        [
+          "p1b: Chien-Pao"
+        ]
       ],
       [
         "p1a: Tsareena",
         "Triple Axel",
-        "p2a: Wyrdeer"
+        [
+          "p2a: Wyrdeer"
+        ]
       ]
     ],
     "hp": {
@@ -94,7 +114,15 @@
       "p2a": "61/100",
       "p2b": "62/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tsareena": {
         "atk": -1
@@ -154,7 +182,15 @@
       "p2a": "61/100",
       "p2b": "62/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p1a: Tsareena": {
         "atk": -1

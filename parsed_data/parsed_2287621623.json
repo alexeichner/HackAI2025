@@ -11,17 +11,23 @@
       [
         "p1a: Grimmsnarl",
         "Light Screen",
-        "p1a: Grimmsnarl"
+        [
+          "p1a: Grimmsnarl"
+        ]
       ],
       [
         "p1b: Scream Tail",
         "Thunder Wave",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p2b: Maushold",
         "Taunt",
-        "p1b: Scream Tail"
+        [
+          "p1b: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -30,7 +36,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2a": "par"
@@ -65,17 +79,23 @@
       [
         "p1a: Grimmsnarl",
         "Parting Shot",
-        "p2a: Lunala"
+        [
+          "p2a: Lunala"
+        ]
       ],
       [
         "p1b: Scream Tail",
         "Disable",
-        "p2b: Maushold"
+        [
+          "p2b: Maushold"
+        ]
       ],
       [
         "p2a: Lunala",
         "Moongeist Beam",
-        "p1b: Scream Tail"
+        [
+          "p1b: Scream Tail"
+        ]
       ]
     ],
     "hp": {
@@ -84,7 +104,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -1,
@@ -132,7 +160,15 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [],
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2a: Lunala": {
         "atk": -1,

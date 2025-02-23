@@ -11,17 +11,23 @@
       [
         "p1b: Iron Moth",
         "Heat Wave",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Annihilape"
+        [
+          "p2b: Annihilape"
+        ]
       ],
       [
         "p2a: Cresselia",
         "Trick Room",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -30,10 +36,18 @@
       "p2a": "49/100",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {},
     "item_activations": [],
@@ -71,17 +85,23 @@
       [
         "p2a: Cresselia",
         "Helping Hand",
-        "p2b: Ursaluna"
+        [
+          "p2b: Ursaluna"
+        ]
       ],
       [
         "p2b: Ursaluna",
         "Earthquake",
-        "p1b: Iron Jugulis"
+        [
+          "p1b: Iron Jugulis"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Cresselia"
+        [
+          "p2a: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -90,10 +110,18 @@
       "p2a": "24/100",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -129,12 +157,16 @@
       [
         "p2b: Ursaluna",
         "Facade",
-        "p1b: Iron Jugulis"
+        [
+          "p1b: Iron Jugulis"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2a: Giratina"
+        [
+          "p2a: Giratina"
+        ]
       ]
     ],
     "hp": {
@@ -143,10 +175,18 @@
       "p2a": "37/100",
       "p2b": "3/100 brn"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"
@@ -187,17 +227,23 @@
       [
         "p1b: Iron Hands",
         "Fake Out",
-        "p2b: Cresselia"
+        [
+          "p2b: Cresselia"
+        ]
       ],
       [
         "p2a: Giratina",
         "Shadow Sneak",
-        "p1a: Miraidon"
+        [
+          "p1a: Miraidon"
+        ]
       ],
       [
         "p1a: Miraidon",
         "Dazzling Gleam",
-        "p2b: Cresselia"
+        [
+          "p2b: Cresselia"
+        ]
       ]
     ],
     "hp": {
@@ -206,10 +252,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Electric Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {},
     "status_conditions": {
       "p2b": "brn"

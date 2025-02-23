@@ -11,17 +11,23 @@
       [
         "p2a: \u6210\u9f8d",
         "Taunt",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p2b: Hades",
         "Calm Mind",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -30,9 +36,18 @@
       "p2a": "100/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -70,17 +85,23 @@
       [
         "p2a: \u6210\u9f8d",
         "Wide Guard",
-        "p2a: \u6210\u9f8d"
+        [
+          "p2a: \u6210\u9f8d"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: \u6210\u9f8d"
+        [
+          "p2a: \u6210\u9f8d"
+        ]
       ],
       [
         "p2b: Hades",
         "Calm Mind",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ]
     ],
     "hp": {
@@ -89,10 +110,18 @@
       "p2a": "16/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -133,17 +162,23 @@
       [
         "p1b: Indeedee",
         "Follow Me",
-        "p1b: Indeedee"
+        [
+          "p1b: Indeedee"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: Pinky"
+        [
+          "p2a: Pinky"
+        ]
       ],
       [
         "p2b: Hades",
         "Calm Mind",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ]
     ],
     "hp": {
@@ -152,10 +187,18 @@
       "p2a": "56/100",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -196,17 +239,23 @@
       [
         "p2a: Pinky",
         "Protect",
-        "p2a: Pinky"
+        [
+          "p2a: Pinky"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ],
       [
         "p2b: Hades",
         "Dragon Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -215,10 +264,18 @@
       "p2a": "56/100",
       "p2b": "84/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -260,17 +317,23 @@
       [
         "p1a: Calyrex",
         "Protect",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Hades",
         "Protect",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Spore",
-        "p2a: Lucifer"
+        [
+          "p2a: Lucifer"
+        ]
       ]
     ],
     "hp": {
@@ -279,10 +342,18 @@
       "p2a": "56/100",
       "p2b": "90/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -332,22 +403,30 @@
       [
         "p2a: Lucifer",
         "Fake Out",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Follow Me",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p2b: Hades",
         "Dragon Pulse",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Trick Room",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -356,11 +435,18 @@
       "p2a": "56/100",
       "p2b": "95/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -404,17 +490,23 @@
       [
         "p2b: Hades",
         "Protect",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Decorate",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: Lucifer"
+        [
+          "p2a: Lucifer"
+        ]
       ]
     ],
     "hp": {
@@ -423,11 +515,18 @@
       "p2a": "0 fnt",
       "p2b": "100/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain",
-      "Trick Room"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -483,22 +582,30 @@
       [
         "p2a: Pinky",
         "Follow Me",
-        "p2a: Pinky"
+        [
+          "p2a: Pinky"
+        ]
       ],
       [
         "p1b: Smeargle",
         "Follow Me",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ],
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2a: Pinky"
+        [
+          "p2a: Pinky"
+        ]
       ],
       [
         "p2b: Hades",
         "Dragon Pulse",
-        "p1b: Smeargle"
+        [
+          "p1b: Smeargle"
+        ]
       ]
     ],
     "hp": {
@@ -507,12 +614,18 @@
       "p2a": "0 fnt",
       "p2b": "49/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -563,22 +676,30 @@
       [
         "p2a: \u6210\u9f8d",
         "Wide Guard",
-        "p2a: \u6210\u9f8d"
+        [
+          "p2a: \u6210\u9f8d"
+        ]
       ],
       [
         "p1a: Calyrex",
         "High Horsepower",
-        "p2a: \u6210\u9f8d"
+        [
+          "p2a: \u6210\u9f8d"
+        ]
       ],
       [
         "p1b: Indeedee",
         "Heal Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ],
       [
         "p2b: Hades",
         "Dragon Pulse",
-        "p1a: Calyrex"
+        [
+          "p1a: Calyrex"
+        ]
       ]
     ],
     "hp": {
@@ -587,12 +708,18 @@
       "p2a": "0 fnt",
       "p2b": "55/100"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
@@ -643,7 +770,9 @@
       [
         "p1a: Calyrex",
         "Glacial Lance",
-        "p2b: Hades"
+        [
+          "p2b: Hades"
+        ]
       ]
     ],
     "hp": {
@@ -652,12 +781,18 @@
       "p2a": "0 fnt",
       "p2b": "0 fnt"
     },
-    "field_effects": [
-      "Trick Room",
-      "Psychic Terrain",
-      "Trick Room",
-      "Psychic Terrain"
-    ],
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
     "stat_changes": {
       "p2b: Hades": {
         "spa": 3,
