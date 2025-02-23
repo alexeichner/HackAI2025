@@ -247,6 +247,18 @@ def check_tensor_sizes(dataset):
         print(f"Sample {i} tensor size: {state_tensor.shape}")
         # print_sample_tensor(dataset, i)
 
+def predict_best_move(model, state_dict):
+    """Takes a game state dictionary and returns the predicted best move."""
+    state_tensor = create_tensor_from_state(state_dict).unsqueeze(0)  # Convert to tensor and add batch dimension
+    
+    model.eval()  # Set model to evaluation mode
+    with torch.no_grad():
+        output = model(state_tensor)  # Forward pass
+        probabilities = torch.softmax(output, dim=1)  # Convert logits to probabilities
+        predicted_index = torch.argmax(probabilities, dim=1).item()  # Get best move index
+    
+    return index_to_move[predicted_index]  # Convert index back to move name
+
 # Load dataset and create DataLoader
 dataset = PokemonBattleDataset("parsed_data")
 check_tensor_sizes(dataset)  # Debug tensor sizes
@@ -254,3 +266,35 @@ data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
 
 # Train model
 train_model(model, data_loader)
+# sample_state = {
+#     "active_pokemon": {"p1a": "Pikachu", "p2a": "Charizard"},
+#     "moves": [("p1a", "Thunderbolt"), ("p1a", "Quick Attack"), ("p1a", "Iron Tail"), ("p1a", "Protect")],
+#     "hp": {"p1a": "80/100", "p2a": "50/100"},
+#     "field_effects": {"universal": ["Rain Dance"]},
+# }
+# sample_state = {
+#     "active_pokemon": {"p1a": "Charizard", "p2a": "Blastoise"},
+#     "moves": [("p1a", "Flamethrower"), ("p1a", "Air Slash"), ("p1a", "Dragon Claw"), ("p1a", "Protect")],
+#     "hp": {"p1a": "70/100", "p2a": "50/100"},  # Charizard is at 70% HP, Blastoise at 50%
+#     "field_effects": {"universal": ["Sunny Day"]},  # The sun is active, boosting Fire moves
+# }
+
+# sample_state = {
+#     "active_pokemon": {"p1a": "Diglett", "p2a": "Blastoise"},
+#     "moves": [("p1a", "Earthquake"), ("p1a", "Rock Slide"), ("p1a", "Sucker Punch"), ("p1a", "Protect")],
+#     "hp": {"p1a": "40/100", "p2a": "85/100"},  # Diglett is at 40%, Blastoise at 85%
+#     "field_effects": {"universal": []},  # No active field effects
+# }
+
+sample_state = {
+    "active_pokemon": {"p1a": "Diglett", "p2a": "Diglett"},
+    "moves": [("p1a", "Earthquake"), ("p1a", "Rock Slide"), ("p1a", "Sucker Punch"), ("p1a", "Protect")],
+    "hp": {"p1a": "50/100", "p2a": "50/100"},  # Both Digletts are at 50% HP
+    "field_effects": {"universal": []},  # No active field effects
+}
+
+
+
+predicted_move = predict_best_move(model, sample_state)
+print(f"AI's next move: {predicted_move}")
+

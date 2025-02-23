@@ -1,0 +1,491 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Lycanroc",
+      "p1b": "Tyranitar",
+      "p2a": "Incineroar",
+      "p2b": "Gouging Fire"
+    },
+    "moves": [
+      [
+        "p1a: Lycanroc",
+        "Protect",
+        [
+          "p1a: Lycanroc"
+        ]
+      ],
+      [
+        "p2b: Gouging Fire",
+        "Breaking Swipe",
+        [
+          "p1b: Tyranitar"
+        ]
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        [
+          "p2a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "85/100",
+      "p2a": "52/100",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Tyranitar"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Gouging Fire",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Sand Stream",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Tyranitar",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Gouging Fire"
+    },
+    "moves": [
+      [
+        "p2b: Gouging Fire",
+        "Burning Bulwark",
+        [
+          "p2b: Gouging Fire"
+        ]
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        [
+          "p2b: Gouging Fire"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "71/100",
+      "p2a": "0 fnt",
+      "p2b": "44/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Tyranitar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Sand Stream",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Tyranitar",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        [
+          "p1b: Tyranitar"
+        ]
+      ],
+      [
+        "p2b: Gouging Fire",
+        "Howl",
+        [
+          "p2b: Gouging Fire"
+        ]
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Farigiraf"
+        ]
+      ],
+      [
+        "p1b: Tyranitar",
+        "Rock Slide",
+        [
+          "p2b: Gouging Fire"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "65/100",
+      "p2a": "53/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      },
+      "p2a: Ogerpon": {
+        "spd": 1,
+        "atk": 1
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gouging Fire",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Sand Stream",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Lycanroc",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Protect",
+        [
+          "p1a: Farigiraf"
+        ]
+      ],
+      [
+        "p2a: Ogerpon",
+        "Horn Leech",
+        [
+          "p1b: Tyranitar"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "0 fnt",
+      "p2a": "69/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      },
+      "p2a: Ogerpon": {
+        "spd": 1,
+        "atk": 1
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tyranitar",
+        "resisted"
+      ],
+      [
+        "p1b: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Keen Eye",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Lycanroc",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        [
+          "p1b: Lycanroc"
+        ]
+      ],
+      [
+        "p1b: Lycanroc",
+        "Rock Slide",
+        [
+          "p2a: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Lycanroc"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "42/100",
+      "p2a": "28/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      },
+      "p2a: Ogerpon": {
+        "spd": 1,
+        "atk": 1
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Keen Eye",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Lycanroc",
+      "p2a": "Ogerpon-Wellspring",
+      "p2b": "Rillaboom"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "42/100",
+      "p2a": "28/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lycanroc": {
+        "atk": -1
+      },
+      "p2a: Ogerpon": {
+        "spd": 1,
+        "atk": 1
+      },
+      "p2b: Gouging Fire": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Keen Eye",
+      "p2a": "Embody Aspect (Wellspring)",
+      "p2b": "Overgrow"
+    }
+  }
+]

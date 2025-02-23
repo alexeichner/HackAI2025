@@ -1,0 +1,859 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Bronzong",
+      "p2a": "Terapagos",
+      "p2b": "Munkidori"
+    },
+    "moves": [
+      [
+        "p2b: Munkidori",
+        "Fake Out",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Bronzong",
+        "Trick Room",
+        [
+          "p1b: Bronzong"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100 tox",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Levitate",
+      "p2a": "Tera Shift",
+      "p2b": "Toxic Chain"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Bronzong",
+      "p2a": "Terapagos",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Bronzong",
+        "Gravity",
+        [
+          "p1b: Bronzong"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2b: Munkidori"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Munkidori",
+        "Parting Shot",
+        [
+          "p1b: Bronzong"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Munkidori",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Levitate",
+      "p2a": "Tera Shift",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Bronzong",
+      "p2a": "Sinistcha",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Bronzong",
+        "Hypnosis",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Swords Dance",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1a: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Levitate",
+      "p2a": "Hospitality",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Bronzong",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Bronzong",
+        "Hypnosis",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Heat Crash",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "100/100",
+      "p2a": "48/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Levitate",
+      "p2a": "none",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Bronzong",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1b: Bronzong",
+        "Hypnosis",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Sleep Talk",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Bronzong"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "22/100",
+      "p2a": "11/100 slp",
+      "p2b": "52/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Bronzong"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Levitate",
+      "p2a": "Teraform Zero",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Araquanid",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Protect",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Sleep Talk",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "0 fnt",
+      "p2a": "11/100 slp",
+      "p2b": "52/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Water Bubble",
+      "p2a": "Teraform Zero",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Araquanid",
+      "p2a": "Munkidori",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Araquanid",
+        "Leech Life",
+        [
+          "p2b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "84/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Water Bubble",
+      "p2a": "Toxic Chain",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Araquanid",
+      "p2a": "Munkidori",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Protect",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Munkidori",
+        "Fake Out",
+        [
+          "p1b: Araquanid"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "77/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Water Bubble",
+      "p2a": "Toxic Chain",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Araquanid",
+      "p2a": "Munkidori",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Munkidori",
+        "Psychic",
+        [
+          "p1b: Araquanid"
+        ]
+      ],
+      [
+        "p1b: Araquanid",
+        "Liquidation",
+        [
+          "p2b: Flamigo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Water Bubble",
+      "p2a": "Toxic Chain",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Araquanid",
+      "p2a": "Munkidori",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1b: Araquanid"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "atk": -1
+      },
+      "p2b: Munkidori": {
+        "atk": -1
+      },
+      "p1b: Bronzong": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Groudon": {
+        "atk": 2
+      },
+      "p2b: Flamigo": {
+        "def": -3,
+        "spd": -3
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox",
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Water Bubble",
+      "p2a": "Toxic Chain",
+      "p2b": "Scrappy"
+    }
+  }
+]

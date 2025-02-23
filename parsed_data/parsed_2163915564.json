@@ -1,0 +1,645 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Magmar",
+      "p2a": "Whimsicott",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Protect",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Iron Hands",
+        "Volt Switch",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Flame Body",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Magmar",
+      "p2a": "Whimsicott",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p1b: Magmar",
+        "Follow Me",
+        [
+          "p1b: Magmar"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        [
+          "p1b: Magmar"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Calm Mind",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Iron Hands",
+        "Wild Charge",
+        [
+          "p1b: Magmar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "42/100",
+      "p2a": "100/100",
+      "p2b": "84/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Flame Body",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Magmar",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Protect",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Magmar",
+        "Follow Me",
+        [
+          "p1b: Magmar"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Iron Hands",
+        "Volt Switch",
+        [
+          "p1b: Magmar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "31/100",
+      "p2a": "100/100",
+      "p2b": "56/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Flame Body",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Magmar",
+        "Follow Me",
+        [
+          "p1b: Magmar"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Magmar"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Earth Power",
+        [
+          "p2b: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "7/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Chi-Yu",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "24/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Chi-Yu",
+      "p2b": "Iron Hands"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Protect",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Iron Hands",
+        "Fake Out",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "18/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Chi-Yu",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Iron Hands",
+        "Drain Punch",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Chi-Yu",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar",
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

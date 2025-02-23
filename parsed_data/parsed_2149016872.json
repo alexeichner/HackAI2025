@@ -1,0 +1,329 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyogre",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "70/100",
+      "p2b": "21/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Drizzle",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyogre",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Fake Tears",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Rillaboom",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Kyogre": {
+        "spd": -2
+      },
+      "p1b: Rillaboom": {
+        "spe": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Rillaboom",
+      "p2a": "Flutter Mane",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sludge Bomb",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "44/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Kyogre": {
+        "spd": -2
+      },
+      "p1b: Rillaboom": {
+        "spe": -2
+      },
+      "p1a: Landorus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Landorus",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  }
+]

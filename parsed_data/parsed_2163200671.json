@@ -1,0 +1,534 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Iron Hands",
+      "p2a": "Grimmsnarl",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Iron Hands",
+        "Fake Out",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Miraidon",
+        "Volt Switch",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "15/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Urshifu",
+      "p2a": "Grimmsnarl",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        [
+          "p1a: Iron Moth"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Iron Hands",
+        "Volt Switch",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "100/100",
+      "p2a": "21/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Urshifu",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Parting Shot",
+        [
+          "p1a: Iron Moth"
+        ]
+      ],
+      [
+        "p1a: Iron Moth",
+        "Heat Wave",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "100/100",
+      "p2a": "76/100",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Iron Moth": {
+        "atk": -1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Iron Moth",
+        "p2b: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Urshifu",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Iron Moth",
+        "Fiery Dance",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Rock Polish",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "78/100",
+      "p1b": "84/100",
+      "p2a": "52/100",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Iron Moth": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Terapagos": {
+        "spe": 2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Miraidon",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Iron Moth",
+        "Fiery Dance",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "23/100",
+      "p2a": "6/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Iron Moth": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Terapagos": {
+        "spe": 2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Iron Hands",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Iron Moth",
+        "Protect",
+        [
+          "p1a: Iron Moth"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "23/100",
+      "p2a": "6/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Iron Moth": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Terapagos": {
+        "spe": 2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Iron Hands",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "23/100",
+      "p2a": "6/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Iron Moth": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Terapagos": {
+        "spe": 2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

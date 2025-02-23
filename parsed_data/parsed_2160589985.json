@@ -1,0 +1,429 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Chien-Pao",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Chien-Pao",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "99/100",
+      "p1b": "75/100",
+      "p2a": "55/100",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Thunder Wave",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "75/100",
+      "p2a": "0 fnt",
+      "p2b": "51/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100 par",
+      "p1b": "34/100",
+      "p2a": "73/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100 par",
+      "p1b": "34/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta",
+      "p2a: Zamazenta",
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  }
+]

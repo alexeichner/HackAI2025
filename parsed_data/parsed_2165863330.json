@@ -1,0 +1,326 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Maushold-Four",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Maushold",
+        "Taunt",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "95/100 brn",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1
+      },
+      "p2b: Smeargle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "92/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1
+      },
+      "p2b: Smeargle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Keen Eye",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Maushold-Four",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Pelipper",
+        "Weather Ball",
+        [
+          "p2b: Ursaluna"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1a: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "76/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1
+      },
+      "p2b: Smeargle": {
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Maushold"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Keen Eye",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Maushold-Four",
+      "p1b": "Pelipper",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Maushold",
+        "Protect",
+        [
+          "p1a: Maushold"
+        ]
+      ],
+      [
+        "p1b: Pelipper",
+        "Weather Ball",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Pelipper"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "78/100",
+      "p2a": "0 fnt",
+      "p2b": "89/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1
+      },
+      "p2b: Smeargle": {
+        "atk": -1
+      },
+      "p2a: Urshifu": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Keen Eye",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Landorus",
+      "p2a": "Grimmsnarl",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        [
+          "p2b: Tyranitar"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Rock Slide",
+        [
+          "p1a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "28/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tyranitar",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Tyranitar",
+        "p1b: Landorus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Sand Force",
+      "p2a": "Prankster",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Landorus",
+      "p2a": "Sinistcha",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Parting Shot",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Rock Slide",
+        [
+          "p1b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "60/100",
+      "p2a": "86/100",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2b: Tyranitar",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Sand Force",
+      "p2a": "Hospitality",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Landorus",
+      "p2a": "Tyranitar",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2a: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Sand Force",
+      "p2a": "Sand Stream",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tyranitar",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Protect",
+        [
+          "p2b: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "95/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Sand Stream",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tyranitar",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Zamazenta",
+      "p2b: Zamazenta",
+      "p2b: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Sand Stream",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tyranitar",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Landorus": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "Sand Stream",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

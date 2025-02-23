@@ -1,0 +1,886 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Goodra-Hisui"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Goodra",
+        "Heavy Slam",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        [
+          "p2b: Goodra"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Amoonguss"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Raichu"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        [
+          "p2b: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "57/100",
+      "p2a": "89/100",
+      "p2b": "79/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Static"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Kingambit"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "89/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Kingambit",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "11/100",
+      "p2a": "60/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Raichu",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Volt Switch",
+        [
+          "p2a: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "11/100",
+      "p2a": "60/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Raichu",
+        "Lightning Rod"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Kingambit"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Lightning Rod",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Raging Bolt",
+      "p2a": "Raichu",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p2a: Raichu",
+        "Fake Out",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2a: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "11/100",
+      "p2a": "21/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Lightning Rod",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Raichu",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Raichu",
+        "Protect",
+        [
+          "p2a: Raichu"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Ursaluna",
+        "Earth Power",
+        [
+          "p2b: Kingambit"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "11/100",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Kingambit"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kingambit",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Lightning Rod",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Goodra-Hisui",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Ursaluna",
+        "Blood Moon",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "11/100",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Raging Bolt",
+      "p2a": "Goodra-Hisui",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Ursaluna",
+        "Protect",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Goodra",
+        "Body Press",
+        [
+          "p1a: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "0 fnt",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Raging Bolt",
+      "p2a": "Raichu",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Goodra": {
+        "spa": -1
+      },
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Raichu": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p2a: Raichu": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ursaluna",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Static",
+      "p2b": "Drizzle"
+    }
+  }
+]

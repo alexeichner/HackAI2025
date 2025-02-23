@@ -1,0 +1,422 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Landorus-Therian",
+      "p2a": "Groudon",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Lilligant",
+        "Sleep Powder",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Tera Blast",
+        [
+          "p2b: Lilligant"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Swords Dance",
+        [
+          "p2a: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lilligant": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lilligant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Lilligant",
+        "p1b: Landorus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Intimidate",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Landorus-Therian",
+      "p2a": "Groudon",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p2b: Walking Wake"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Tera Blast",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Heat Crash",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "59/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lilligant": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Intimidate",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Landorus-Therian",
+      "p2a": "Chi-Yu",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Tera Blast",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p2b: Walking Wake",
+        "Hydro Steam",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lilligant": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Intimidate",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Tera Blast",
+        [
+          "p2b: Walking Wake"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Walking Wake"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lilligant": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2a: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "91/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lilligant": {
+        "atk": -1
+      },
+      "p2a: Groudon": {
+        "atk": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Chi-Yu": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Flying",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "none"
+    }
+  }
+]

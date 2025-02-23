@@ -1,0 +1,678 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Amoonguss",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Discharge",
+        [
+          "p1b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "65/100",
+      "p2a": "14/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Effect Spore",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Whimsicott",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Protect",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Discharge",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Dondozo",
+        "Earthquake",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "65/100",
+      "p2a": "14/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Miraidon",
+        "p1b: Tatsugiri"
+      ],
+      [
+        "p1a: Dondozo",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Prankster",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Dondozo",
+        "Earthquake",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "65/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Dondozo"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Dondozo",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Dondozo",
+        "Protect",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        [
+          "p1a: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "65/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "U-turn",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "69/100",
+      "p2a": "0 fnt",
+      "p2b": "27/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tatsugiri",
+      "p2a": "Incineroar",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1b: Tatsugiri",
+        "Muddy Water",
+        [
+          "p2b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ],
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        [
+          "p2b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "15/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Commander",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tatsugiri",
+      "p2a": "Incineroar",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Protect",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "15/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Commander",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tatsugiri",
+      "p2a": "Incineroar",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Flare Blitz",
+        [
+          "p1a: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "15/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1
+      },
+      "p2a: Miraidon": {
+        "spa": -2
+      },
+      "p1a: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Commander",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

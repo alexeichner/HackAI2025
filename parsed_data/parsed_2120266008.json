@@ -1,0 +1,328 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zacian",
+      "p1b": "Whimsicott",
+      "p2a": "Raging Bolt",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Protect",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Protect",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian",
+      "p1b": "Regidrago",
+      "p2a": "Raging Bolt",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Tera Blast",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1a: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p1b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Chi-Yu",
+        "p1a: Zacian"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Dragon's Maw",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian",
+      "p1b": "Regidrago",
+      "p2a": "Koraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Regidrago"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Tera Blast",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Regidrago",
+        "Dragon Energy",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Regidrago",
+        "resisted"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Dragon's Maw",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian",
+      "p1b": "Regidrago",
+      "p2a": "Koraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Iron Head",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Regidrago",
+        "Dragon Energy",
+        [
+          "p2a: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flutter Mane",
+        "super effective"
+      ],
+      [
+        "p2a: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Dragon's Maw",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  }
+]

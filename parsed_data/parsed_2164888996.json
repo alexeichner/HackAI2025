@@ -1,0 +1,243 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Basculegion",
+        "Flip Turn",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Calm Mind",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "71/100",
+      "p2a": "42/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Protect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100 frz",
+      "p1b": "77/100",
+      "p2a": "48/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Clefairy"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "54/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  }
+]

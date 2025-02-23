@@ -1,0 +1,583 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Tornadus",
+      "p2a": "Landorus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "34/100",
+      "p1b": "1/100",
+      "p2a": "80/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Sand Force",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "35/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Thunder",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "10/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Tornadus",
+      "p2a: Tornadus",
+      "p2a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [
+      "p1a: Raging Bolt",
+      "p1a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Zamazenta",
+        "Heavy Slam",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Zamazenta-Crowned",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Landorus": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Dauntless Shield",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

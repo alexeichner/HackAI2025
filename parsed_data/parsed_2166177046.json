@@ -1,0 +1,433 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Terapagos",
+      "p2a": "Whimsicott",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Protect",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Munkidori",
+        "Fake Out",
+        [
+          "p2b: Kingambit"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kingambit"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Kingambit",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Tera Shift",
+      "p2a": "Prankster",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Terapagos",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Munkidori",
+        "Acid Spray",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p1a: Munkidori"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "87/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Munkidori",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Tera Shift",
+      "p2a": "Unnerve",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Basculegion",
+      "p1b": "Terapagos",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1a: Munkidori",
+        "Parting Shot",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Kingambit"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Low Kick",
+        [
+          "p1a: Basculegion"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "60/100",
+      "p2a": "49/100",
+      "p2b": "59/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "spd": -2
+      },
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Basculegion",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Swift Swim",
+      "p1b": "Tera Shift",
+      "p2a": "Unnerve",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Basculegion",
+      "p1b": "Terapagos",
+      "p2a": "Raging Bolt",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1a: Basculegion",
+        "Aqua Jet",
+        [
+          "p2b: Kingambit"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Low Kick",
+        [
+          "p1b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "24/100",
+      "p2a": "23/100",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "spd": -2
+      },
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Swift Swim",
+      "p1b": "Tera Shift",
+      "p2a": "none",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Basculegion",
+      "p1b": "Terapagos",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Basculegion",
+        "Aqua Jet",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Basculegion"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Whimsicott": {
+        "spd": -2
+      },
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Basculegion",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Swift Swim",
+      "p1b": "Tera Shift",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

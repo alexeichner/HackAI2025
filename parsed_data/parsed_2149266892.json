@@ -1,0 +1,221 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "7/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Overgrow",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Rillaboom",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "86/100",
+      "p2a": "63/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Rillaboom",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "86/100",
+      "p2a": "63/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Wide Guard",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Electivire"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Wide Guard",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "1/100",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "Motor Drive"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Electivire",
+        "Feint",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Decorate",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Electivire"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Wide Guard",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: 18Wheeler",
+        "Fake Out",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "92/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Wide Guard",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: 18Wheeler"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "100/100",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: 18Wheeler",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "100/100",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Flying",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  }
+]

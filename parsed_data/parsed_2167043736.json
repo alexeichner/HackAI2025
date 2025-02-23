@@ -1,0 +1,568 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Mienshao",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Mienshao",
+        "Wide Guard",
+        [
+          "p2a: Mienshao"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Hydro Pump",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Kyogre",
+        "p2b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Inner Focus",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Electabuzz",
+      "p2a": "Mienshao",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2a: Mienshao",
+        "Feint",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Hydro Pump",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Static",
+      "p2a": "Inner Focus",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Electabuzz",
+      "p2a": "Mienshao",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Electabuzz",
+        "Thunder",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Mienshao",
+        "Close Combat",
+        [
+          "p1a: Archaludon"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Wave Crash",
+        [
+          "p1b: Electabuzz"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "34/100",
+      "p2a": "100/100",
+      "p2b": "24/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ],
+      [
+        "p1a: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Static",
+      "p2a": "Inner Focus",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Electabuzz",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Electabuzz",
+        "Thunder",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "34/100",
+      "p2a": "100/100",
+      "p2b": "30/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Archaludon": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Electabuzz",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Static",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Kyogre",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Electabuzz",
+        "Thunder",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        [
+          "p1a: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "16/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Archaludon": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1a: Archaludon",
+        "super effective"
+      ],
+      [
+        "p1b: Electabuzz",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Drizzle",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Kyogre",
+      "p2a": "Tatsugiri",
+      "p2b": "Mienshao"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Archaludon": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Drizzle",
+      "p2a": "Commander",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Kyogre",
+      "p2a": "Tatsugiri",
+      "p2b": "Mienshao"
+    },
+    "moves": [
+      [
+        "p2b: Mienshao",
+        "Fake Out",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Tatsugiri",
+        "Draco Meteor",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Archaludon": {
+        "spa": 2
+      },
+      "p2a: Tatsugiri": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Drizzle",
+      "p2a": "Commander",
+      "p2b": "Inner Focus"
+    }
+  }
+]

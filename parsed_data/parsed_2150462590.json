@@ -1,0 +1,367 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Urshifu",
+      "p2b": "Skeledirge"
+    },
+    "moves": [
+      [
+        "p1b: Maushold",
+        "Follow Me",
+        [
+          "p1b: Maushold"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Maushold"
+        ]
+      ],
+      [
+        "p2b: Skeledirge",
+        "Torch Song",
+        [
+          "p1b: Maushold"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Skeledirge": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Maushold"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Skeledirge",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Unseen Fist",
+      "p2b": "Blaze"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Sucker Punch",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2b: Skeledirge"
+        ]
+      ],
+      [
+        "p2b: Skeledirge",
+        "Will-O-Wisp",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Skeledirge"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "52/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Skeledirge": {
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Skeledirge",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Skeledirge",
+        "p1a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Reflect",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "52/100",
+      "p2a": "16/100",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Skeledirge": {
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p2b: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Grimmsnarl",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "3/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Skeledirge": {
+        "spa": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 2
+      },
+      "p2b: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Terapagos",
+      "p1a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Tera Shift"
+    }
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Terapagos",
+      "p2a": "Farigiraf",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Munkidori",
+        "Acid Spray",
+        [
+          "p2b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Farigiraf"
+        ]
+      ],
+      [
+        "p2a: Farigiraf",
+        "Trick Room",
+        [
+          "p2a: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "100/100",
+      "p2a": "51/100",
+      "p2b": "5/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Lunala",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Tera Shift",
+      "p2a": "Cud Chew",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Terapagos",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        [
+          "p1a: Munkidori"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Munkidori",
+        "Parting Shot",
+        [
+          "p2: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "32/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": -2
+      },
+      "p2a: Dondozo": {
+        "atk": 0,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Munkidori"
+    ],
+    "critical_hits": [
+      "p2a: Farigiraf"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Tera Shift",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Incineroar",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1a: Munkidori",
+        "Parting Shot",
+        [
+          "p2a: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Dondozo",
+        "Earthquake",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": -2
+      },
+      "p2a: Dondozo": {
+        "atk": 0,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Dondozo",
+        "p2b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Incineroar",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": -2
+      },
+      "p2a: Dondozo": {
+        "atk": 0,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Intimidate",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Munkidori",
+      "p1b": "Incineroar",
+      "p2a": "Dondozo",
+      "p2b": "Tatsugiri"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Lunala": {
+        "spa": 1,
+        "spd": -2
+      },
+      "p2a: Dondozo": {
+        "atk": 0,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Tatsugiri": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Toxic Chain",
+      "p1b": "Intimidate",
+      "p2a": "Unaware",
+      "p2b": "Commander"
+    }
+  }
+]

@@ -1,0 +1,424 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Thunder",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "27/100",
+      "p2a": "91/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "27/100",
+      "p2a": "48/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Wo-Chien",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1b: Wo-Chien"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "42/100",
+      "p2a": "38/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Wo-Chien",
+        "Tablets of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Wo-Chien",
+        "resisted"
+      ],
+      [
+        "p1b: Wo-Chien",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Tablets of Ruin",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1b: Wo-Chien"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Zen Headbutt",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p2b: Calyrex",
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Indeedee",
+      "p1b": "Volcarona",
+      "p2a": "Flamigo",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Volcarona",
+        "Protect",
+        [
+          "p1b: Volcarona"
+        ]
+      ],
+      [
+        "p1a: Indeedee",
+        "Expanding Force",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Flamigo",
+        "Tailwind",
+        [
+          "p2a: Flamigo"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "79/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Flame Body",
+      "p2a": "Scrappy",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Grafaiai",
+      "p2a": "Sinistcha",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Volcarona",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unburden",
+      "p2a": "Hospitality",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee",
+      "p1b": "Grafaiai",
+      "p2a": "Sinistcha",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Grafaiai",
+        "Acid Spray",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Grafaiai"
+        ]
+      ],
+      [
+        "p2a: Sinistcha",
+        "Trick Room",
+        [
+          "p2a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "49/100",
+      "p2a": "100/100",
+      "p2b": "93/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Grafaiai": {
+        "spd": 1
+      },
+      "p2b: Terapagos": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Indeedee"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unburden",
+      "p2a": "Hospitality",
+      "p2b": "Teraform Zero"
+    }
+  }
+]

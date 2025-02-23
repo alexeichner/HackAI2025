@@ -1,0 +1,330 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Amoonguss",
+      "p2a": "Venusaur",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p2b: Aria",
+        "Protect",
+        [
+          "p2b: Aria"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Sunbrilla"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        [
+          "p2b: Aria"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "87/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Sunbrilla": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Aria": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Effect Spore",
+      "p2a": "Overgrow",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Amoonguss",
+      "p2a": "Venusaur",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p2a: Sunbrilla",
+        "Acid Spray",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p2b: Aria",
+        "Moonblast",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        [
+          "p2a: Sunbrilla"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        [
+          "p2b: Aria"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "56/100",
+      "p2a": "87/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Sunbrilla": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Aria": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Effect Spore",
+      "p2a": "Overgrow",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Eternatus",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Psyshock",
+        [
+          "p2a: Sunbrilla"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "56/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Sunbrilla": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Aria": {
+        "atk": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2a: Viruspatium",
+        "Pressure"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sunbrilla",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "Pressure",
+      "p2b": "Torrent"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Urshifu",
+      "p2b": "Primarina"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Brut"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Brut"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "56/100",
+      "p2a": "11/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Sunbrilla": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Aria": {
+        "atk": -2
+      },
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Brut",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "Unseen Fist",
+      "p2b": "Torrent"
+    }
+  }
+]

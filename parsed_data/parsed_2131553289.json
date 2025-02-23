@@ -1,0 +1,943 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Iron Defense",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "19/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "4/100",
+      "p2a": "95/100 brn",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Iron Defense",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Snarl",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "4/100",
+      "p2a": "89/100 brn",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Raging Bolt",
+        "p1a: Incineroar"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "p1b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "54/100",
+      "p2a": "40/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta",
+      "p2a: Zamazenta",
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Discharge",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "54/100",
+      "p2a": "21/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "54/100",
+      "p2a": "16/100 brn",
+      "p2b": "47/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Snarl",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "34/100",
+      "p1b": "54/100",
+      "p2a": "10/100 brn",
+      "p2b": "47/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p1a: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "54/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p1a: Incineroar": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta",
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Crunch",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "0 fnt",
+      "p2a": "13/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p1a: Incineroar": {
+        "spa": -1
+      },
+      "p2a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Incineroar",
+      "p2a": "Chien-Pao",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 5,
+        "atk": -2
+      },
+      "p2b: Raging Bolt": {
+        "atk": -4,
+        "spa": -2
+      },
+      "p1b: Raging Bolt": {
+        "spa": -4
+      },
+      "p1b: Calyrex": {
+        "atk": 2
+      },
+      "p1a: Incineroar": {
+        "spa": -1
+      },
+      "p2a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Sword of Ruin",
+      "p2b": "none"
+    }
+  }
+]

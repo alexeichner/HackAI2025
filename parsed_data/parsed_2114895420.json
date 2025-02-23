@@ -1,0 +1,295 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Primarina",
+      "p2b": "Gothitelle"
+    },
+    "moves": [
+      [
+        "p1a: Mienshao",
+        "Fake Out",
+        [
+          "p2b: Gothitelle"
+        ]
+      ],
+      [
+        "p2a: Primarina",
+        "Perish Song",
+        [
+          "p2a: Primarina"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Primarina"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "85/100",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Primarina",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Torrent",
+      "p2b": "Frisk"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Gothitelle"
+    },
+    "moves": [
+      [
+        "p2b: Gothitelle",
+        "Fake Out",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Mienshao",
+        "Coaching",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "85/100",
+      "p2b": "49/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Frisk"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Gothitelle"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Mienshao",
+        "Coaching",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Gothitelle",
+        "Heal Pulse",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "85/100",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Rillaboom"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Frisk"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Protect",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Mienshao",
+        "Close Combat",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "85/100",
+      "p2b": "67/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  }
+]

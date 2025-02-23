@@ -1,0 +1,254 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Entei",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Reflect",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "0 fnt",
+      "p2a": "42/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "super effective"
+      ],
+      [
+        "p1a: Groudon",
+        "resisted"
+      ],
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "Prankster",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Bulk Up",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "58/100",
+      "p2a": "0 fnt",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Groudon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Groudon",
+        "resisted"
+      ],
+      [
+        "p1b: Entei",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "82/100",
+      "p1b": "58/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Groudon": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

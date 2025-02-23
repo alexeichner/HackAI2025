@@ -1,0 +1,516 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Chi-Yu",
+      "p2a": "Volcarona",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: \uc704\uc720\uc774",
+        "Heat Wave",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Volcarona",
+        "Bug Buzz",
+        [
+          "p1a: \ud1a0\ub300\ubd80\uae30"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "91/100",
+      "p2b": "68/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Volcarona",
+        "resisted"
+      ],
+      [
+        "p1a: \ud1a0\ub300\ubd80\uae30",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Flame Body",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Chi-Yu",
+      "p2a": "Volcarona",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Volcarona",
+        "Protect",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1a: \ubcf4\ub530\ub9ac",
+        "Freeze-Dry",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1b: \uc704\uc720\uc774",
+        "Heat Wave",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p1b: \uc704\uc720\uc774"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "76/100",
+      "p2a": "97/100",
+      "p2b": "32/100 brn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: \uc704\uc720\uc774": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Flame Body",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Chi-Yu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p1a: \ubcf4\ub530\ub9ac"
+        ]
+      ],
+      [
+        "p1b: \uc704\uc720\uc774",
+        "Heat Wave",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1a: \ubcf4\ub530\ub9ac",
+        "Freeze-Dry",
+        [
+          "p2a: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "4/100 brn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: \uc704\uc720\uc774": {
+        "spa": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Volcarona"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Volcarona",
+        "resisted"
+      ],
+      [
+        "p2a: Volcarona",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Dauntless Shield",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Whimsicott",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Reflect",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: \uc5d8\ud48d"
+        ]
+      ],
+      [
+        "p1a: \ubcf4\ub530\ub9ac",
+        "Icy Wind",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "65/100",
+      "p2a": "96/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: \uc704\uc720\uc774": {
+        "spa": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: \uc5d8\ud48d",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Chi-Yu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: \uc5d8\ud48d",
+        "Moonblast",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1b: \uc5d8\ud48d"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: \ubcf4\ub530\ub9ac"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "96/100",
+      "p2b": "79/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: \uc704\uc720\uc774": {
+        "spa": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: \uc704\uc720\uc774",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: \uc5d8\ud48d",
+        "super effective"
+      ],
+      [
+        "p1a: \ubcf4\ub530\ub9ac",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Iron Bundle",
+      "p1b": "Chi-Yu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: \uc704\uc720\uc774",
+        "Heat Wave",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: \uc704\uc720\uc774"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "33/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: \uc704\uc720\uc774": {
+        "spa": -1
+      },
+      "p2a: Zamazenta": {
+        "def": 1,
+        "spe": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  }
+]

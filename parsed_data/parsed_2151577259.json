@@ -1,0 +1,748 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Grimmsnarl",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Nasty Plot",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Entei",
+        "Sacred Fire",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Spore",
+        [
+          "p2b: Entei"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Foul Play",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Moody",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Gastrodon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Misty Terrain",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Entei"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "Sticky Hold",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p2a: Gastrodon",
+        "Protect",
+        [
+          "p2a: Gastrodon"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Entei"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        [
+          "p2a: Gastrodon"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Entei"
+        ]
+      ],
+      [
+        "p2b: Entei",
+        "Trailblaze",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "92/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "49/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Gastrodon",
+        "Yawn",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "52/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Entei"
+        ]
+      ],
+      [
+        "p2a: Gastrodon",
+        "Clear Smog",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "8/100",
+      "p2b": "52/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Entei"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Spore",
+        [
+          "p2a: Gastrodon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "14/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Smeargle",
+      "p2a": "Gastrodon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 4
+      },
+      "p1b: Smeargle": {
+        "atk": 1,
+        "spa": 0,
+        "def": 1,
+        "spe": 1,
+        "spd": 3
+      },
+      "p2a: Grimmsnarl": {
+        "atk": -1
+      },
+      "p2b: Entei": {
+        "atk": -1,
+        "spa": -1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Moody",
+      "p2a": "Sticky Hold",
+      "p2b": "Unnerve"
+    }
+  }
+]

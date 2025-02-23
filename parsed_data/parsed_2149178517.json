@@ -1,0 +1,408 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Regieleki",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Regieleki",
+        "Thunderbolt",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1b: Regieleki",
+        "Thunder",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        [
+          "p1b: Regieleki"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Tailwind",
+        [
+          "p1a: Pelipper"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "66/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1a: Pelipper",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Unnerve",
+      "p2a": "Transistor",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ursaluna",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Pelipper",
+        "Weather Ball",
+        [
+          "p2a: Regieleki"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Regieleki"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Chilling Neigh",
+      "p2a": "Guts",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ursaluna",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Protect",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Calyrex",
+        "p2b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Chilling Neigh",
+      "p2a": "Guts",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ursaluna",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Chilling Neigh",
+      "p2a": "Guts",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ursaluna",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Pelipper": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Chilling Neigh",
+      "p2a": "Guts",
+      "p2b": "Intimidate"
+    }
+  }
+]

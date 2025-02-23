@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
 # 1️⃣ FUNCTION: Scrape Replay Links
-def get_replay_links(base_url, pages=10):
+def get_replay_links(base_url, pages=1):
     """Scrapes replay links from Pokemon Showdown using Selenium."""
     options = Options()
     options.add_argument("--headless")  # Run without opening a browser
@@ -19,7 +19,7 @@ def get_replay_links(base_url, pages=10):
 
     replay_links = []
     
-    for page in range(pages + 40, pages + 70):
+    for page in range(pages, pages + 30):
         url = f"{base_url}&page={page}"
         driver.get(url)
         time.sleep(3)  # Wait for JavaScript to load
@@ -30,7 +30,8 @@ def get_replay_links(base_url, pages=10):
         # Extract replay links
         for link in links:
             href = link.get_attribute("href")
-            if href and "gen9vgc2025regg-" in href:  # Ensure correct format
+            #if href and "gen9vgc2025regg-" in href:  # Ensure correct format
+            if href and "gen9vgc2024regg-" in href:
                 replay_links.append(href)
 
         print(f"Page {page}: Found {len(replay_links)} total replays so far.")
@@ -67,10 +68,11 @@ def download_replay_json(replay_links, save_dir="replays"):
 
 # 3️⃣ RUN THE SCRAPER & DOWNLOADER
 if __name__ == "__main__":
-    base_url = "https://replay.pokemonshowdown.com/?format=gen9vgc2025regg&sort=rating"
+    #base_url = "https://replay.pokemonshowdown.com/?format=gen9vgc2025regg&sort=rating"
+    base_url = "https://replay.pokemonshowdown.com/?format=gen9vgc2024regg&sort=rating"
 
     print("\n🔍 Scraping Replay Links...")
-    replay_links = get_replay_links(base_url, pages=10)  # Adjust pages as needed
+    replay_links = get_replay_links(base_url, pages=1)  # Adjust pages as needed
 
     print(f"\n✅ Found {len(replay_links)} replays! Now downloading JSON data...\n")
     download_replay_json(replay_links)

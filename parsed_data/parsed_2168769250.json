@@ -1,0 +1,742 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Iron Jugulis",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Iron Jugulis",
+        "Snarl",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "78/100",
+      "p2a": "100/100",
+      "p2b": "93/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Iron Jugulis",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Iron Jugulis",
+        "Tailwind",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "33/100",
+      "p2a": "46/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Iron Jugulis",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "0 fnt",
+      "p2a": "36/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Rillaboom",
+      "p2a": "Iron Jugulis",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Iron Jugulis",
+        "Air Slash",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "U-turn",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "56/100",
+      "p2a": "19/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Rillaboom",
+      "p2a": "Iron Jugulis",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Sucker Punch",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2b: Lunala"
+        ]
+      ],
+      [
+        "p2a: Iron Jugulis",
+        "Air Slash",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "62/100",
+      "p2a": "1/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Lunala"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Jugulis",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Incineroar",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Detect",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Iron Jugulis",
+        "Tailwind",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Rillaboom",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Lunala"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "94/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Incineroar",
+      "p1b: Incineroar",
+      "p1b: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Rillaboom",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "94/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Iron Jugulis": {
+        "atk": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "atk": -1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Shadow Shield"
+    }
+  }
+]

@@ -1,0 +1,411 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Urshifu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "32/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Unseen Fist",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Urshifu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "32/100",
+      "p2b": "39/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Unseen Fist",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Urshifu",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "32/100",
+      "p2b": "39/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Urshifu",
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Unseen Fist",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Flamethrower",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "32/100",
+      "p2b": "39/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "32/100",
+      "p2b": "39/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

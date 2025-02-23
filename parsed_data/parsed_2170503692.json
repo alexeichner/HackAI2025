@@ -1,0 +1,551 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Murkrow",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Follow Me",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Murkrow",
+        "Foul Play",
+        [
+          "p2b: Farigiraf"
+        ]
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "84/100",
+      "p2a": "0 fnt",
+      "p2b": "59/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Chi-Yu",
+        "p2b: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Insomnia",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Smeargle",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Murkrow",
+        "Sunny Day",
+        [
+          "p1b: Murkrow"
+        ]
+      ],
+      [
+        "p2b: Farigiraf",
+        "Bulldoze",
+        [
+          "p1a: Chi-Yu"
+        ]
+      ],
+      [
+        "p2a: Necrozma",
+        "Sunsteel Strike",
+        [
+          "p1b: Murkrow"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Necrozma"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Necrozma",
+        "super effective"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "super effective"
+      ],
+      [
+        "p2a: Necrozma",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Smeargle",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Protect",
+        [
+          "p2b: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Wide Guard",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      },
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Moody",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Hyper Voice",
+        [
+          "p1a: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "90/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      },
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ursaluna",
+        "Hyper Voice",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "90/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      },
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ursaluna",
+        "Blood Moon",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "80/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      },
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Necrozma-Dusk-Mane",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "76/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Necrozma": {
+        "spe": -1,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1a: Chi-Yu": {
+        "spe": -1
+      },
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

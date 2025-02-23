@@ -1,0 +1,630 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Protect",
+        [
+          "p1b: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Encore",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Blood Moon",
+        [
+          "p2b: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "97/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1b: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Earth Power",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "34/100",
+      "p2a": "100/100",
+      "p2b": "10/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Hyper Voice",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "89/100",
+      "p2b": "67/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "93/100",
+      "p1b": "0 fnt",
+      "p2a": "95/100",
+      "p2b": "16/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "95/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "13/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": 4,
+        "spd": 1
+      },
+      "p1a: Whimsicott": {
+        "atk": -2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  }
+]

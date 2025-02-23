@@ -1,0 +1,562 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Medicham",
+      "p1b": "Ogerpon",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1a: Medicham",
+        "Fake Out",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Fake Out",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Swords Dance",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Medicham"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "13/100",
+      "p2a": "100/100",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Pure Power",
+      "p1b": "Defiant",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ting-Lu",
+      "p1b": "Ho-Oh",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Sucker Punch",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Ting-Lu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ting-Lu",
+        "Vessel of Ruin"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Teal)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Vessel of Ruin",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ting-Lu",
+      "p1b": "Ho-Oh",
+      "p2a": "Terapagos",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Ting-Lu"
+        ]
+      ],
+      [
+        "p1b: Ho-Oh",
+        "Tailwind",
+        [
+          "p1b: Ho-Oh"
+        ]
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p1a: Ting-Lu"
+        ]
+      ],
+      [
+        "p1a: Ting-Lu",
+        "Snarl",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "75/100",
+      "p2a": "96/100",
+      "p2b": "73/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      },
+      "p1a: Ting-Lu": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ting-Lu",
+        "super effective"
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Vessel of Ruin",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Medicham",
+      "p1b": "Ho-Oh",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Sucker Punch",
+        [
+          "p1a: Ting-Lu"
+        ]
+      ],
+      [
+        "p1b: Ho-Oh",
+        "Sacred Fire",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Ho-Oh"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "41/100",
+      "p2a": "96/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      },
+      "p1a: Ting-Lu": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ting-Lu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pure Power",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Medicham",
+      "p1b": "Ho-Oh",
+      "p2a": "Rillaboom",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Medicham",
+        "Close Combat",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Ho-Oh",
+        "Brave Bird",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "41/100",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      },
+      "p1a: Ting-Lu": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      },
+      "p1a: Medicham": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pure Power",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Medicham",
+      "p1b": "Ho-Oh",
+      "p2a": "Rillaboom",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Ho-Oh"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        [
+          "p1a: Medicham"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "23/100",
+      "p2a": "17/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      },
+      "p1a: Ting-Lu": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      },
+      "p1a: Medicham": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pure Power",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Medicham",
+      "p1b": "Ho-Oh",
+      "p2a": "Rillaboom",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "23/100",
+      "p2a": "17/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2,
+        "spe": 1
+      },
+      "p1a: Ting-Lu": {
+        "spa": -1
+      },
+      "p2a: Terapagos": {
+        "spa": -1
+      },
+      "p1a: Medicham": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Pure Power",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  }
+]

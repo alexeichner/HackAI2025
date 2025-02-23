@@ -1,0 +1,336 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Urshifu",
+      "p2a": "Tornadus",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Tera Blast",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "61/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Unseen Fist",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Tera Blast",
+        [
+          "p1a: Farigiraf"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Farigiraf",
+        "Psychic Noise",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Overheat",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Icy Wind",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Discharge",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "8/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Chi-Yu": {
+        "spa": -2
+      },
+      "p1b: Miraidon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Moth",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "8/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Chi-Yu": {
+        "spa": -2
+      },
+      "p1b: Miraidon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fighting"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

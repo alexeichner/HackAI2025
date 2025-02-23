@@ -1,0 +1,337 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Miraidon",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Dazzling Gleam",
+        [
+          "p2b: Landorus"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Landorus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Hadron Engine",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Miraidon",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        [
+          "p1b: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1b: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Miraidon",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Miraidon",
+        "Draco Meteor",
+        [
+          "p2a: Archaludon"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "spa": 1
+      },
+      "p1b: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kyogre",
+      "p2b: Kyogre",
+      "p2b: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Kyogre",
+        "p1a: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Miraidon",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Archaludon": {
+        "spa": 1
+      },
+      "p1b: Miraidon": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Kyogre",
+      "p2b: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  }
+]

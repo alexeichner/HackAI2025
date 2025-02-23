@@ -1,0 +1,323 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ursaluna",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        [
+          "p2a: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Lunala"
+        ]
+      ],
+      [
+        "p2b: Lunala",
+        "Trick Room",
+        [
+          "p2b: Lunala"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Lunala",
+      "p2b: Lunala",
+      "p2b: Lunala"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "super effective"
+      ],
+      [
+        "p2b: Lunala",
+        "resisted"
+      ],
+      [
+        "p2b: Lunala",
+        "resisted"
+      ],
+      [
+        "p2b: Lunala",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Guts",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Farigiraf",
+      "p2a": "Ursaluna",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Headlong Rush",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Lunala",
+        "Moongeist Beam",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "Cud Chew",
+      "p2a": "Guts",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Farigiraf",
+      "p2a": "Ursaluna",
+      "p2b": "Lunala"
+    },
+    "moves": [
+      [
+        "p1a: Tyranitar",
+        "Protect",
+        [
+          "p1a: Tyranitar"
+        ]
+      ],
+      [
+        "p2a: Ursaluna",
+        "Facade",
+        [
+          "p1b: Farigiraf"
+        ]
+      ],
+      [
+        "p2b: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "95/100 brn",
+      "p2b": "63/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "Cud Chew",
+      "p2a": "Guts",
+      "p2b": "Shadow Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tyranitar",
+      "p1b": "Farigiraf",
+      "p2a": "Ursaluna",
+      "p2b": "Lunala"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "95/100 brn",
+      "p2b": "63/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 1
+      },
+      "p2a: Ursaluna": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Sand Stream",
+      "p1b": "Cud Chew",
+      "p2a": "Guts",
+      "p2b": "Shadow Shield"
+    }
+  }
+]

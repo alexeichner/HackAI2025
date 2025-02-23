@@ -1,0 +1,403 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Flutter Mane",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Taunt",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Tornadus",
+      "p2b: Tornadus",
+      "p2b: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon",
+      "p2a": "Flutter Mane",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p1b: Tornadus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Defiant",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon",
+      "p2a": "Flutter Mane",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Protect",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Taunt",
+        [
+          "p1a: Lunala"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p1b: Tornadus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Defiant",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1a: Lunala"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Lunala",
+        "Moongeist Beam",
+        [
+          "p2a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "68/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p1b: Tornadus": {
+        "spe": -1
+      },
+      "p1a: Lunala": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Lunala",
+        "super effective"
+      ],
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Defiant",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "U-turn",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "4/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "spe": -1
+      },
+      "p1b: Tornadus": {
+        "spe": -1
+      },
+      "p1a: Lunala": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Defiant",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  }
+]

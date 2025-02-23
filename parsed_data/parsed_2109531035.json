@@ -1,0 +1,720 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Dragonite",
+      "p2a": "Incineroar",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Dragonite"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Flare Blitz",
+        [
+          "p1b: Dragonite"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "91/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "resisted"
+      ],
+      [
+        "p1b: Dragonite",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Inner Focus",
+      "p2a": "Intimidate",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Dragonite",
+      "p2a": "Incineroar",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2b: Miraidon",
+        "Volt Switch",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Dragonite",
+        "Stomping Tantrum",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Flare Blitz",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "20/100",
+      "p2a": "46/100",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Inner Focus",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p2b: Iron Leaves",
+        "Psyblade",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ],
+      [
+        "p1a: Dondozo",
+        "Order Up",
+        [
+          "p2b: Iron Leaves"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        [
+          "p1a: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "20/100",
+      "p2a": "46/100",
+      "p2b": "47/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Iron Leaves",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p2b: Iron Leaves",
+        "Psyblade",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Dondozo",
+        "Earthquake",
+        [
+          "p2a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p2b: Iron Leaves",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Dondozo",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Dondozo",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p1a: Dondozo",
+        "Protect",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Iron Leaves",
+        "Psyblade",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Unaware",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Iron Leaves"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Iron Leaves",
+        "Psyblade",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1,
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Iron Leaves"
+        ]
+      ],
+      [
+        "p1b: Tatsugiri",
+        "Draco Meteor",
+        [
+          "p2a: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Snarl",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "2/100",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p1a: Dragonite": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Miraidon",
+        "p1b: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Tatsugiri",
+      "p2a": "Miraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p1b: Tatsugiri",
+        "Draco Meteor",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Snarl",
+        [
+          "p1b: Tatsugiri"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1a: Dragonite"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Chien-Pao": {
+        "atk": -1
+      },
+      "p1a: Dondozo": {
+        "atk": 1,
+        "spa": 1,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1b: Tatsugiri": {
+        "atk": -1,
+        "spa": -4
+      },
+      "p1a: Dragonite": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Dragonite",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Steel",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Commander",
+      "p2a": "Hadron Engine",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

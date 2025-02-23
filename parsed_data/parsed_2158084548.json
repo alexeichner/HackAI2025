@@ -1,0 +1,708 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Roaring Moon",
+      "p2a": "Smeargle",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Tailwind",
+        [
+          "p1b: Roaring Moon"
+        ]
+      ],
+      [
+        "p1a: Lunala",
+        "Expanding Force",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Lunala"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "80/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Own Tempo",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Serperior",
+      "p2a": "Smeargle",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Knock Off",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Lunala",
+        "Expanding Force",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Smeargle",
+        "Spore",
+        [
+          "p1a: Lunala"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1b: Roaring Moon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "80/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Overgrow",
+      "p2a": "Moody",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Serperior",
+      "p2a": "Smeargle",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Spiky Shield",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Serperior",
+        "Leaf Storm",
+        [
+          "p2a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100 slp",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Overgrow",
+      "p2a": "Moody",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Serperior",
+      "p2a": "Raging Bolt",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Serperior",
+        "Leaf Storm",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Serperior"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100 slp",
+      "p1b": "37/100",
+      "p2a": "10/100",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      },
+      "p1b: Serperior": {
+        "spa": 6
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Serperior",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Serperior",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Serperior",
+        "Leaf Storm",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Indeedee",
+        "Dazzling Gleam",
+        [
+          "p2b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100 slp",
+      "p1b": "37/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      },
+      "p1b: Serperior": {
+        "spa": 6
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Serperior",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Serperior",
+        "Protect",
+        [
+          "p1b: Serperior"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Serperior"
+        ]
+      ],
+      [
+        "p1a: Indeedee",
+        "Dazzling Gleam",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100 slp",
+      "p1b": "43/100",
+      "p2a": "0 fnt",
+      "p2b": "93/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      },
+      "p1b: Serperior": {
+        "spa": 6
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Serperior",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        [
+          "p1a: Indeedee"
+        ]
+      ],
+      [
+        "p1b: Serperior",
+        "Giga Drain",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "73/100",
+      "p2a": "0 fnt",
+      "p2b": "47/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      },
+      "p1b: Serperior": {
+        "spa": 6
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1a: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Serperior",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Follow Me",
+        [
+          "p1a: Indeedee"
+        ]
+      ],
+      [
+        "p1b: Serperior",
+        "Leaf Storm",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "73/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2a: Smeargle": {
+        "spd": 1,
+        "spa": -1,
+        "spe": 2
+      },
+      "p1b: Serperior": {
+        "spa": 6
+      },
+      "p2b: Smeargle": {
+        "atk": 2,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  }
+]

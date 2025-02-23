@@ -1,0 +1,583 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Mienshao",
+        "Fake Out",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Trick Room",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "83/100",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unnerve",
+      "p2a": "Own Tempo",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Dondozo",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Smeargle",
+        "Spore",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        [
+          "p1a: Mienshao"
+        ]
+      ],
+      [
+        "p1a: Mienshao",
+        "Close Combat",
+        [
+          "p2a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Smeargle"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Smeargle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Unaware",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "36/100 slp",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Calyrex",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Mienshao",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Inner Focus",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Mienshao",
+        "Fake Out",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Tatsugiri"
+        ]
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Draco Meteor",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "0 fnt",
+      "p2a": "20/100",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Tatsugiri": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unnerve",
+      "p2a": "Unseen Fist",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Muddy Water",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Trick Room",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "0 fnt",
+      "p2a": "66/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Tatsugiri": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tatsugiri",
+        "p2b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "14/100",
+      "p1b": "0 fnt",
+      "p2a": "66/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Mienshao": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      },
+      "p1a: Tatsugiri": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

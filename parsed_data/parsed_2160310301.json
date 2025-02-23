@@ -1,0 +1,251 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Flutter Mane",
+      "p2a": "Incineroar",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2b: Gholdengo",
+        "Protect",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p2b: Gholdengo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "99/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Flutter Mane",
+      "p2a": "Incineroar",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p1a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Grimmsnarl"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Incineroar",
+        "p1a: Rillaboom"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Flutter Mane",
+      "p2a": "Incineroar",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        [
+          "p1a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "78/100",
+      "p1b": "100/100",
+      "p2a": "82/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Grimmsnarl": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gholdengo",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Good as Gold"
+    }
+  }
+]

@@ -1,0 +1,426 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Whimsicott",
+      "p2a": "Araquanid",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2a: Araquanid"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "100/100",
+      "p2a": "58/100",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Araquanid"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Araquanid",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Water Bubble",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Whimsicott",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Encore",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Whimsicott",
+        "Tailwind",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Thunder",
+        [
+          "p2a: Araquanid"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "69/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Araquanid",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Rillaboom",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2a: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "43/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Kyogre",
+        "p2a: Farigiraf"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Overgrow",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Rillaboom",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "35/100",
+      "p2a": "0 fnt",
+      "p2b": "25/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Overgrow",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Rillaboom",
+      "p2a": "Farigiraf",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Farigiraf",
+        "Psychic",
+        [
+          "p1a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "50/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Grassy Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Overgrow",
+      "p2a": "Cud Chew",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

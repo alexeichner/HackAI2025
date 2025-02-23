@@ -1,0 +1,759 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Fake Out",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Muk"
+        ]
+      ],
+      [
+        "p2a: Muk",
+        "Minimize",
+        [
+          "p2a: Muk"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "97/100",
+      "p2a": "60/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Taunt",
+        [
+          "p2a: Muk"
+        ]
+      ],
+      [
+        "p2b: Smeargle",
+        "Spore",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "97/100",
+      "p2a": "66/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Moody"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Muk",
+        "Knock Off",
+        [
+          "p1b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "86/100",
+      "p2a": "72/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Muk",
+        "Moody"
+      ],
+      [
+        "p2a: Muk",
+        "Moody"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Muk",
+        "Knock Off",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 slp",
+      "p1b": "51/100",
+      "p2a": "78/100",
+      "p2b": "68/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Muk",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Muk-Alola",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Muk",
+        "Protect",
+        [
+          "p2a: Muk"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 slp",
+      "p1b": "23/100",
+      "p2a": "84/100",
+      "p2b": "68/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Muk",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Muk-Alola",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Muk",
+        "Minimize",
+        [
+          "p2a: Muk"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Muk"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 slp",
+      "p1b": "23/100",
+      "p2a": "91/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Muk",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p2b: Calyrex",
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Muk"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Moody",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Amoonguss",
+        "Protect",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Muk",
+        "Minimize",
+        [
+          "p2a: Muk"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 slp",
+      "p1b": "23/100",
+      "p2a": "97/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Muk",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Muk"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Moody",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Incineroar",
+      "p2a": "Muk-Alola",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Muk"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100 slp",
+      "p1b": "23/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Muk": {
+        "atk": 0,
+        "evasion": 6,
+        "spe": -1,
+        "spd": -1,
+        "spa": 6,
+        "def": -1
+      },
+      "p2b: Smeargle": {
+        "atk": 1,
+        "spe": -2,
+        "def": 2
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p2b: Amoonguss": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Muk"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Incineroar",
+        "p2a: Muk"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Intimidate",
+      "p2a": "Moody",
+      "p2b": "Effect Spore"
+    }
+  }
+]

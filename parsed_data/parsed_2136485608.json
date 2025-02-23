@@ -1,0 +1,583 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Whimsicott",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Walking Wake"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "45/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Walking Wake",
+      "p2b: Walking Wake",
+      "p2b: Walking Wake"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Walking Wake",
+        "resisted"
+      ],
+      [
+        "p2b: Walking Wake",
+        "resisted"
+      ],
+      [
+        "p2b: Walking Wake",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Whimsicott"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Whimsicott",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Cotton Spore",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Walking Wake",
+        "Draco Meteor",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "65/100",
+      "p2b": "35/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Whimsicott",
+      "p2a: Whimsicott",
+      "p2a: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Iron Treads",
+      "p2a": "Whimsicott",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Protect",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Walking Wake",
+        "Draco Meteor",
+        [
+          "p1b: Iron Treads"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "69/100",
+      "p2a": "65/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Treads",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Miraidon",
+      "p2a": "Whimsicott",
+      "p2b": "Walking Wake"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Walking Wake",
+        "Hydro Steam",
+        [
+          "p1b: Iron Treads"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "0 fnt",
+      "p2a": "65/100",
+      "p2b": "16/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Whimsicott"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Treads",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Tornadus",
+      "p2a": "Groudon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Walking Wake",
+        "Draco Meteor",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "U-turn",
+        [
+          "p2b: Walking Wake"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "55/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Prankster",
+      "p2a": "Drought",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Groudon",
+      "p2b": "Entei"
+    },
+    "moves": [
+      [
+        "p2b: Entei",
+        "Extreme Speed",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        [
+          "p1a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Groudon",
+      "p2b": "Entei"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Tornadus": {
+        "spe": -2
+      },
+      "p1b: Urshifu": {
+        "spe": -2
+      },
+      "p2b: Walking Wake": {
+        "spa": -6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Poison",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "Pressure"
+    }
+  }
+]

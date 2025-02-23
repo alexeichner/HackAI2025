@@ -1,0 +1,396 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Tsareena",
+      "p2a": "Terapagos",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p2b: Flamigo",
+        "Tailwind",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Tsareena"
+        ]
+      ],
+      [
+        "p1b: Tsareena",
+        "Power Whip",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "30/100",
+      "p2a": "59/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "Leaf Guard",
+      "p2a": "Teraform Zero",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Overqwil",
+      "p1b": "Kyogre",
+      "p2a": "Sinistcha",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1b: Tsareena"
+        ]
+      ],
+      [
+        "p1a: Ditto",
+        "Close Combat",
+        [
+          "p2a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "43/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Ditto": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Poison Point",
+      "p1b": "Drizzle",
+      "p2a": "Hospitality",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Overqwil",
+      "p1b": "Kyogre",
+      "p2a": "Basculegion",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1a: Overqwil"
+        ]
+      ],
+      [
+        "p1a: Overqwil",
+        "Poison Jab",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Ditto": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Overqwil",
+        "resisted"
+      ],
+      [
+        "p2a: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Poison Point",
+      "p1b": "Drizzle",
+      "p2a": "Swift Swim",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Overqwil",
+      "p1b": "Kyogre",
+      "p2a": "Basculegion",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Overqwil",
+        "Protect",
+        [
+          "p1a: Overqwil"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Protect",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Basculegion",
+        "Aqua Jet",
+        [
+          "p1a: Overqwil"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Overqwil"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Ditto": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Poison Point",
+      "p1b": "Drizzle",
+      "p2a": "Swift Swim",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Overqwil",
+      "p1b": "Kyogre",
+      "p2a": "Basculegion",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2a: Basculegion",
+        "Aqua Jet",
+        [
+          "p1a: Overqwil"
+        ]
+      ],
+      [
+        "p1a: Overqwil",
+        "Throat Chop",
+        [
+          "p2a: Basculegion"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -2,
+        "spd": -2
+      },
+      "p1a: Ditto": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Basculegion",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Poison Point",
+      "p1b": "Drizzle",
+      "p2a": "Swift Swim",
+      "p2b": "none"
+    }
+  }
+]

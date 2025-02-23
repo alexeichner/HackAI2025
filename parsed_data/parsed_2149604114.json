@@ -1,0 +1,692 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kingambit",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Kingambit",
+        "Protect",
+        [
+          "p1a: Kingambit"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Smeargle",
+        "Magic Powder",
+        [
+          "p1a: Kingambit"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "47/100",
+      "p2a": "100/100",
+      "p2b": "30/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Defiant",
+      "p1b": "none",
+      "p2a": "Moody",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kingambit",
+      "p1b": "Entei",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Smeargle",
+        "Follow Me",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: Kingambit",
+        "Iron Head",
+        [
+          "p2a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "47/100",
+      "p2b": "30/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kingambit",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Defiant",
+      "p1b": "Pressure",
+      "p2a": "Moody",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kingambit",
+      "p1b": "Entei",
+      "p2a": "Smeargle",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Kingambit",
+        "Protect",
+        [
+          "p1a: Kingambit"
+        ]
+      ],
+      [
+        "p2a: Smeargle",
+        "Spore",
+        [
+          "p1b: Entei"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Snarl",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "24/100",
+      "p2b": "30/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Defiant",
+      "p1b": "Pressure",
+      "p2a": "Moody",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kingambit",
+      "p1b": "Entei",
+      "p2a": "Annihilape",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Kingambit",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Nasty Plot",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "30/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Kingambit"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Defiant",
+      "p1b": "Pressure",
+      "p2a": "Vital Spirit",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Entei",
+      "p2a": "Annihilape",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Annihilape",
+        "Close Combat",
+        [
+          "p1a: Kingambit"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "30/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kingambit",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Pressure",
+      "p2a": "Vital Spirit",
+      "p2b": "Grim Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Entei",
+      "p2a": "Arcanine-Hisui",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Extreme Speed",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Lugia",
+        "Calm Mind",
+        [
+          "p1a: Lugia"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lugia": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Arcanine",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Entei"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Pressure",
+      "p2a": "Intimidate",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Entei",
+      "p2a": "Arcanine-Hisui",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Close Combat",
+        [
+          "p1b: Entei"
+        ]
+      ],
+      [
+        "p1a: Lugia",
+        "Earth Power",
+        [
+          "p2a: Arcanine"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Stomping Tantrum",
+        [
+          "p2b: Annihilape"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "15/100",
+      "p2a": "0 fnt",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lugia": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Entei",
+        "super effective"
+      ],
+      [
+        "p2a: Arcanine",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Pressure",
+      "p2a": "Intimidate",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Lugia",
+      "p1b": "Entei",
+      "p2a": "Arcanine-Hisui",
+      "p2b": "Annihilape"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "15/100",
+      "p2a": "0 fnt",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Smeargle": {
+        "def": 4,
+        "spd": -1,
+        "atk": -1,
+        "spa": -2,
+        "spe": 2
+      },
+      "p2b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Annihilape": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lugia": {
+        "atk": -1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Pressure",
+      "p2a": "Intimidate",
+      "p2b": "Vital Spirit"
+    }
+  }
+]

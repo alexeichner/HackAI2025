@@ -1,0 +1,642 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Sableye",
+      "p1b": "Iron Valiant",
+      "p2a": "Iron Jugulis",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Robin",
+        "Air Slash",
+        [
+          "p1b: Iron Valiant"
+        ]
+      ],
+      [
+        "p1b: Iron Valiant",
+        "Hypnosis",
+        [
+          "p2b: Wreath"
+        ]
+      ],
+      [
+        "p1a: Sableye",
+        "Gravity",
+        [
+          "p1a: Sableye"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Valiant",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Iron Jugulis",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Robin",
+        "Snarl",
+        [
+          "p1b: Iron Valiant"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Sableye"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Valiant",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Iron Jugulis",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Sableye",
+        "Fake Out",
+        [
+          "p2a: Robin"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Wreath"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "33/100",
+      "p2b": "34/100 slp"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Wreath",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Amoonguss",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p2a: Robin",
+        "Air Slash",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Robin"
+        ]
+      ],
+      [
+        "p1b: Sableye",
+        "Foul Play",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "54/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      },
+      "p2b: Duck Mark 2": {
+        "spa": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Duck Mark 2",
+        "Download"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "Effect Spore",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Heat Crash",
+        [
+          "p2a: Rosette"
+        ]
+      ],
+      [
+        "p2b: Duck Mark 2",
+        "Tera Blast",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p1b: Sableye",
+        "Foul Play",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      },
+      "p2b: Duck Mark 2": {
+        "spa": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Wreath",
+        "As One"
+      ],
+      [
+        "p2a: Wreath",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rosette",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "Unnerve",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Sableye",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p2a: Wreath",
+        "Protect",
+        [
+          "p2a: Wreath"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ],
+      [
+        "p1b: Sableye",
+        "Gravity",
+        [
+          "p1b: Sableye"
+        ]
+      ],
+      [
+        "p2b: Duck Mark 2",
+        "Trick Room",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      },
+      "p2b: Duck Mark 2": {
+        "spa": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Groudon",
+        "p2b: Duck Mark 2"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Keen Eye",
+      "p2a": "Unnerve",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Incineroar",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Groudon",
+        "Protect",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Wreath",
+        "Glacial Lance",
+        [
+          "p1a: Groudon"
+        ]
+      ],
+      [
+        "p1b: Sableye",
+        "Foul Play",
+        [
+          "p2a: Wreath"
+        ]
+      ],
+      [
+        "p2b: Duck Mark 2",
+        "Foul Play",
+        [
+          "p1b: Sableye"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      },
+      "p2b: Duck Mark 2": {
+        "spa": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "Download"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Incineroar",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Duck Mark 2"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "24/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Sableye": {
+        "spa": -1
+      },
+      "p2b: Duck Mark 2": {
+        "spa": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Intimidate",
+      "p2a": "Unnerve",
+      "p2b": "Download"
+    }
+  }
+]

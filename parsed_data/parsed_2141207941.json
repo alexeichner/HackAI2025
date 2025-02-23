@@ -1,0 +1,946 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: KING",
+        "Protect",
+        [
+          "p1a: KING"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Archaludon"
+        ]
+      ],
+      [
+        "p1a: KING",
+        "Calm Mind",
+        [
+          "p1a: KING"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: KING",
+        "resisted"
+      ],
+      [
+        "p2b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: KING",
+        "Protect",
+        [
+          "p1a: KING"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: KING"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "33/100",
+      "p2a": "8/100",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Incineroar",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Follow Me",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: KING",
+        "Earth Power",
+        [
+          "p2b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "33/100",
+      "p2a": "8/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: KING",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Incineroar",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: KING",
+        "Protect",
+        [
+          "p1a: KING"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1a: KING"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "33/100",
+      "p2a": "8/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: KING",
+        "Tera Starstorm",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Taunt",
+        [
+          "p1a: KING"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "1/100",
+      "p2a": "75/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p1a: PAWN"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "75/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: BISHOP",
+        "Protect",
+        [
+          "p1b: BISHOP"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p1a: PAWN",
+        "Reflect",
+        [
+          "p1a: PAWN"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: BISHOP"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "75/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: BISHOP",
+        "Encore",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Taunt",
+        [
+          "p1b: BISHOP"
+        ]
+      ],
+      [
+        "p1a: PAWN",
+        "Foul Play",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "0 fnt",
+      "p2a": "75/100",
+      "p2b": "66/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: BISHOP",
+        "Dazzling Gleam",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: BISHOP"
+        ]
+      ],
+      [
+        "p1a: PAWN",
+        "Foul Play",
+        [
+          "p2a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "77/100",
+      "p2a": "40/100",
+      "p2b": "66/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "77/100",
+      "p2a": "40/100",
+      "p2b": "66/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: KING": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: PAWN": {
+        "atk": -1
+      },
+      "p2b: Archaludon": {
+        "def": 1,
+        "spa": 1
+      },
+      "p1b: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

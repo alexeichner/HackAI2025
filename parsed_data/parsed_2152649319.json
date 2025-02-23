@@ -1,0 +1,667 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Snarl",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "41/100",
+      "p1b": "41/100",
+      "p2a": "36/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1a: Bad Cat"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "41/100",
+      "p2a": "42/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Bad Cat",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Bad Cat",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Dusclops",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Bad Cat",
+        "Fake Out",
+        [
+          "p2a: Dusclops"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2a: Dusclops"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "25/100",
+      "p2a": "72/100",
+      "p2b": "85/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [
+      [
+        "p1a: Bad Cat",
+        "Sitrus Berry"
+      ],
+      [
+        "p1b: Ogerpon",
+        "Cornerstone Mask"
+      ]
+    ],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Dusclops",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Bad Cat"
+        ]
+      ],
+      [
+        "p1a: Bad Cat",
+        "Knock Off",
+        [
+          "p2a: Dusclops"
+        ]
+      ],
+      [
+        "p2a: Dusclops",
+        "Trick Room",
+        [
+          "p2a: Dusclops"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "31/100",
+      "p2a": "28/100",
+      "p2b": "48/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dusclops",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Dusclops",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Dusclops",
+        "Pain Split",
+        [
+          "p1a: Bad Cat"
+        ]
+      ],
+      [
+        "p1a: Bad Cat",
+        "Knock Off",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "61/100",
+      "p1b": "0 fnt",
+      "p2a": "82/100",
+      "p2b": "22/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Dusclops",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Dusclops",
+        "Night Shade",
+        [
+          "p1a: Bad Cat"
+        ]
+      ],
+      [
+        "p1a: Bad Cat",
+        "Parting Shot",
+        [
+          "p2a: Dusclops"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "37/100",
+      "p2a": "88/100",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "atk": -1
+      },
+      "p2a: Dusclops": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Dusclops",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Dusclops",
+        "Night Shade",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Volt Switch",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "0 fnt",
+      "p2a": "94/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spa": -4,
+        "atk": -1
+      },
+      "p2a: Dusclops": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Bad Cat",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Overgrow"
+    }
+  }
+]

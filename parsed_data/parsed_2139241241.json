@@ -1,0 +1,230 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Mienshao",
+      "p1b": "Terapagos",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Mienshao",
+        "Fake Out",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Mienshao"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Mienshao"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Mienshao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Tera Shift",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Terapagos",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Endeavor",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Clefairy"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "27/100",
+      "p2a": "1/100",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Tera Shift",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Terapagos",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Tailwind",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Clefairy"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "8/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Tera Shift",
+      "p2a": "Prankster",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

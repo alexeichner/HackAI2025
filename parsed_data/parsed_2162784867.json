@@ -1,0 +1,354 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Basculegion",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Flamigo",
+        "Tailwind",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flamigo",
+        "super effective"
+      ],
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Swift Swim",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Tornadus",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p2a: Basculegion",
+        "Last Respects",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lunala": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Tornadus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Flamigo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Prankster",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Tornadus",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p1a: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Basculegion",
+        "Last Respects",
+        [
+          "p1a: Lunala"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lunala": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Tornadus": {
+        "atk": -1
+      },
+      "p2a: Basculegion": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Prankster",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Tornadus",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1a: Lunala": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Tornadus": {
+        "atk": -1
+      },
+      "p2a: Basculegion": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Prankster",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p2a: Eternatus",
+        "Protect",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p1a: Maushold",
+        "Follow Me",
+        [
+          "p1a: Maushold"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p1a: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "44/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kingambit",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "Unnerve",
+      "p2a": "Pressure",
+      "p2b": "Defiant"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Kingambit"
+    },
+    "moves": [
+      [
+        "p1a: Maushold",
+        "Helping Hand",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Kingambit",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "Grim Neigh",
+      "p2a": "Pressure",
+      "p2b": "Defiant"
+    }
+  }
+]

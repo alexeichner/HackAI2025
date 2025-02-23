@@ -1,0 +1,890 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Protect",
+        [
+          "p1a: Roaring Moon"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Protect",
+        [
+          "p1b: Entei"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        [
+          "p1b: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Roaring Moon",
+        "Tailwind",
+        [
+          "p1a: Roaring Moon"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1a: Roaring Moon"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        [
+          "p1b: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Pressure",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Wide Guard",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "93/100",
+      "p2a": "100/100",
+      "p2b": "22/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Pressure",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Behemoth Bash",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "77/100",
+      "p1b": "99/100",
+      "p2a": "100/100",
+      "p2b": "22/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Entei"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Pressure",
+      "p2a": "Grim Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Wide Guard",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "96/100",
+      "p2a": "87/100",
+      "p2b": "22/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Pressure",
+      "p2a": "Grim Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "100/100",
+      "p2a": "93/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Entei"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Pressure",
+      "p2a": "Grim Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Draining Kiss",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "100/100",
+      "p2a": "93/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Flutter Mane",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Icy Wind",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "79/100",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Flutter Mane",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Extreme Speed",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Entei"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        [
+          "p1a: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "11/100",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Entei"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Flutter Mane",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Extreme Speed",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        [
+          "p1a: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Roaring Moon": {
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3
+      },
+      "p1b: Entei": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -2
+      },
+      "p2b: Flutter Mane": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Entei"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  }
+]

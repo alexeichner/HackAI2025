@@ -1,0 +1,691 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Pikachu",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Pikachu",
+        "Fake Out",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Pikachu",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Regieleki",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Pikachu",
+        "Endeavor",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "35/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p2b: Calyrex",
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Pikachu",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Regieleki",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Regieleki",
+        "Electroweb",
+        [
+          "p1a: Pikachu"
+        ]
+      ],
+      [
+        "p1a: Pikachu",
+        "Nuzzle",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Pikachu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "2/100",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "32/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Pikachu",
+        "Lightning Rod"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Lightning Rod",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Regieleki",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Aqua Jet",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Regieleki",
+        "Tera Blast",
+        [
+          "p1a: Pikachu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "20/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Regieleki",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Regieleki",
+        "Tera Blast",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "20/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Limber",
+      "p1b": "none",
+      "p2a": "Transistor",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Aqua Jet",
+        [
+          "p2a: Regieleki"
+        ]
+      ],
+      [
+        "p2a: Regieleki",
+        "Thunderbolt",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Ditto",
+        "Glacial Lance",
+        [
+          "p2a: Regieleki"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Ditto"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "3/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Ditto": {
+        "atk": 0
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ditto",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Ditto",
+        "Protect",
+        [
+          "p1a: Ditto"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Ditto"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Ditto"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "3/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Ditto": {
+        "atk": 0
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Ditto",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Flare Blitz",
+        [
+          "p1a: Ditto"
+        ]
+      ],
+      [
+        "p1a: Ditto",
+        "High Horsepower",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Ditto"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "74/100",
+      "p2b": "3/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Pikachu": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p1b: Urshifu": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Ditto": {
+        "atk": 0
+      }
+    },
+    "status_conditions": {
+      "p2b": "par",
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ditto",
+        "super effective"
+      ],
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  }
+]

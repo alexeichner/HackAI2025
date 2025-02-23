@@ -1,0 +1,962 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1a: Comfey"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Calm Mind",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Snarl",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Calm Mind",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "100/100",
+      "p2a": "90/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Beat Up",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "90/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Iron Defense",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Calm Mind",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p1b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "76/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p1b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "16/100",
+      "p2b": "52/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Rillaboom",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Comfey",
+        "Draining Kiss",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1b: Comfey"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Calm Mind",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "18/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Comfey",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Rillaboom",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Calm Mind",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "0 fnt",
+      "p2a": "62/100",
+      "p2b": "13/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Iron Jugulis",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Iron Jugulis",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Iron Jugulis",
+        "Tailwind",
+        [
+          "p2a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "36/100",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Comfey",
+      "p2a": "Iron Jugulis",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Iron Jugulis",
+        "Snarl",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "36/100",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "spa": -2
+      },
+      "p2b: Raging Bolt": {
+        "spa": 2,
+        "spd": 4
+      },
+      "p2a: Zamazenta": {
+        "def": 3
+      },
+      "p1b: Archaludon": {
+        "def": 6,
+        "spa": 1
+      },
+      "p1a: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Flower Veil",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

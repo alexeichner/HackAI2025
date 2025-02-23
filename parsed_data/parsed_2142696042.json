@@ -1,0 +1,361 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Raging Bolt",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Maushold",
+        "Helping Hand",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        [
+          "p2b: Maushold"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "32/100",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Maushold",
+        "super effective"
+      ],
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Grim Neigh",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Chien-Pao",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "0 fnt",
+      "p2a": "21/100",
+      "p2b": "61/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sword of Ruin",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Chien-Pao",
+      "p2a": "Tatsugiri",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Ice Spinner",
+        [
+          "p2b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "74/100",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Calyrex",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sword of Ruin",
+      "p2a": "Commander",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Chien-Pao",
+      "p2a": "Tatsugiri",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "74/100",
+      "p2a": "21/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Sword of Ruin",
+      "p2a": "Commander",
+      "p2b": "Unnerve"
+    }
+  }
+]

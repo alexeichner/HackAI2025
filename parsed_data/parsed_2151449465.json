@@ -1,0 +1,710 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "U-turn",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "48/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p2b: Moltres",
+        "Protect",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Moltres"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "90/100 brn",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Taunt",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Moltres"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "90/100 brn",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Weather Ball",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Fiery Wrath",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "82/100",
+      "p2a": "74/100 brn",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Moltres",
+        "Berserk"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "Berserk"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p2b: Moltres",
+        "Protect",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Weather Ball",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Moltres"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "7/100",
+      "p1b": "87/100",
+      "p2a": "0 fnt",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Chilling Neigh",
+      "p2a": "Overgrow",
+      "p2b": "Berserk"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rillaboom",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Foul Play",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "93/100",
+      "p2a": "54/100",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Overgrow",
+      "p2b": "Berserk"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Pelipper",
+      "p2a": "Chien-Pao",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Foul Play",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "92/100",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Keen Eye",
+      "p2a": "Sword of Ruin",
+      "p2b": "Berserk"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Pelipper",
+      "p2a": "Chien-Pao",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "92/100",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "36/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Rillaboom": {
+        "atk": -2
+      },
+      "p2b: Moltres": {
+        "atk": -2,
+        "spa": 1
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Keen Eye",
+      "p2a": "Sword of Ruin",
+      "p2b": "Berserk"
+    }
+  }
+]

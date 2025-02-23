@@ -1,0 +1,165 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Murkrow",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Murkrow",
+        "Foul Play",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "72/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Insomnia",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Rotom-Wash",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Ursaluna",
+        "Hyper Voice",
+        [
+          "p2a: Rotom"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "72/100",
+      "p2a": "16/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rotom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

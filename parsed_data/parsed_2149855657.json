@@ -1,0 +1,484 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Zacian-Crowned",
+      "p2b": "Suicune"
+    },
+    "moves": [
+      [
+        "p2a: Zacian",
+        "Protect",
+        [
+          "p2a: Zacian"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Zacian"
+        ]
+      ],
+      [
+        "p2b: Suicune",
+        "Snarl",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "93/100",
+      "p1b": "89/100",
+      "p2a": "100/100",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Suicune",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Intrepid Sword",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Stonjourner",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Zacian"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "93/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zacian",
+        "resisted"
+      ],
+      [
+        "p2b: Suicune",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "Power Spot",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Tornadus",
+      "p2a": "Stonjourner",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Stonjourner",
+        "Wide Guard",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Stonjourner"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "93/100",
+      "p1b": "89/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Prankster",
+      "p2a": "Power Spot",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Tornadus",
+      "p2a": "Stonjourner",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p1a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Stonjourner",
+        "Rock Slide",
+        [
+          "p1a: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "44/100",
+      "p2a": "54/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Archaludon": {
+        "spa": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Stonjourner",
+        "resisted"
+      ],
+      [
+        "p1a: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Prankster",
+      "p2a": "Power Spot",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Tornadus",
+      "p2a": "Stonjourner",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Stonjourner",
+        "Wide Guard",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Throat Chop",
+        [
+          "p1a: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "44/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Archaludon": {
+        "spa": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Prankster",
+      "p2a": "Power Spot",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Tornadus",
+      "p2a": "Stonjourner",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "44/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zacian": {
+        "atk": 1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Archaludon": {
+        "spa": 2,
+        "def": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Dark",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Prankster",
+      "p2a": "Power Spot",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

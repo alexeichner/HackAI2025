@@ -1,0 +1,530 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Indeedee-F",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Trick Room",
+        [
+          "p1b: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Alcremie-Salted-Cream",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "77/100",
+      "p2b": "85/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Alcremie-Salted-Cream",
+      "p2a": "Scream Tail",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Alcremie",
+        "Encore",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "High Horsepower",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "9/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      },
+      "p1a: Calyrex": {
+        "atk": 1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Alcremie-Salted-Cream",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Alcremie",
+        "Decorate",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "9/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      },
+      "p1a: Calyrex": {
+        "atk": 1,
+        "spa": 1
+      },
+      "p1b: Alcremie": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Indeedee-F",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      },
+      "p1a: Calyrex": {
+        "atk": 1,
+        "spa": 1
+      },
+      "p1b: Alcremie": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Alcremie-Salted-Cream",
+      "p1b": "Indeedee-F",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Alcremie"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Alcremie"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Indeedee": {
+        "atk": -1
+      },
+      "p2b: Terapagos": {
+        "spa": 5,
+        "spd": 5
+      },
+      "p1a: Calyrex": {
+        "atk": 1,
+        "spa": 1
+      },
+      "p1b: Alcremie": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Alcremie",
+      "p1a: Alcremie",
+      "p1a: Alcremie"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Teraform Zero"
+    }
+  }
+]

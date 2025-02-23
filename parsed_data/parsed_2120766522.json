@@ -1,0 +1,288 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tornadus",
+      "p2a": "Miraidon",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Fake Tears",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Amoonguss",
+        "Spore",
+        [
+          "p2a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Terapagos": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tornadus",
+      "p2a": "Miraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "85/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Terapagos": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tornadus",
+      "p2a": "Miraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "68/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Terapagos": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2a: Miraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Tornadus",
+      "p2a": "Miraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "68/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Terapagos": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Prankster",
+      "p2a": "Hadron Engine",
+      "p2b": "none"
+    }
+  }
+]

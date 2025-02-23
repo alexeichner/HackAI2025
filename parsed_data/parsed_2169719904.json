@@ -1,0 +1,804 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Amoonguss",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Amoonguss",
+        "Pollen Puff",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "42/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Effect Spore",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "50/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Raging Bolt",
+        "p1a: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Electroweb",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "75/100",
+      "p2a": "0 fnt",
+      "p2b": "57/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Unseen Fist",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Kyogre",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "0 fnt",
+      "p2a": "95/100 brn",
+      "p2b": "63/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Drizzle",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "0 fnt",
+      "p2a": "22/100 brn",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Ursaluna",
+        "Blood Moon",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2a: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "23/100",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Ursaluna",
+        "Protect",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Rillaboom",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Ursaluna",
+        "Earth Power",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -6
+      },
+      "p1b: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

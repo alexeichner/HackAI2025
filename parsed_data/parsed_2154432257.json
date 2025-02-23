@@ -1,0 +1,662 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Funni fish",
+        "Protect",
+        [
+          "p1a: Funni fish"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Snarl",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "54/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Funni fish",
+        "Ice Beam",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Funni fish"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Snarl",
+        [
+          "p1a: Funni fish"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "34/100",
+      "p2a": "65/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Funni fish",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Raging Bolt",
+        "p1a: Funni fish"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Funni fish",
+        "Origin Pulse",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Volt Switch",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "0 fnt",
+      "p2a": "37/100",
+      "p2b": "63/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      },
+      "p2b: Rillaboom": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Funni fish",
+        "p2b: Rillaboom"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Funni fish",
+        "Protect",
+        [
+          "p1a: Funni fish"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Fake Out",
+        [
+          "p1a: Funni fish"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Calm Mind",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "71/100",
+      "p1b": "0 fnt",
+      "p2a": "73/100",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      },
+      "p2b: Rillaboom": {
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Funni fish",
+        "Origin Pulse",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Funni fish"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "0 fnt",
+      "p2a": "79/100",
+      "p2b": "18/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      },
+      "p2b: Rillaboom": {
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "atk": -1,
+        "def": 2
+      },
+      "p1a: Funni fish": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1a: Funni fish",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Funni fish",
+        "Protect",
+        [
+          "p1a: Funni fish"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "27/100",
+      "p1b": "41/100",
+      "p2a": "79/100",
+      "p2b": "18/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      },
+      "p2b: Rillaboom": {
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "atk": -1,
+        "def": 2
+      },
+      "p1a: Funni fish": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Funni fish",
+        "Protect",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Funni fish"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "85/100",
+      "p2b": "24/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spa": -2
+      },
+      "p2b: Rillaboom": {
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "spa": 3,
+        "spd": 1
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "atk": -1,
+        "def": 2
+      },
+      "p1a: Funni fish": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Funni fish"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Grim Neigh",
+      "p2b": "Overgrow"
+    }
+  }
+]

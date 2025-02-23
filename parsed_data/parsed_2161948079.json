@@ -1,0 +1,692 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Weezing-Galar",
+      "p1b": "Dondozo",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Shadow Claw",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Weezing",
+        "Toxic Spikes",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Trick Room",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Neutralizing Gas",
+      "p1b": "Unaware",
+      "p2a": "Unnerve",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Weezing-Galar",
+      "p1b": "Dondozo",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Protect",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Dondozo",
+        "Protect",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Weezing",
+        "Poison Gas",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "88/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Brute Bonnet"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Neutralizing Gas",
+      "p1b": "Unaware",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Dondozo",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Brute Bonnet",
+        "Spore",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "98/100 slp",
+      "p2a": "100/100",
+      "p2b": "76/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Calyrex",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unaware",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Dondozo",
+      "p2a": "Urshifu",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2b: Brute Bonnet",
+        "Crunch",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p1b: Dondozo",
+        "Body Press",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "93/100",
+      "p2a": "88/100 psn",
+      "p2b": "27/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Brute Bonnet",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unaware",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Dondozo",
+      "p2a": "Urshifu",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2b: Brute Bonnet",
+        "Spore",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100 slp",
+      "p2a": "76/100 psn",
+      "p2b": "14/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unaware",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Dondozo",
+      "p2a": "Urshifu",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Brute Bonnet",
+        "Crunch",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "15/100 slp",
+      "p2a": "64/100 psn",
+      "p2b": "2/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unaware",
+      "p2a": "Unseen Fist",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Weezing-Galar",
+      "p2a": "Urshifu",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Brute Bonnet",
+        "Rage Powder",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "52/100 psn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Weezing",
+        "Neutralizing Gas"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Dondozo"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Unseen Fist",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Weezing-Galar",
+      "p2a": "Annihilape",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1a: Tatsugiri"
+        ]
+      ],
+      [
+        "p1a: Tatsugiri",
+        "Muddy Water",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Weezing",
+        "Gunk Shot",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "65/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Tatsugiri"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Tatsugiri",
+        "p2b: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Vital Spirit",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Tatsugiri-Droopy",
+      "p1b": "Weezing-Galar",
+      "p2a": "Annihilape",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "65/100 psn"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "psn",
+      "p1b": "slp",
+      "p2a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Neutralizing Gas",
+      "p2a": "Vital Spirit",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

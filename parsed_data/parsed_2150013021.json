@@ -1,0 +1,470 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Rillaboom",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl",
+      "p1a: Grimmsnarl",
+      "p1a: Grimmsnarl"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Rillaboom",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Protect",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Calm Mind",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "26/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Rillaboom",
+      "p2a": "Indeedee-F",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "26/100",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Terapagos",
+      "p1a: Terapagos",
+      "p1a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Skeledirge",
+      "p2a": "Lunala",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "26/100",
+      "p2a": "78/100",
+      "p2b": "38/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Tornadus",
+        "p1b: Skeledirge"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Blaze",
+      "p2a": "Shadow Shield",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Skeledirge",
+      "p2a": "Lunala",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Skeledirge",
+        "Shadow Ball",
+        [
+          "p2a: Lunala"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "21/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "spe": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Indeedee": {
+        "spd": 1
+      },
+      "p2a: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Skeledirge",
+        "super effective"
+      ],
+      [
+        "p2a: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Blaze",
+      "p2a": "Shadow Shield",
+      "p2b": "Prankster"
+    }
+  }
+]

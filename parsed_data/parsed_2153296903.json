@@ -1,0 +1,743 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p1a: Iron Jugulis",
+        "Tailwind",
+        [
+          "p1a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "100/100",
+      "p2a": "2/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Iron Jugulis",
+      "p1a: Iron Jugulis",
+      "p1a: Iron Jugulis",
+      "p2a: Tornadus",
+      "p2a: Tornadus",
+      "p2a: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p1a: Iron Jugulis",
+        "Hurricane",
+        [
+          "p2b: Tsareena"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "2/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Tornadus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Tsareena",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Iron Jugulis",
+        "Snarl",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Thunder",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "19/100",
+      "p2a": "50/100",
+      "p2b": "88/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Kyogre",
+      "p2a: Kyogre",
+      "p2a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        [
+          "p1a: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "50/100",
+      "p2b": "88/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Thunder",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2b: Tsareena"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100 par",
+      "p2a": "56/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Tsareena",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Calm Mind",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "49/100 par",
+      "p2a": "0 fnt",
+      "p2b": "94/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "9/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p2b: Urshifu": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  }
+]

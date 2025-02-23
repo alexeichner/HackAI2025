@@ -1,0 +1,630 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Raging Bolt",
+      "p2a": "Electabuzz",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2b: Talonflame",
+        "Brave Bird",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Weather Ball",
+        [
+          "p2b: Talonflame"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "85/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Talonflame"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2b: Talonflame",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "Static",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Electabuzz",
+        "Volt Switch",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Weather Ball",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Snarl",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "91/100",
+      "p2a": "68/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Pelipper",
+        "super effective"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "97/100",
+      "p2a": "74/100",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Electabuzz",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2b: Terapagos",
+        "Protect",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Swords Dance",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p2a: Electabuzz"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "82/100",
+      "p2a": "75/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Static",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Electabuzz",
+        "Follow Me",
+        [
+          "p2a: Electabuzz"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Play Rough",
+        [
+          "p2a: Electabuzz"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Earth Power",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "88/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zacian",
+        "super effective"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Protect",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "32/100",
+      "p1b": "84/100",
+      "p2a": "80/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "32/100",
+      "p1b": "56/100",
+      "p2a": "80/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Raging Bolt"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "32/100",
+      "p1b": "56/100",
+      "p2a": "80/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 3,
+        "spd": 3
+      },
+      "p2a: Rillaboom": {
+        "spa": -1
+      },
+      "p1a: Zacian": {
+        "atk": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "none"
+    }
+  }
+]

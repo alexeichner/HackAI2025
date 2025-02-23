@@ -1,0 +1,383 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Farigiraf",
+      "p2a": "Flutter Mane",
+      "p2b": "Sableye"
+    },
+    "moves": [
+      [
+        "p2b: Sableye",
+        "Fake Out",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Moonblast",
+        [
+          "p1b: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "4/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Farigiraf",
+      "p2a": "Flutter Mane",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Protect",
+        [
+          "p2a: Flutter Mane"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Hyper Voice",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "4/100",
+      "p2b": "18/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Farigiraf",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Flutter Mane",
+        "Taunt",
+        [
+          "p1b: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "4/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Farigiraf",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Raging Bolt",
+        "Protect",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Flutter Mane",
+        "Moonblast",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic",
+        [
+          "p2b: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "4/100",
+      "p2b": "60/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Farigiraf",
+      "p2a": "Flutter Mane",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Protect",
+        [
+          "p2b: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2a: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic",
+        [
+          "p2b: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "60/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p1b: Farigiraf": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Cud Chew",
+      "p2a": "none",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

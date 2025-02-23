@@ -1,0 +1,424 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Maushold",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Ribombee",
+        "Tailwind",
+        [
+          "p1a: Ribombee"
+        ]
+      ],
+      [
+        "p1b: Alcremie",
+        "Misty Explosion",
+        [
+          "p2a: Maushold"
+        ]
+      ],
+      [
+        "p2a: Maushold",
+        "Super Fang",
+        [
+          "p1: Ribombee"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1: Ribombee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "58/100",
+      "p2b": "90/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Maushold",
+      "p2b: Rillaboom"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Own Tempo",
+      "p2a": "Friend Guard",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Maushold",
+        "Follow Me",
+        [
+          "p2a: Maushold"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Decorate",
+        [
+          "p2a: Maushold"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "20/100",
+      "p2a": "0 fnt",
+      "p2b": "61/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "U-turn",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "27/100",
+      "p2b": "22/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Calm Mind",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "55/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2b: Calyrex": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1a: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Draining Kiss",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "71/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Maushold": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p2b: Calyrex": {
+        "def": 1,
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Own Tempo",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

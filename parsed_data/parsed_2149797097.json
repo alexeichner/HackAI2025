@@ -1,0 +1,467 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Iron Hands",
+      "p2a": "Chien-Pao",
+      "p2b": "Stonjourner"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Protect",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Stonjourner",
+        "Protect",
+        [
+          "p2b: Stonjourner"
+        ]
+      ],
+      [
+        "p1b: Iron Hands",
+        "Fake Out",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Power Spot"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Raging Bolt",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1b: Iron Hands",
+        "Volt Switch",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Farigiraf",
+        "Trick Room",
+        [
+          "p1a: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Iron Hands",
+      "p2a": "Stonjourner",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Helping Hand",
+        [
+          "p1b: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Blood Moon",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p2b: Zacian",
+        "Sacred Sword",
+        [
+          "p1b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Stonjourner"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Stonjourner",
+        "resisted"
+      ],
+      [
+        "p1b: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Power Spot",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Iron Hands",
+      "p2a": "Stonjourner",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Stonjourner",
+        "Protect",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p2b: Zacian",
+        "Protect",
+        [
+          "p2b: Zacian"
+        ]
+      ],
+      [
+        "p1a: Farigiraf",
+        "Psychic Noise",
+        [
+          "p2a: Stonjourner"
+        ]
+      ],
+      [
+        "p1b: Iron Hands",
+        "Heavy Slam",
+        [
+          "p2b: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Power Spot",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Miraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [
+      [
+        "p1a: Farigiraf",
+        "Foul Play",
+        [
+          "p2b: Zacian"
+        ]
+      ],
+      [
+        "p1b: Iron Hands",
+        "Heavy Slam",
+        [
+          "p2b: Zacian"
+        ]
+      ],
+      [
+        "p2b: Zacian",
+        "Play Rough",
+        [
+          "p1b: Iron Hands"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "42/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Zacian",
+        "resisted"
+      ],
+      [
+        "p2b: Zacian",
+        "super effective"
+      ],
+      [
+        "p1b: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Intrepid Sword"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Miraidon",
+      "p2a": "Raging Bolt",
+      "p2b": "Zacian-Crowned"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "42/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Farigiraf": {
+        "def": 1
+      },
+      "p2b: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal",
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "Hadron Engine",
+      "p2a": "none",
+      "p2b": "Intrepid Sword"
+    }
+  }
+]

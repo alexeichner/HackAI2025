@@ -1,0 +1,614 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Heatran",
+      "p2a": "Eternatus",
+      "p2b": "Glimmora"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Swords Dance",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Glimmora",
+        "Mortal Spin",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100 psn",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Flash Fire",
+      "p2a": "Pressure",
+      "p2b": "Toxic Debris"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Eternatus",
+      "p2b": "Glimmora"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2b: Glimmora",
+        "Earth Power",
+        [
+          "p1b: Heatran"
+        ]
+      ],
+      [
+        "p1b: Heatran",
+        "Heat Wave",
+        [
+          "p2b: Glimmora"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "85/100 par",
+      "p2b": "52/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Eternatus",
+        "Pressure"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Eternatus",
+        "resisted"
+      ],
+      [
+        "p2b: Glimmora",
+        "super effective"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "Pressure",
+      "p2b": "Toxic Debris"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Eternatus"
+    },
+    "moves": [
+      [
+        "p1a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p2b: Glimmora"
+        ]
+      ],
+      [
+        "p1b: Heatran",
+        "Earth Power",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Eternatus",
+        "Pressure"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Glimmora",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "none",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Detect",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Eternatus",
+        "Dynamax Cannon",
+        [
+          "p2b: Eternatus"
+        ]
+      ],
+      [
+        "p1b: Heatran",
+        "Earth Power",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Eternatus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Icy Wind",
+        [
+          "p1b: Heatran"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        [
+          "p1b: Heatran"
+        ]
+      ],
+      [
+        "p1a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Heatran",
+        "Heat Wave",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "22/100",
+      "p2a": "4/100",
+      "p2b": "31/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      },
+      "p1a: Eternatus": {
+        "spe": -1
+      },
+      "p1b: Heatran": {
+        "spe": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Eternatus",
+        "super effective"
+      ],
+      [
+        "p1b: Heatran",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Protect",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        [
+          "p1b: Heatran"
+        ]
+      ],
+      [
+        "p1a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "86/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "31/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      },
+      "p1a: Eternatus": {
+        "spe": -1
+      },
+      "p1b: Heatran": {
+        "spe": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Eternatus",
+      "p1b": "Heatran",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Moonblast",
+        [
+          "p1a: Eternatus"
+        ]
+      ],
+      [
+        "p1a: Eternatus",
+        "Sludge Bomb",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Ogerpon": {
+        "atk": 2
+      },
+      "p1a: Eternatus": {
+        "spe": -1
+      },
+      "p1b: Heatran": {
+        "spe": -1
+      },
+      "p2a: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "psn",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Eternatus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Flash Fire",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

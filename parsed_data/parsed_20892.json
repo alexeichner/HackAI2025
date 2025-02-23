@@ -1,0 +1,161 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Farigiraf",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "U-turn",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "56/100",
+      "p2a": "43/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Brute Bonnet",
+        "resisted"
+      ],
+      [
+        "p2b: Brute Bonnet",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Cud Chew",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Farigiraf",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Dazzling Gleam",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "56/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Cud Chew",
+      "p2a": "Unnerve",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

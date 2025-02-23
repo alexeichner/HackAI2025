@@ -1,0 +1,1139 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Wo-Chien",
+      "p2a": "Raging Bolt",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Reflect",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Wo-Chien",
+        "Leech Seed",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "57/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "88/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Tablets of Ruin",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Wo-Chien",
+      "p2a": "Raging Bolt",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Wo-Chien",
+        "Leech Seed",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "88/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Tablets of Ruin",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Wo-Chien",
+      "p2a": "Raging Bolt",
+      "p2b": "Ditto"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Parting Shot",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Wo-Chien",
+        "Leech Seed",
+        [
+          "p2b: Ditto"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "79/100",
+      "p1b": "100/100",
+      "p2a": "76/100",
+      "p2b": "88/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Ditto",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Tablets of Ruin",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Wo-Chien",
+      "p2a": "Raging Bolt",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p1b: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Snarl",
+        [
+          "p1b: Wo-Chien"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "100/100",
+      "p2a": "43/100",
+      "p2b": "7/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Wo-Chien",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Tablets of Ruin",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Wo-Chien",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Misty Terrain",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Wo-Chien",
+        "Leech Seed",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "100/100",
+      "p2a": "70/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ditto",
+        "Tablets of Ruin"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Tablets of Ruin",
+      "p2a": "Tablets of Ruin",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Incineroar",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Ditto",
+        "Leech Seed",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "100/100",
+      "p2a": "69/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Intimidate",
+      "p2a": "Tablets of Ruin",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Incineroar",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Ditto",
+        "Leech Seed",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Ditto"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "73/100",
+      "p2a": "84/100",
+      "p2b": "49/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2a: Ditto",
+        "resisted"
+      ],
+      [
+        "p1a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Intimidate",
+      "p2a": "Tablets of Ruin",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "73/100",
+      "p1b": "49/100",
+      "p2a": "84/100",
+      "p2b": "49/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Wo-Chien",
+        "Tablets of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Raging Bolt",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p1a: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "30/100",
+      "p1b": "54/100",
+      "p2a": "10/100",
+      "p2b": "49/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "54/100",
+      "p2a": "0 fnt",
+      "p2b": "3/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Limber",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Ditto",
+        "Origin Pulse",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "88/100",
+      "p2a": "42/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2a: Ditto",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Ditto",
+        "p1a: Wo-Chien"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Limber",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Ditto",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "88/100",
+      "p2a": "42/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p2b: Grimmsnarl": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      },
+      "p1b: Wo-Chien": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1a: Kyogre": {
+        "spa": -1
+      },
+      "p2a: Ditto": {
+        "atk": -1
+      },
+      "p2b: Calyrex": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Poison"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Limber",
+      "p2b": "Unnerve"
+    }
+  }
+]

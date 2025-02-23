@@ -1,0 +1,447 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Archaludon"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Protect",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Protect",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Archaludon",
+        "Snarl",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Stamina"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        [
+          "p2b: Archaludon"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Archaludon",
+        "Snarl",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 1
+      },
+      "p1a: Whimsicott": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Archaludon",
+        "p1b: Raging Bolt"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "18/100",
+      "p2a": "2/100",
+      "p2b": "48/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 1
+      },
+      "p1a: Whimsicott": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Calyrex",
+      "p1b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Sinistcha-Masterpiece",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Knock Off",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "72/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 1
+      },
+      "p1a: Whimsicott": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Roaring Moon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Sinistcha-Masterpiece",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Sinistcha",
+        "Rage Powder",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Roaring Moon",
+        "Knock Off",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        [
+          "p1a: Roaring Moon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "8/100",
+      "p2b": "72/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Archaludon": {
+        "def": 1
+      },
+      "p1a: Whimsicott": {
+        "spa": -1
+      },
+      "p1b: Raging Bolt": {
+        "spa": -2
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "super effective"
+      ],
+      [
+        "p1a: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

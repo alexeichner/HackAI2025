@@ -1,0 +1,388 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Kyogre",
+      "p2a": "Terapagos",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Protect",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Taunt",
+        [
+          "p2b: Flamigo"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "42/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Teraform Zero",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raichu",
+      "p1b": "Kingambit",
+      "p2a": "Terapagos",
+      "p2b": "Flamigo"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Flamigo",
+        "Close Combat",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "29/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "Defiant",
+      "p2a": "Teraform Zero",
+      "p2b": "Scrappy"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raichu",
+      "p1b": "Kingambit",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1a: Raichu",
+        "Fake Out",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "13/100",
+      "p1b": "62/100",
+      "p2a": "24/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "Defiant",
+      "p2a": "Teraform Zero",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raichu",
+      "p1b": "Kingambit",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p2b: Sinistcha",
+        "Rage Powder",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Raichu",
+        "Thunder",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "3/100",
+      "p2a": "24/100",
+      "p2b": "8/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raichu",
+        "p2b: Sinistcha"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "Defiant",
+      "p2a": "Teraform Zero",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raichu",
+      "p1b": "Kingambit",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p2b: Sinistcha",
+        "Rage Powder",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Kingambit",
+        "Kowtow Cleave",
+        [
+          "p2b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "24/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Flamigo": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Static",
+      "p1b": "Defiant",
+      "p2a": "Teraform Zero",
+      "p2b": "Hospitality"
+    }
+  }
+]

@@ -1,0 +1,173 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Iron Crown",
+        "Gravity",
+        [
+          "p1a: Iron Crown"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p1a: Iron Crown"
+        ]
+      ],
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Iron Crown"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Iron Crown",
+      "p1a: Iron Crown"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Rillaboom",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "43/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Overgrow",
+      "p2b": "Keen Eye"
+    }
+  }
+]

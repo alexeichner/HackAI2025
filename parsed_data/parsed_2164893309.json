@@ -1,0 +1,268 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Terapagos",
+      "p2b": "Munkidori"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "U-turn",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Munkidori",
+        "Acid Spray",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "76/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Tera Shift",
+      "p2b": "Toxic Chain"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Farigiraf",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "0 fnt",
+      "p2a": "23/100",
+      "p2b": "57/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spd": -2
+      },
+      "p1b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Sinistcha",
+      "p2b: Sinistcha",
+      "p2b: Sinistcha"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Cud Chew",
+      "p2a": "Tera Shift",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Farigiraf",
+      "p2a": "Terapagos",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p2b: Sinistcha",
+        "Rage Powder",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Foul Play",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "35/100",
+      "p2a": "5/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Tornadus": {
+        "spd": -2
+      },
+      "p1b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Cud Chew",
+      "p2a": "Tera Shift",
+      "p2b": "Hospitality"
+    }
+  }
+]

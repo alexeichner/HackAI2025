@@ -1,0 +1,466 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Lilligant-Hisui"
+    },
+    "moves": [
+      [
+        "p1b: Tornadus",
+        "Protect",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Protect",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2b: Lilligant",
+        "Protect",
+        [
+          "p2b: Lilligant"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Play Rough",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "100/100",
+      "p2a": "20/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Tornadus",
+        "p2b: Groudon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Amoonguss",
+      "p2a": "Raging Bolt",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1a: Zacian",
+        "Protect",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Groudon",
+        "Swords Dance",
+        [
+          "p2b: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "100/100",
+      "p2a": "20/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Amoonguss",
+      "p2a": "Walking Wake",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        [
+          "p1a: Zacian"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "19/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1a: Zacian",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Amoonguss",
+      "p2a": "Walking Wake",
+      "p2b": "Groudon"
+    },
+    "moves": [
+      [
+        "p2a: Walking Wake",
+        "Hydro Steam",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2b: Groudon"
+        ]
+      ],
+      [
+        "p2b: Groudon",
+        "Precipice Blades",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Raging Bolt",
+        "p2b: Groudon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Amoonguss",
+      "p2a": "Walking Wake",
+      "p2b": "Groudon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": 1
+      },
+      "p2b: Groudon": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Electric",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Drought"
+    }
+  }
+]

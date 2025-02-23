@@ -1,0 +1,343 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Indeedee-F",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Expanding Force",
+        [
+          "p2b: Farigiraf"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Indeedee"
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Dazzling Gleam",
+        [
+          "p2a: Miraidon"
+        ]
+      ],
+      [
+        "p2b: Farigiraf",
+        "Trick Room",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "29/100",
+      "p2a": "0 fnt",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "resisted"
+      ],
+      [
+        "p2a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Dondozo",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        [
+          "p2a: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Ursaluna",
+        "Hyper Voice",
+        [
+          "p1b: Indeedee"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Expanding Force",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "21/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Farigiraf",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Wild Charge",
+        [
+          "p1b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Farigiraf",
+        "Psychic",
+        [
+          "p1a: Tatsugiri"
+        ]
+      ],
+      [
+        "p1b: Dondozo",
+        "Earthquake",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "91/100",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Dondozo",
+        "resisted"
+      ],
+      [
+        "p2a: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Farigiraf",
+        "p1a: Tatsugiri"
+      ],
+      [
+        "p1b: Dondozo",
+        "p1a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tatsugiri",
+      "p1b": "Dondozo",
+      "p2a": "Iron Hands",
+      "p2b": "Farigiraf"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "6/100",
+      "p1b": "91/100",
+      "p2a": "49/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain",
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Normal",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Commander",
+      "p1b": "Unaware",
+      "p2a": "none",
+      "p2b": "Cud Chew"
+    }
+  }
+]

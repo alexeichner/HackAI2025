@@ -1,0 +1,640 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Regieleki",
+        "Electroweb",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Regieleki"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "87/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Regieleki",
+      "p2a: Regieleki",
+      "p2a: Regieleki"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Thunder",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "86/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Wo-Chien",
+        "Tablets of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl",
+      "p1a: Grimmsnarl",
+      "p1a: Grimmsnarl",
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Wo-Chien"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Wo-Chien",
+        "Protect",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "26/100",
+      "p1b": "52/100",
+      "p2a": "68/100",
+      "p2b": "23/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ],
+      [
+        "p1a: Wo-Chien",
+        "Pollen Puff",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1a: Wo-Chien"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "54/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Wo-Chien",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "77/100",
+      "p2a": "23/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Wo-Chien",
+      "p1b": "Kyogre",
+      "p2a": "Kyogre",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "56/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spe": -1
+      },
+      "p1b: Urshifu": {
+        "spe": -1
+      },
+      "p2b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Tablets of Ruin",
+      "p1b": "Drizzle",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  }
+]

@@ -1,0 +1,601 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Terapagos",
+      "p2a": "Volcarona",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p2a: Volcarona",
+        "Quiver Dance",
+        [
+          "p2a: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "39/100",
+      "p2b": "73/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Chi-Yu",
+        "p2a: Volcarona"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Tera Shift",
+      "p2a": "Flame Body",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Terapagos",
+      "p2a": "Volcarona",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2a: Volcarona",
+        "Protect",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p2b: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p1b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "85/100",
+      "p2a": "45/100",
+      "p2b": "41/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Tera Shift",
+      "p2a": "Flame Body",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Terapagos",
+      "p2a": "Volcarona",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p1b: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p2a: Volcarona",
+        "Quiver Dance",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "89/100",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Tera Shift",
+      "p2a": "Flame Body",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Urshifu",
+      "p2a": "Volcarona",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2b: Zamazenta",
+        "Wide Guard",
+        [
+          "p2b: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p2a: Volcarona",
+        "Heat Wave",
+        [
+          "p1b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "19/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Unseen Fist",
+      "p2a": "Flame Body",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Urshifu",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Volcarona",
+        "Protect",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2a: Volcarona"
+        ]
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Chi-Yu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2a: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "90/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Volcarona"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1a: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Urshifu",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "94/100",
+      "p2a": "0 fnt",
+      "p2b": "96/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Terapagos-Stellar",
+      "p1b": "Urshifu",
+      "p2a": "Rillaboom",
+      "p2b": "Zamazenta-Crowned"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "94/100",
+      "p2a": "0 fnt",
+      "p2b": "96/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Terapagos": {
+        "spa": -1
+      },
+      "p2b: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unseen Fist",
+      "p2a": "Overgrow",
+      "p2b": "Dauntless Shield"
+    }
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Wide Guard",
+        [
+          "p1a: Iron Valiant"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Taunt",
+        [
+          "p1a: Iron Valiant"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Iron Valiant"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Discharge",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "18/100",
+      "p2b": "59/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Unnerve",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus-Therian",
+      "p1b": "Miraidon",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Spirit Break",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Discharge",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "35/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Whimsicott": {
+        "spa": -1
+      },
+      "p2a: Lycanroc": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Tyranitar"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hadron Engine",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus-Therian",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Lycanroc",
+        "Rock Slide",
+        [
+          "p1b: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Discharge",
+        [
+          "p2a: Lycanroc"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Rock Slide",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "U-turn",
+        [
+          "p2b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "25/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Whimsicott": {
+        "spa": -1
+      },
+      "p2a: Lycanroc": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chi-Yu",
+        "Beads of Ruin"
+      ],
+      [
+        "p1b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Tyranitar"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tyranitar",
+        "resisted"
+      ],
+      [
+        "p2b: Tyranitar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Intimidate",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus-Therian",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Lycanroc",
+        "Rock Slide",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p2b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "23/100",
+      "p2a": "18/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Whimsicott": {
+        "spa": -1
+      },
+      "p2a: Lycanroc": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Intimidate",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus-Therian",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Lycanroc",
+        "Rock Slide",
+        [
+          "p1a: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "73/100",
+      "p1b": "7/100",
+      "p2a": "18/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Whimsicott": {
+        "spa": -1
+      },
+      "p2a: Lycanroc": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Intimidate",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chi-Yu",
+      "p1b": "Landorus-Therian",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Lycanroc",
+        "Rock Slide",
+        [
+          "p1a: Chi-Yu"
+        ]
+      ],
+      [
+        "p1a: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p2a: Lycanroc"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "62/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Whimsicott": {
+        "spa": -1
+      },
+      "p2a: Lycanroc": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Beads of Ruin",
+      "p1b": "Intimidate",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: California"
+        ]
+      ],
+      [
+        "p2a: California",
+        "Thunderbolt",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Rosette",
+        "Spore",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "100/100",
+      "p2a": "53/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Orion"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        [
+          "p2b: Rosette"
+        ]
+      ],
+      [
+        "p2b: Rosette",
+        "Clear Smog",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "73/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Orion",
+        "Intimidate"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ],
+      [
+        "p2a: Wreath",
+        "As One"
+      ],
+      [
+        "p2a: Wreath",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Orion",
+        "super effective"
+      ],
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Sword of Ruin",
+      "p2a": "Unnerve",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Moltres-Galar",
+      "p1b": "Chien-Pao",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p2b: California"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Wreath"
+        ]
+      ],
+      [
+        "p2a: Wreath",
+        "Glacial Lance",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "71/100",
+      "p2a": "71/100",
+      "p2b": "15/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Wreath": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Wreath",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Chilling Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Moltres-Galar",
+      "p1b": "Chien-Pao",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "71/100",
+      "p2a": "71/100",
+      "p2b": "15/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Wreath": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Chilling Neigh",
+      "p2b": "none"
+    }
+  }
+]

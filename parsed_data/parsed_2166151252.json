@@ -1,0 +1,499 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Volcarona",
+      "p2a": "Entei",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Entei",
+        "Stone Edge",
+        [
+          "p1b: Volcarona"
+        ]
+      ],
+      [
+        "p1a: Grafaiai",
+        "Parting Shot",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Volcarona",
+        "Quiver Dance",
+        [
+          "p1b: Volcarona"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Entei",
+        "p1b: Volcarona"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Flame Body",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Grafaiai",
+      "p2a": "Entei",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Entei",
+        "Stone Edge",
+        [
+          "p1b: Volcarona"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "51/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Volcarona"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Volcarona",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unburden",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Azumarill",
+      "p1b": "Grafaiai",
+      "p2a": "Whimsicott",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Entei",
+        "Stone Edge",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Grafaiai",
+        "Acid Spray",
+        [
+          "p2a: Entei"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Unburden",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Azumarill",
+      "p1b": "Grafaiai",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Protect",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Grafaiai",
+        "Taunt",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Azumarill"
+        ]
+      ],
+      [
+        "p1a: Azumarill",
+        "Knock Off",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Raging Bolt"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Unburden",
+      "p2a": "Prankster",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Azumarill",
+      "p1b": "Grafaiai",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2a: Whimsicott",
+        "Encore",
+        [
+          "p1b: Grafaiai"
+        ]
+      ],
+      [
+        "p1b: Grafaiai",
+        "Taunt",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "High Horsepower",
+        [
+          "p1a: Azumarill"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Azumarill",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Unburden",
+      "p2a": "Prankster",
+      "p2b": "Chilling Neigh"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Azumarill",
+      "p1b": "Grafaiai",
+      "p2a": "Whimsicott",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Raging Bolt": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Volcarona": {
+        "spa": 1,
+        "spd": 1,
+        "spe": 1
+      },
+      "p2b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Thick Fat",
+      "p1b": "Unburden",
+      "p2a": "Prankster",
+      "p2b": "Chilling Neigh"
+    }
+  }
+]

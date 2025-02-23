@@ -1,0 +1,496 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Grimmsnarl",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Fake Out",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "57/100",
+      "p2a": "26/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Prankster",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Grimmsnarl",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Sucker Punch",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "85/100",
+      "p1b": "57/100",
+      "p2a": "0 fnt",
+      "p2b": "16/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Grimmsnarl",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Rain Dance",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Close Combat",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "57/100",
+      "p2a": "0 fnt",
+      "p2b": "16/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Tornadus"
+    ],
+    "critical_hits": [
+      "p1a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "super effective"
+      ],
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1b: Grimmsnarl",
+        "Sucker Punch",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Poison"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Sandsear Storm",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Electroweb",
+        [
+          "p2a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "17/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Landorus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Poison",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Protect",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "17/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Landorus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Poison",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Raging Bolt",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Landorus": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Poison",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  }
+]

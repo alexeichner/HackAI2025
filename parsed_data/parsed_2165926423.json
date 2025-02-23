@@ -1,0 +1,750 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Fake Out",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Taunt",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Taunt",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "98/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Grim Neigh",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "100/100",
+      "p2a": "57/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Grim Neigh",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Helping Hand",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "5/100",
+      "p1b": "28/100",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Grim Neigh",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Terapagos",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1a: Clefairy"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Grim Neigh",
+      "p2a": "Tera Shift",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Comfey",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Fake Out",
+        [
+          "p2b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Psychic",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Grim Neigh",
+      "p2a": "Flower Veil",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Comfey",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p2b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Comfey",
+        "Draining Kiss",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Grim Neigh",
+      "p2a": "Flower Veil",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Comfey",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "spa": 3,
+        "def": 0,
+        "atk": 2,
+        "spe": 0
+      },
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Grim Neigh",
+      "p2a": "Flower Veil",
+      "p2b": "none"
+    }
+  }
+]

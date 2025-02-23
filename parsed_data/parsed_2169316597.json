@@ -1,0 +1,667 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Taunt",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Smeargle",
+      "p1a: Smeargle",
+      "p1a: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Drain Punch",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "90/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Unnerve",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Drain Punch",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Tornadus",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Ursaluna",
+        "Blood Moon",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Drain Punch",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100",
+      "p1b": "77/100",
+      "p2a": "64/100",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Calyrex": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Tornadus",
+        "p1a: Ursaluna"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Ursaluna-Bloodmoon",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Annihilape"
+        ]
+      ],
+      [
+        "p1a: Ursaluna",
+        "Hyper Voice",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "77/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Calyrex": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "resisted"
+      ],
+      [
+        "p2a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Drain Punch",
+        [
+          "p1a: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "77/100",
+      "p2a": "48/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Calyrex": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Ursaluna",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "77/100",
+      "p2a": "12/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Calyrex": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "77/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Urshifu": {
+        "def": -1,
+        "spd": -1
+      },
+      "p1b: Calyrex": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "Vital Spirit"
+    }
+  }
+]

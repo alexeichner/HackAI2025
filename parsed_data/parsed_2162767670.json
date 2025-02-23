@@ -1,0 +1,465 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Whimsicott",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "66/100",
+      "p2a": "81/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Groudon",
+      "p2a": "Kyogre",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Whimsicott",
+        "Sunny Day",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "68/100",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "87/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Drizzle",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Groudon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Groudon",
+        "Fire Punch",
+        [
+          "p2b: Iron Jugulis"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Electroweb",
+        [
+          "p2a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Groudon"
+    ],
+    "critical_hits": [
+      "p2b: Iron Jugulis"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Groudon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Groudon",
+        "Protect",
+        [
+          "p1b: Groudon"
+        ]
+      ],
+      [
+        "p2a: Landorus",
+        "Stomping Tantrum",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "87/100",
+      "p2b": "93/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p1a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Groudon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Stomping Tantrum",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1b: Groudon",
+        "Fire Punch",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "59/100",
+      "p2a": "33/100",
+      "p2b": "35/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p1b: Groudon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Groudon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Kyogre"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "59/100",
+      "p2a": "33/100",
+      "p2b": "35/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Kyogre": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2a: Landorus": {
+        "spe": -1
+      },
+      "p2b: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fire",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Drought",
+      "p2a": "Intimidate",
+      "p2b": "Drizzle"
+    }
+  }
+]

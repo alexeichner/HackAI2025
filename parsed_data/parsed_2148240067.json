@@ -1,0 +1,316 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Munkidori",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Munkidori",
+        "Fake Out",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Psychic",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "100/100",
+      "p2a": "26/100",
+      "p2b": "14/100 tox"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p2b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Toxic Chain",
+      "p2a": "Unnerve",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Terapagos-Stellar",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p1b: Munkidori"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Psychic",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "2/100 tox"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Munkidori",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Sinistcha",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Psychic",
+        [
+          "p1b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "29/100",
+      "p1b": "34/100",
+      "p2a": "26/100",
+      "p2b": "89/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hospitality",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Sinistcha",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Sinistcha",
+        "Rage Powder",
+        [
+          "p1b: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Psychic",
+        [
+          "p1b: Sinistcha"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "26/100",
+      "p2b": "89/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "atk": -1,
+        "spa": 1
+      },
+      "p2b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Incineroar",
+      "p1a: Incineroar",
+      "p1a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Hospitality",
+      "p2a": "Grim Neigh",
+      "p2b": "none"
+    }
+  }
+]

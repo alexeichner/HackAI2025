@@ -1,0 +1,243 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Lunala",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        [
+          "p2a: Lunala"
+        ]
+      ],
+      [
+        "p2a: Lunala",
+        "Trick Room",
+        [
+          "p2a: Lunala"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "31/100",
+      "p2a": "90/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Shadow Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Lunala",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "31/100",
+      "p2a": "90/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Lunala": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Shadow Shield",
+      "p2b": "Guts"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Lunala",
+      "p2b": "Ursaluna"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Facade",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Lunala",
+        "Moongeist Beam",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "96/100",
+      "p2b": "95/100 brn"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Trick Room",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Lunala": {
+        "spa": 1
+      },
+      "p1b: Calyrex": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Unnerve",
+      "p2a": "Shadow Shield",
+      "p2b": "Guts"
+    }
+  }
+]

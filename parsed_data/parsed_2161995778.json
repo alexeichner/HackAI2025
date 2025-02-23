@@ -1,0 +1,287 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Landorus",
+      "p2a": "Iron Hands",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Iron Hands",
+        "Fake Out",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Iron Hands"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "18/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Sand Force",
+      "p2a": "none",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Landorus",
+      "p2a": "Ditto",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        [
+          "p2a: Iron Hands"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Urshifu"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Iron Hands",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Sand Force",
+      "p2a": "Limber",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Landorus",
+      "p2a": "Ditto",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Earth Power",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p1a: Archaludon",
+        "Flash Cannon",
+        [
+          "p2a: Ditto"
+        ]
+      ],
+      [
+        "p2a: Ditto",
+        "Sandsear Storm",
+        [
+          "p1a: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p1a: Archaludon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Sand Force",
+      "p2a": "Limber",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Archaludon",
+      "p1b": "Landorus",
+      "p2a": "Ditto",
+      "p2b": "Miraidon"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Archaludon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Dark",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Stamina",
+      "p1b": "Sand Force",
+      "p2a": "Limber",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

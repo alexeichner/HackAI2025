@@ -1,0 +1,642 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Indeedee",
+      "p2a": "Incineroar",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p2b: Porygon2",
+        "Protect",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Indeedee"
+        ]
+      ],
+      [
+        "p1a: Grafaiai",
+        "Taunt",
+        [
+          "p2b: Porygon2"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Inner Focus",
+      "p2a": "Intimidate",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Incineroar",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Grafaiai",
+        "Taunt",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Hyper Voice",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: Indeedee"
+        ]
+      ],
+      [
+        "p2b: Porygon2",
+        "Thunderbolt",
+        [
+          "p1a: Grafaiai"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "0 fnt",
+      "p2a": "71/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Incineroar"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Indeedee",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Unnerve",
+      "p2a": "Intimidate",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Miraidon",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Grafaiai",
+        "Acid Spray",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Tera Blast",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Porygon2",
+        "Foul Play",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "64/100",
+      "p2a": "0 fnt",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "spd": -2
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Grim Neigh",
+      "p2a": "Hadron Engine",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Iron Bundle",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Grafaiai",
+        "Acid Spray",
+        [
+          "p2a: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p2b: Porygon2",
+        "Thunderbolt",
+        [
+          "p1a: Grafaiai"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "55/100",
+      "p2a": "0 fnt",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "spd": -2
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Miraidon": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Iron Bundle",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Grafaiai",
+        "Taunt",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p2a: Iron Bundle",
+        "Freeze-Dry",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Porygon2",
+        "Thunderbolt",
+        [
+          "p1a: Grafaiai"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "55/100",
+      "p2a": "0 fnt",
+      "p2b": "75/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "spd": -2
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Miraidon": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Grim Neigh",
+      "p2a": "none",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Whimsicott",
+      "p2a": "Iron Bundle",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Grafaiai",
+        "Scary Face",
+        [
+          "p2a: Iron Bundle"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        [
+          "p2b: Porygon2"
+        ]
+      ],
+      [
+        "p2a: Iron Bundle",
+        "Freeze-Dry",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "spd": -2
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Miraidon": {
+        "spd": -2
+      },
+      "p2a: Iron Bundle": {
+        "spe": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Trace"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Grafaiai",
+      "p1b": "Whimsicott",
+      "p2a": "Iron Bundle",
+      "p2b": "Porygon2"
+    },
+    "moves": [
+      [
+        "p1a: Grafaiai",
+        "Acid Spray",
+        [
+          "p2a: Iron Bundle"
+        ]
+      ],
+      [
+        "p2a: Iron Bundle",
+        "Blizzard",
+        [
+          "p1a: Grafaiai"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "59/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain",
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grafaiai": {
+        "atk": -1,
+        "spd": 1
+      },
+      "p1b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Porygon2": {
+        "spd": -2
+      },
+      "p1b: Calyrex": {
+        "spa": 3
+      },
+      "p2a: Miraidon": {
+        "spd": -2
+      },
+      "p2a: Iron Bundle": {
+        "spe": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grafaiai"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unburden",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "Trace"
+    }
+  }
+]

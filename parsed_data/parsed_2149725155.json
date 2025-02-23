@@ -1,0 +1,449 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Lunala",
+      "p2a": "Kyogre",
+      "p2b": "Sinistcha-Masterpiece"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Helping Hand",
+        [
+          "p1b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Lunala",
+        "Expanding Force",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Lunala"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "83/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Indeedee": {
+        "spd": 1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Kyogre",
+        "55/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Shadow Shield",
+      "p2a": "Drizzle",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Lunala",
+      "p2a": "Archaludon",
+      "p2b": "Sinistcha-Masterpiece"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Helping Hand",
+        [
+          "p1b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Lunala",
+        "Expanding Force",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p2b: Sinistcha",
+        "Trick Room",
+        [
+          "p2b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "83/100",
+      "p2a": "55/100",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Indeedee": {
+        "spd": 1,
+        "spa": -1
+      },
+      "p2a: Archaludon": {
+        "def": 2,
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Kyogre",
+        "55/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Shadow Shield",
+      "p2a": "Stamina",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Lunala",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Sinistcha",
+        "Life Dew",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        [
+          "p1b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Lunala",
+        "Meteor Beam",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Indeedee",
+        "Trick Room",
+        [
+          "p1a: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "42/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Indeedee": {
+        "spd": 1,
+        "spa": -1
+      },
+      "p2a: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p1b: Lunala": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Indeedee",
+        "super effective"
+      ],
+      [
+        "p1b: Lunala",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Kyogre",
+        "55/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Shadow Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Lunala",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Helping Hand",
+        [
+          "p1b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Lunala",
+        "Expanding Force",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "42/100",
+      "p2a": "55/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Indeedee": {
+        "spd": 1,
+        "spa": -1
+      },
+      "p2a: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p1b: Lunala": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p2a: Kyogre",
+        "55/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Shadow Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Indeedee-F",
+      "p1b": "Lunala",
+      "p2a": "Archaludon",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Indeedee",
+        "Helping Hand",
+        [
+          "p1b: Lunala"
+        ]
+      ],
+      [
+        "p1b: Lunala",
+        "Moongeist Beam",
+        [
+          "p2a: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "42/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Indeedee": {
+        "spd": 1,
+        "spa": -1
+      },
+      "p2a: Archaludon": {
+        "def": 2,
+        "spa": 1
+      },
+      "p1b: Lunala": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Shadow Shield",
+      "p2a": "Stamina",
+      "p2b": "Drizzle"
+    }
+  }
+]

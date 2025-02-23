@@ -1,0 +1,185 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Ting-Lu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Koraidon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2a: Koraidon",
+        "Dragon Claw",
+        [
+          "p1a: Ting-Lu"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Imprison",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "100/100",
+      "p2a": "65/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ting-Lu",
+        "Vessel of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Koraidon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Vessel of Ruin",
+      "p1b": "Unnerve",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Ting-Lu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Arcanine-Hisui",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Dazzling Gleam",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Close Combat",
+        [
+          "p2a: Arcanine"
+        ]
+      ],
+      [
+        "p1a: Ting-Lu",
+        "Heavy Slam",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "88/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Ting-Lu": {
+        "atk": -1
+      },
+      "p1b: Calyrex": {
+        "def": -1,
+        "spd": -1,
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Arcanine",
+        "Intimidate"
+      ],
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [
+      "p2a: Arcanine"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ting-Lu",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Arcanine",
+        "super effective"
+      ],
+      [
+        "p2b: Flutter Mane",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Vessel of Ruin",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  }
+]

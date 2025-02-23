@@ -1,0 +1,608 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Raging Bolt",
+      "p2a": "Archaludon",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Taunt",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Stamina",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Volt Switch",
+        [
+          "p2b: Moltres"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "99/100",
+      "p1b": "96/100",
+      "p2a": "100/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ],
+      [
+        "p2b: Moltres",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p2a: Archaludon"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Snarl",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Snarl",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "93/100",
+      "p2a": "100/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Moltres": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Grimmsnarl"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Moltres-Galar"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Moltres",
+        "Protect",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Reflect",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "93/100",
+      "p2a": "100/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Moltres": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Stamina",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Taunt",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Moltres"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "52/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Moltres": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Moltres",
+        "super effective"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Taunt",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Flash Cannon",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Amoonguss",
+        "Spore",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "52/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Moltres": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Archaludon",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "84/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Grimmsnarl": {
+        "spa": -3
+      },
+      "p1b: Raging Bolt": {
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "spa": 4
+      },
+      "p2b: Moltres": {
+        "spa": 1
+      },
+      "p2a: Archaludon": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2b": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Grim Neigh",
+      "p2a": "Stamina",
+      "p2b": "Effect Spore"
+    }
+  }
+]

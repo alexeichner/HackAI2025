@@ -1,0 +1,419 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Cosmic Power",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 6
+      },
+      "p2a: Eternatus": {
+        "def": 2,
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Clefairy",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Ogerpon-Wellspring"
+    },
+    "moves": [
+      [
+        "p1a: Clefairy",
+        "Follow Me",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Nasty Plot",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ogerpon",
+        "Taunt",
+        [
+          "p1a: Clefairy"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Cosmic Power",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 6
+      },
+      "p2a: Eternatus": {
+        "def": 2,
+        "spd": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Cute Charm",
+      "p1b": "Unnerve",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Toxic",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "95/100 tox",
+      "p2a": "47/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 6
+      },
+      "p2a: Eternatus": {
+        "def": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2b: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ],
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Pressure",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Floral Healing",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "83/100 tox",
+      "p2a": "33/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 6
+      },
+      "p2a: Eternatus": {
+        "def": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Pressure",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Eternatus",
+      "p2b": "Grimmsnarl"
+    },
+    "moves": [
+      [
+        "p2b: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Flare Blitz",
+        [
+          "p2b: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "83/100 tox",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 6
+      },
+      "p2a: Eternatus": {
+        "def": 2,
+        "spd": 2,
+        "atk": -1
+      },
+      "p2b: Ogerpon": {
+        "atk": -1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Grass",
+      "p2b": "Water"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Grim Neigh",
+      "p2a": "Pressure",
+      "p2b": "Prankster"
+    }
+  }
+]

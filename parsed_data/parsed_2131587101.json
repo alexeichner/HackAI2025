@@ -1,0 +1,689 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Farigiraf",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Pollen Puff",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Trick Room",
+        [
+          "p1b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "100/100",
+      "p2a": "78/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Cud Chew",
+      "p2a": "Unnerve",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Light Screen",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Hyper Voice",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Pollen Puff",
+        [
+          "p1b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "0 fnt",
+      "p2a": "8/100",
+      "p2b": "45/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1b: Farigiraf",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Grim Neigh",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "0 fnt",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2a: Lycanroc",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Archaludon",
+      "p2a": "Lycanroc",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Lycanroc",
+        "Protect",
+        [
+          "p2a: Lycanroc"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Knock Off",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        [
+          "p2b: Tyranitar"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Water Spout",
+        [
+          "p2a: Lycanroc"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "0 fnt",
+      "p2a": "13/100",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tyranitar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Stamina",
+      "p2a": "Keen Eye",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2b: Tyranitar",
+        "Tera Blast",
+        [
+          "p1a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        [
+          "p2a: Lycanroc"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "56/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2a: Lycanroc",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Stamina",
+      "p2a": "Unnerve",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Tyranitar"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Flash Cannon",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "21/100",
+      "p2a": "0 fnt",
+      "p2b": "45/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Stamina",
+      "p2a": "Grim Neigh",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Protect",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Knock Off",
+        [
+          "p1b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "45/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Stamina",
+      "p2a": "Grim Neigh",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Archaludon",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1b: Archaludon",
+        "Dragon Pulse",
+        [
+          "p2b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "33/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "spa": -1
+      },
+      "p1b: Farigiraf": {
+        "spa": 1
+      },
+      "p2a: Calyrex": {
+        "spa": 2
+      },
+      "p1b: Archaludon": {
+        "spa": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Stamina",
+      "p2a": "Grim Neigh",
+      "p2b": "Sand Stream"
+    }
+  }
+]

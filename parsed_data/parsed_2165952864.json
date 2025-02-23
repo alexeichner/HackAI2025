@@ -1,0 +1,590 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Landorus-Therian"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Fake Out",
+        [
+          "p2b: Landorus"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "94/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Own Tempo",
+      "p2a": "Dauntless Shield",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Spore",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Landorus"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "U-turn",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "94/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Rillaboom",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Earth Power",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Volcarona"
+        ]
+      ],
+      [
+        "p2b: Volcarona",
+        "Quiver Dance",
+        [
+          "p2b: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "91/100",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2b: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ],
+      [
+        "p2a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p2b: Volcarona",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Overgrow",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Ursaluna"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Volcarona",
+        "Quiver Dance",
+        [
+          "p2b: Volcarona"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "87/100",
+      "p2a": "0 fnt",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2b: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Volcarona",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Landorus-Therian",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2b: Volcarona",
+        "Protect",
+        [
+          "p2b: Volcarona"
+        ]
+      ],
+      [
+        "p1b: Ursaluna",
+        "Hyper Voice",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "83/100",
+      "p2a": "0 fnt",
+      "p2b": "52/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2b: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Amoonguss",
+      "p2a": "Landorus-Therian",
+      "p2b": "Volcarona"
+    },
+    "moves": [
+      [
+        "p2b: Volcarona",
+        "Heat Wave",
+        [
+          "p1b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "65/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2b: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Effect Spore",
+      "p2a": "Intimidate",
+      "p2b": "Flame Body"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Amoonguss",
+      "p2a": "Landorus-Therian",
+      "p2b": "Volcarona"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "65/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "atk": 3
+      },
+      "p2b: Volcarona": {
+        "spa": 2,
+        "spd": 2,
+        "spe": 2
+      },
+      "p1b: Ursaluna": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "Effect Spore",
+      "p2a": "Intimidate",
+      "p2b": "Flame Body"
+    }
+  }
+]

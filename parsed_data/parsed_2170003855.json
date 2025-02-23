@@ -1,0 +1,407 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "46/100",
+      "p2a": "71/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Drizzle",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "13/100",
+      "p2a": "24/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Landorus",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Tsareena"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "58/100",
+      "p1b": "0 fnt",
+      "p2a": "24/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Tsareena"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Sand Force",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Landorus",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Landorus",
+        "Protect",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Wicked Blow",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Gholdengo",
+        "Make It Rain",
+        [
+          "p1b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Gholdengo": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Kyogre"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Sand Force",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Landorus",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2b: Gholdengo",
+        "Nasty Plot",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Sandsear Storm",
+        [
+          "p2b: Gholdengo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2b: Gholdengo": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gholdengo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Sand Force",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Tera Shift",
+      "p2a": "Overgrow",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos",
+      "p2a": "Rillaboom",
+      "p2b": "Mienshao"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Terapagos",
+        "Hyper Beam",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Teraform Zero",
+      "p2a": "Overgrow",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos",
+      "p2a": "Comfey",
+      "p2b": "Mienshao"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2b: Mienshao"
+        ]
+      ],
+      [
+        "p2b: Mienshao",
+        "Close Combat",
+        [
+          "p1b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Mienshao",
+        "super effective"
+      ],
+      [
+        "p1b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Tornadus",
+        "p2a: Comfey"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Teraform Zero",
+      "p2a": "Flower Veil",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Comfey",
+        "Floral Healing",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2b: Mienshao",
+        "Feint",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "86/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ],
+      [
+        "p2b: Mienshao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Comfey",
+        "Floral Healing",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Comfey"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "100/100",
+      "p2a": "67/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Comfey",
+        "Floral Healing",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Comfey",
+        "Draining Kiss",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Rain Dance",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Farigiraf",
+        "Psychic",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "100/100",
+      "p2a": "54/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Farigiraf",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1b: Farigiraf",
+        "Helping Hand",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Comfey",
+        "Draining Kiss",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "60/100",
+      "p1b": "100/100",
+      "p2a": "9/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Terapagos",
+        "100/100",
+        "[silent]"
+      ]
+    ],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Cud Chew",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Terapagos-Stellar",
+      "p2a": "Comfey",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Comfey",
+        "Draining Kiss",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spe": -1
+      },
+      "p2b: Mienshao": {
+        "spe": -1,
+        "def": -1,
+        "spd": -1
+      },
+      "p2a: Comfey": {
+        "spe": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Stellar",
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Flower Veil",
+      "p2b": "Overgrow"
+    }
+  }
+]

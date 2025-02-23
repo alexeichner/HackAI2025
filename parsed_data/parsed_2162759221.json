@@ -1,0 +1,180 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ursaluna",
+      "p2a": "Chi-Yu",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Chi-Yu",
+        "Snarl",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "U-turn",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "100/100",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lunala": {
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Lunala",
+        "super effective"
+      ],
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Beads of Ruin",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Ursaluna",
+      "p2a": "Chi-Yu",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1b: Ursaluna",
+        "Protect",
+        [
+          "p1b: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Snarl",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "18/100 brn",
+      "p2a": "100/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Lunala": {
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "spa": -1
+      },
+      "p1a: Urshifu": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Terapagos",
+      "p2b: Terapagos",
+      "p2b: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Guts",
+      "p2a": "Beads of Ruin",
+      "p2b": "Tera Shift"
+    }
+  }
+]

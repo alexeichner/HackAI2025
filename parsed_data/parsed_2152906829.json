@@ -1,0 +1,746 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Iron Hands",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Tarantula",
+        "Protect",
+        [
+          "p1a: Tarantula"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        [
+          "p1b: Jupiter"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Tarantula"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "30/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Landorus-Therian",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Draco Meteor",
+        [
+          "p1b: Jupiter"
+        ]
+      ],
+      [
+        "p1a: Tarantula",
+        "Calm Mind",
+        [
+          "p1a: Tarantula"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Tarantula"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Carina",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Jupiter"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Tarantula",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Intimidate",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Landorus-Therian",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Carina",
+        "Stomping Tantrum",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Tarantula",
+        "Moonblast",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Ursaluna-Bloodmoon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Tarantula",
+        "Protect",
+        [
+          "p1a: Tarantula"
+        ]
+      ],
+      [
+        "p1b: Carina",
+        "Stomping Tantrum",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Ursaluna",
+        "Blood Moon",
+        [
+          "p1b: Carina"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "91/100",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Butterfly",
+        "Spiky Shield",
+        [
+          "p1b: Butterfly"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Butterfly"
+        ]
+      ],
+      [
+        "p1a: Tarantula",
+        "Moonblast",
+        [
+          "p2a: Ursaluna"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "21/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Butterfly",
+        "Follow Me",
+        [
+          "p1b: Butterfly"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1b: Butterfly"
+        ]
+      ],
+      [
+        "p1a: Tarantula",
+        "Moonblast",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Tarantula",
+        "Protect",
+        [
+          "p1a: Tarantula"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Tarantula"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "96/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Miraidon",
+        "Electro Drift",
+        [
+          "p1a: Tarantula"
+        ]
+      ],
+      [
+        "p1a: Tarantula",
+        "Moongeist Beam",
+        [
+          "p2a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Lunala",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Miraidon",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "15/100",
+      "p1b": "0 fnt",
+      "p2a": "22/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -2,
+        "spa": -4
+      },
+      "p2b: Incineroar": {
+        "atk": -2
+      },
+      "p1a: Tarantula": {
+        "atk": -2,
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Carina": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Fairy",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Shadow Shield",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Intimidate"
+    }
+  }
+]

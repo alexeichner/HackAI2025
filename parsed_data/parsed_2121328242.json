@@ -1,0 +1,244 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Tornadus",
+      "p2a": "Suicune",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p2a: Suicune"
+        ]
+      ],
+      [
+        "p2a: Suicune",
+        "Snarl",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "88/100",
+      "p2a": "26/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Suicune",
+        "p1a: Calyrex"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Prankster",
+      "p2a": "Pressure",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Miraidon",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p2a: Suicune",
+        "Helping Hand",
+        [
+          "p2b: Tyranitar"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Rain Dance",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Suicune"
+        ]
+      ],
+      [
+        "p2b: Tyranitar",
+        "Rock Slide",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tyranitar",
+        "resisted"
+      ],
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Sand Stream"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Miraidon",
+      "p2b": "Tyranitar"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Tyranitar"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Tyranitar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Tyranitar"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Tyranitar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Normal",
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Sand Stream"
+    }
+  }
+]

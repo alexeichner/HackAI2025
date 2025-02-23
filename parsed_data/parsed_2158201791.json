@@ -1,0 +1,487 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Beat Up",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "95/100",
+      "p2a": "100/100",
+      "p2b": "70/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "69/100",
+      "p2a": "100/100",
+      "p2b": "59/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Tornadus",
+        "p1a: Whimsicott"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Amoonguss"
+    },
+    "moves": [
+      [
+        "p2b: Amoonguss",
+        "Rage Powder",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "52/100",
+      "p2a": "100/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      },
+      "p2b: Amoonguss": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ],
+      [
+        "p2b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Tornadus",
+        "p1b: Archaludon"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "Effect Spore"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos-Terastal"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Amoonguss",
+        "Rage Powder",
+        [
+          "p2b: Amoonguss"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Dragon Pulse",
+        [
+          "p2b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "52/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      },
+      "p2b: Amoonguss": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [
+      [
+        "p1a: Comfey",
+        "Floral Healing",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Comfey"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Body Press",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "60/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      },
+      "p2b: Amoonguss": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Comfey",
+      "p1b": "Archaludon",
+      "p2a": "Tornadus",
+      "p2b": "Ogerpon-Cornerstone"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "60/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "def": 6
+      },
+      "p2b: Amoonguss": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Flower Veil",
+      "p1b": "Stamina",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  }
+]

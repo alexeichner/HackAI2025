@@ -1,0 +1,781 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Scream Tail",
+      "p2a": "Incineroar",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Scream Tail",
+        "Dazzling Gleam",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Scream Tail"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Knock Off",
+        [
+          "p1b: Scream Tail"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "53/100",
+      "p2a": "90/100",
+      "p2b": "81/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Scream Tail",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Scream Tail",
+        "Encore",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "53/100",
+      "p2a": "90/100",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [
+      "p1b: Scream Tail"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Scream Tail",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Scream Tail",
+        "Protect",
+        [
+          "p1b: Scream Tail"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1b: Scream Tail"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "72/100",
+      "p1b": "53/100",
+      "p2a": "47/100",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Chandelure",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "46/100",
+      "p1b": "48/100",
+      "p2a": "47/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Flash Fire",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Scream Tail",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1b: Chandelure"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "19/100",
+      "p1b": "0 fnt",
+      "p2a": "47/100",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Chandelure"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Chandelure",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Scream Tail",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1b: Scream Tail"
+        ]
+      ],
+      [
+        "p1b: Scream Tail",
+        "Disable",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "47/100",
+      "p2b": "33/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Scream Tail",
+      "p1b: Scream Tail",
+      "p1b: Scream Tail"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Scream Tail",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Scream Tail",
+        "Dazzling Gleam",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "47/100",
+      "p2b": "80/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Scream Tail",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Scream Tail"
+        ]
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "80/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Zamazenta"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Zamazenta",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Scream Tail",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "12/100",
+      "p2b": "80/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1,
+        "spe": -2
+      },
+      "p1b: Scream Tail": {
+        "atk": -2
+      },
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p1a: Chien-Pao": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Chien-Pao",
+      "p1a: Chien-Pao",
+      "p1a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  }
+]

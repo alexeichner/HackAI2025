@@ -1,0 +1,417 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Roaring Moon",
+      "p2a": "Tornadus",
+      "p2b": "Sneasler"
+    },
+    "moves": [
+      [
+        "p1b: Roaring Moon",
+        "Tailwind",
+        [
+          "p1b: Roaring Moon"
+        ]
+      ],
+      [
+        "p1a: Maushold",
+        "Population Bomb",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 0,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Tornadus",
+        "p1a: Maushold"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Roaring Moon",
+      "p2a": "Tornadus",
+      "p2b": "Sneasler"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Sneasler",
+        "Close Combat",
+        [
+          "p1a: Armarouge"
+        ]
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Earthquake",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "68/100",
+      "p2a": "100/100",
+      "p2b": "23/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 0,
+        "spd": -1
+      },
+      "p1a: Armarouge": {
+        "def": -1,
+        "spe": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Armarouge",
+        "resisted"
+      ],
+      [
+        "p1a: Armarouge",
+        "super effective"
+      ],
+      [
+        "p2b: Sneasler",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Pressure"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Roaring Moon",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Maushold",
+        "Feint",
+        [
+          "p2b: Sneasler"
+        ]
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Knock Off",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "30/100",
+      "p2a": "15/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 0,
+        "spd": -1
+      },
+      "p1a: Armarouge": {
+        "def": -1,
+        "spe": 2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Indeedee",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Maushold",
+        "Feint",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Roaring Moon",
+        "Knock Off",
+        [
+          "p2b: Landorus"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        [
+          "p1a: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "39/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 0,
+        "spd": -1
+      },
+      "p1a: Armarouge": {
+        "def": -1,
+        "spe": 2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "Inner Focus",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Maushold",
+      "p1b": "Indeedee",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        [
+          "p1b: Indeedee"
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Expanding Force",
+        [
+          "p2b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Sneasler": {
+        "def": 0,
+        "spd": -1
+      },
+      "p1a: Armarouge": {
+        "def": -1,
+        "spe": 2
+      },
+      "p1b: Roaring Moon": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fairy",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Friend Guard",
+      "p1b": "Inner Focus",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  }
+]

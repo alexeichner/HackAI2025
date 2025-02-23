@@ -1,0 +1,531 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Raging Bolt",
+      "p2a": "Miraidon",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        [
+          "p2a: Miraidon"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Dazzling Gleam",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Charge Beam",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "100/100",
+      "p2b": "64/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Raging Bolt",
+        "90/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "none",
+      "p2a": "Hadron Engine",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Hands",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Charge Beam",
+        [
+          "p2b: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Sinistcha",
+        "Matcha Gotcha",
+        [
+          "p2a: Iron Hands"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "81/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Raging Bolt",
+        "90/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Hands",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Flamethrower",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Sinistcha",
+        "Life Dew",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Iron Hands",
+        "Wild Charge",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "71/100 brn",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Sinistcha"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Raging Bolt",
+        "90/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p1a: Sinistcha",
+        "Life Dew",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Iron Hands",
+        "Wild Charge",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "90/100",
+      "p2a": "61/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p1a: Sinistcha"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Raging Bolt",
+        "90/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Sinistcha",
+        "Rage Powder",
+        [
+          "p1a: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p2b: Miraidon"
+        ]
+      ],
+      [
+        "p2a: Iron Hands",
+        "Wild Charge",
+        [
+          "p1a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "90/100",
+      "p2a": "52/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [
+      [
+        "heal",
+        "p1b: Raging Bolt",
+        "90/100",
+        "[from] ability: Hospitality"
+      ]
+    ],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Raging Bolt",
+      "p2a": "Iron Hands",
+      "p2b": "Miraidon"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Iron Hands"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Dragon Pulse",
+        [
+          "p2a: Iron Hands"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "81/100",
+      "p1b": "90/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1b: Raging Bolt": {
+        "spa": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1b": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Hadron Engine"
+    }
+  }
+]

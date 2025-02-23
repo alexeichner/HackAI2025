@@ -1,0 +1,178 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyogre",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p2b: Whimsicott",
+        "Tailwind",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Miraidon",
+        "Volt Switch",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "1/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Sturdy"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Drizzle",
+      "p2a": "Sturdy",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Kyogre",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Earth Power",
+        [
+          "p2a: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Ogerpon": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Ogerpon",
+        "Embody Aspect (Cornerstone)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Ogerpon",
+        "super effective"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Grass",
+      "p2a": "Rock"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Drizzle",
+      "p2a": "Embody Aspect (Cornerstone)",
+      "p2b": "Prankster"
+    }
+  }
+]

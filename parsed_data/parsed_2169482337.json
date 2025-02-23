@@ -1,0 +1,583 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Entei",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Fake Out",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Taunt",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "100/100",
+      "p2a": "84/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Smeargle",
+        "Spore",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "100/100",
+      "p2a": "81/100",
+      "p2b": "7/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle",
+      "p2b: Smeargle",
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1b: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "73/100",
+      "p2a": "81/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2b: Ursaluna"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ursaluna",
+        "Blood Moon",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "81/100",
+      "p2b": "54/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2b: Ursaluna"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Ursaluna",
+        "Earth Power",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "0 fnt",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p2b: Ursaluna",
+        "Protect",
+        [
+          "p2b: Ursaluna"
+        ]
+      ],
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "73/100",
+      "p2a": "56/100 brn",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Entei",
+      "p2a": "Raging Bolt",
+      "p2b": "Ursaluna-Bloodmoon"
+    },
+    "moves": [
+      [
+        "p1b: Entei",
+        "Sacred Fire",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1b: Entei"
+        ]
+      ],
+      [
+        "p2b: Ursaluna",
+        "Earth Power",
+        [
+          "p1b: Entei"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "38/100 brn",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "spe": -1
+      },
+      "p1b: Entei": {
+        "spe": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p1b: Entei",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Raging Bolt",
+        "p1b: Entei"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Ice"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Pressure",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

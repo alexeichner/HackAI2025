@@ -1,0 +1,405 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Ninetales-Alola",
+      "p2a": "Dewgong",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2a: Dewgong",
+        "Fake Out",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Ninetales",
+        "Aurora Veil",
+        [
+          "p1b: Ninetales"
+        ]
+      ],
+      [
+        "p2b: Armarouge",
+        "Heat Wave",
+        [
+          "p1b: Ninetales"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "20/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Ninetales",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "none",
+      "p2a": "Thick Fat",
+      "p2b": "Flash Fire"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Dewgong",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2a: Dewgong",
+        "Aqua Jet",
+        [
+          "p2b: Armarouge"
+        ]
+      ],
+      [
+        "p2b: Armarouge",
+        "Heat Wave",
+        [
+          "p1b: Ninetales"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "82/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -2,
+        "spe": 4,
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ],
+      [
+        "p1b: Ninetales",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "none",
+      "p2a": "Thick Fat",
+      "p2b": "Weak Armor"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Indeedee-F",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2b: Armarouge",
+        "Endure",
+        [
+          "p2b: Armarouge"
+        ]
+      ],
+      [
+        "p1a: Miraidon",
+        "Electro Drift",
+        [
+          "p2a: Dewgong"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Armarouge"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -2,
+        "spe": 4,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ],
+      [
+        "p2b: Armarouge",
+        "Weak Armor"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Dewgong",
+        "super effective"
+      ],
+      [
+        "p2b: Armarouge",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Embody Aspect (Wellspring)",
+      "p2a": "none",
+      "p2b": "Weak Armor"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Lunala",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2a: Indeedee",
+        "Follow Me",
+        [
+          "p2a: Indeedee"
+        ]
+      ],
+      [
+        "p2b: Armarouge",
+        "Stored Power",
+        [
+          "p1a: Miraidon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2a: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -2,
+        "spe": 4,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Indeedee"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Embody Aspect (Wellspring)",
+      "p2a": "Shadow Shield",
+      "p2b": "Weak Armor"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Lunala",
+      "p2b": "Armarouge"
+    },
+    "moves": [
+      [
+        "p2b: Armarouge",
+        "Stored Power",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain",
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Armarouge": {
+        "def": -2,
+        "spe": 4,
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Fire",
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Embody Aspect (Wellspring)",
+      "p2a": "Shadow Shield",
+      "p2b": "Weak Armor"
+    }
+  }
+]

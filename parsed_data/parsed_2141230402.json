@@ -1,0 +1,781 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Abyss Angel",
+        "Tailwind",
+        [
+          "p1a: Abyss Angel"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Jugulis",
+      "p1b": "Tsareena",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Abyss Angel",
+        "Snarl",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Venus",
+        "Triple Axel",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Venus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "56/100",
+      "p2a": "72/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tsareena",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Abyss Angel",
+        "Snarl",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Venus",
+        "Power Whip",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Abyss Angel"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Calm Mind",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "62/100",
+      "p2a": "64/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Abyss Angel",
+      "p1a: Abyss Angel",
+      "p1a: Abyss Angel"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Venus",
+        "p2a: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: The Mouth Is Wide",
+        "Surging Strikes",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Venus",
+        "Power Whip",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: The Mouth Is Wide"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "35/100",
+      "p1b": "68/100",
+      "p2a": "70/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Terapagos",
+      "p2b: Terapagos",
+      "p2b: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Rillaboom",
+      "p2b": "Sinistcha"
+    },
+    "moves": [
+      [
+        "p1a: The Mouth Is Wide",
+        "Surging Strikes",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Venus",
+        "Triple Axel",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Wood Hammer",
+        [
+          "p1b: Venus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "39/100",
+      "p2a": "72/100",
+      "p2b": "67/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Sinistcha",
+      "p2b: Sinistcha",
+      "p2b: Sinistcha"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1b: Venus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "Overgrow",
+      "p2b": "Hospitality"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Venus",
+        "Triple Axel",
+        [
+          "p2b: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1a: Whalefall"
+        ]
+      ],
+      [
+        "p1a: Whalefall",
+        "Water Spout",
+        [
+          "p2a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "89/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Sinistcha",
+        "super effective"
+      ],
+      [
+        "p2b: Sinistcha",
+        "super effective"
+      ],
+      [
+        "p2b: Sinistcha",
+        "super effective"
+      ],
+      [
+        "p1a: Whalefall",
+        "resisted"
+      ],
+      [
+        "p2a: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p2b: Sinistcha",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1a: Whalefall"
+        ]
+      ],
+      [
+        "p1a: Whalefall",
+        "Thunder",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Whalefall"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "0 fnt",
+      "p2a": "83/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whalefall",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Whalefall",
+        "Ice Beam",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "20/100",
+      "p1b": "0 fnt",
+      "p2a": "89/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tsareena",
+      "p2a": "Terapagos-Terastal",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Whalefall",
+        "Ice Beam",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Whalefall"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Terapagos": {
+        "spa": 0,
+        "spd": 2
+      },
+      "p2a: Urshifu": {
+        "spa": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Grass"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Leaf Guard",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  }
+]

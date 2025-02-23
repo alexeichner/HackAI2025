@@ -1,0 +1,245 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Pelipper",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Pelipper",
+        "Wide Guard",
+        [
+          "p2a: Pelipper"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Hurricane",
+        [
+          "p2a: Pelipper"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "12/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Unnerve",
+      "p2a": "Keen Eye",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1a: Pelipper",
+        "Hurricane",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Pelipper",
+        "Hurricane",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Pelipper"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "critical_hits": [
+      "p1a: Pelipper",
+      "p1a: Pelipper",
+      "p1a: Pelipper",
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Incineroar",
+      "p2b": "Calyrex-Ice"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      },
+      "p2a: Incineroar": {
+        "atk": -1
+      },
+      "p1a: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Chilling Neigh",
+      "p2a": "Intimidate",
+      "p2b": "Unnerve"
+    }
+  }
+]

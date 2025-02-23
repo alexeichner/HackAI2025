@@ -1,0 +1,610 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chien-Pao",
+      "p2a": "Grimmsnarl",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Gholdengo",
+        "Nasty Plot",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "U-turn",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "49/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Chien-Pao",
+      "p2a": "Grimmsnarl",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2a: Grimmsnarl",
+        "Reflect",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Throat Chop",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p2b: Gholdengo",
+        "Make It Rain",
+        [
+          "p1a: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "39/100",
+      "p1b": "7/100",
+      "p2a": "55/100",
+      "p2b": "44/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gholdengo",
+        "super effective"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Sword of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Throat Chop",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Gholdengo",
+        "Make It Rain",
+        [
+          "p1b: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "57/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "super effective"
+      ],
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "90/100",
+      "p1b": "55/100",
+      "p2a": "0 fnt",
+      "p2b": "86/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "92/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Tera Blast",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "12/100",
+      "p1b": "10/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ],
+      [
+        "p1b: Flutter Mane",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Flutter Mane",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Flutter Mane",
+        "Tera Blast",
+        [
+          "p2b: Gholdengo"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 0
+      },
+      "p1a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Flutter Mane",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Water",
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  }
+]

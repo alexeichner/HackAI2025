@@ -1,0 +1,180 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Incineroar",
+        "Helping Hand",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Miraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Incineroar",
+      "p2a": "Whimsicott",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Whimsicott",
+        "Moonblast",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Farigiraf",
+        "Foul Play",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100",
+      "p1b": "75/100",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Miraidon": {
+        "atk": -1
+      },
+      "p2b: Whimsicott": {
+        "atk": -1
+      },
+      "p2b: Farigiraf": {
+        "def": 1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "Cud Chew"
+    }
+  }
+]

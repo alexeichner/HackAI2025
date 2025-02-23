@@ -1,0 +1,531 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Gothitelle",
+      "p2a": "Incineroar",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Gothitelle",
+        "Fake Out",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Reflect",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Frisk",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Gothitelle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "U-turn",
+        [
+          "p1b: Gothitelle"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Play Rough",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Incineroar",
+        "Parting Shot",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p1b: Gothitelle",
+        "Thunder Wave",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "71/100",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Gothitelle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Zacian",
+        "p2b: Kyogre"
+      ],
+      [
+        "p1b: Gothitelle",
+        "p2b: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Frisk",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Gothitelle",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Play Rough",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Zacian"
+        ]
+      ],
+      [
+        "p1b: Gothitelle",
+        "Thunder Wave",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Zacian",
+      "p1a: Zacian",
+      "p1a: Zacian"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Zacian",
+        "p2b: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Frisk",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Regidrago",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Tornadus",
+        "Tailwind",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Gothitelle",
+        "Thunder Wave",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Gothitelle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Tornadus",
+      "p1a: Tornadus",
+      "p1a: Tornadus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Gothitelle",
+        "p2a: Urshifu"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dragon's Maw",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Regidrago",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Regidrago",
+        "Dragon Energy",
+        [
+          "p2a: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Regidrago"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "24/100",
+      "p2a": "0 fnt",
+      "p2b": "46/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      },
+      "p1b: Regidrago": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Regidrago",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dragon's Maw",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Tornadus",
+      "p1b": "Regidrago",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Urshifu",
+        "Aqua Jet",
+        [
+          "p1b: Regidrago"
+        ]
+      ],
+      [
+        "p1b: Regidrago",
+        "Dragon Pulse",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Ice Beam",
+        [
+          "p1b: Regidrago"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "46/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Zacian": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Gothitelle": {
+        "atk": -1
+      },
+      "p1b: Regidrago": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Regidrago",
+        "resisted"
+      ],
+      [
+        "p1b: Regidrago",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Dragon's Maw",
+      "p2a": "none",
+      "p2b": "Drizzle"
+    }
+  }
+]

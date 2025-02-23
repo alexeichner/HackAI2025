@@ -1,0 +1,494 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Electivire"
+    },
+    "moves": [
+      [
+        "p1a: Ari",
+        "Fake Out",
+        [
+          "p2b: Electivire"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Water Spout",
+        [
+          "p1a: Ari"
+        ]
+      ],
+      [
+        "p1b: Zac",
+        "Electroweb",
+        [
+          "p2b: Electivire"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "55/100",
+      "p2a": "65/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Electivire",
+        "Motor Drive"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Zac"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Zac",
+        "resisted"
+      ],
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Motor Drive"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Tsareena",
+      "p2b": "Electivire"
+    },
+    "moves": [
+      [
+        "p2b: Electivire",
+        "Feint",
+        [
+          "p1a: Ari"
+        ]
+      ],
+      [
+        "p1b: Zac",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "55/100",
+      "p2a": "65/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Rosey",
+        "As One"
+      ],
+      [
+        "p1a: Rosey",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Leaf Guard",
+      "p2b": "Motor Drive"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Tsareena",
+      "p2b": "Electivire"
+    },
+    "moves": [
+      [
+        "p2b: Electivire",
+        "Feint",
+        [
+          "p1a: Rosey"
+        ]
+      ],
+      [
+        "p2a: Tsareena",
+        "Taunt",
+        [
+          "p1a: Rosey"
+        ]
+      ],
+      [
+        "p1b: Zac",
+        "Thunderbolt",
+        [
+          "p2a: Tsareena"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "94/100",
+      "p1b": "55/100",
+      "p2a": "45/100",
+      "p2b": "95/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ice",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Leaf Guard",
+      "p2b": "Motor Drive"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ursaluna-Bloodmoon",
+      "p2a": "Tsareena",
+      "p2b": "Electivire"
+    },
+    "moves": [
+      [
+        "p2b: Electivire",
+        "Supercell Slam",
+        [
+          "p1a: Rosey"
+        ]
+      ],
+      [
+        "p2a: Tsareena",
+        "Triple Axel",
+        [
+          "p1b: Rich"
+        ]
+      ],
+      [
+        "p1a: Rosey",
+        "Glacial Lance",
+        [
+          "p2b: Electivire"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "17/100",
+      "p2a": "10/100",
+      "p2b": "28/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Rich",
+        "super effective"
+      ],
+      [
+        "p1b: Rich",
+        "super effective"
+      ],
+      [
+        "p1b: Rich",
+        "super effective"
+      ],
+      [
+        "p2a: Tsareena",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ice",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Leaf Guard",
+      "p2b": "Motor Drive"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p2b: Electivire",
+        "Brick Break",
+        [
+          "p1b: Zac"
+        ]
+      ],
+      [
+        "p1a: Rosey",
+        "Glacial Lance",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "65/100",
+      "p1b": "35/100",
+      "p2a": "32/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Rosey": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Rosey",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ice",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Kyogre",
+      "p2b": "Tsareena"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Origin Pulse",
+        [
+          "p1a: Rosey"
+        ]
+      ],
+      [
+        "p2b: Tsareena",
+        "Triple Axel",
+        [
+          "p1b: Zac"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "32/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Electivire": {
+        "spe": 1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      },
+      "p1a: Rosey": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rosey",
+        "super effective"
+      ],
+      [
+        "p1b: Zac",
+        "resisted"
+      ],
+      [
+        "p1b: Zac",
+        "super effective"
+      ],
+      [
+        "p1b: Zac",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ice",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Chilling Neigh",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Leaf Guard"
+    }
+  }
+]

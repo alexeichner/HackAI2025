@@ -1,0 +1,184 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Smeargle",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "61/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1,
+        "spa": 2
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Own Tempo",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Rillaboom",
+      "p2a": "Smeargle",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2a: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Smeargle",
+        "Spore",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "65/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Calyrex": {
+        "atk": -1,
+        "spa": 2
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Smeargle": {
+        "spe": 2,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ],
+      [
+        "p2a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fairy",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Overgrow",
+      "p2a": "Moody",
+      "p2b": "Intimidate"
+    }
+  }
+]

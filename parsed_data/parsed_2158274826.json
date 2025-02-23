@@ -1,0 +1,250 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Chien-Pao",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Ice Spinner",
+        [
+          "p2a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Dragonite",
+        "Dragon Claw",
+        [
+          "p2b: Sableye"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "U-turn",
+        [
+          "p1b: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "84/100",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1b: Chien-Pao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Sword of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p1b: Chien-Pao",
+        "Protect",
+        [
+          "p1b: Chien-Pao"
+        ]
+      ],
+      [
+        "p1a: Dragonite",
+        "Dragon Claw",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Ice Beam",
+        [
+          "p1a: Dragonite"
+        ]
+      ],
+      [
+        "p2b: Gholdengo",
+        "Nasty Plot",
+        [
+          "p2b: Gholdengo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "18/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 2
+      },
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zacian",
+        "Intrepid Sword"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zacian-Crowned",
+      "p1b": "Chien-Pao",
+      "p2a": "Kyogre",
+      "p2b": "Gholdengo"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Zacian",
+        "Behemoth Blade",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Chien-Pao",
+        "Throat Chop",
+        [
+          "p2b: Gholdengo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "84/100",
+      "p2a": "18/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Gholdengo": {
+        "spa": 2
+      },
+      "p1a: Zacian": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Gholdengo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ghost",
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Intrepid Sword",
+      "p1b": "Sword of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Good as Gold"
+    }
+  }
+]

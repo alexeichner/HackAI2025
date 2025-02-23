@@ -1,0 +1,474 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Munkidori",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Munkidori",
+        "Fake Out",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2a: Munkidori"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unnerve",
+      "p2a": "Toxic Chain",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Basculegion"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "78/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Basculegion",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unnerve",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Terapagos",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "66/100 slp",
+      "p2b": "56/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1,
+        "def": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Terapagos"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Unnerve",
+      "p2a": "Tera Shift",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Decorate",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Sleep Talk",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "60/100",
+      "p2a": "0 fnt",
+      "p2b": "12/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1,
+        "def": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p1a: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Smeargle",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Chilling Neigh",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Basculegion",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Follow Me",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Basculegion",
+        "Aqua Jet",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Basculegion"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "15/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Smeargle": {
+        "atk": 1,
+        "spa": 1,
+        "spd": 1,
+        "spe": 1,
+        "def": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 5,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp",
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ],
+      [
+        "p2a: Basculegion",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ghost",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Moody",
+      "p1b": "Chilling Neigh",
+      "p2a": "Swift Swim",
+      "p2b": "Intimidate"
+    }
+  }
+]

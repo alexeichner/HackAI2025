@@ -1,0 +1,506 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Kyogre",
+      "p1b": "Tornadus",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Tailwind",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Close Combat",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Drizzle",
+      "p1b": "Prankster",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Kyogre",
+        "Ice Beam",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "5/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Kyogre",
+      "p1a: Kyogre",
+      "p1a: Kyogre"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Raging Bolt",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Detect",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Protect",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "5/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "spa": 2,
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Aqua Jet",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Sandsear Storm",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Archaludon",
+        "Electro Shot",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "78/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "spa": 2,
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Landorus",
+        "super effective"
+      ],
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1a: Landorus",
+        "Protect",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p2a: Rillaboom",
+        "Fake Out",
+        [
+          "p1b: Archaludon"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Archaludon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "16/100",
+      "p1b": "27/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "spa": 2,
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ],
+      [
+        "p1b: Archaludon",
+        "Stamina"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Archaludon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Archaludon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Landorus",
+      "p1b": "Archaludon",
+      "p2a": "Rillaboom",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Archaludon": {
+        "spa": 2,
+        "def": 3
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Landorus"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Sand Force",
+      "p1b": "Stamina",
+      "p2a": "Overgrow",
+      "p2b": "Unnerve"
+    }
+  }
+]

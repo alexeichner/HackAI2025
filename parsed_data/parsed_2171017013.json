@@ -1,0 +1,924 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Wide Guard",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Thunder Wave",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Flutter Mane",
+      "p2b: Flutter Mane",
+      "p2b: Flutter Mane"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "74/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Protect",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "80/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1a: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Spore",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Pollen Puff",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Rillaboom",
+      "p2b: Rillaboom",
+      "p2b: Rillaboom"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Pollen Puff",
+        [
+          "p2b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "50/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Amoonguss",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p1b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "6/100",
+      "p2a": "100/100",
+      "p2b": "2/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p1b: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Effect Spore",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p2b: Chien-Pao",
+        "Protect",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "84/100",
+      "p2b": "2/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Amoonguss",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2b: Chien-Pao"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "84/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Chien-Pao"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Heavy Slam",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Zamazenta-Crowned",
+      "p2b": "Chien-Pao"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1,
+        "atk": -1
+      },
+      "p2b: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Urshifu": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2a": "Dragon"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Dauntless Shield",
+      "p2b": "Sword of Ruin"
+    }
+  }
+]

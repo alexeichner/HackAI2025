@@ -1,0 +1,696 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Stonjourner",
+        "Wide Guard",
+        [
+          "p1a: Stonjourner"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Taunt",
+        [
+          "p1a: Stonjourner"
+        ]
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Stonjourner",
+        "Rock Slide",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "46/100",
+      "p2b": "20/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Tera Shift",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Protect",
+        [
+          "p1b: Koraidon"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Stonjourner"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Stonjourner"
+        ]
+      ],
+      [
+        "p1a: Stonjourner",
+        "Rock Slide",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "100/100",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Tornadus",
+        "p1a: Stonjourner"
+      ],
+      [
+        "p1a: Stonjourner",
+        "p2a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Teraform Zero",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Mandibuzz",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        [
+          "p1b: Whimsicott"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Mandibuzz"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "59/100",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Big Pecks",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Teraform Zero",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Protect",
+        [
+          "p1b: Koraidon"
+        ]
+      ],
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        [
+          "p1a: Mandibuzz"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Mandibuzz",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Teraform Zero",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Terapagos",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        [
+          "p1a: Stonjourner"
+        ]
+      ],
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        [
+          "p2b: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "60/100",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Comfey"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Comfey",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "Teraform Zero",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p1b: Koraidon",
+        "Collision Course",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Comfey",
+        "Taunt",
+        [
+          "p1b: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "69/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Draining Kiss",
+        [
+          "p1b: Koraidon"
+        ]
+      ],
+      [
+        "p1b: Koraidon",
+        "Breaking Swipe",
+        [
+          "p2b: Comfey"
+        ]
+      ],
+      [
+        "p2a: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p1b: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "19/100",
+      "p2a": "62/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Koraidon",
+        "resisted"
+      ],
+      [
+        "p1b: Koraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "Flower Veil"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Stonjourner",
+      "p1b": "Koraidon",
+      "p2a": "Ogerpon-Cornerstone",
+      "p2b": "Comfey"
+    },
+    "moves": [
+      [
+        "p2b: Comfey",
+        "Floral Healing",
+        [
+          "p2a: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Koraidon",
+        "Flare Blitz",
+        [
+          "p2b: Comfey"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p2a: Ogerpon": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "Power Spot",
+      "p1b": "Orichalcum Pulse",
+      "p2a": "none",
+      "p2b": "Flower Veil"
+    }
+  }
+]

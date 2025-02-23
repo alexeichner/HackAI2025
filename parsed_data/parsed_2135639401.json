@@ -1,0 +1,460 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Pelipper",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Indeedee-F"
+    },
+    "moves": [
+      [
+        "p1a: Pelipper",
+        "Wide Guard",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p2b: Indeedee",
+        "Imprison",
+        [
+          "p2b: Indeedee"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "68/100",
+      "p2b": "14/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Keen Eye",
+      "p1b": "Unnerve",
+      "p2a": "none",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Indeedee",
+        "Helping Hand",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Pelipper"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Pelipper",
+      "p1a: Pelipper"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p1a: Pelipper",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Surging Strikes",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "35/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex",
+      "p2b: Calyrex",
+      "p1b: Calyrex",
+      "p1b: Calyrex",
+      "p1b: Calyrex"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1b: Amoonguss",
+        "Rage Powder",
+        [
+          "p1b: Amoonguss"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "56/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu",
+      "p2a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Urshifu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Whimsicott"
+    },
+    "moves": [
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Whimsicott",
+        "Moonblast",
+        [
+          "p1a: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Amoonguss",
+        "Pollen Puff",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "8/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Whimsicott",
+      "p2b: Whimsicott",
+      "p2b: Whimsicott"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p2b: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Amoonguss",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Whimsicott"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "8/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water",
+      "p1a": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Effect Spore",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  }
+]

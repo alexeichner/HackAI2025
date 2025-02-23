@@ -1,0 +1,249 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Smeargle",
+      "p2a": "Chi-Yu",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Protect",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Smeargle",
+        "Decorate",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Smeargle": {
+        "spa": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Moody",
+      "p2a": "Beads of Ruin",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Heat Wave",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Smeargle": {
+        "spa": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Tornadus",
+        "p1a: Terapagos"
+      ],
+      [
+        "p2a: Chi-Yu",
+        "p1a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Urshifu-Rapid-Strike",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Terapagos": {
+        "atk": 2,
+        "spa": 2
+      },
+      "p1b: Smeargle": {
+        "spa": 2,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Unnerve"
+    }
+  }
+]

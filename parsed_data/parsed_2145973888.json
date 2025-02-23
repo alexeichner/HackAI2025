@@ -1,0 +1,814 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Chien-Pao",
+      "p1b": "Incineroar",
+      "p2a": "Koraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Chien-Pao",
+        "Protect",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Liyuu",
+        "Heat Wave",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "66/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Sword of Ruin",
+      "p1b": "Intimidate",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Incineroar",
+      "p2a": "Koraidon",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Liyuu",
+        "Heat Wave",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p2b: Liyuu"
+        ]
+      ],
+      [
+        "p2a: Koraidon",
+        "Collision Course",
+        [
+          "p1a: Chien-Pao"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Knock Off",
+        [
+          "p2a: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "66/100",
+      "p2a": "74/100",
+      "p2b": "2/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Liyuu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ],
+      [
+        "p2b: Liyuu",
+        "super effective"
+      ],
+      [
+        "p1a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Liyuu",
+        "p1b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "Intimidate",
+      "p2a": "Orichalcum Pulse",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Rillaboom",
+      "p2a": "Indeedee-F",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2b: Liyuu",
+        "Heat Wave",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "U-turn",
+        [
+          "p2b: Liyuu"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2a: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "76/100",
+      "p2a": "74/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Rillaboom",
+        "resisted"
+      ],
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2b: Koraidon",
+        "Protect",
+        [
+          "p2b: Koraidon"
+        ]
+      ],
+      [
+        "p1b: Rillaboom",
+        "Fake Out",
+        [
+          "p2b: Koraidon"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Iron Defense",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "82/100",
+      "p2a": "74/100",
+      "p2b": "80/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Koraidon",
+        "Collision Course",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "16/100",
+      "p2a": "74/100",
+      "p2b": "86/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Rillaboom",
+      "p2a": "Raging Bolt",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p2b: Koraidon",
+        "Protect",
+        [
+          "p2b: Koraidon"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Electroweb",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "88/100",
+      "p1b": "72/100",
+      "p2a": "12/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Overgrow",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Indeedee"
+        ]
+      ],
+      [
+        "p2b: Koraidon",
+        "Dragon Tail",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "79/100",
+      "p1b": "22/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Zamazenta",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Incineroar",
+      "p2a": "Raging Bolt",
+      "p2b": "Koraidon"
+    },
+    "moves": [
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Koraidon",
+        "Collision Course",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Koraidon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "55/100",
+      "p1b": "22/100",
+      "p2a": "0 fnt",
+      "p2b": "97/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain",
+        "Psychic Terrain",
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Indeedee": {
+        "spd": 1,
+        "atk": -3,
+        "spa": -1
+      },
+      "p2b: Liyuu": {
+        "atk": -1
+      },
+      "p1a: Zamazenta": {
+        "def": 3,
+        "spe": -1
+      },
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Koraidon": {
+        "atk": -3,
+        "spa": -1
+      },
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p1b: Rillaboom": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Fire",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Intimidate",
+      "p2a": "none",
+      "p2b": "Orichalcum Pulse"
+    }
+  }
+]

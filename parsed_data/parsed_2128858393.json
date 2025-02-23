@@ -1,0 +1,678 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Tsareena",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Protect",
+        [
+          "p1b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2a: Tsareena",
+        "Protect",
+        [
+          "p2a: Tsareena"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Parting Shot",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Leaf Guard",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        [
+          "p2a: Tsareena"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Heat Wave",
+        [
+          "p2a: Tsareena"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "92/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Tsareena"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Tsareena",
+        "super effective"
+      ],
+      [
+        "p2b: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Protect",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Chi-Yu"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p2b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "37/100",
+      "p2a": "0 fnt",
+      "p2b": "92/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Chi-Yu"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Rillaboom",
+      "p2a": "Tornadus",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Rillaboom"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "57/100",
+      "p2a": "59/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1b: Rillaboom",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Overgrow",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Tornadus",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Protect",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p1b: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "44/100",
+      "p2a": "59/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Prankster",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Flutter Mane",
+        "Moonblast",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "22/100",
+      "p1b": "50/100",
+      "p2a": "0 fnt",
+      "p2b": "31/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Protect",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ],
+      [
+        "p2a: Kyogre",
+        "Protect",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Protect",
+        [
+          "p1b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "28/100",
+      "p1b": "56/100",
+      "p2a": "98/100",
+      "p2b": "37/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Flutter Mane",
+      "p1b": "Chi-Yu",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Flutter Mane",
+        "Icy Wind",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Chi-Yu",
+        "Dark Pulse",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "62/100",
+      "p2a": "60/100",
+      "p2b": "43/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Flutter Mane": {
+        "atk": -2
+      },
+      "p1b: Chi-Yu": {
+        "atk": -1
+      },
+      "p1b: Rillaboom": {
+        "atk": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Incineroar": {
+        "spe": -1
+      },
+      "p2a: Kyogre": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1a: Flutter Mane",
+        "p2b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Beads of Ruin",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  }
+]

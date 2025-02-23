@@ -1,0 +1,612 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Munkidori",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Munkidori",
+        "Fake Out",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Annihilape",
+        "Final Gambit",
+        [
+          "p2b: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "44/100 tox",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "19/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Toxic Chain",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Raging Bolt",
+      "p2a": "Primarina",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p2a: Munkidori",
+        "Parting Shot",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Trick Room",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "33/100 tox",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "19/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Calyrex",
+      "p1b: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Torrent",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Munkidori",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Volt Switch",
+        [
+          "p2a: Munkidori"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "91/100",
+      "p1b": "27/100 tox",
+      "p2a": "75/100",
+      "p2b": "84/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Toxic Chain",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Amoonguss",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Munkidori",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Munkidori",
+        "Fake Out",
+        [
+          "p1a: Amoonguss"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Knock Off",
+        [
+          "p1a: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "48/100",
+      "p1b": "15/100 tox",
+      "p2a": "59/100",
+      "p2b": "68/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Effect Spore",
+      "p1b": "Unnerve",
+      "p2a": "Toxic Chain",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Primarina",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Amoonguss",
+        "Pollen Puff",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        [
+          "p1a: Amoonguss"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "48/100 tox",
+      "p2a": "82/100",
+      "p2b": "29/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Primarina",
+        "resisted"
+      ],
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ],
+      [
+        "p1a: Amoonguss",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Torrent",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Primarina",
+      "p2b": "Munkidori"
+    },
+    "moves": [
+      [
+        "p2a: Primarina",
+        "Protect",
+        [
+          "p2a: Primarina"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Thunderclap",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2b: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "25/100 tox",
+      "p2a": "88/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Raging Bolt"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Torrent",
+      "p2b": "Toxic Chain"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Primarina",
+      "p2b": "Munkidori"
+    },
+    "moves": [
+      [
+        "p2b: Munkidori",
+        "Fake Out",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Primarina",
+        "Moonblast",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "High Horsepower",
+        [
+          "p2a: Primarina"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "49/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Torrent",
+      "p2b": "Toxic Chain"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Primarina",
+      "p2b": "Munkidori"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "49/100",
+      "p1b": "0 fnt",
+      "p2a": "34/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Raging Bolt": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1b: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "tox"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Stellar",
+      "p1b": "Fire"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Chilling Neigh",
+      "p2a": "Torrent",
+      "p2b": "Toxic Chain"
+    }
+  }
+]

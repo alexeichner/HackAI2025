@@ -1,0 +1,290 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Golem",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Akivili",
+        "Astral Barrage",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Hu Tao",
+        "Overheat",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Hu Tao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "39/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Akivili": {
+        "atk": -1
+      },
+      "p2b: Hu Tao": {
+        "atk": -2,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Hu Tao",
+        "p1b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Rock Head",
+      "p2a": "Unnerve",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Golem",
+      "p2a": "Gallade",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1b: Golem",
+        "Wide Guard",
+        [
+          "p1b: Golem"
+        ]
+      ],
+      [
+        "p2a: Akivili",
+        "Astral Barrage",
+        [
+          "p1b: Golem"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Astral Barrage",
+        [
+          "p2a: Akivili"
+        ]
+      ],
+      [
+        "p2b: Hu Tao",
+        "Snarl",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "39/100",
+      "p2a": "0 fnt",
+      "p2b": "68/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Akivili": {
+        "atk": -1
+      },
+      "p2b: Hu Tao": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Akivili",
+        "super effective"
+      ],
+      [
+        "p2b: Hu Tao",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Rock Head",
+      "p2a": "Steadfast",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Golem",
+      "p2a": "Gallade",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Draining Kiss",
+        [
+          "p2a: Favonius"
+        ]
+      ],
+      [
+        "p2b: Hu Tao",
+        "Snarl",
+        [
+          "p1b: Golem"
+        ]
+      ],
+      [
+        "p1b: Golem",
+        "Body Press",
+        [
+          "p2b: Hu Tao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "97/100",
+      "p1b": "75/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Akivili": {
+        "atk": -1
+      },
+      "p2b: Hu Tao": {
+        "atk": -2,
+        "spa": -1
+      },
+      "p1a: Calyrex": {
+        "spa": 1
+      },
+      "p1b: Golem": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Favonius",
+        "super effective"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2b: Hu Tao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Grim Neigh",
+      "p1b": "Rock Head",
+      "p2a": "Steadfast",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

@@ -1,0 +1,778 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Landorus-Therian",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Raging Bolt",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Tailwind",
+        [
+          "p2b: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Wood Hammer",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "Stomping Tantrum",
+        [
+          "p2a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "44/100",
+      "p2a": "17/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raging Bolt",
+        "resisted"
+      ],
+      [
+        "p2a: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Landorus",
+        "U-turn",
+        [
+          "p2a: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "77/100",
+      "p1b": "44/100",
+      "p2a": "86/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Landorus",
+      "p2b": "Tornadus"
+    },
+    "moves": [
+      [
+        "p2b: Tornadus",
+        "Taunt",
+        [
+          "p1a: Iron Valiant"
+        ]
+      ],
+      [
+        "p2a: Landorus",
+        "Earth Power",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        [
+          "p2b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "77/100",
+      "p1b": "0 fnt",
+      "p2a": "25/100",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Ogerpon",
+        "Embody Aspect (Wellspring)"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Landorus",
+        "super effective"
+      ],
+      [
+        "p2b: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Sand Force",
+      "p2b": "Prankster"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus-Therian",
+      "p2a": "Landorus",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p2a: Landorus",
+        "Protect",
+        [
+          "p2a: Landorus"
+        ]
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "77/100",
+      "p1b": "0 fnt",
+      "p2a": "25/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Sand Force",
+      "p2b": "Tera Shift"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Landorus-Therian",
+      "p2a": "Tornadus",
+      "p2b": "Terapagos"
+    },
+    "moves": [
+      [
+        "p1a: Iron Valiant",
+        "Icy Wind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Stomping Tantrum",
+        [
+          "p2b: Tortugol"
+        ]
+      ],
+      [
+        "p2b: Tortugol",
+        "Tera Starstorm",
+        [
+          "p1b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "34/100",
+      "p2a": "52/100",
+      "p2b": "72/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Tortugol": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Tortugol",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "Teraform Zero"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Iron Valiant",
+      "p1b": "Miraidon",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Iron Valiant",
+        "Close Combat",
+        [
+          "p2b: Tortugol"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "34/100",
+      "p2a": "52/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Tortugol": {
+        "spe": -1
+      },
+      "p1a: Iron Valiant": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Tortugol",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Hadron Engine",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Landorus-Therian",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        [
+          "p1a: Iron Valiant"
+        ]
+      ],
+      [
+        "p1b: Miraidon",
+        "Volt Switch",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Tortugol": {
+        "spe": -1
+      },
+      "p1a: Iron Valiant": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Landorus",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Miraidon",
+        "super effective"
+      ],
+      [
+        "p2a: Tornadus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Miraidon",
+      "p1b": "Landorus-Therian",
+      "p2a": "Tornadus",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        [
+          "p1b: Landorus"
+        ]
+      ],
+      [
+        "p1b: Landorus",
+        "Rock Tomb",
+        [
+          "p2b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "2/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Electric Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raging Bolt": {
+        "atk": -1
+      },
+      "p2b: Tornadus": {
+        "atk": -1,
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "spd": 1
+      },
+      "p2a: Landorus": {
+        "spe": -1,
+        "atk": -1
+      },
+      "p2b: Raging Bolt": {
+        "spe": -1
+      },
+      "p2a: Tornadus": {
+        "spe": -1
+      },
+      "p2b: Tortugol": {
+        "spe": -1
+      },
+      "p1a: Iron Valiant": {
+        "def": -1,
+        "spd": -1
+      },
+      "p2b: Landorus": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Miraidon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water",
+      "p2b": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Hadron Engine",
+      "p1b": "Intimidate",
+      "p2a": "Prankster",
+      "p2b": "Sand Force"
+    }
+  }
+]

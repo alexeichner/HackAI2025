@@ -1,0 +1,210 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Iron Bundle",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2a: Kyogre",
+        "Protect",
+        [
+          "p2a: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Rillaboom",
+        "Grassy Glide",
+        [
+          "p2b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Iron Bundle",
+        "Hydro Pump",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Iron Bundle",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1a: Rillaboom"
+        ]
+      ],
+      [
+        "p1b: Iron Bundle",
+        "Freeze-Dry",
+        [
+          "p2a: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "100/100",
+      "p2a": "51/100 frz",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Rillaboom",
+      "p1b": "Iron Bundle",
+      "p2a": "Kyogre",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "95/100",
+      "p1b": "100/100",
+      "p2a": "51/100 frz",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Rillaboom": {
+        "atk": -1
+      },
+      "p1b: Iron Bundle": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p2a": "frz"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Water"
+    },
+    "abilities": {
+      "p1a": "Overgrow",
+      "p1b": "none",
+      "p2a": "Drizzle",
+      "p2b": "Intimidate"
+    }
+  }
+]

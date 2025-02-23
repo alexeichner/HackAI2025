@@ -1,0 +1,787 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Iron Jugulis",
+      "p2a": "Kyurem-White",
+      "p2b": "Milotic"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Iron Jugulis",
+        "Tailwind",
+        [
+          "p1b: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2a: Kyurem",
+        "Blizzard",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Milotic",
+        "Hypnosis",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "25/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Jugulis",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Turboblaze",
+      "p2b": "Marvel Scale"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Kyurem-White",
+      "p2b": "Milotic"
+    },
+    "moves": [
+      [
+        "p1b: Iron Jugulis",
+        "Hurricane",
+        [
+          "p2a: Kyurem"
+        ]
+      ],
+      [
+        "p2a: Kyurem",
+        "Freeze-Dry",
+        [
+          "p1b: Iron Jugulis"
+        ]
+      ],
+      [
+        "p2b: Milotic",
+        "Coil",
+        [
+          "p2b: Milotic"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "0 fnt",
+      "p2a": "75/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Iron Jugulis",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Turboblaze",
+      "p2b": "Marvel Scale"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Kyurem-White",
+      "p2b": "Milotic"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Thunder",
+        [
+          "p2b: Milotic"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p2a: Kyurem"
+        ]
+      ],
+      [
+        "p2a: Kyurem",
+        "Freeze-Dry",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2b: Milotic",
+        "Hypnosis",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "83/100",
+      "p2a": "23/100",
+      "p2b": "54/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Milotic",
+        "super effective"
+      ],
+      [
+        "p2a: Kyurem",
+        "super effective"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Milotic",
+        "p1b: Kyogre"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Turboblaze",
+      "p2b": "Marvel Scale"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Ninetales-Alola",
+      "p2b": "Milotic"
+    },
+    "moves": [
+      [
+        "p1b: Kyogre",
+        "Thunder",
+        [
+          "p2b: Milotic"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p2b: Milotic"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "83/100",
+      "p2a": "23/100",
+      "p2b": "15/100 par"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Milotic",
+        "Competitive"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Milotic"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Kyogre",
+        "p2b: Milotic"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Competitive"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Ninetales-Alola",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2a: Ninetales",
+        "Aurora Veil",
+        [
+          "p2a: Ninetales"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Water Spout",
+        [
+          "p2b: Milotic"
+        ]
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "Spirit Break",
+        [
+          "p2b: Milotic"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "83/100",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Chi-Yu",
+        "Beads of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Milotic",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Ninetales-Alola",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p1a: Grimmsnarl",
+        "Thunder Wave",
+        [
+          "p2a: Ninetales"
+        ]
+      ],
+      [
+        "p2b: Chi-Yu",
+        "Tera Blast",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Ninetales",
+        "Moonblast",
+        [
+          "p1a: Grimmsnarl"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "super effective"
+      ],
+      [
+        "p1a: Grimmsnarl",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Ninetales-Alola",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Tera Blast",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Ice Beam",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ],
+      [
+        "p2a: Ninetales",
+        "Fake Tears",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "46/100",
+      "p2a": "57/100",
+      "p2b": "48/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "none",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Kyurem-White",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Tera Blast",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Origin Pulse",
+        [
+          "p2b: Chi-Yu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "30/100",
+      "p2a": "0 fnt",
+      "p2b": "20/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Kyurem",
+        "Turboblaze"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p2b: Chi-Yu",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Turboblaze",
+      "p2b": "Beads of Ruin"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Grimmsnarl",
+      "p1b": "Kyogre",
+      "p2a": "Kyurem-White",
+      "p2b": "Chi-Yu"
+    },
+    "moves": [
+      [
+        "p2b: Chi-Yu",
+        "Tera Blast",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p2a: Kyurem",
+        "Freeze-Dry",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "20/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2b: Milotic": {
+        "atk": 1,
+        "def": 1,
+        "accuracy": 1,
+        "spa": 1
+      },
+      "p2a: Kyurem": {
+        "spa": -1
+      },
+      "p1b: Kyogre": {
+        "spd": -2
+      }
+    },
+    "status_conditions": {
+      "p1a": "slp",
+      "p2b": "par",
+      "p2a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Kyogre",
+        "resisted"
+      ],
+      [
+        "p1b: Kyogre",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Grass",
+      "p1b": "Grass"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Drizzle",
+      "p2a": "Turboblaze",
+      "p2b": "Beads of Ruin"
+    }
+  }
+]

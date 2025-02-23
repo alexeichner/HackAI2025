@@ -1,0 +1,1155 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Grimmsnarl",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Light Screen",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Maushold",
+        "Thunder Wave",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Snarl",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "75/100",
+      "p1b": "77/100",
+      "p2a": "95/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Grimmsnarl",
+      "p2a": "Calyrex-Shadow",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Astral Barrage",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Charge Beam",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "56/100",
+      "p1b": "62/100 par",
+      "p2a": "53/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Prankster",
+      "p2a": "Unnerve",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Grimmsnarl",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Parting Shot",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Wave Crash",
+        [
+          "p1a: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "86/100 par",
+      "p2a": "53/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Dondozo"
+    ],
+    "critical_hits": [
+      "p1a: Raging Bolt"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "Prankster",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Grimmsnarl",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        [
+          "p1a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "86/100 par",
+      "p2a": "53/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Zamazenta",
+        "Dauntless Shield"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Prankster",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Grimmsnarl",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Wave Crash",
+        [
+          "p1a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "86/100 par",
+      "p2a": "53/100",
+      "p2b": "83/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Prankster",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Grimmsnarl",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Grimmsnarl",
+        "Reflect",
+        [
+          "p1b: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Wave Crash",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "63/100",
+      "p1b": "86/100 par",
+      "p2a": "53/100",
+      "p2b": "54/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Prankster",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Wave Crash",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "86/100 par",
+      "p2a": "53/100",
+      "p2b": "25/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Zamazenta",
+        "Protect",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        [
+          "p1b: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Sinistcha",
+        "Trick Room",
+        [
+          "p1b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "36/100",
+      "p2a": "53/100",
+      "p2b": "25/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Order Up",
+        [
+          "p1b: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "45/100",
+      "p1b": "17/100",
+      "p2a": "53/100",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Sinistcha",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1a: Zamazenta",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 10,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p2b: Dondozo",
+        "Protect",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1b: Sinistcha",
+        "Life Dew",
+        [
+          "p1b: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "42/100",
+      "p2a": "53/100",
+      "p2b": "4/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 11,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Maushold"
+    },
+    "moves": [
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "44/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Sinistcha",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Friend Guard"
+    }
+  },
+  {
+    "turn": 12,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Sinistcha",
+      "p2a": "Tatsugiri",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p1b: Sinistcha",
+        "Matcha Gotcha",
+        [
+          "p2a: Tatsugiri"
+        ]
+      ],
+      [
+        "p2b: Maushold",
+        "Thunder Wave",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Maushold"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "70/100",
+      "p1b": "63/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "As One"
+      ],
+      [
+        "p2b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Maushold",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Hospitality",
+      "p2a": "Commander",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 13,
+    "active_pokemon": {
+      "p1a": "Zamazenta-Crowned",
+      "p1b": "Grimmsnarl",
+      "p2a": "Tatsugiri",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Zamazenta"
+        ]
+      ],
+      [
+        "p1a: Zamazenta",
+        "Body Press",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "23/100 par",
+      "p1b": "49/100 par",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Calyrex": {
+        "spa": -1
+      },
+      "p2b: Maushold": {
+        "spa": -1
+      },
+      "p1a: Raging Bolt": {
+        "spa": 1
+      },
+      "p2b: Dondozo": {
+        "atk": 5,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "par",
+      "p1a": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Grimmsnarl",
+        "resisted"
+      ],
+      [
+        "p2b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark",
+      "p1a": "Electric"
+    },
+    "abilities": {
+      "p1a": "Dauntless Shield",
+      "p1b": "Prankster",
+      "p2a": "Commander",
+      "p2b": "Unnerve"
+    }
+  }
+]

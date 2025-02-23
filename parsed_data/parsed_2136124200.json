@@ -1,0 +1,581 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Groudon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Discharge",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "11/100",
+      "p2a": "100/100",
+      "p2b": "55/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ],
+      [
+        "p1b: Ogerpon",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Groudon",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Protect",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Light Screen",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Horn Leech",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "61/100",
+      "p2b": "55/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Groudon",
+        "super effective"
+      ],
+      [
+        "p1a: Whimsicott",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Unnerve",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Indeedee",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Precipice Blades",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "36/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Groudon",
+        "p1a: Indeedee"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Grim Neigh",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Groudon",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Protect",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p2a: Groudon",
+        "Protect",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        [
+          "p2a: Groudon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "36/100",
+      "p2a": "1/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Grim Neigh",
+      "p2a": "Drought",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Indeedee",
+      "p2a": "Entei",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Expanding Force",
+        [
+          "p2a: Groudon"
+        ]
+      ],
+      [
+        "p2b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "36/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Inner Focus",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Indeedee",
+      "p2a": "Entei",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Protect",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Expanding Force",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        [
+          "p2a: Entei"
+        ]
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        [
+          "p1a: Whimsicott"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "57/100",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Entei",
+        "resisted"
+      ],
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Inner Focus",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Indeedee",
+      "p2a": "Entei",
+      "p2b": "Flutter Mane"
+    },
+    "moves": [
+      [
+        "p2b: Flutter Mane",
+        "Protect",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1b: Indeedee",
+        "Expanding Force",
+        [
+          "p2b: Flutter Mane"
+        ]
+      ],
+      [
+        "p2a: Entei",
+        "Sacred Fire",
+        [
+          "p1b: Indeedee"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "23/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Psychic Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2b: Flutter Mane"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "Inner Focus",
+      "p2a": "Pressure",
+      "p2b": "none"
+    }
+  }
+]

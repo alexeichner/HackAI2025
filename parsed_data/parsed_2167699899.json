@@ -1,0 +1,491 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Raging Bolt",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Eternatus",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p2b: Incineroar",
+        "Fake Out",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Cosmic Power",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p1a: Raging Bolt",
+        "Draco Meteor",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "26/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Eternatus",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Eternatus",
+      "p2b": "Murkrow"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Recover",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "58/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Eternatus",
+      "p2a: Eternatus",
+      "p2a: Eternatus"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Eternatus",
+        "resisted"
+      ],
+      [
+        "p2a: Eternatus",
+        "resisted"
+      ],
+      [
+        "p2a: Eternatus",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Insomnia"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Eternatus",
+      "p2b": "Murkrow"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2b: Murkrow",
+        "Spite",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Surging Strikes",
+        [
+          "p2b: Murkrow"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "58/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Murkrow",
+      "p2b: Murkrow",
+      "p2b: Murkrow"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Insomnia"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Eternatus",
+      "p2b": "Murkrow"
+    },
+    "moves": [
+      [
+        "p2b: Murkrow",
+        "Spite",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Eternatus",
+        "Cosmic Power",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "90/100",
+      "p2a": "64/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Incineroar",
+        "p2a: Eternatus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Insomnia"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Eternatus",
+      "p2b": "Murkrow"
+    },
+    "moves": [
+      [
+        "p2a: Eternatus",
+        "Cosmic Power",
+        [
+          "p2a: Eternatus"
+        ]
+      ],
+      [
+        "p2b: Murkrow",
+        "Foul Play",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Incineroar",
+        "Will-O-Wisp",
+        [
+          "p2a: Eternatus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "83/100",
+      "p2a": "70/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1a: Incineroar",
+        "p2a: Eternatus"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Insomnia"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Raging Bolt",
+      "p2a": "Eternatus",
+      "p2b": "Murkrow"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "83/100",
+      "p2a": "70/100",
+      "p2b": "6/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Raging Bolt": {
+        "atk": -1,
+        "spa": -2
+      },
+      "p1b: Urshifu": {
+        "atk": -1
+      },
+      "p2a: Eternatus": {
+        "def": 3,
+        "spd": 3,
+        "atk": -1
+      },
+      "p2b: Incineroar": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Pressure",
+      "p2b": "Insomnia"
+    }
+  }
+]

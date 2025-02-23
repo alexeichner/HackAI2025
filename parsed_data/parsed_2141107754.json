@@ -1,0 +1,500 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Gouging Fire",
+      "p2a": "Tornadus",
+      "p2b": "Raging Bolt"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Howl",
+        [
+          "p1b: Gouging Fire"
+        ]
+      ],
+      [
+        "p2b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p1a: Entei"
+        ]
+      ],
+      [
+        "p1a: Entei",
+        "Sacred Fire",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "47/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "47/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Raging Bolt",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Brute Bonnet",
+      "p1b": "Gouging Fire",
+      "p2a": "Tornadus",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Raging Bolt",
+        "Thunderclap",
+        [
+          "p1b: Gouging Fire"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Gouging Fire"
+        ]
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Breaking Swipe",
+        [
+          "p2b: Raging Bolt"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "36/100",
+      "p2a": "68/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Brute Bonnet",
+        "super effective"
+      ],
+      [
+        "p2b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Prankster",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Brute Bonnet",
+      "p1b": "Gouging Fire",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2b: Farigiraf",
+        "Helping Hand",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Bleakwind Storm",
+        [
+          "p1b: Gouging Fire"
+        ]
+      ],
+      [
+        "p1b: Gouging Fire",
+        "Flare Blitz",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1a: Brute Bonnet",
+        "Spore",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "54/100",
+      "p1b": "16/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2a: Tornadus",
+        "p1a: Brute Bonnet"
+      ],
+      [
+        "p2a: Tornadus",
+        "p1b: Gouging Fire"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Flying"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "none",
+      "p2a": "Unnerve",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Gouging Fire"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Brute Bonnet",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Flying"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drought",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1a: Entei",
+        "Flare Blitz",
+        [
+          "p2a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Groudon",
+        "Heat Crash",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "18/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "68/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Flying"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drought",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Entei",
+      "p1b": "Groudon",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Farigiraf"
+    },
+    "moves": [
+      [
+        "p1b: Groudon",
+        "Helping Hand",
+        [
+          "p1a: Entei"
+        ]
+      ],
+      [
+        "p1a: Entei",
+        "Flare Blitz",
+        [
+          "p2b: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1a: Entei": {
+        "atk": 1
+      },
+      "p1b: Gouging Fire": {
+        "atk": 1,
+        "spe": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 2
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Fairy",
+      "p2a": "Flying"
+    },
+    "abilities": {
+      "p1a": "Pressure",
+      "p1b": "Drought",
+      "p2a": "Chilling Neigh",
+      "p2b": "Cud Chew"
+    }
+  }
+]

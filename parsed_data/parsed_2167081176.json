@@ -1,0 +1,780 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Shadow",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Weezing-Galar",
+      "p2b": "Regigigas"
+    },
+    "moves": [
+      [
+        "p1a: Calyrex",
+        "Protect",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Regigigas",
+        "Icy Wind",
+        [
+          "p1b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Weezing",
+        "Dark Pulse",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Incineroar",
+        "Parting Shot",
+        [
+          "p2b: Regigigas"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "98/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Slow Start"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Weezing-Galar",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Weezing",
+        "Dark Pulse",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "98/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Blaze",
+      "p1b": "none",
+      "p2a": "Neutralizing Gas",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Rayquaza"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Weezing"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "76/100",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Rayquaza"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Weezing",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Regigigas",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1b: Urshifu",
+        "Detect",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Rayquaza",
+        "Dragon Ascent",
+        [
+          "p1a: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Ogerpon",
+        "Mold Breaker"
+      ],
+      [
+        "p1a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p2b: Rayquaza"
+    ],
+    "critical_hits": [
+      "p1a: Ogerpon"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Ogerpon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Slow Start",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Incineroar",
+      "p1b": "Urshifu-Rapid-Strike",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1a: Incineroar",
+        "Fake Out",
+        [
+          "p2b: Rayquaza"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Close Combat",
+        [
+          "p2a: Regigigas"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "98/100",
+      "p2a": "0 fnt",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Regigigas",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "Intimidate",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Rayquaza",
+        "Dragon Ascent",
+        [
+          "p1a: Incineroar"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "61/100",
+      "p2a": "0 fnt",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "As One"
+      ],
+      [
+        "p1b: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2b: Rayquaza",
+        "Extreme Speed",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Surging Strikes",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "61/100",
+      "p2a": "6/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Chien-Pao"
+    ],
+    "critical_hits": [
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao",
+      "p2a: Chien-Pao"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 8,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Protect",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        [
+          ""
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Aqua Jet",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ],
+      [
+        "p2b: Rayquaza",
+        "Dragon Ascent",
+        [
+          "p1a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "61/100",
+      "p2a": "0 fnt",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [
+      "p2a: Chien-Pao"
+    ],
+    "critical_hits": [
+      "p1a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  },
+  {
+    "turn": 9,
+    "active_pokemon": {
+      "p1a": "Urshifu-Rapid-Strike",
+      "p1b": "Calyrex-Shadow",
+      "p2a": "Chien-Pao",
+      "p2b": "Rayquaza"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "1/100",
+      "p1b": "61/100",
+      "p2a": "0 fnt",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Incineroar": {
+        "spe": -1
+      },
+      "p2b: Regigigas": {
+        "atk": -1,
+        "spa": -1
+      },
+      "p1b: Urshifu": {
+        "def": -2,
+        "spd": -2
+      },
+      "p2b: Rayquaza": {
+        "def": -3,
+        "spd": -3
+      },
+      "p2a: Regigigas": {
+        "atk": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Dark"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Unnerve",
+      "p2a": "Sword of Ruin",
+      "p2b": "Air Lock"
+    }
+  }
+]

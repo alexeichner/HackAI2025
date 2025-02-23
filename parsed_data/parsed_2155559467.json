@@ -1,0 +1,384 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Kyogre",
+      "p2a": "Chien-Pao",
+      "p2b": "Pelipper"
+    },
+    "moves": [
+      [
+        "p2b: Pelipper",
+        "Wide Guard",
+        [
+          "p2b: Pelipper"
+        ]
+      ],
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Pelipper"
+        ]
+      ],
+      [
+        "p2a: Zamazenta",
+        "Body Press",
+        [
+          "p1b: Kyogre"
+        ]
+      ],
+      [
+        "p1b: Kyogre",
+        "Hydro Pump",
+        [
+          "p2a: Zamazenta"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "84/100",
+      "p1b": "32/100",
+      "p2a": "0 fnt",
+      "p2b": "44/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Chien-Pao",
+        "Sword of Ruin"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Drizzle",
+      "p2a": "Sword of Ruin",
+      "p2b": "Keen Eye"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Dragonite",
+      "p1b": "Annihilape",
+      "p2a": "Chien-Pao",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Pelipper"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p1b: Kyogre"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "67/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Inner Focus",
+      "p1b": "Vital Spirit",
+      "p2a": "Sword of Ruin",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Annihilape",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p1a: Dragonite",
+        "Extreme Speed",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2b: Rillaboom",
+        "Grassy Glide",
+        [
+          "p1b: Annihilape"
+        ]
+      ],
+      [
+        "p1b: Annihilape",
+        "U-turn",
+        [
+          "p2b: Rillaboom"
+        ]
+      ],
+      [
+        "p2a: Chien-Pao",
+        "Sacred Sword",
+        [
+          "p1a: Dragonite"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Rillaboom",
+        "super effective"
+      ],
+      [
+        "p1a: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Vital Spirit",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Annihilape",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Sucker Punch",
+        [
+          "p1a: Annihilape"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Shadow Ball",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "28/100",
+      "p2a": "7/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Chien-Pao": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Chien-Pao"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Chien-Pao",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Vital Spirit",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Overgrow"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Annihilape",
+      "p1b": "Flutter Mane",
+      "p2a": "Chien-Pao",
+      "p2b": "Rillaboom"
+    },
+    "moves": [
+      [
+        "p2a: Chien-Pao",
+        "Icicle Crash",
+        [
+          "p1b: Flutter Mane"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Dazzling Gleam",
+        [
+          "p2a: Chien-Pao"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Grassy Terrain"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Zamazenta": {
+        "def": 1
+      },
+      "p2a: Chien-Pao": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1a": "Normal"
+    },
+    "abilities": {
+      "p1a": "Vital Spirit",
+      "p1b": "none",
+      "p2a": "Sword of Ruin",
+      "p2b": "Overgrow"
+    }
+  }
+]

@@ -1,0 +1,403 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Smeargle",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p2b: Brute Bonnet",
+        "Spore",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "83/100",
+      "p1b": "1/100 slp",
+      "p2a": "82/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Smeargle",
+        "Moody"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2b: Brute Bonnet",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Moody",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Brute Bonnet"
+    },
+    "moves": [
+      [
+        "p2b: Brute Bonnet",
+        "Spore",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "64/100 slp",
+      "p1b": "0 fnt",
+      "p2a": "82/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Chilling Neigh",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Brute Bonnet",
+        "Rage Powder",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Brute Bonnet"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "38/100 slp",
+      "p1b": "6/100",
+      "p2a": "82/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Brute Bonnet"
+    ],
+    "move_effectiveness": [
+      [
+        "p2b: Brute Bonnet",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Chilling Neigh",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Sucker Punch",
+        [
+          "p1b: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "1/100 slp",
+      "p1b": "0 fnt",
+      "p2a": "64/100",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Calyrex",
+        "resisted"
+      ],
+      [
+        "p2a: Calyrex",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Chilling Neigh",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Ogerpon-Wellspring",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Urshifu"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "1/100 slp",
+      "p1b": "0 fnt",
+      "p2a": "64/100",
+      "p2b": "40/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Smeargle": {
+        "def": 2,
+        "atk": -1
+      },
+      "p2a: Calyrex": {
+        "atk": 1
+      }
+    },
+    "status_conditions": {
+      "p1b": "slp",
+      "p1a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "none",
+      "p2a": "Chilling Neigh",
+      "p2b": "Unseen Fist"
+    }
+  }
+]

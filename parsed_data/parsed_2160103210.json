@@ -1,0 +1,448 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Whimsicott",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Calyrex-Shadow"
+    },
+    "moves": [
+      [
+        "p2b: Calyrex",
+        "Protect",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p1a: Whimsicott",
+        "Tailwind",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spa": -4
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Chi-Yu",
+        "resisted"
+      ],
+      [
+        "p1b: Calyrex",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ice"
+    },
+    "abilities": {
+      "p1a": "Prankster",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Unnerve"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Raging Bolt",
+      "p2a": "Chi-Yu",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1a: Whimsicott",
+        "Moonblast",
+        [
+          "p2b: Calyrex"
+        ]
+      ],
+      [
+        "p2a: Chi-Yu",
+        "Overheat",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p2b: Calyrex",
+        "Astral Barrage",
+        [
+          "p1a: Whimsicott"
+        ]
+      ],
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "40/100",
+      "p2a": "28/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spa": -4
+      },
+      "p2b: Calyrex": {
+        "spa": 0
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Calyrex",
+        "Grim Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Calyrex"
+    ],
+    "move_effectiveness": [
+      [
+        "p1a: Whimsicott",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ice",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Beads of Ruin",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Protect",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        [
+          "p1b: Raging Bolt"
+        ]
+      ],
+      [
+        "p1a: Farigiraf",
+        "Hyper Voice",
+        [
+          "p2b: Dondozo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "53/100",
+      "p1b": "40/100",
+      "p2a": "28/100",
+      "p2b": "91/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spa": -4
+      },
+      "p2b: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ],
+      [
+        "p1a: Farigiraf",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ice",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [
+      [
+        "p1b: Raging Bolt",
+        "Thunderbolt",
+        [
+          "p2b: Dondozo"
+        ]
+      ],
+      [
+        "p2b: Dondozo",
+        "Earthquake",
+        [
+          "p1a: Farigiraf"
+        ]
+      ],
+      [
+        "p1a: Farigiraf",
+        "Trick Room",
+        [
+          "p1a: Farigiraf"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "31/100 par"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spa": -4
+      },
+      "p2b: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dondozo",
+        "super effective"
+      ],
+      [
+        "p1b: Raging Bolt",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2b: Dondozo",
+        "p2a: Tatsugiri"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ice",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Farigiraf",
+      "p1b": "Raging Bolt",
+      "p2a": "Tatsugiri",
+      "p2b": "Dondozo"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "3/100",
+      "p1b": "0 fnt",
+      "p2a": "28/100",
+      "p2b": "31/100 par"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Chi-Yu": {
+        "spa": -4
+      },
+      "p2b: Calyrex": {
+        "spa": 0
+      },
+      "p2b: Dondozo": {
+        "atk": 2,
+        "spa": 2,
+        "spe": 2,
+        "def": 2,
+        "spd": 2
+      },
+      "p1a: Farigiraf": {
+        "spa": 1
+      }
+    },
+    "status_conditions": {
+      "p2b": "par"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Ice",
+      "p2a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Cud Chew",
+      "p1b": "none",
+      "p2a": "Commander",
+      "p2b": "Unaware"
+    }
+  }
+]

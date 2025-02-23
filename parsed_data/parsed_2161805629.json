@@ -1,0 +1,509 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Comfey",
+      "p2a": "Gholdengo",
+      "p2b": "Roaring Moon"
+    },
+    "moves": [
+      [
+        "p2b: Roaring Moon",
+        "Breaking Swipe",
+        [
+          "p1b: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Tornadus",
+        "Icy Wind",
+        [
+          "p2a: Gholdengo"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Calm Mind",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2a: Gholdengo",
+        "Make It Rain",
+        [
+          "p1b: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "40/100",
+      "p1b": "0 fnt",
+      "p2a": "94/100",
+      "p2b": "76/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p2a: Gholdengo",
+        "resisted"
+      ],
+      [
+        "p2b: Roaring Moon",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Flower Veil",
+      "p2a": "Good as Gold",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Rayquaza",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1b: Comfey",
+        "Draining Kiss",
+        [
+          "p2b: Roaring Moon"
+        ]
+      ],
+      [
+        "p2b: Roaring Moon",
+        "Tailwind",
+        [
+          "p2b: Roaring Moon"
+        ]
+      ],
+      [
+        "p2a: Gholdengo",
+        "Make It Rain",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Roaring Moon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Rayquaza",
+        "Air Lock"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Roaring Moon",
+        "super effective"
+      ],
+      [
+        "p1b: Comfey",
+        "super effective"
+      ],
+      [
+        "p2a: Gholdengo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Rayquaza",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Protect",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2a: Rayquaza",
+        "Dragon Ascent",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2a: Rayquaza"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "22/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Rayquaza",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Rayquaza",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Sandsear Storm",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2b: Landorus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "12/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p2b: Landorus",
+        "p1a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Rayquaza",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p1a: Terapagos",
+        "Protect",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "25/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "12/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Sand Force"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Rayquaza",
+      "p2b": "Landorus"
+    },
+    "moves": [
+      [
+        "p2b: Landorus",
+        "Earth Power",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "12/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Gholdengo": {
+        "spe": -1,
+        "spa": -2
+      },
+      "p2b: Roaring Moon": {
+        "spe": -1
+      },
+      "p1a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Steel",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "none",
+      "p2a": "Air Lock",
+      "p2b": "Sand Force"
+    }
+  }
+]

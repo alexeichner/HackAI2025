@@ -1,0 +1,268 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Smeargle",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Grimmsnarl",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p2b: Urshifu",
+        "Surging Strikes",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Grimmsnarl",
+        "Foul Play",
+        [
+          "p1a: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Smeargle",
+        "Spore",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Trick Room",
+        [
+          "p1b: Calyrex"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "10/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Smeargle",
+      "p1a: Smeargle",
+      "p1a: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Own Tempo",
+      "p1b": "Unnerve",
+      "p2a": "Prankster",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1a: Smeargle",
+        "Decorate",
+        [
+          "p1b: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Grimmsnarl"
+        ]
+      ],
+      [
+        "p2b: Urshifu",
+        "Drain Punch",
+        [
+          "p1a: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "53/100"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ],
+      [
+        "p2a: Ditto",
+        "As One"
+      ],
+      [
+        "p2a: Ditto",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p1a: Smeargle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Urshifu",
+      "p1b": "Calyrex-Ice",
+      "p2a": "Ditto",
+      "p2b": "Urshifu-Rapid-Strike"
+    },
+    "moves": [
+      [
+        "p1b: Calyrex",
+        "Glacial Lance",
+        [
+          "p2a: Ditto"
+        ]
+      ],
+      [
+        "p1a: Urshifu",
+        "Wicked Blow",
+        [
+          "p2a: Ditto"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "100/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [
+        "Trick Room"
+      ],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Calyrex": {
+        "atk": 4,
+        "spa": 2
+      }
+    },
+    "status_conditions": {
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Calyrex",
+        "Chilling Neigh"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Ditto"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Ditto",
+        "resisted"
+      ],
+      [
+        "p2b: Urshifu",
+        "resisted"
+      ],
+      [
+        "p2a: Ditto",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1b": "Water"
+    },
+    "abilities": {
+      "p1a": "Unseen Fist",
+      "p1b": "Chilling Neigh",
+      "p2a": "Unnerve",
+      "p2b": "none"
+    }
+  }
+]

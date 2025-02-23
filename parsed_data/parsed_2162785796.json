@@ -1,0 +1,471 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Flamigo",
+      "p2a": "Raichu",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Raichu",
+        "Fake Out",
+        [
+          "p1a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Flamigo",
+        "Tailwind",
+        [
+          "p1b: Flamigo"
+        ]
+      ],
+      [
+        "p2b: Dragonite",
+        "Ice Spinner",
+        [
+          "p1b: Flamigo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "16/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {},
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Terapagos",
+        "resisted"
+      ],
+      [
+        "p1b: Flamigo",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Scrappy",
+      "p2a": "Static",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Terapagos",
+      "p1b": "Basculegion",
+      "p2a": "Raichu",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2b: Dragonite",
+        "Extreme Speed",
+        [
+          "p1b: Flamigo"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Earth Power",
+        [
+          "p2a: Raichu"
+        ]
+      ],
+      [
+        "p2a: Raichu",
+        "Thunder",
+        [
+          "p1a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "0 fnt",
+      "p2a": "1/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raichu": {
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Raichu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p2a: Raichu",
+        "p1a: Terapagos"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Tera Shift",
+      "p1b": "Swift Swim",
+      "p2a": "Static",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Sinistcha",
+      "p1b": "Basculegion",
+      "p2a": "Tornadus",
+      "p2b": "Dragonite"
+    },
+    "moves": [
+      [
+        "p2a: Raichu",
+        "Upper Hand",
+        [
+          "p2b: Dragonite"
+        ]
+      ],
+      [
+        "p2b: Dragonite",
+        "Extreme Speed",
+        [
+          "p1a: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Basculegion",
+        "Last Respects",
+        [
+          "p2a: Raichu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "98/100",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "77/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raichu": {
+        "spd": -1
+      },
+      "p2b: Dragonite": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Dragonite",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "Hospitality",
+      "p1b": "Swift Swim",
+      "p2a": "Prankster",
+      "p2b": "Inner Focus"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Terapagos-Terastal",
+      "p1b": "Basculegion",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1a: Sinistcha",
+        "Rage Powder",
+        [
+          "p1a: Sinistcha"
+        ]
+      ],
+      [
+        "p2a: Tornadus",
+        "Tailwind",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p1b: Basculegion",
+        "Wave Crash",
+        [
+          "p2b: Dragonite"
+        ]
+      ],
+      [
+        "p2b: Dragonite",
+        "Ice Spinner",
+        [
+          "p1a: Sinistcha"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "78/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raichu": {
+        "spd": -1
+      },
+      "p2b: Dragonite": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1a: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal"
+    },
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Swift Swim",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Terapagos-Terastal",
+      "p1b": "Basculegion",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p2a: Tornadus",
+        "Rain Dance",
+        [
+          "p2a: Tornadus"
+        ]
+      ],
+      [
+        "p2b: Kyogre",
+        "Water Spout",
+        [
+          "p1b: Basculegion"
+        ]
+      ],
+      [
+        "p1b: Basculegion",
+        "Last Respects",
+        [
+          "p2b: Kyogre"
+        ]
+      ],
+      [
+        "p1a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "34/100",
+      "p2a": "25/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raichu": {
+        "spd": -1
+      },
+      "p2b: Dragonite": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p1b: Basculegion",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Swift Swim",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Terapagos-Terastal",
+      "p1b": "Basculegion",
+      "p2a": "Tornadus",
+      "p2b": "Kyogre"
+    },
+    "moves": [
+      [
+        "p1b: Basculegion",
+        "Aqua Jet",
+        [
+          "p2a: Tornadus"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "17/100",
+      "p1b": "34/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Raichu": {
+        "spd": -1
+      },
+      "p2b: Dragonite": {
+        "atk": 2,
+        "spa": 2
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2b": "Normal",
+      "p1a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Teraform Zero",
+      "p1b": "Swift Swim",
+      "p2a": "Prankster",
+      "p2b": "Drizzle"
+    }
+  }
+]

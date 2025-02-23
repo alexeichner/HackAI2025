@@ -1,0 +1,496 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Iron Crown",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p1a: Iron Crown",
+        "Gravity",
+        [
+          "p1a: Iron Crown"
+        ]
+      ],
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2b: Clefairy"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Calm Mind",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "none",
+      "p1b": "Speed Boost",
+      "p2a": "Tera Shift",
+      "p2b": "Cute Charm"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Clefairy",
+        "Life Dew",
+        [
+          ""
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "100/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [
+      "p2a: Terapagos",
+      "p2b: Clefairy"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Tera Shift",
+      "p2b": "Cute Charm"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Clefairy"
+    },
+    "moves": [
+      [
+        "p2b: Clefairy",
+        "Follow Me",
+        [
+          "p2b: Clefairy"
+        ]
+      ],
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2b: Clefairy"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Clefairy"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Yanmega"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "83/100",
+      "p2b": "31/100 slp"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Terapagos",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {},
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Tera Shift",
+      "p2b": "Cute Charm"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Urshifu"
+    },
+    "moves": [
+      [
+        "p2a: Terapagos",
+        "Protect",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1b: Yanmega",
+        "Tailwind",
+        [
+          "p1b: Yanmega"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "89/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Tera Shift",
+      "p2b": "Unseen Fist"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Skeledirge"
+    },
+    "moves": [
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2a: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "38/100 slp",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ],
+      [
+        "p1b: Yanmega",
+        "Speed Boost"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Teraform Zero",
+      "p2b": "Blaze"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Groudon",
+      "p1b": "Yanmega",
+      "p2a": "Terapagos",
+      "p2b": "Skeledirge"
+    },
+    "moves": [
+      [
+        "p1b: Yanmega",
+        "Hypnosis",
+        [
+          "p2b: Skeledirge"
+        ]
+      ],
+      [
+        "p1a: Groudon",
+        "Precipice Blades",
+        [
+          "p2b: Skeledirge"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Terapagos": {
+        "spa": 1,
+        "spd": 1
+      },
+      "p1b: Yanmega": {
+        "spe": 5
+      }
+    },
+    "status_conditions": {
+      "p2b": "slp",
+      "p2a": "slp"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Skeledirge",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [
+      [
+        "p1b: Yanmega",
+        "p2b: Skeledirge"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p1a": "Ground",
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Drought",
+      "p1b": "Speed Boost",
+      "p2a": "Teraform Zero",
+      "p2b": "Blaze"
+    }
+  }
+]

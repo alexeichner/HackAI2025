@@ -1,0 +1,574 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Terapagos",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        [
+          "p1a: Koraidon"
+        ]
+      ],
+      [
+        "p1b: Flutter Mane",
+        "Icy Wind",
+        [
+          "p2a: Terapagos"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        [
+          "p1b: Flutter Mane"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Flutter Mane"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "0 fnt",
+      "p2a": "92/100",
+      "p2b": "79/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Terapagos",
+        "Teraform Zero"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Flutter Mane"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [
+      [
+        "p1b: Flutter Mane",
+        "p2b: Incineroar"
+      ]
+    ],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Teraform Zero",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Sinistcha",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Collision Course",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2b: Incineroar",
+        "Flare Blitz",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "29/100 brn",
+      "p2a": "92/100",
+      "p2b": "26/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Hospitality",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Incineroar",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p2a: Sinistcha",
+        "Rage Powder",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1a: Koraidon",
+        "Flare Blitz",
+        [
+          "p2a: Sinistcha"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Ivy Cudgel",
+        [
+          "p2b: Terapagos"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "23/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [
+      "p1a: Koraidon"
+    ],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2a: Sinistcha",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Intimidate",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Koraidon",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Primarina",
+      "p2b": "Terapagos-Stellar"
+    },
+    "moves": [
+      [
+        "p1a: Koraidon",
+        "Protect",
+        [
+          "p1a: Koraidon"
+        ]
+      ],
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p2b: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1b: Ogerpon"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "17/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "atk": -2
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Orichalcum Pulse",
+      "p1b": "none",
+      "p2a": "Torrent",
+      "p2b": "none"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Gholdengo",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Power Whip",
+        [
+          "p2a: Primarina"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "52/100",
+      "p1b": "11/100 brn",
+      "p2a": "0 fnt",
+      "p2b": "74/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "atk": -2
+      },
+      "p1a: Gholdengo": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2b: Incineroar",
+        "Intimidate"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Primarina"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Primarina",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Good as Gold",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 6,
+    "active_pokemon": {
+      "p1a": "Gholdengo",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [
+      [
+        "p1b: Ogerpon",
+        "Spiky Shield",
+        [
+          "p1b: Ogerpon"
+        ]
+      ],
+      [
+        "p1a: Gholdengo",
+        "Make It Rain",
+        [
+          "p2b: Incineroar"
+        ]
+      ],
+      [
+        "p2a: Terapagos",
+        "Tera Starstorm",
+        [
+          "p1a: Gholdengo"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "42/100",
+      "p1b": "6/100 brn",
+      "p2a": "30/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "atk": -2
+      },
+      "p1a: Gholdengo": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [
+      [
+        "p2b: Incineroar",
+        "resisted"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Good as Gold",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  },
+  {
+    "turn": 7,
+    "active_pokemon": {
+      "p1a": "Gholdengo",
+      "p1b": "Ogerpon-Cornerstone",
+      "p2a": "Terapagos-Stellar",
+      "p2b": "Incineroar"
+    },
+    "moves": [],
+    "hp": {
+      "p1a": "42/100",
+      "p1b": "6/100 brn",
+      "p2a": "30/100",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p1b: Flutter Mane": {
+        "atk": -1
+      },
+      "p2a: Terapagos": {
+        "spe": -1
+      },
+      "p1b: Ogerpon": {
+        "atk": -2
+      },
+      "p1a: Gholdengo": {
+        "atk": -1,
+        "spa": -1
+      }
+    },
+    "status_conditions": {
+      "p1b": "brn"
+    },
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Stellar",
+      "p1a": "Fire"
+    },
+    "abilities": {
+      "p1a": "Good as Gold",
+      "p1b": "none",
+      "p2a": "none",
+      "p2b": "Intimidate"
+    }
+  }
+]

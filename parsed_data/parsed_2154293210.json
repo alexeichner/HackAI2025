@@ -1,0 +1,414 @@
+[
+  {
+    "turn": 1,
+    "active_pokemon": {
+      "p1a": "Annihilape",
+      "p1b": "Smeargle",
+      "p2a": "Urshifu",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Coaching",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p1a: Annihilape",
+        "Close Combat",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1b: Smeargle"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "100/100",
+      "p1b": "1/100",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": 1,
+        "def": 1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p1b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Vital Spirit",
+      "p1b": "Own Tempo",
+      "p2a": "Unseen Fist",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 2,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Urshifu",
+      "p2b": "Annihilape"
+    },
+    "moves": [
+      [
+        "p1b: Smeargle",
+        "Follow Me",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p1a: Annihilape",
+        "Final Gambit",
+        [
+          "p2a: Urshifu"
+        ]
+      ],
+      [
+        "p2b: Annihilape",
+        "Close Combat",
+        [
+          "p1b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Urshifu",
+        "Wicked Blow",
+        [
+          "p1a: Annihilape"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "100/100",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p1a: Calyrex",
+        "As One"
+      ],
+      [
+        "p1a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p1a: Annihilape"
+    ],
+    "move_effectiveness": [
+      [
+        "p1b: Smeargle",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Unseen Fist",
+      "p2b": "Vital Spirit"
+    }
+  },
+  {
+    "turn": 3,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Annihilape",
+        "Final Gambit",
+        [
+          "p1a: Calyrex"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2a: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "100/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [
+      [
+        "p2a: Calyrex",
+        "As One"
+      ],
+      [
+        "p2a: Calyrex",
+        "Unnerve"
+      ]
+    ],
+    "move_failures": [],
+    "critical_hits": [
+      "p2a: Urshifu"
+    ],
+    "move_effectiveness": [
+      [
+        "p2a: Urshifu",
+        "super effective"
+      ]
+    ],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 4,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "34/100",
+      "p2a": "0 fnt",
+      "p2b": "1/100"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  },
+  {
+    "turn": 5,
+    "active_pokemon": {
+      "p1a": "Calyrex-Ice",
+      "p1b": "Urshifu",
+      "p2a": "Calyrex-Ice",
+      "p2b": "Smeargle"
+    },
+    "moves": [
+      [
+        "p2b: Smeargle",
+        "Follow Me",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p1b: Urshifu",
+        "Wicked Blow",
+        [
+          "p2b: Smeargle"
+        ]
+      ],
+      [
+        "p2a: Calyrex",
+        "Glacial Lance",
+        [
+          "p1b: Urshifu"
+        ]
+      ]
+    ],
+    "hp": {
+      "p1a": "0 fnt",
+      "p1b": "0 fnt",
+      "p2a": "0 fnt",
+      "p2b": "0 fnt"
+    },
+    "field_effects": {
+      "universal": [],
+      "p1-side": [],
+      "p2-side": [],
+      "spikes": {
+        "p1": 0,
+        "p2": 0
+      }
+    },
+    "stat_changes": {
+      "p2a: Urshifu": {
+        "atk": 1,
+        "def": 1
+      },
+      "p2b: Annihilape": {
+        "def": -1,
+        "spd": -1
+      }
+    },
+    "status_conditions": {},
+    "item_activations": [],
+    "ability_activations": [],
+    "move_failures": [],
+    "critical_hits": [
+      "p2b: Smeargle"
+    ],
+    "move_effectiveness": [],
+    "missed_attacks": [],
+    "self_inflicted_damage": [],
+    "end_of_turn_effects": [],
+    "tera_types": {
+      "p2a": "Ghost",
+      "p1b": "Ghost"
+    },
+    "abilities": {
+      "p1a": "Unnerve",
+      "p1b": "Unseen Fist",
+      "p2a": "Unnerve",
+      "p2b": "Own Tempo"
+    }
+  }
+]
